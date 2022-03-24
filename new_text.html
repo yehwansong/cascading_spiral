@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <title>cavetest</title>
 
-<script src="https://unpkg.com/three@0.87.1/build/three.js"></script>
-<script src="https://unpkg.com/three@0.87.1/examples/js/controls/OrbitControls.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="js/three.js"></script>
+<script src="js/OrbitControls.js"></script>
+<script src="js/jquery.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
 var db = `LIDA ABDUL 
@@ -1479,6 +1479,7 @@ new_db = [
 	var splited_db_1 = Array() 
 	var splited_db_2 = Array()
 	var splited_db_3 = Array()
+	var splited_db_4 = Array()
 	step_0()
 
 
@@ -1491,6 +1492,7 @@ new_db = [
 			splited_db_0[i]=splited_db_0[i].split('VIDEOS')[splited_db_0[i].split('VIDEOS').length-1]
 			splited_db_0[i]=splited_db_0[i].split(']')[splited_db_0[i].split(']').length-1]
 			if(i == db.split('QUOTES').length-2){
+				console.log(splited_db_0)
 				step_1()
 			}
 		}
@@ -1514,16 +1516,19 @@ new_db = [
 					if(splited_db_1[k].split(']')[g].split('[')[0].length<10){
 					}else{
 						splited_db_2.push(splited_db_1[k].split(']')[g].split('[')[0])
+						var credit = splited_db_1[k].split(']')[g].split('[')[splited_db_1[k].split(']')[g].split('[').length-1]
 						if(splited_db_1[k].split('https').length>1){
 							var link = 'https'+splited_db_1[k].split('https')[1].split(']')[0]
-							splited_db_3.push(splited_db_1[k].split(']')[g].split('[')[0]+'^^'+splited_db_0[k]+'&&'+link)
+							splited_db_3.push(splited_db_1[k].split(']')[g].split('[')[0]+'^^'+splited_db_0[k]+'&&'+link+'****'+credit)
 						}else if(splited_db_1[k].split('http').length>1){
 							var link = 'http'+splited_db_1[k].split('http')[1].split(']')[0]
-							splited_db_3.push(splited_db_1[k].split(']')[g].split('[')[0]+'^^'+splited_db_0[k]+'&&'+link)
+							splited_db_3.push(splited_db_1[k].split(']')[g].split('[')[0]+'^^'+splited_db_0[k]+'&&'+link+'****'+credit)
 						}else{
-							splited_db_3.push(splited_db_1[k].split(']')[g].split('[')[0]+'^^'+splited_db_0[k])
+							var link = ' '
+							splited_db_3.push(splited_db_1[k].split(']')[g].split('[')[0]+'^^'+splited_db_0[k]+'&&'+link+'****'+credit)
 
 						}
+						console.log(splited_db_2)
 
 					}
 				}
@@ -1574,6 +1579,7 @@ new_db = [
 
 	}
 })
+
 </script>
 </head>
 <body>

@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <style type="text/css">
+
+        .week_whole_wrapper{
+            overflow-y: scroll;
+            pointer-events: all;
+        }
+        .week.board{
+            position: relative;
+            left: 0;
+            top: 0;
+            width: 355vh
+        }
+        .week_whole_wrapper{
+            transform-origin: left top;
+            transform: scale(0.35);
+            height: 400vh;
+            width: 400vw;
+            position: absolute;
+            overflow: visible;
+        }
+        .text_inner{
+            width: 100%
+        }
+        .week_whole_wrapper_wrapper{
+            overflow-y: scroll;
+            overflow-x: hidden;
+            pointer-events: auto
+        }
+        .wire{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+        }
+        .wire>div{
+            height: 100%;
+            border: 1.5px solid white;
+            width: 100%;
+        }
+        .board{display: none;}
+        .page_1 .board_0{display: block;}
+        .page_1 .board_1{display: block;}
+        .page_1 .board_2{display: block;}
+        .page_1 .board_3{display: block;}
+        .page_1 .board_4{display: block;}
+        .page_1 .board_5{display: block;}
+        .page_1 .board_6{display: block;}
+        .page_1 .board_7{display: block;}
+        .page_1 .board_8{display: block;}
+        .page_1 .board_9{display: block;}
+        .page_1 .board_10{display: block;}
+        .page_1 .board_11{display: block;}
+        .page_1 .board_12{display: block;}
+        .page_1 .board_13{display: block;}
+        .page_1 .board_14{display: block;}
+        .page_1 .board_15{display: block;}
+        .page_1 .board_16{display: block;}
+        .page_1 .board_17{display: block;}
+        .page_2 .board_18{display: block;}
+        .page_2 .board_19{display: block;}
+        .page_2 .board_20{display: block;}
+        .page_2 .board_21{display: block;}
+        .page_2 .board_22{display: block;}
+        .page_2 .board_23{display: block;}
+        .page_2 .board_24{display: block;}
+        .page_2 .board_25{display: block;}
+        .page_2 .board_26{display: block;}
+        .page_2 .board_27{display: block;}
+        .page_2 .board_28{display: block;}
+        .page_2 .board_29{display: block;}
+        .page_2 .board_30{display: block;}
+        .page_2 .board_31{display: block;}
+        .page_2 .board_32{display: block;}
+        .page_2 .board_33{display: block;}
+        .page_2 .board_34{display: block;}
+        .page_2 .board_35{display: block;}
+        .page_3 .board_36{display: block;}
+        .page_3 .board_37{display: block;}
+        .page_3 .board_38{display: block;}
+        .page_3 .board_39{display: block;}
+        .page_3 .board_40{display: block;}
+        .page_3 .board_41{display: block;}
+        .page_3 .board_42{display: block;}
+        .page_3 .board_43{display: block;}
+        .page_3 .board_44{display: block;}
+        .page_3 .board_45{display: block;}
+        .page_3 .board_46{display: block;}
+        .page_3 .board_47{display: block;}
+        .page_3 .board_48{display: block;}
+        .page_3 .board_49{display: block;}
+        .page_3 .board_50{display: block;}
+        .page_3 .board_51{display: block;}
+        .page_3 .board_52{display: block;}
+        .page_3 .board_53{display: block;}
+    </style>
+</head>
+<body>
+	<script src="jquery.js"></script>
+    <script src="db.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+
+  if(window.location.hash) {
+      var hash = window.location.hash.substring(1); //Puts hash in variable, and removes the # character
+      $('body').addClass('page_'+hash)
+  } else {
+      // No hash found
+  }
+			$('body').css({'width':$('img').outerWidth()+'px'})
+
+      for (var i = new_text_content.length - 1; i >= 0; i--) {
+                $('.week_whole_wrapper').append('\
+                    <div class="week board board_'+i+'">\
+                        <div class="text_inner text_inner">\
+                        <div class="text_inner_wrapper text_inner_wrapper_'+i+'">\
+            <div class="text_inner_content text_inner_content_1 ' + new_text_content_org[i][0] + '">' + new_text_content[i][0][0]+'</div>\
+            <div class="text_inner_content text_inner_content_2 ' + new_text_content_org[i][1] + '">' + new_text_content[i][1][0]+'</div>\
+            <div class="text_inner_content text_inner_content_3 ' + new_text_content_org[i][2] + '">' + new_text_content[i][2][0]+'</div>\
+                        </div>\
+                        </div>\
+                    </div>\
+                </div>')
+
+                  $('.text_inner_wrapper_'+i).find('.sep_vid-1').addClass('sep_img')
+                  $('.text_inner_wrapper_'+i).find('.sep_vid-2').addClass('sep_img')
+                  $('.text_inner_wrapper_'+i).find('.sep_vid-3').addClass('sep_img')
+                  $('.text_inner_wrapper_'+i).find('.sep_vid-4').addClass('sep_img')
+                  $('.text_inner_wrapper_'+i).find('.sep_img-1').addClass('sep_img')
+                  $('.text_inner_wrapper_'+i).find('.sep_img-2').addClass('sep_img')
+                  $('.text_inner_wrapper_'+i).find('.sep_img-3').addClass('sep_img')
+                  $('.text_inner_wrapper_'+i).find('.sep_img-4').addClass('sep_img')
+                  var a = $('.text_inner_wrapper_'+i).outerWidth()
+                  var b = $('.text_inner_wrapper_'+i).find('.text_inner_content_1').outerWidth()
+                  if($('.text_inner_wrapper_'+i).find('.text_inner_content_1').hasClass('sep_img')){b = 0}
+                  var c = $('.text_inner_wrapper_'+i).find('.text_inner_content_2').outerWidth()
+                if($('.text_inner_wrapper_'+i).find('.text_inner_content_2').hasClass('sep_img')){c = 0}
+                  var d = $('.text_inner_wrapper_'+i).find('.text_inner_content_3').outerWidth()
+                if($('.text_inner_wrapper_'+i).find('.text_inner_content_3').hasClass('sep_img')){d = 0}
+                  // $('.text_inner_wrapper_'+i).find('.sep_img').css({'width':(a-b-c-d) + 'px'})
+                  if($('.text_inner_wrapper_'+i).find('.sep_img').length==1){
+                    $('.text_inner_wrapper_'+i).find('.sep_img').css({'width':(a-b-c-d) + 'px'})
+          
+                  }
+                  if($('.text_inner_wrapper_'+i).find('.sep_img').length==2){
+                    $('.text_inner_wrapper_'+i).find('.sep_img').css({'width':(a-b-c-d)/2 + 'px'})
+          
+                  }
+//                   console.log(a)
+// console.log(b)
+// console.log(c)
+// console.log(d)
+                if(i == 0){
+                    $('.sep_400-2').each(function(){
+                            var count = 0
+                        $(this).find('a').each(function(index){
+                            console.log(count)
+                            if(count>12){
+                                console.log($(this).prev())
+                            }
+                            if( $(this).offset().top < $(this).parent().parent().offset().top&&count<13){
+                                count++
+                                $( "<br>" ).insertBefore($(this))
+                                $(this).addClass(count)
+                                    $(this).css({'margin-left':-2*count+'vh'})
+                            }else if(count>12 && $(this).offset().top > $(this).prev().offset().top){
+                                console.log($(this).offset().top)
+                                $( "<br>" ).insertBefore($(this))
+                            }
+                        })
+                    })
+                }
+      }
+      var width_array
+      setTimeout(function(){
+                    $('.week .text_inner').each(function(index){
+                        $(this).append('<div class="wire"></div>')
+                      for (var i = ((index%18+3) - 1); i >= 0; i--) {
+                        $(this).find('.wire').append('<div></div>')
+                        var a = index
+                        if(i == 0){
+                          var unit = $(this).find('.wire').find('div').outerWidth()
+                          var new_width = Array(3)
+                          var new_width_obj = Array(3)
+                          var sel_length = $(this).find('.text_inner_content').length
+                          var sel_children = $(this).find('.text_inner_content')
+                        }
+                      }
+                    })
+
+      },1000)
+      setTimeout(function(){
+                          $('.text_inner_wrapper').each(function(){
+                            var cellamount = (($('.text_inner_wrapper').length-1)-parseInt($(this).attr('class').split('text_inner_wrapper_')[1]))%18+3
+                            if(cellamount%3==0){
+                                if(cellamount>10){
+                                    $(this).find('.text_inner_content_1').css({'width':100/cellamount*((cellamount)/3-1) + '%'})
+                                    $(this).find('.text_inner_content_2').css({'width':100/cellamount*((cellamount)/3-1) + '%'})
+                                    $(this).find('.text_inner_content_3').css({'width':100/cellamount*((cellamount)/3+2) + '%'})
+                                }else{
+                                    $(this).find('.text_inner_content').css({'width':33.333333 + '%'})
+                                }
+                              // console.log(cellamount + '_1')
+                            }else if(cellamount%3==1){
+                              // console.log(cellamount + '_2')
+                              $(this).find('.text_inner_content_1').css({'width':100/cellamount*Math.floor(cellamount/3) + '%'})
+                              $(this).find('.text_inner_content_2').css({'width':100/cellamount*Math.floor(cellamount/3)+100/cellamount + '%'})
+                              $(this).find('.text_inner_content_3').css({'width':100/cellamount*Math.floor(cellamount/3) + '%'})
+                            }else{
+                              // console.log(cellamount + '_3')
+                              $(this).find('.text_inner_content_1').css({'width':100/cellamount*Math.floor(cellamount/3)+100/cellamount + '%'})
+                              $(this).find('.text_inner_content_2').css({'width':100/cellamount*Math.floor(cellamount/3)+100/cellamount + '%'})
+                              $(this).find('.text_inner_content_3').css({'width':100/cellamount*Math.floor(cellamount/3) + '%'})
+                            }
+                          })
+
+                    $('.sep_300').each(function(){
+                        var split_array = [0]
+                        var result_array = []
+                        var unit = $(this).outerWidth()/1000
+                            split_array.push(Math.floor(unit*10))
+                            split_array.push(Math.floor(unit*25))
+                            split_array.push(Math.floor(unit*40))
+                            split_array.push(Math.floor(unit*56))
+                            split_array.push(Math.floor(unit*73))
+                            for (var i = 0 ; i < split_array.length; i++) {
+                                    console.log(split_array[i])
+                                split_array[i] = gap_split(split_array[i],$(this).html())
+                                if(i == split_array.length-1){
+                                }
+                            }
+                            for (var i = 0 ; i < split_array.length; i++) {
+                                if(i == split_array.length-1){
+                                    result_array.push($(this).html().substring(split_array[i]))
+                                    $(this).html(result_array.join('<br>'))
+                                }else{
+                                    result_array.push($(this).html().substring(split_array[i], split_array[i+1]))
+                                }
+                            }
+                    })
+                    $('.sep_500').each(function(){
+                        var split_array = [0]
+                        var result_array = []
+                        var unit = $(this).outerWidth()/1000
+                            split_array.push(Math.floor(unit*18))
+                            split_array.push(Math.floor(unit*35))
+                            split_array.push(Math.floor(unit*55))
+                            split_array.push(Math.floor(unit*75))
+                            split_array.push(Math.floor(unit*95))
+                            for (var i = 0 ; i < split_array.length; i++) {
+                                    console.log(split_array[i])
+                                split_array[i] = gap_split(split_array[i],$(this).html())
+                                if(i == split_array.length-1){
+                                }
+                            }
+                            for (var i = 0 ; i < split_array.length; i++) {
+                                if(i == split_array.length-1){
+                                    result_array.push($(this).html().substring(split_array[i]))
+                                    $(this).html(result_array.join('<br>'))
+                                }else{
+                                    result_array.push($(this).html().substring(split_array[i], split_array[i+1]))
+                                }
+                            }
+                    })
+                    $('.sep_200-3').each(function(){
+                        var split_array = [0]
+                        var result_array = []
+                        var unit = $(this).outerWidth()/1000
+                            split_array.push(Math.floor(unit*20))
+                            split_array.push(Math.floor(unit*34))
+                            split_array.push(Math.floor(unit*42))
+                            split_array.push(Math.floor(unit*50))
+                            split_array.push(Math.floor(unit*56))
+                            split_array.push(Math.floor(unit*62))
+                            for (var i = 0 ; i < split_array.length; i++) {
+                                    console.log(split_array[i])
+                                split_array[i] = gap_split(split_array[i],$(this).html())
+                                if(i == split_array.length-1){
+                                }
+                            }
+                            for (var i = 0 ; i < split_array.length; i++) {
+                                if(i == split_array.length-1){
+                                    result_array.push($(this).html().substring(split_array[i]))
+                                    $(this).html(result_array.join('<br>'))
+                                }else{
+                                    result_array.push($(this).html().substring(split_array[i], split_array[i+1]))
+                                }
+                            }
+                    })
+      },3000)
+      function gap_split(k,string){
+                for (var j = k - 1; j >= 0; j--) {
+                    if(string.split('')[j] === ' '){
+                        return j
+                    }
+                }
+
+      }
+		})
+	</script>
+  <div class="week_whole_wrapper_wrapper">
+    <div class="week_whole_wrapper"></div>
+  </div>
+</body>
+</html>

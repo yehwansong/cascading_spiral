@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <title>cavetest</title>
+  <link rel="stylesheet" href="main.css">
 <style type="text/css">
 	*{
 		box-sizing: border-box;
@@ -42,14 +43,94 @@
     .view_hover:hover{
     	border: 0.5vh solid #d4ff00
     }
+    .credit_wrapper{
+    position: fixed;
+    z-index: 100000000;
+    left: 2vh;
+    top: 2vh;
+    width: calc(100vw - 4vh);
+    height: 96vh;
+    background-color: #ffa0c2;
+    overflow-y: scroll;
+    display: none;
+}
+.credit_wrapper>div{
+	min-height: 5vh;
+	display: flex;
+	border-bottom: 1px solid white
+}
+.credit_wrapper>div>*{
+    float: left;
+    height: 100%;
+    border-right: 1px solid white;
+    height: 100%;
+    display: block;
+    padding: 0.25vh;
+    min-height: 5vh;
+}
+.credit_wrapper>div>img{
+	height: 5vh;
+}
+.artist_credit{
+	background-color: #75a7da
+}
+.title_source_credit{
+    background-color: white;
+    height: 1vh;
+    overflow: hidden;
+    min-height: 2.5vh !important;}
+.credit_credit{    max-width: 30%;}
+.title_credit{
+    width: 33.3%;
+    font-size: 1.6vh !important;
+    text-transform: uppercase;
+}
+.source_btn{
+    position: fixed;
+    z-index: 10000;
+    text-transform: uppercase;
+    background-color: white;
+    padding: 0.25vh;
+    border-radius: 0.25vh;
+    margin-top: 0.5vh;
+    text-decoration: underline;
+font-size: 1.75vh !important;
+padding-left: 0.5vh;
+padding-right: 0.5vh;
+cursor: pointer;}
+.source_btn:hover{
+	background-color: #d4ff00
+}
+.close{
+    position: fixed;
+    right: 0.5vh;
+    top: 0.5vh;
+    background: white;
+    border-radius: 50%;
+    padding: 0.25vh;
+    width: 3.5vh;
+    border: 2px solid black;
+    cursor: pointer;
+}
+    .close:hover{
+    	filter: invert();
+    }
 </style>
 
-<script src="https://unpkg.com/three@0.87.1/build/three.js"></script>
-<script src="https://unpkg.com/three@0.87.1/examples/js/controls/OrbitControls.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="js/three.js"></script>
+<script src="js/OrbitControls.js"></script>
+<script src="js/jquery.js"></script>
 <script src="js/script.js"></script>
 <div class="fake_scroll">
 	<canvas id="canvas"></canvas>
+</div>
+<div class="credit_wrapper">
+	<div class="title_source_credit source_credit">
+		<div class="title_credit" >Image/Quote</div>
+		<span class="title_credit artist_credit">Related Artsit</span>
+		<span class="title_credit credit_credit">Source</span>
+	</div>
+		<img class="close" src="img/close.png"></div>
 </div>
 </head>
 <body>
