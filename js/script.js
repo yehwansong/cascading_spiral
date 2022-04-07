@@ -2,667 +2,56 @@
 $(document).ready(function(){
 
 var db = [
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////
     [
         [
-            "  “I should also stress that I identify more as a collector than artist: someone, who gathers, compiles, arranges, or reorganises relationships between things that often already exist in the world.” <span class=\"quote\">          NEWELL HARRY </span>",
-            "         https://www.youtube.com/watch?v=GOkj7-gWPJo (1:58-2:18)",
-            "         From his artist statement titled “Unpacking My Collection”, University of Wollongong, 2019https://ro.uow.edu.au/cgi/viewcontent.cgi?article=1795&context=theses1 "
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-58.png)\"></div><span class=\"quote\">YEHWAN SONG</span>",
+            "https://yhsong.com/",
+            "Yehwan Song, Very responsive, 2020"
         ],
         [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-53.png)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Screenshots from Bernadette Corporation, Get rid of Yourself, 2003 [from Disobedience Archive] "
+            "The Silent University is a solidarity based knowledge exchange platform by displaced people and forced migrants. It is led by a group of lecturers, consultants and research fellows. It is an education platform outside of the restrictions of migration laws, language limitations and the other bureaucratic obstacles.<span class=\"quote\">AHMET ÖĞÜT, SILENT UNIVERSITY </span>",
+            "http://thesilentuniversity.org/",
+            "From the Silent University website 'http://thesilentuniversity.org/'"
         ],
         [
-            " “Every time I come into contact with a certain context, there’s the sea as a landmark, or the moon, the sun… I don’t want to make it into an excessively poetic concept, but it is as if they were the main tools, the ingredients. They are the basic kit that you hang on a nail in your studio. “<span class=\"quote\">          RENATO LEOTTA</span>",
-            "         http://www.in-studio.net/renato-leotta ",
-            "         From his instudio video http://www.in-studio.net/renato-leotta "
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-58.png)\"></div><span class=\"quote\">YEHWAN SONG</span>",
+            "https://yhsong.com/",
+            "Yehwan Song, Very responsive, 2020"
         ]
     ],
     [
         [
-            " Maybe the most important thing is learning what listening is about, and breaking lots of clichés I had, and a lot of people around me had on what the act of listening is. For me now, the act of listening is multiple collaborations which became an act that involved all the senses - and that mirrors a bit what I was telling you about my interest in Marfa, coming here and feeling the wind, seeing the landscape and hearing the sounds. For me, the act of listening became this: mobilising all the senses towards understanding what is the sound we're trying to catch? And not closing the eyes and focusing on the sound while trying to channel it through the ears. For me now, this total act is tactile, is physical, is visual, is multi-sensorial in many ways.” <span class=\"quote\">            TAREK ATOUI, I/E ISTANBUL </span>",
-            "         https://www.ibraaz.org/interviews/130 ",
-            "         From his interview with Diana Nguyen for KRTS, 23/5/2018https://marfapublicradio.org/blog/west-texas-talk/artist-and-composer-tarek-atoui/ (20:00-21:43)"
-        ],
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-13.png)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Tarek Atoui field photo"
-        ],
-        [
-            "“And then it was over. The waves settled, the wind took the falling sky elsewhere, and we each one of us re-entered our separateness; phones came out of pockets, babies started to cry, people laughed.” <span class=\"quote\">            CHARLES LIM & SIMRYN GILL</span>",
-            "         nolink",
-            "         Charles Lim and Simryn Gill on how The Sea as a Field came to be"
-        ]
-    ],
-    [
-        [
-            "“We make an annual walking ritual on the coast with a sense of worry about the heap of vulnerabilities accompanying the sinking of Jakarta. We walked through disputed land, frequent floods, contested coastline, contaminated mangrove forest, observing mutant fish due to the collapsing of ecological carrying capacity and the construction of a giant sea wall crammed with mythological fiction among the scandalous siege of artificial islands. To see what’s been happening right now makes us not so optimistic to project the future. But as artists, we believe beauty is always present anywhere even in a catastrophe.” <span class=\"quote\">          POETRY CHANNEL A selection of poetry in Turkish will fly around the sphere. Süreyyya and Erdem will prepare them to feed the site.                                           TITA SALINA & IRWAN AHMETT</span>",
-            "         nolink",
-            "         Tita Saline and Irwan Ahmett on Ziarah Uata / Pilgrimage to the North (2018-ongoing) in their project proposal for the 17th Istanbul Biennial"
-        ],
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-28.jpg)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "The Blood Generation, collaboration between artist Taloi Havini and photographer Stuart Miller Digital print, 2009 (series of 10) "
-        ],
-        [
-            " “Working with deaf people totally changed my practice. <span class=\"quote\">            TAREK ATOUI, I/E ISTANBUL </span>",
-            "         https://www.ibraaz.org/interviews/130 ",
-            "         ..."
-        ]
-    ],
-    [
-        [
-            " “The ways in which societies approach the ‘ocean’ is an expression of the value given to life itself. Through utilizing sound and other sensory mediums, Havini asks the audience to reconsider evolution. In deep-time listening, a continuum is created. The sound and the experience embodies Ocean Space through sequences created by the artist, but it remains within the visitors, evolving and as a physically embodied memory.” <span class=\"quote\">               TALOI HAVINI </span>",
-            "         https://www.youtube.com/watch?v=M6yoT-CXey4  (0:34-0:57)",
-            "         From TBA21–Academy’s Press Release titled “The Soul Expanding Ocean #1: Taloi Havini” and extends “Territorial Agency: Oceans in Transformation” at Ocean Space, Venice, 10/12/2020http://press.tba21.org/news-tba21academy-presents-the-soul-expanding-ocean-1-taloi-havini-and-extends-territorial-agency-oceans-in-transformation-at-ocean-space-venice?id=121880&menueid=9361&l=english "
-        ],
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-27.jpg)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "The Blood Generation, collaboration between artist Taloi Havini and photographer Stuart Miller Digital print, 2009 (series of 10) "
-        ],
-        [
-            "“Kedua, waktu tahun 2014 saya berkuda dari Pamulang, Tangerang Selatan ke Parompong, Bandung, lewat jalan kampung. Saya banyak dibantu anak-anak untuk menunjukkan jalan. Bahkan mereka carikan rumput untuk makan kuda  dan dibawa ke lapangan. Saya jalan dengan dua ekor kuda milik sendiri, Merpu dan Arjuna Ireng. Kuda itu jenis sandalwood pony atau kuda pacu asli Indonesia setinggi 140 cm. Saya banyak mengobrol dengan anak-anak di jalan. Tapi begitu saya tanya soal asal usul nama kampung, mereka tidak tahu dan tidak bisa cerita. Orangtuanya juga pada tidak tahu. Saya prihatin, karena saya ingin menulis daerah-daerah yang saya lalui, tapi tidak ada yang bisa bantu karena tidak pada tahun. Kalau cerita kampung itu hilang, mereka tidak ada ikatan emosional dengan kampung itu. Sehingga akhirnya mereka bisa tidak peduli dengan kampung itu. Imbasnya bahaya, mulai dari kemiskinan sampai pengangguran karena proses urbanisasi. Sehingga begitu saya pulang, saya janji akan membawa buku ke kampung-kampung itu. Saya tidak membuat perpusatakaan. Tapi awal Pustaka Bergerak ada di Purbalingga.”  “If the stories of these villages disappear, they won't have any emotional ties to that village. Even at its end, they'll be apathetic towards the village. This harmful impact began with poverty and unemployment due to the process of urbanisation. When I returned, I promised I would bring books to the village.”  <span class=\"quote\">        NIRWAN AHMAD ARSUKA, PUSTAKA BERGERAK</span>",
-            "         https://www.facebook.com/pg/pustakabergerak.id/posts/ (27 Jan) ",
-            "          https://www.suara.com/wawancara/2017/07/03/070000/nirwan-arsuka-pustaka-bergerak-buru-pembaca-ke-pelosok-negeri?page=all "
-        ]
-    ],
-    [
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-1.png)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Lida Abdul, White House 3, 2005"
-        ],
-        [
-            " a new humanist paradigm that we could say is also post-human as it no longer puts human beings at the centre of creation <span class=\"quote\">         arthere website announcing the footsteps library when it is published          FERNANDO GARCÍA-DORY</span>",
-            "         https://www.fernandogarciadory.info/index.php?/texts/interview-artpapers-janfeb-2011/2/ ",
-            "         ..."
-        ],
-        [
-            "“My work as a composer is to let <span class=\"quote\">            TAREK ATOUI, I/E ISTANBUL </span>",
-            "         https://www.ibraaz.org/interviews/130 ",
-            "         dissonance, resonance, and harmony"
-        ]
-    ],
-    [
-        [
-            " “In the art context, my practice is more about just diverting attention to certain questions and topics I find interesting, like food systems or rural environment. But with my projects, like what I’m doing with this village, it’s more about creating a space for other forms of life—a collective life with a land-based economy, a community of practice that’s beyond the discursive aspect of activism.”<span class=\"quote\">         arthere website announcing the footsteps library when it is published          FERNANDO GARCÍA-DORY</span>",
-            "         https://www.fernandogarciadory.info/index.php?/texts/interview-artpapers-janfeb-2011/2/ ",
-            "         From his interview with Sarah J. Halford, Emily Bellor, 12/1/2019https://c4aa.org/2019/01/fernando-garcia-dory "
-        ],
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-51.png)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "From Tita Saline and Irwan Ahmett’s project proposal for the 17th Istanbul Biennial"
-        ],
-        [
-            " ...pasti saya mengangkat ide tentang pluralisme di dalam bentuk karya. Saya ingin menungkapkan bagaimana kebudayaan di sini yang bersifat <span class=\"quote\">         ARAHMAIANI FEISAL </span>",
-            "         https://www.cobosocial.com/dossiers/arahmaiani-superheroine-of-indonesian-contemporary-art/ ",
-            "         ..."
-        ]
-    ],
-    [
-        [
-            "“There is no such boundary between life and art in my practice. All my projects are alive and actively doing something in the world. ”<span class=\"quote\">         URSULA BIEMANN, DEVENIR UNIVERSITY</span>",
-            "         https://www.youtube.com/watch?v=GDv47X9q5q0 (11:57-12:31)",
-            "         Her interview with Dina Yakersonhttps://www.on-curating.org/issue-25-reader/questions-on-community-with-ursula-biama.html#.YEwvTWQza3U "
-        ],
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-40.png)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Screenshots from Matri Linear B, 2020"
-        ],
-        [
-            "“In that brief time it is as if we converged: the boat with its human load , the water, the damp air, the low clouds, the filtered light. Everything within the realm of the weather- event became indivisible. All boundaries opening into a single porous whole.”<span class=\"quote\">            CHARLES LIM & SIMRYN GILL</span>",
-            "         nolink",
-            "         Charles Lim and Simryn Gill on how The Sea as a Field came to be"
-        ]
-    ],
-    [
-        [
-            " “I am the light hanging down in clusters at 300,000 kilometers an hour, opening dawn so that it can be called dawn, placing the sun over their heads so they can say that it is day, throwing it to the west. So you can say afternoon, the burning ball which sinks into the ocean, gilding the waves with silver needles, the beach looks as though it has been swept with a brush, the dark unfolds stretching endlessly, you wonder where I am.”Danarto, Adam the Wisdom of God, 1975, page 24<span class=\"quote\">                     DANARTO DKK</span>",
-            "         https://drive.google.com/drive/folders/1ULseOn5X730AAkxiqLAcbr2mqi3mh9Qa ",
-            "          https://drive.google.com/drive/folders/1ULseOn5X730AAkxiqLAcbr2mqi3mh9Qa "
-        ],
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-4.jpg)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Mock-up of La Folie Verte – Ecological Factory for a 21st Century Park "
-        ],
-        [
-            "“But ultimately, who is it going to answer? Not the authority. In fact, that almost never happened. I realized the most realistic thing was to answer to the problem myself. You have to try to give an answer, rather than limiting yourself to questioning and criticizing. In a way, through the answer you also express a critique, but in a subtler way, through action. As an activist, you can of course be manipulated, so the trap is always there. But by going more directly into a solution, you get something more real which can’t be manipulated so easily by other people’s agendas. The important thing is that it never becomes us against them. When it becomes all about defeating your enemy, you lose sight of the change you want to see in the world. That’s what I’ve learned from my experience anyway.”<span class=\"quote\">         ARAHMAIANI FEISAL </span>",
-            "         https://www.cobosocial.com/dossiers/arahmaiani-superheroine-of-indonesian-contemporary-art/ ",
-            "         From her interview titled “Arahmaiani: The Superheroine of Indonesian Contemporary Art, from Criticism to Activism” with Naima Morelli, 5/9/2016https://www.cobosocial.com/dossiers/arahmaiani-superheroine-of-indonesian-contemporary-art/ "
-        ]
-    ],
-    [
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-15.jpg)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Laura Anderson Barbata, Intervention: Wall Street, 2011"
-        ],
-        [
-            "“The growth and relocalisation involves also forms of food autonomy - and this is very important. The restoration of these life support systems, which we need to look at, involves also cultivation <span class=\"quote\">         arthere website announcing the footsteps library when it is published          FERNANDO GARCÍA-DORY</span>",
-            "         https://www.fernandogarciadory.info/index.php?/texts/interview-artpapers-janfeb-2011/2/ ",
-            "         ..."
-        ],
-        [
-            "“My mode of artistic production is to continually refer back to areas of interest and it is possible to select and group works from different dates, even different decades, that can be put under one heading or another. “<span class=\"quote\">              GÜLSÜN KARAMUSTAFA </span>",
-            "         https://blog.saltonline.org/post/95367715734/the-bold-and-poignant-palette-of-gulsun-karamustafa ",
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y5.jpeg)\"></div><span class=\"quote\">AHMET ÖĞÜT, SILENT UNIVERSITY </span>",
+            "https://www.youtube.com/watch?v=MuvFU6cwatk&ab_channel=Visible",
             "         From her interview in Idea Magazine, 2009 https://blog.saltonline.org/post/95367715734/the-bold-and-poignant-palette-of-gulsun-karamustafa "
+        ],
+        [
+            "The Silent University aims to address and reactivate the knowledge of the participants and make the exchange process mutually beneficial by inventing alternative currencies, in place of money or free voluntary service. The Silent University’s aim is to challenge the idea of silence as a passive state, and explore its powerful potential through performance, writing, and group reflection. These explorations attempt to make apparent the systemic failure and the loss of skills and knowledge experienced through the silencing process of people seeking asylum.<span class=\"quote\">AHMET ÖĞÜT, SILENT UNIVERSITY</span>",
+            "http://thesilentuniversity.org/",
+            "From the Silent University website 'http://thesilentuniversity.org/'"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y5.jpeg)\"></div><span class=\"quote\">AHMET ÖĞÜT, SILENT UNIVERSITY </span>",
+            "https://bienal.iksv.org/en/news/kunstverein-in-hamburg-and-the-17th-istanbul-biennial-announces-the-silent-university-orientation-programme",
+            "Silent University announcement on the Istanbul Biennial website"
         ]
     ],
     [
         [
-            " “Collection remains a large aspect of what I do. I mean, I'm more interested in how certain things get to be where they are, and the narratives behind them - so I'm interested not necessarily in the object itself, but the story behind that.”   <span class=\"quote\">          NEWELL HARRY </span>",
-            "         https://www.youtube.com/watch?v=GOkj7-gWPJo (1:58-2:18)",
-            "         From “Newell Harry at the Kula Ring Expedition” by Thyssen-Bornemisza Art Contemporary, 31/5/2016https://www.youtube.com/watch?v=QoQpo2LYFgU (0:08-0:26)"
+            "Even though you set detailed and obvious criteria, the sorted data can be very generative and unexpected. It’s why I love playing with it, because even though I focus on the content, the results are always fluid and surprising. Data is more like a living creature, what it reveals and manifests itself as is very generative and unpredictable.<span class=\"quote\">YEHWAN SONG</span>",
+            "https://www.itsnicethat.com/features/ones-to-watch-2020-yehwan-song-digital-240220",
+            "From interview titled “Yehwan Song wants to radically change how people think about the web” by Charlie Filmer-Court, 24/2/2020 'https://www.itsnicethat.com/features/ones-to-watch-2020-yehwan-song-digital-240220'"
         ],
         [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-26.png)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Right People, Wrong Timing project on Green Papaya’s website"
-        ],
-        [
-            "  “Art is a value in itself, creates space and food for thought. And this freedom - apart from economic usability and marketing - is urgently needed.” <span class=\"quote\">         We could link to the Dumpling Post since it’s going to be published online in September.              EVA EGERMANN, CRIP MAGAZINE </span>",
-            "         https://issuu.com/cripmagazine/docs/crip_magazine_1 ",
-            "         From her interview titled “Who has the authority to interpret, the power to rule and the speaking position to create culture or to democratize it?” with Dilara Akarçeşme and Persson Perry Baumgartingerhttps://www.p-art-icipate.net/projektnews/interview-mit-eva-egermann/ "
-        ]
-    ],
-    [
-        [
-            "“When I use language, I'm aware of the materiality of it. It has to translate into something texturally, in material - so that with the mats, they're really a quite literal means of interweaving the language within the concept.”<span class=\"quote\">          NEWELL HARRY </span>",
-            "         https://www.youtube.com/watch?v=GOkj7-gWPJo (1:58-2:18)",
-            "         From “Up close with ... Newell Harry” by the Biennale of Sydney, 21/6/2010https://www.youtube.com/watch?v=GOkj7-gWPJo (1:58-2:18)"
-        ],
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-47.jpg)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "ANA project, (a project on art and motherhood, in progress), June 2013, Copenhagen, Denmark, A.N.A. AIR - Astrid Noack’s Atelier residency."
-        ],
-        [
-            " “Who are you?” the crowd shouts “Adam the wisdom of God.” the man replies “What do you want? they ask “I want to speak.” he saysDanarto, Adam the Wisdom of God, 1975, page 32<span class=\"quote\">                     DANARTO DKK</span>",
-            "         https://drive.google.com/drive/folders/1ULseOn5X730AAkxiqLAcbr2mqi3mh9Qa ",
-            "          https://drive.google.com/drive/folders/1ULseOn5X730AAkxiqLAcbr2mqi3mh9Qa "
-        ]
-    ],
-    [
-        [
-            " The indigenous scientist is the ultimate radical figure which has the capacity of merging the contradictions; of being at once scientific and a political actor, cohabiting the natural world while seeking to understand it. Most importantly, this figure stands for a different kind of epistemology that reconnects us to other ways of knowing the human-nature symbiosis. In other words, this figure embodies some of the most fundamental problems in our mind-nature conception.<span class=\"quote\">         URSULA BIEMANN, DEVENIR UNIVERSITY</span>",
-            "         https://www.youtube.com/watch?v=GDv47X9q5q0 (11:57-12:31)",
-            "         From Ursula Biemann’s talk at the Master Fine Arts symposium, 20/10/2020https://www.youtube.com/watch?v=GDv47X9q5q0 (11:57-12:31)"
-        ],
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-18.jpg)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Hand Out, The Sky is the Institution, Peter Schumann"
-        ],
-        [
-            " “We are not oyster fishermen or citrus growers or lawyers but we bring people together with different expertise to have discussions across political and environmental horizons.”<span class=\"quote\">                     COOKING SECTIONS, SURVEY PACK WALLOWLANDS</span>",
-            "         https://www.frieze.com/article/eating-end-world ",
-            "         From Eating at the End of the World on Frieze by Jane Black in Profiles, 15/08/19https://www.frieze.com/article/eating-end-world "
-        ]
-    ],
-    [
-        [
-            "   ...My relationship to the ocean is one of love and care. Even before being an artist, I'm an indigenous landowner, and with that comes an enormous respect and care - but also a concern for our oceans at the moment. <span class=\"quote\">               TALOI HAVINI </span>",
-            "         https://www.youtube.com/watch?v=M6yoT-CXey4  (0:34-0:57)",
-            "         From her interview titled “Answering the call of the ocean: Artist Taloi Havini explores the sound of the sea” on France24 English, 2/4/2021https://www.youtube.com/watch?v=iIkl9-6qINk (1:31-1:47)"
-        ],
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-14.png)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Tarek Atoui field photo"
-        ],
-        [
-            " “Can puppet theatre be more than puppet theatre by giving purpose and aggressivity back to the arts and make the gods' voices yell as loud as they should yell?”<span class=\"quote\">                  BREAD AND PUPPET THEATRE, DEMONS OF SOCIETY </span>",
-            "         https://breadandpuppet.org/wp-content/uploads/2013/01/Radicality-of-the-Puppet-Theater.pdf",
-            "         https://breadandpuppet.org/wp-content/uploads/2013/01/Radicality-of-the-Puppet-Theater.pdf"
-        ]
-    ],
-    [
-        [
-            " “I think research is collaborative, so it's all these intersecting ideas of what research is; how science and art come together. It's this whole community of experiences that will feed in, I think, to my work.”  <span class=\"quote\">               TALOI HAVINI </span>",
-            "         https://www.youtube.com/watch?v=M6yoT-CXey4  (0:34-0:57)",
-            "         From her artist statement titled “Ice Age Geology of the Great Barrier Reef - Artist-at-Sea Taloi Havini - FK201122” 5/12/2020 https://www.youtube.com/watch?v=M6yoT-CXey4  (1:16- 1:33)"
-        ],
-        [
-            "  “The Silent University aims to address and reactivate the knowledge of the participants and make the exchange process mutually beneficial by inventing alternative currencies, in place of money or free voluntary service. The Silent University’s aim is to challenge the idea of silence as a passive state, and explore its powerful potential through performance, writing, and group reflection. These explorations attempt to make apparent the systemic failure and the loss of skills and knowledge experienced through the silencing process of people seeking asylum.” <span class=\"quote\">        AHMET ÖĞÜT, SILENT UNIVERSITY </span>",
-            "         http://thesilentuniversity.org/ ",
-            "         From the Silent University websitehttp://thesilentuniversity.org/ "
-        ],
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-38.png)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "From her project proposal for the 17th Istanbul Biennial"
-        ]
-    ],
-    [
-        [
-            " “The travelling puppet shows range from tightly composed theatre pieces presented by members of the company to extensive outdoor pageants which require the participation of many volunteers.”<span class=\"quote\">                  BREAD AND PUPPET THEATRE, DEMONS OF SOCIETY </span>",
-            "         https://breadandpuppet.org/wp-content/uploads/2013/01/Radicality-of-the-Puppet-Theater.pdf",
-            "         breadandpuppet.org"
-        ],
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-29.jpg)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Newell Harry, Untitled, 2011"
-        ],
-        [
-            " “I/E is a collective instrument that responds to outdoor situations. On this project, I wanted to propose new ways of working with concrete sound and field recording. For me, working in, out and from exterior environments has become important. The environment is not just sound material or a sound source – its acoustics and social dynamics, for example, can inform composition and inspire new ways to perform and collaborate.”<span class=\"quote\">            TAREK ATOUI, I/E ISTANBUL </span>",
-            "         https://www.ibraaz.org/interviews/130 ",
-            "         From his interview with Stephanie Bailey, 8/5/2014 https://www.ibraaz.org/interviews/130 "
-        ]
-    ],
-    [
-        [
-            " It is not a project that happens 'over there'. It has very much to do with Western institutions of learning. <span class=\"quote\">         URSULA BIEMANN, DEVENIR UNIVERSITY</span>",
-            "         https://www.youtube.com/watch?v=GDv47X9q5q0 (11:57-12:31)",
-            "         From Ursula Biemann’s talk at the Master Fine Arts symposium, 20/10/2020https://www.youtube.com/watch?v=GDv47X9q5q0 (16:11-16:20)"
-        ],
-        [
-            " “In all mediums, her practice perpetuates the desires for Indigenous Knowledge Systems to undermine the persistent colonial structures that aimed to annihilate them. She delves deeply into themes of representation, inheritance, habitats, and epistemologies of Oceania.” <span class=\"quote\">               TALOI HAVINI </span>",
-            "         https://www.youtube.com/watch?v=M6yoT-CXey4  (0:34-0:57)",
-            "         From TBA21–Academy’s Press Release titled “The Soul Expanding Ocean #1: Taloi Havini” and extends “Territorial Agency: Oceans in Transformation” at Ocean Space, Venice, 10/12/2020http://press.tba21.org/news-tba21academy-presents-the-soul-expanding-ocean-1-taloi-havini-and-extends-territorial-agency-oceans-in-transformation-at-ocean-space-venice?id=121880&menueid=9361&l=english "
-        ],
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-45.png)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Screenshots from the Feminist Memory Project – Nepal Picture Library video"
-        ]
-    ],
-    [
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-30.jpg)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Newell Harry, Untitled, 2011"
-        ],
-        [
-            " “Green Papaya is (...) is a halfway house for ideas, a space to hang out and have real conversations again, a chance to cook and share meals. It is less about art than it is about being artists and being human again—and questioning what that means in our current context. <span class=\"quote\">                    GREEN PAPAYA</span>",
-            "         https://aaa.org.hk/en/ideas/ideas/green-papaya-art-projects-why-artist-run-spaces ",
-            "         From transcript titled “Green Papaya Art Projects: Why Artist-Run Spaces” by Võ Hồng Chương-Đài and Norberto Roldanhttps://aaa.org.hk/en/ideas/ideas/green-papaya-art-projects-why-artist-run-spaces "
-        ],
-        [
-            " “Green Papaya is as much interdependent as it is independent. Green Papaya is not sustainable. Green Papaya is destined to close. It will be ripe and ready for the plucking. Working towards its death <span class=\"quote\">                    GREEN PAPAYA</span>",
-            "         https://aaa.org.hk/en/ideas/ideas/green-papaya-art-projects-why-artist-run-spaces ",
-            "         through the archival process"
-        ]
-    ],
-    [
-        [
-            "...But besides the shared physical resources, the most valuable commodity is the presence and time we have for each other. Green Papaya is sustained by a small community who like the kind of art that no one else thinks of as art—yet! It aspires to provide a space for critique and experimentation.<span class=\"quote\">                    GREEN PAPAYA</span>",
-            "         https://aaa.org.hk/en/ideas/ideas/green-papaya-art-projects-why-artist-run-spaces ",
-            "         From transcript titled “Green Papaya Art Projects: Why Artist-Run Spaces” by Võ Hồng Chương-Đài and Norberto Roldanhttps://aaa.org.hk/en/ideas/ideas/green-papaya-art-projects-why-artist-run-spaces "
-        ],
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-16.jpg)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Laura Anderson Barbata, Intervention: Wall Street, 2011"
-        ],
-        [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y6.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://youtube.com/watch?v=F_7f14NkOyU",
-            "from -------------"
-        ]
-    ],
-    [
-        [
-            "“Art needs to dominate the means of production that industry dominates.” <span class=\"quote\">         ATIF AKIN, MUTANT TIME</span>",
-            "         https://www.youtube.com/watch?v=L5v-8Q4xGH4 (3:20-3:38)",
-            "         From his interview with Digilogue, 02/01/2020 https://www.youtube.com/watch?v=L5v-8Q4xGH4 (3:40-3:45)"
-        ],
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-41.png)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Screenshots from Matri Linear B, 2020"
-        ],
-        [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y10.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://youtube.com/watch?v=GOkj7-gWPJo",
-            "from -------------"
-        ]
-    ],
-    [
-        [
-            " We can think of the university as a healing practice for the territory, that has been injured by colonial intervention, extractivist projects, and by epistemological occupation.<span class=\"quote\">         URSULA BIEMANN, DEVENIR UNIVERSITY</span>",
-            "         https://www.youtube.com/watch?v=GDv47X9q5q0 (11:57-12:31)",
-            "         From Ursula Biemann’s talk at the Master Fine Arts symposium, 20/10/2020 https://www.youtube.com/watch?v=GDv47X9q5q0 (25:09-25:24)"
-        ],
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-17.jpg)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
+            "<span class=\"quote\"></span>",
+            "",
             ""
         ],
         [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y3.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://youtube.com/watch?v=CyMUt8cBRsg",
-            "from -------------"
-        ]
-    ],
-    [
-        [
-            " terbuka dan pluralisis sejak dulu - dari teribu tahun lebih - itu menerima semua budaya maupun keyakinan dan mengambil hal yang positif dari sana selalu menggabungkannya menjadi sesuatu pendekatan yang sifatnya plural dan sincretisme.”   <span class=\"quote\">         ARAHMAIANI FEISAL </span>",
-            "         https://www.cobosocial.com/dossiers/arahmaiani-superheroine-of-indonesian-contemporary-art/ ",
-            "          terbuka dan pluralisis sejak dulu - dari teribu tahun lebih - itu menerima semua budaya maupun keyakinan dan mengambil hal yang positif dari sana selalu menggabungkannya menjadi sesuatu pendekatan yang sifatnya plural dan sincretisme.”   "
-        ],
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-44.png)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Screenshots from the Feminist Memory Project – Nepal Picture Library video"
-        ],
-        [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y5.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://youtube.com/watch?v=MuvFU6cwatk",
-            "from -------------"
-        ]
-    ],
-    [
-        [
-            "“Significant to Atienza’s aesthetic practice is her active social obligation to her community. Rather than passively documenting the people and ecology of Bantayan Island, her social practice helps to augment the full complexities of human subjectivity, society and the environment. As she says, ‘My work is always inspired by the question: can art trigger empowerment and tackle real issues in society?’”<span class=\"quote\">        MARTHA ATIENZA </span>",
-            "         https://www.adobomagazine.com/the-magazine/martha-atienzas-equation-of-state-using-video-art-and-island-technology-to-illuminate-the-effects-of-climate-change-in-bantayan-islands-coastal-communities-and-the-importan/ (1:00-1:22) ",
-            "          From her interview with Marv Recinto for ArtReview Asia, 17/09/2020 https://artreview.com/artist-martha-atienza-environmental-justice-philippines/ "
-        ],
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-23.jpg)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Arhamaiani, Flag Project Merapi, 2010"
-        ],
-        [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y11.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://youtube.com/watch?v=iIkl9-6qINk",
-            "from -------------"
-        ]
-    ],
-    [
-        [
-            "“In my quest for answers, I am particularly interested in norms and values that we inherited from our ancestors. In my work, I try to reinterpret these philosophies in the context of contemporary conditions.”<span class=\"quote\">         ARAHMAIANI FEISAL </span>",
-            "         https://www.cobosocial.com/dossiers/arahmaiani-superheroine-of-indonesian-contemporary-art/ ",
-            "         From “I Don’t Want to Limit Myself to Binary Thinking”: An Inter- view With the Indonesian Artist Arahmaiani by Gunnar Stange Published 2017, conducted 2016http://www.seas.at/ "
-        ],
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-46.jpg)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Sometimes It Was A Beautiful, 2018"
-        ],
-        [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y7.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://youtube.com/watch?v=0bFZ4gcsAPA",
-            "from -------------"
-        ]
-    ],
-    [
-        [
-            "“...in the sense of claiming a degrading discourse: claiming the crank (the ill, the feigning ill, the one who begs and the collapse of the distinction between the three). Opacity and the right to not be understood.”<span class=\"quote\">         We could link to the Dumpling Post since it’s going to be published online in September.              EVA EGERMANN, CRIP MAGAZINE </span>",
-            "         https://issuu.com/cripmagazine/docs/crip_magazine_1 ",
-            "         From Crip Magazine Issue No. 1 by Eva Egermann (14-15/24) https://issuu.com/cripmagazine/docs/crip_magazine_1 "
-        ],
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-62.png)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Pelin Tan, Tigris Phenomenologies, 2021"
-        ],
-        [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/v1.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://vimeo.com/28337660",
-            "from -------------"
-        ]
-    ],
-    [
-        [
-            "“Whatever transformation art has the potential to bring about cannot be immediately seen. It's an invisible process simultaneously cathartic and active. I feel that only if people engaged with one another through their art, culture and music and genuinely resist trying to reduce the 'other' to what is familiar to themselves, a lot of change can come about.”<span class=\"quote\">        LIDA ABDUL </span>",
-            "         http://www.artvehicle.com/interview/1 ",
-            "         From Açık Radyo’s Manifesto, 1995https://acikradyo.com.tr/manifesto-acik-radyo "
-        ],
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-42.png)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Screenshot from her film insane"
-        ],
-        [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y22.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://youtube.com/watch?v=TkFzR8l5_Gs",
-            "from -------------"
-        ]
-    ],
-    [
-        [
-            "“Selain itu, sejak awal saya ingin memberikan karakter lokal dengan gerakan Pustaka Bergerak. Karena Pustaka Bergerak ini bukan hanya gerakan literasi, tapi kultural yang menonjolkan aspirasi para relawannya. Kami ingin masyarakat bangga dengan budaya lokalnya.”“This isn't just a literacy movement, but a cultural one that takes aspirations from its volunteers. We want the citizens to be proud of their local identity.”<span class=\"quote\">        NIRWAN AHMAD ARSUKA, PUSTAKA BERGERAK</span>",
-            "         https://www.facebook.com/pg/pustakabergerak.id/posts/ (27 Jan) ",
-            "          https://www.suara.com/wawancara/2017/07/03/070000/nirwan-arsuka-pustaka-bergerak-buru-pembaca-ke-pelosok-negeri?page=all "
-        ],
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-22.jpg)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Arhamaiani, Flag Project Sydney, 2007"
-        ],
-        [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/v5.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://vimeo.com/112702701",
-            "from -------------"
-        ]
-    ],
-    [
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-7.png)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Martha Atienza, Gilubong Ang Akong Pusod Sa Sagat (My Navel is Buried in the Sea), 2011"
-        ],
-        [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y24.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://youtube.com/watch?v=zRzYfaUCCXI",
-            "from -------------"
-        ],
-        [
-            "“I understood the message (of the forest) to be that respect and reciprocity are fundamental and universal values necessary to achieve a fulfilled and happy life.”<span class=\"quote\">         LAURA ANDERSON BARBATA </span>",
-            "         https://www.youtube.com/watch?v=zRzYfaUCCXI (2:06-2:19) ",
-            "         From her interview with Allison Meier for Hyperallergic, 19/1/2018https://hyperallergic.com/421575/artist-repatriation-of-julia-pastrana/ "
-        ]
-    ],
-    [
-        [
-            " “We don’t think we provide solutions because we don’t have them. Our social and political interventions question and problematize certain situations. By drawing attention to various situations we are complicating them and making people take more responsibility.”<span class=\"quote\">                     COOKING SECTIONS, SURVEY PACK WALLOWLANDS</span>",
-            "         https://www.frieze.com/article/eating-end-world ",
-            "         From their interview titled FOOD STUDIES: A CONVERSATION WITH COOKING SECTIONS on Art News with Elizabeth Fullerton, 14/06/2018https://www.artnews.com/art-in-america/interviews/food-studies-a-conversation-with-cooking-sections-56484/ "
-        ],
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-34.png)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Screenshots from the video what a child remembers, father by Gülsün Karamustafa "
-        ],
-        [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y13.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://youtube.com/watch?v=b8tE55WbzzU",
-            "from -------------"
-        ]
-    ],
-    [
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-50.png)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "From Tita Saline and Irwan Ahmett’s project proposal for the 17th Istanbul Biennial"
-        ],
-        [
-            "“We tend to form some kind of a community with those we share a rhythm. Such rhythm can be a construct, but once it is constructed, rhythm becomes a regulator, a substance that binds. At the same time, rhythm can be the substance that dissolves a community. Rhythm is very difficult to define. It is found everywhere, even where there isn’t in appearance. Some theorists suggest that there is rhythm wherever there is an expenditure of energy. In this way, rhythm can give us insight in how to be friendly and hospitable to those whom we don’t share a rhythm.”<span class=\"quote\">            CHRISTIAN NYAMPETA </span>",
-            "         https://medium.com/@camdenartscentre/in-conversation-christian-nyampeta-gina-buenfeld-d32fed700b ",
-            "         From interview titled “In Conversation: Christian Nyampeta & Gina Buenfeld” by Gina Buenfeld for Mediumhttps://medium.com/@camdenartscentre/in-conversation-christian-nyampeta-gina-buenfeld-d32fed700b "
-        ],
-        [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/v8.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://vimeo.com/263249202",
-            "from -------------"
-        ]
-    ],
-    [
-        [
-            "“I am an artist. And I decided to ground my practice in the creation of works that find their purpose in the social realm through group participation.”<span class=\"quote\">         LAURA ANDERSON BARBATA </span>",
-            "         https://www.youtube.com/watch?v=zRzYfaUCCXI (2:06-2:19) ",
-            "         From her TEDxDF 8/12/2010https://www.youtube.com/watch?v=zRzYfaUCCXI (2:06-2:19) "
-        ],
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-6.jpg)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Martha Atienza, Anito 1, 2011-2015 "
-        ],
-        [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/v9.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://vimeo.com/111579324",
-            "from -------------"
-        ]
-    ],
-    [
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-33.png)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Screenshots from the video what a child remembers, father by Gülsün Karamustafa "
-        ],
-        [
-            "“Of course art is something to enjoy, but the content is not always enjoyable. But we have to talk about these tragedies and traumas and catastrophes — they are important subjects of art.”<span class=\"quote\">        ATIF AKIN, MUTANT TIME</span>",
-            "         https://www.youtube.com/watch?v=L5v-8Q4xGH4 (3:20-3:38)",
-            "         Interview with Netali Zaff, 3/11/2020https://www.bupipedream.com/ac/113521/mutant-space-utilizes-interactive-technology-to-highlight-nuclear-radiation/"
-        ],
-        [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y1.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://youtube.com/watch?v=840HX8B09rg",
-            "from -------------"
-        ]
-    ],
-    [
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-63.png)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Scan from the “Designs for Different Futures” catalogue, 2019"
-        ],
-        [
-            " “We use the art world as a platform to start a conversation. But it doesn’t stay there. The goal is to mobilize a series of actions in collaboration with residents and communities that bring change.”<span class=\"quote\">                     COOKING SECTIONS, SURVEY PACK WALLOWLANDS</span>",
-            "         https://www.frieze.com/article/eating-end-world ",
-            "         From Eating at the End of the World on Frieze by Jane Black in Profiles, 15/08/19https://www.frieze.com/article/eating-end-world "
-        ],
-        [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y9.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://youtube.com/watch?v=QoQpo2LYFgU",
-            "from -------------"
-        ]
-    ],
-    [
-        [
-            " “Taut's culture/nature pair as a key concept to re-find the local roots of a community, the concept of continuity, his re-fashioned interest in regional architectural qualities, and above all the notion of a synthesis of tradition and modernity, all seem to echo the same dialectical opposition mediating inside a nationalistic ideology fostered by the Ministry of Education in those years, based on the historical interplay between a spontaneous support of modernist and progressive trends and a radical quest for cultural identity that distinguished the emerging nationalist politics in Turkey.” <span class=\"quote\">            ALICE MICELLI                YUTA NAKAMURA, A PROJECT ON BRUNO TAUT</span>",
-            "         https://built-heritage.springeropen.com/track/pdf/10.1186/BF03545693.pdf ",
-            "         From research paper “Bruno Taut and the Program for the Protection of Monuments in Turkey (1937-38): Three Case Studies: Ankara, Edirne and Bursa” Giorgio Gasco, Bilkent Universityhttps://go-gale-com.libproxy1.nus.edu.sg/ps/retrieve.do?tabID=T002&resultListType=RESULT_LIST&searchResultsType=SingleTab&hitCount=1&searchType=AdvancedSearchForm&currentPosition=1&docId=GALE%7CA315919822&docType=Report&sort=RELEVANCE&contentSegment=ZONE-MOD1&prodId=AONE&pageNum=1&contentSet=GALE%7CA315919822&searchId=R1&userGroupName=nuslib&inPS=true "
-        ],
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-5.png)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Mock-up of Solidary Eco-City Network"
-        ],
-        [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/v7.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://vimeo.com/92141858",
-            "from -------------"
-        ]
-    ],
-    [
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-37.png)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Pictures from Renato’s Posidonia Oceanica project proposal"
-        ],
-        [
-            "Puppetry is conceptual sculpture (...) technically a collage art (..). The conceptual element, the sheer concentration on concept at the expense of communicative pleasantness, the sacrificing of the decorative or handsome appearance....”<span class=\"quote\">                  BREAD AND PUPPET THEATRE, DEMONS OF SOCIETY </span>",
-            "         https://breadandpuppet.org/wp-content/uploads/2013/01/Radicality-of-the-Puppet-Theater.pdf",
-            "         https://breadandpuppet.org/wp-content/uploads/2013/01/Radicality-of-the-Puppet-Theater.pdf"
-        ],
-        [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/v6.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://vimeo.com/409744230",
-            "from -------------"
-        ]
-    ],
-    [
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-10.jpg)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Atıf Akın, Mutant Space / Metsamor, 2015 "
-        ],
-        [
-            "  The platform, Devenir Universidad, is a way of letting everyone in on the conversation. Include everyone, letting everyone know about the current state of affairs. In other words, it creates transparency of the process. It makes the process comprehensible within the community.<span class=\"quote\">         URSULA BIEMANN, DEVENIR UNIVERSITY</span>",
-            "         https://www.youtube.com/watch?v=GDv47X9q5q0 (11:57-12:31)",
-            "         From Ursula Biemann’s talk at the Master Fine Arts symposium, 20/10/2020 https://www.youtube.com/watch?v=GDv47X9q5q0 (32:14- 32:43)"
-        ],
-        [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y23.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://youtube.com/watch?v=GDv47X9q5q0",
-            "from -------------"
-        ]
-    ],
-    [
-        [
-            "“Kini, kembali seluruh relawan diundang untuk jadi seniman. Yang mengundang kali ini adalah penyelenggara Istanbul Bienal, Turki. Karya relawan yang memikat bukan hanya akan dapat dinikmati oleh warga Indonesia, atau Turki saja, tapi oleh seluruh dunia.”“The Istanbul Biennial is an opportunity for our volunteers to become artists. The creations of our volunteers would therefore not only be enjoyed by the citizens of Indonesia, or Turkey, but by the whole world. “<span class=\"quote\">        NIRWAN AHMAD ARSUKA, PUSTAKA BERGERAK</span>",
-            "         https://www.facebook.com/pg/pustakabergerak.id/posts/ (27 Jan) ",
-            "         From his Facebook https://www.facebook.com/pg/pustakabergerak.id/posts/ (27 Jan) "
-        ],
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-9.jpg)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Atıf Akın, Mutant Space / Metsamor, 2015 "
-        ],
-        [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y20.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://youtube.com/watch?v=zzX99TKL-b8",
-            "from -------------"
-        ]
-    ],
-    [
-        [
-            "“It’s been more than 10 years, and I sometimes still get emotional about how this whole nuclear history is so prevalent in many places in the world and still not spoken about.”<span class=\"quote\">        ATIF AKIN, MUTANT TIME</span>",
-            "         https://www.youtube.com/watch?v=L5v-8Q4xGH4 (3:20-3:38)",
-            "         Interview with Netali Zaff, 3/11/2020https://www.bupipedream.com/ac/113521/mutant-space-utilizes-interactive-technology-to-highlight-nuclear-radiation/"
-        ],
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-8.jpg)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Atıf Akın, Mutant Space / Metsamor, 2015 "
-        ],
-        [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y15.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://youtube.com/watch?v=M6yoT-CXey4",
-            "from -------------"
-        ]
-    ],
-    [
-        [
-            "“My attitude towards my artistic production was always to involve references and connotations from my lived environment and my internal thoughts, and so comes from myself, my true organism and my life in Istanbul. As I was unable to leave Turkey for 16 years because I was not permitted a passport, I became intent on observing everything that was going on around me. The opportunity to travel opened up another horizon that allowed international discourse on post-colonialism and paradigm shifts, but the subjects and interests I worked with continued to be those that were within my daily reach.”<span class=\"quote\">              GÜLSÜN KARAMUSTAFA </span>",
-            "         https://blog.saltonline.org/post/95367715734/the-bold-and-poignant-palette-of-gulsun-karamustafa ",
-            "         From her interview in Idea Magazine, 2009 https://blog.saltonline.org/post/95367715734/the-bold-and-poignant-palette-of-gulsun-karamustafa "
-        ],
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-52.png)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Screenshots from Bernadette Corporation, Get rid of Yourself, 2003 [from Disobedience Archive] "
-        ],
-        [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y17.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://youtube.com/watch?v=GDTsZiznhB8",
-            "from -------------"
-        ]
-    ],
-    [
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-25.jpg)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Fernando Garcia Dory, Monologue "
-        ],
-        [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/v4.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://vimeo.com/359396369",
-            "from -------------"
-        ],
-        [
-            " “It's not really about this machine and this thing, here, it's about all the conversations we've had. We've been dreaming about other stuff, and we talk about other things we could do together.”<span class=\"quote\">        MARTHA ATIENZA </span>",
-            "         https://www.adobomagazine.com/the-magazine/martha-atienzas-equation-of-state-using-video-art-and-island-technology-to-illuminate-the-effects-of-climate-change-in-bantayan-islands-coastal-communities-and-the-importan/ (1:00-1:22) ",
-            "         From her interview with Adobo Magazine https://www.adobomagazine.com/the-magazine/martha-atienzas-equation-of-state-using-video-art-and-island-technology-to-illuminate-the-effects-of-climate-change-in-bantayan-islands-coastal-communities-and-the-importan/ (1:29-1:42) "
+            "<span class=\"quote\"></span>",
+            "",
+            ""
         ]
     ],
     [
@@ -925,9 +314,9 @@ var db = [
 
 
 
-for (var i = db.length - 1; i >= 0; i--) {
-    for (var j = db[i].length - 1; j >= 0; j--) {
-        console.log(db[i][j][0].split('url('))
+for (var i = 0; i <3; i++) {
+    for (var j = 0; j < db[i].length ; j++) {
+
         if(db[i][j][0].split('url(').length>1){
             source = '<img src='+db[i][j][0].split('url(')[1].split(')')[0]+'>'
         }else{
@@ -939,8 +328,8 @@ for (var i = db.length - 1; i >= 0; i--) {
             }else{
                 credit = db[i][j][2]
             }
-    }
     $('.credit_wrapper').append('<div class="source_credit">'+source+'<span class="artist_credit">'+artist+'</span><span class="credit_credit">'+credit+'</span></div>')
+    }
 }
 
 
@@ -972,6 +361,8 @@ for (var i = db.length - 1; i >= 0; i--) {
     var layer_material_array_cloned = Array(layer_amount)
     var plate_pivot_array_cloned = Array(layer_amount)
     var light1_cloned, light2_cloned
+    whole_pivot_cloned.visible = false
+    console.log(scene)
 
     var translatey = 15
     var translatez = 10
@@ -980,6 +371,7 @@ for (var i = db.length - 1; i >= 0; i--) {
     var zoomed_out_counter = 0
     var canvas , renderer , whole_light
     var selected = 0
+    var hovered = 0
     const loader = new THREE.TextureLoader();
 
     var credit_on = false
@@ -1014,22 +406,22 @@ for (var i = db.length - 1; i >= 0; i--) {
     }
     var speed = 1000
 
-        var scrollpos = 0
+        var scrollpos = 10
     var w = window.innerWidth
     var h = window.innerHeight
-    $('.fake_scroll').css({'height':((layer_amount-1)*translatey*h)+'px'})
-    $(window).scrollTop((translatey*h)*(initoffset + initrotation))
+    $('.fake_scroll').css({'height':((2)*translatey*h)+'px'})
+    $('.fake_scroll_wrapper').scrollTop((translatey*h)*(initoffset + initrotation))
     if(window.location.hash && window.location.hash.split('#')[1] === 'URSULA-BIEMANN') {
-        $(window).scrollTop((translatey*h)*(5))
+        $('.fake_scroll_wrapper').scrollTop((translatey*h)*(5))
     }
     if(window.location.hash && window.location.hash.split('#')[1] === '// LAURA-ANDERSON-BARBATA') {
-        $(window).scrollTop((translatey*h)*(8))
+        $('.fake_scroll_wrapper').scrollTop((translatey*h)*(8))
     }
         scene.add(whole_pivot)
 
 
-    $(window).scroll(function (event) {
-            scrollpos = $(window).scrollTop();
+    $('.fake_scroll_wrapper').scroll(function (event) {
+            scrollpos = $('.fake_scroll_wrapper').scrollTop()+1;
         var k = Math.floor(scrollpos/(translatey*h)) 
         selected = k
 
@@ -1048,10 +440,9 @@ for (var i = db.length - 1; i >= 0; i--) {
 
     });
     function get_scrolling_value(scrollpos,k){
-        console.log('heyyyy')
                 var transition_unit = 0
                 if(scrollpos%(translatey*h) < (staying*h)){
-                    console.log('1')
+                    // console.log('1')
                             scrolling_value[0][0] = translatey*1.98
                             scrolling_value[0][1] = 4.0
                             scrolling_value[0][2] = 4.0
@@ -1081,7 +472,7 @@ for (var i = db.length - 1; i >= 0; i--) {
                             scrolling_value[6][2] = 0
 
                 }else{
-                    console.log('2')
+                    // console.log('2')
                         transition_unit = ((scrollpos%(translatey*h)-(staying*h))/((translatey*h)-(staying*h)))*10
                         
                             scrolling_value[0][0] = map_range(transition_unit, 0, 10, translatey*1.98, translatey*1.98)
@@ -1122,7 +513,7 @@ for (var i = db.length - 1; i >= 0; i--) {
     }
 
     function scrolling(scrollpos,k){
-        console.log('hey')
+        // console.log('---------------'+scrollpos+'---------------'+k+'---------------'+(selected))
                 if(!zoomed_out){
                     for (var i = layer_pivot_array_cloned.length - 1; i >= 0; i--) {
                         if(i>selected){
@@ -1254,7 +645,7 @@ const views = [
         fov: 95,
         init_eye: [ 0, 0, 6.5 ],
         init_fov: 95,
-        shifted_eye: [ 0, 240, 300 ],
+        shifted_eye: [ 0, 300, 340 ],
         shifted_fov: 10,
         lookAt :new THREE.Vector3( 0, 0, 0 )
     },
@@ -1263,9 +654,9 @@ const views = [
         bottom: 0.01,
         width: 0.325,
         height: 0.325,
-        eye: [ 0, 240, 300+scene_dis ],
+        eye: [ 0, 300, 340+scene_dis ],
         fov: 10,
-        init_eye: [ 0, 240, 300+scene_dis ],
+        init_eye: [ 0, 300, 340+scene_dis ],
         init_fov: 10,
         shifted_eye: [ 0, 0, 6.5+scene_dis ],
         shifted_fov: 95,
@@ -1291,10 +682,10 @@ $(document).click(function(e){
 
     }else if(!credit_on){
         console.log(raycaster_obj_link[selected])
-        if(raycaster_obj_link[selected]===''){
+        if(raycaster_obj_link[hovered]===''){
 
         }else{
-            window.open(raycaster_obj_link[selected], '_blank').focus();
+            window.open(raycaster_obj_link[hovered], '_blank').focus();
         }
     }
 })
@@ -1341,7 +732,7 @@ $('.close').click(function(){
 
 
 
-    for ( let ii = 0; ii < views.length; ++ ii ) {
+    for ( let ii = 0; ii < views.length;  ii++ ) {
         const view = views[ ii ];
         const camera = new THREE.PerspectiveCamera( view.fov, window.innerWidth / window.innerHeight, 1, 10000 );
         // console.log(camera)
@@ -1350,14 +741,8 @@ $('.close').click(function(){
 
 
 
-const geometry = new THREE.CylinderGeometry( 5, 5, 10, 32 );
-const material = new THREE.MeshBasicMaterial( {color: 0xffff00} );
-const cylinder = new THREE.Mesh( geometry, material );
-cylinder.position.set(0,-15,0)
-scene.add( cylinder );
-
-    const near = 370;
-    const far = 430;
+    const near = 440;
+    const far = 490;
     // const near = 10;
     // const far = 60;
     scene.fog = new THREE.Fog(0x000000, near, far);
@@ -1389,8 +774,18 @@ function create_board(){
         layer_pivot_array[i] = new THREE.Group()
         whole_pivot.add(layer_pivot_array[i])
         plate_pivot_array[i] = Array(layer_amount-i+2)
-
-        const texture = loader.load( "img/bg-"+pad(layer_amount-i, 2)+".png" );
+        console.log(layer_amount-i)
+        var texture
+        if((layer_amount-i)==18){
+            console.log('he')
+            texture = loader.load( "img/bgn-01.png" );
+        }else if((layer_amount-i)==17){
+            texture = loader.load( "img/bgn-02.png" );
+        }else if((layer_amount-i)==16){
+            texture = loader.load( "img/bgn-03.png" );
+        }else{
+            texture = loader.load( "img/bg-"+pad(layer_amount-i, 2)+".png" );
+        }
 
         layer_material_array[i] = Array(plate_pivot_array[i].length)
         layer_material_array_cloned[i] = Array(plate_pivot_array[i].length)
@@ -1408,9 +803,22 @@ function create_board(){
                 geometry.faceVertexUvs[0][1][2].x = (plate_pivot_array[i].length-k-1)/(plate_pivot_array[i].length)
                 geometry.faceVertexUvs[0][1][1].x = (plate_pivot_array[i].length-k-1)/(plate_pivot_array[i].length)
                 // console.log(plate_pivot_array[i].length-k+0)
+        if((layer_amount-i)==18){
+                layer_material_array[i][k] = new THREE.MeshPhongMaterial( {map: texture, side: THREE.DoubleSide, color:0xffffff} );
+                layer_material_array_cloned[i][k] = new THREE.MeshBasicMaterial( {map: texture, side: THREE.DoubleSide, color:0xffffff} );
+        }else if((layer_amount-i)==17){
 
                 layer_material_array[i][k] = new THREE.MeshPhongMaterial( {map: texture, side: THREE.DoubleSide, color:0xffffff} );
                 layer_material_array_cloned[i][k] = new THREE.MeshBasicMaterial( {map: texture, side: THREE.DoubleSide, color:0xffffff} );
+        }else if((layer_amount-i)==16){
+
+                layer_material_array[i][k] = new THREE.MeshPhongMaterial( {map: texture, side: THREE.DoubleSide, color:0xffffff} );
+                layer_material_array_cloned[i][k] = new THREE.MeshBasicMaterial( {map: texture, side: THREE.DoubleSide, color:0xffffff} );
+        }else{
+
+                layer_material_array[i][k] = new THREE.MeshPhongMaterial( {map: texture, side: THREE.DoubleSide, color:0xffffff} );
+                layer_material_array_cloned[i][k] = new THREE.MeshBasicMaterial( {map: texture, side: THREE.DoubleSide, color:0xffffff} );
+        }
                 // const material = new THREE.MeshBasicMaterial( {map: layer_material_array[i], side: THREE.DoubleSide, color:0xffffff} );
                 const plate = new THREE.Mesh( geometry, layer_material_array[i][k] );
                       plate.position.z = translatez
@@ -1480,7 +888,7 @@ function clone_board(){
 
 }
 function render(){
-                for ( let ii = 0; ii < views.length; ++ ii ) {
+                for ( let ii = 0; ii < views.length; ii++ ) {
 
                     const view = views[ ii ];
                     const camera = view.camera;
@@ -1502,7 +910,7 @@ function render(){
                     camera.fov = view.fov
                     // console.log(view.eye)
                     camera.position.fromArray( view.eye );
-                    // console.log(view.lookAt.position)
+                    // console.log(scene.children[0].children[selected].position)
                     // console.log(view.lookAt)
                     // console.log(whole_pivot_cloned.position)
                     camera.updateProjectionMatrix();
@@ -1538,7 +946,8 @@ function easeOutCubic(k) {
     return (1 - Math.pow(1 - x, 3))*speed;
 }
 function zooming(zoomed_out_counter){
-    for ( let ii = 0; ii < views.length; ++ ii ) {
+    console.log(selected)
+    for ( let ii = 0; ii < views.length;  ii++ ) {
         const view = views[ ii ];
         if(ii == 0){
                 view.eye[0] = map_range(easeInQuad(zoomed_out_counter),0,speed,view.init_eye[0],view.shifted_eye[0])
@@ -1554,18 +963,18 @@ function zooming(zoomed_out_counter){
     }
     for (var i = layer_pivot_array.length - 1; i >= 0; i--) {
         if(i>=selected-2 && i<= selected+4){
-                layer_pivot_array[i].scale.x = map_range(zoomed_out_counter,0,speed,scrolling_value[i-(selected-2)][1],get_rad(translatey,plate_pivot_array[i].length)/translatez)
-                layer_pivot_array[i].scale.y = map_range(zoomed_out_counter,0,speed,1,1.2)
-                layer_pivot_array[i].scale.z = map_range(zoomed_out_counter,0,speed,scrolling_value[i-(selected-2)][1],get_rad(translatey,plate_pivot_array[i].length)/translatez)
-            }else if(i>selected+4){
-                layer_pivot_array[i].scale.x = map_range(zoomed_out_counter,0,speed,0,get_rad(translatey,plate_pivot_array[i].length)/translatez)
-                layer_pivot_array[i].scale.y = map_range(zoomed_out_counter,0,speed,1,1.2)
-                layer_pivot_array[i].scale.z = map_range(zoomed_out_counter,0,speed,0,get_rad(translatey,plate_pivot_array[i].length)/translatez)
-            }else{
-                layer_pivot_array[i].scale.x = map_range(zoomed_out_counter,0,speed,5+(i-(selected+4)*0.1),get_rad(translatey,plate_pivot_array[i].length)/translatez)
-                layer_pivot_array[i].scale.y = map_range(zoomed_out_counter,0,speed,1,1.2)
-                layer_pivot_array[i].scale.z = map_range(zoomed_out_counter,0,speed,5+(i-(selected+4)*0.1),get_rad(translatey,plate_pivot_array[i].length)/translatez)
-            }
+            layer_pivot_array[i].scale.x = map_range(zoomed_out_counter,0,speed,scrolling_value[i-(selected-2)][1],get_rad(translatey,plate_pivot_array[i].length)/translatez)
+            layer_pivot_array[i].scale.y = map_range(zoomed_out_counter,0,speed,1,1.2)
+            layer_pivot_array[i].scale.z = map_range(zoomed_out_counter,0,speed,scrolling_value[i-(selected-2)][1],get_rad(translatey,plate_pivot_array[i].length)/translatez)
+        }else if(i>selected+4){
+            layer_pivot_array[i].scale.x = map_range(zoomed_out_counter,0,speed,0,get_rad(translatey,plate_pivot_array[i].length)/translatez)
+            layer_pivot_array[i].scale.y = map_range(zoomed_out_counter,0,speed,1,1.2)
+            layer_pivot_array[i].scale.z = map_range(zoomed_out_counter,0,speed,0,get_rad(translatey,plate_pivot_array[i].length)/translatez)
+        }else{
+            layer_pivot_array[i].scale.x = map_range(zoomed_out_counter,0,speed,5+(i-(selected+4)*0.1),get_rad(translatey,plate_pivot_array[i].length)/translatez)
+            layer_pivot_array[i].scale.y = map_range(zoomed_out_counter,0,speed,1,1.2)
+            layer_pivot_array[i].scale.z = map_range(zoomed_out_counter,0,speed,5+(i-(selected+4)*0.1),get_rad(translatey,plate_pivot_array[i].length)/translatez)
+        }
             if(zoomed_out){
                 if(i>selected){
                     layer_pivot_array[i].position.y = -1*translatey*0.4
@@ -1579,8 +988,7 @@ function zooming(zoomed_out_counter){
                     layer_pivot_array_cloned[i].position.y = translatey*0.4
                 }
             }
-    }
-    for (var i = layer_pivot_array_cloned.length - 1; i >= 0; i--) {
+
         if(i == selected-2){
             if(zoomed_out){
                 layer_pivot_array_cloned[i].visible = true
@@ -1802,11 +1210,11 @@ function zoom_out(){
         setTimeout(function(){
             zoom_out()
         },1)
+        zooming(zoomed_out_counter)  
     }else{
-            scrollpos = $(window).scrollTop();
-                get_scrolling_value(scrollpos,selected)
+            scrollpos = $('.fake_scroll_wrapper').scrollTop();
+            get_scrolling_value(scrollpos,selected)
     }
-    zooming(zoomed_out_counter)  
     render()
 
 }
@@ -1837,11 +1245,12 @@ function zoom_in(){
         setTimeout(function(){
             zoom_in()
         },1)
+        zooming(zoomed_out_counter)  
     }else{
-            scrollpos = $(window).scrollTop();
+            scrollpos = $('.fake_scroll_wrapper').scrollTop();
+            // console.log(selected)
                 get_scrolling_value(scrollpos,selected)
     }
-    zooming(zoomed_out_counter)  
     render()
 }
 
@@ -1871,8 +1280,8 @@ $('canvas').mousemove(function(){
     for (var i = 0; i <  raycaster_obj.length; i++) {
         var intersects = raycaster.intersectObjects(raycaster_obj[i]); 
         if ( intersects.length > 0 ) {
-            selected = i
-            hover(selected)
+            hovered = i
+            hover(hovered)
             return false
         }
     }

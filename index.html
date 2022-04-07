@@ -54,19 +54,21 @@
     overflow-y: scroll;
     display: none;
 }
-.credit_wrapper>div{
-	min-height: 5vh;
-	display: flex;
-	border-bottom: 1px solid white
+.credit_wrapper>div{    min-height: 5vh;
+    display: flex;
+    border-bottom: 1px solid white;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
 }
 .credit_wrapper>div>*{
     float: left;
-    height: 100%;
     border-right: 1px solid white;
-    height: 100%;
-    display: block;
     padding: 0.25vh;
-    min-height: 5vh;
+    max-width: 50%;
+    min-width: 7.5%;
+    background-repeat: no-repeat;
+
 }
 .credit_wrapper>div>img{
 	height: 5vh;
@@ -115,14 +117,37 @@ cursor: pointer;}
     .close:hover{
     	filter: invert();
     }
+    .gradient{
+    z-index: 100000;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background: linear-gradient(180deg, transparent 28500px, #02071c);
+}
+.fake_scroll_wrapper{
+	position: fixed;
+left: 0;
+top: auto;
+/*z-index: 10000000000;*/
+width: 100vw;
+height: 100%;
+overflow-y: scroll;
+overflow-x: hidden;
+pointer-events: all;
+bottom: 0;
+}
 </style>
 
 <script src="js/three.js"></script>
 <script src="js/OrbitControls.js"></script>
 <script src="js/jquery.js"></script>
 <script src="js/script.js"></script>
-<div class="fake_scroll">
+<div class="fake_scroll_wrapper">
+	<div class="fake_scroll">
 	<canvas id="canvas"></canvas>
+	<div class="gradient"></div>
+</div>
 </div>
 <div class="credit_wrapper">
 	<div class="title_source_credit source_credit">
