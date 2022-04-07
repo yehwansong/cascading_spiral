@@ -407,7 +407,7 @@ for (var i = 0; i <3; i++) {
     var speed = 1000
 
         var scrollpos = 10
-    var w = window.innerWidth
+    var w = $("body").prop("clientWidth");
     var h = window.innerHeight
     $('.fake_scroll').css({'height':((2)*translatey*h)+'px'})
     $('.fake_scroll_wrapper').scrollTop((translatey*h)*(initoffset + initrotation))
@@ -418,9 +418,12 @@ for (var i = 0; i <3; i++) {
         $('.fake_scroll_wrapper').scrollTop((translatey*h)*(8))
     }
         scene.add(whole_pivot)
-
+var scrollcounter = 0
 
     $('.fake_scroll_wrapper').scroll(function (event) {
+        scrollcounter++
+        if(scrollcounter>10){
+                $('.scrolldown').hide()}
             scrollpos = $('.fake_scroll_wrapper').scrollTop()+1;
         var k = Math.floor(scrollpos/(translatey*h)) 
         selected = k
@@ -1269,17 +1272,26 @@ var raycaster = new THREE.Raycaster();
 var mouse = new THREE.Vector2();
 var selected = 0
 
-$('canvas').mousemove(function(){
+$('canvas').mousemove(function(e){
+                console.log('h')
+                mousepos_x = e.pageX
+                mousepos_y = e.pageY
+                $('.scrolldown').css({'left':e.pageX+'px','top':(e.pageY)+'px'})
     event.preventDefault();
             // console.log(raycaster_obj)
 
     mouse.x = ( event.clientX / renderer.domElement.clientWidth ) * 2 - 1;
     mouse.y = - ( event.clientY / renderer.domElement.clientHeight ) * 2 + 1;
 
+
     raycaster.setFromCamera( mouse, views[0].camera );
     for (var i = 0; i <  raycaster_obj.length; i++) {
         var intersects = raycaster.intersectObjects(raycaster_obj[i]); 
         if ( intersects.length > 0 ) {
+                console.log('h')
+                mousepos_x = e.pageX
+                mousepos_y = e.pageY
+                $('.scrolldown').css({'left':e.pageX+'px','top':(e.pageY)+'px'})
             hovered = i
             hover(hovered)
             return false
