@@ -1104,7 +1104,7 @@ new_text_content  = [
     ////////////////////////////////////////////////////////////////////////*****
     [
         [
-            "<span>The</span><span>Silent University</span><span>is a solidarity based</span><span>knowledge exchange</span><span> platform by displaced people and</span><span>forced migrants. It is led by a group of</span><span>lecturers, consultants and research fellows.</span><span>It is an education platform outside of the</span><span>restrictions of migration laws,</span><span>language limitations and the other</span><span>bureaucratic obstacles.<span class=\"quote\">AHMET ÖĞÜT, SILENT UNIVERSITY </span>",
+            "<span>The</span><span>Silent</span><span>Universityis a</span><span>solidarity based</span><span>knowledge exchange</span><span> platform by displaced people</span><span>and forced migrants.</span><span>It is led by a group of</span><span>lecturers, consultants and research fellows.</span><span>It is an education platform outside of the</span><span>restrictions of migration laws,</span><span>language limitations and the other</span><span>bureaucratic obstacles.<span class=\"quote\">AHMET ÖĞÜT, SILENT UNIVERSITY </span>",
             "         https://www.youtube.com/watch?v=L5v-8Q4xGH4 (3:20-3:38)",
             "         Interview with Netali Zaff, 3/11/2020https://www.bupipedream.com/ac/113521/mutant-space-utilizes-interactive-technology-to-highlight-nuclear-radiation/"
         ],

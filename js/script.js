@@ -5,6 +5,11 @@ var db = [
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////
     [
         [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y5.jpeg)\"></div><span class=\"quote\">AHMET ÖĞÜT, SILENT UNIVERSITY </span>",
+            "https://bienal.iksv.org/en/news/kunstverein-in-hamburg-and-the-17th-istanbul-biennial-announces-the-silent-university-orientation-programme",
+            "Silent University announcement on the Istanbul Biennial website"
+        ],
+        [
             "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-58.png)\"></div><span class=\"quote\">YEHWAN SONG</span>",
             "https://yhsong.com/",
             "Yehwan Song, Very responsive, 2020"
@@ -13,11 +18,6 @@ var db = [
             "The Silent University is a solidarity based knowledge exchange platform by displaced people and forced migrants. It is led by a group of lecturers, consultants and research fellows. It is an education platform outside of the restrictions of migration laws, language limitations and the other bureaucratic obstacles.<span class=\"quote\">AHMET ÖĞÜT, SILENT UNIVERSITY </span>",
             "http://thesilentuniversity.org/",
             "From the Silent University website 'http://thesilentuniversity.org/'"
-        ],
-        [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-58.png)\"></div><span class=\"quote\">YEHWAN SONG</span>",
-            "https://yhsong.com/",
-            "Yehwan Song, Very responsive, 2020"
         ]
     ],
     [
@@ -32,9 +32,9 @@ var db = [
             "From the Silent University website 'http://thesilentuniversity.org/'"
         ],
         [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y5.jpeg)\"></div><span class=\"quote\">AHMET ÖĞÜT, SILENT UNIVERSITY </span>",
-            "https://bienal.iksv.org/en/news/kunstverein-in-hamburg-and-the-17th-istanbul-biennial-announces-the-silent-university-orientation-programme",
-            "Silent University announcement on the Istanbul Biennial website"
+            "The Silent University aims to address and reactivate the knowledge of the participants and make the exchange process mutually beneficial by inventing alternative currencies, in place of money or free voluntary service. The Silent University’s aim is to challenge the idea of silence as a passive state, and explore its powerful potential through performance, writing, and group reflection. These explorations attempt to make apparent the systemic failure and the loss of skills and knowledge experienced through the silencing process of people seeking asylum.<span class=\"quote\">AHMET ÖĞÜT, SILENT UNIVERSITY</span>",
+            "http://thesilentuniversity.org/",
+            "From the Silent University website 'http://thesilentuniversity.org/'"
         ]
     ],
     [
@@ -524,6 +524,9 @@ var scrollcounter = 0
                         }else{
                             layer_pivot_array_cloned[i].position.y = translatey*0.4
                         }
+                        if(i>layer_pivot_array.length-3){
+                            layer_pivot_array_cloned[i].position.y = translatey*0.4-10
+                        }
                     }
                     for (var i = layer_pivot_array.length - 1; i >= 0; i--) {
                         layer_pivot_array[i].visible = false
@@ -582,6 +585,9 @@ var scrollcounter = 0
                             layer_pivot_array[i].position.y = -1*translatey*0.4
                         }else{
                             layer_pivot_array[i].position.y = translatey*0.4
+                        }
+                        if(i>layer_pivot_array.length-3){
+                            layer_pivot_array[i].position.y = translatey*0.4-10
                         }
                     }
                     for (var i = layer_pivot_array_cloned.length - 1; i >= 0; i--) {
@@ -644,11 +650,11 @@ const views = [
         bottom: 0,
         width: 1,
         height: 1,
-        eye: [ 0, 0, 6.5 ],
-        fov: 95,
-        init_eye: [ 0, 0, 6.5 ],
-        init_fov: 95,
-        shifted_eye: [ 0, 300, 340 ],
+        eye: [ 0, 0, 4.5 ],
+        fov: 110,
+        init_eye: [ 0, 0, 4.5 ],
+        init_fov: 110,
+        shifted_eye: [ 0, 280, 320 ],
         shifted_fov: 10,
         lookAt :new THREE.Vector3( 0, 0, 0 )
     },
@@ -657,12 +663,12 @@ const views = [
         bottom: 0.01,
         width: 0.325,
         height: 0.325,
-        eye: [ 0, 300, 340+scene_dis ],
+        eye: [ 0, 280, 320+scene_dis ],
         fov: 10,
-        init_eye: [ 0, 300, 340+scene_dis ],
+        init_eye: [ 0, 280, 320+scene_dis ],
         init_fov: 10,
-        shifted_eye: [ 0, 0, 6.5+scene_dis ],
-        shifted_fov: 95,
+        shifted_eye: [ 0, 0, 4.5+scene_dis ],
+        shifted_fov: 110,
         lookAt :new THREE.Vector3( 0, 0, scene_dis )
     },
 ];
@@ -725,7 +731,7 @@ $('.close').click(function(){
 
     renderer = new THREE.WebGLRenderer( { antialias: true, canvas: canvas } );
     renderer.setPixelRatio( window.devicePixelRatio );
-    renderer.setSize( window.innerWidth, window.innerHeight );
+    renderer.setSize( $('.fake_scroll').outerWidth(), window.innerHeight );
     renderer.setClearColor( 0x000000 );//0x );
 
     renderer.toneMapping = THREE.LinearToneMapping;
@@ -733,11 +739,12 @@ $('.close').click(function(){
     renderer.shadowMap.type = THREE.PCFShadowMap;
 
 
-
+console.log( $('.fake_scroll').outerWidth())
+console.log( window.innerWidth)
 
     for ( let ii = 0; ii < views.length;  ii++ ) {
         const view = views[ ii ];
-        const camera = new THREE.PerspectiveCamera( view.fov, window.innerWidth / window.innerHeight, 1, 10000 );
+        const camera = new THREE.PerspectiveCamera( view.fov, $('.fake_scroll').outerWidth()/ window.innerHeight, 1, 10000 );
         // console.log(camera)
         view.camera = camera;
     }
@@ -825,7 +832,31 @@ function create_board(){
                 // const material = new THREE.MeshBasicMaterial( {map: layer_material_array[i], side: THREE.DoubleSide, color:0xffffff} );
                 const plate = new THREE.Mesh( geometry, layer_material_array[i][k] );
                       plate.position.z = translatez
-                            if(plate_pivot_array[i].length%3==0){
+                        if(i==0){
+                            if(k<8){
+                                raycaster_obj[raycaster_obj.length-1].push(plate)
+                            }else if(k<16){
+                                raycaster_obj[raycaster_obj.length-2].push(plate)
+                            }else{
+                                raycaster_obj[raycaster_obj.length-3].push(plate)
+                            }
+                        }else if(i==1){
+                            if(k<11){
+                                raycaster_obj[raycaster_obj.length-1].push(plate)
+                            }else if(k<8){
+                                raycaster_obj[raycaster_obj.length-2].push(plate)
+                            }else{
+                                raycaster_obj[raycaster_obj.length-3].push(plate)
+                            }
+                        }else if(i==2){
+                            if(k<10){
+                                raycaster_obj[raycaster_obj.length-1].push(plate)
+                            }else if(k<10){
+                                raycaster_obj[raycaster_obj.length-2].push(plate)
+                            }else{
+                                raycaster_obj[raycaster_obj.length-3].push(plate)
+                            }
+                        }else if(plate_pivot_array[i].length%3==0){
                                 if(k<Math.floor(plate_pivot_array[i].length/3)){
                                     raycaster_obj[raycaster_obj.length-1].push(plate)
                                 }else if(k<Math.floor(plate_pivot_array[i].length/3)*2){
@@ -851,7 +882,7 @@ function create_board(){
                                     raycaster_obj[raycaster_obj.length-3].push(plate)
                                 }
                             }
-
+                            console.log(raycaster_obj)
                 const edges = new THREE.EdgesGeometry( geometry );
                 const plate_line = new THREE.LineSegments( edges, new THREE.LineBasicMaterial( { color: 0xffffff } ) );
                       plate_line.position.z = translatez
@@ -1278,7 +1309,6 @@ $('canvas').mousemove(function(e){
                 mousepos_y = e.pageY
                 $('.scrolldown').css({'left':e.pageX+'px','top':(e.pageY)+'px'})
     event.preventDefault();
-            // console.log(raycaster_obj)
 
     mouse.x = ( event.clientX / renderer.domElement.clientWidth ) * 2 - 1;
     mouse.y = - ( event.clientY / renderer.domElement.clientHeight ) * 2 + 1;
@@ -1288,7 +1318,6 @@ $('canvas').mousemove(function(e){
     for (var i = 0; i <  raycaster_obj.length; i++) {
         var intersects = raycaster.intersectObjects(raycaster_obj[i]); 
         if ( intersects.length > 0 ) {
-                console.log('h')
                 mousepos_x = e.pageX
                 mousepos_y = e.pageY
                 $('.scrolldown').css({'left':e.pageX+'px','top':(e.pageY)+'px'})
@@ -1307,7 +1336,11 @@ function hover(selected){
             }
     }
             for (var k = raycaster_obj[selected].length - 1; k >= 0; k--) {
+        if(raycaster_obj_link[hovered]===''){
+
+        }else{
                 raycaster_obj[selected][k].material.color = new THREE.Color(0x199b82)
+        }
             }
             render()
 
