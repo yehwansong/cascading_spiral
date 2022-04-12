@@ -523,6 +523,7 @@ var scrollcounter = 0
 
     function scrolling(scrollpos,k,auto){
         console.log('1')
+        hover()
         // console.log('---------------'+scrollpos+'---------------'+k+'---------------'+(selected))
                 if(!zoomed_out){
                     for (var i = layer_pivot_array_cloned.length - 1; i >= 0; i--) {
@@ -673,7 +674,7 @@ const views = [
         fov: 110,
         init_eye: [ 0, 0, 4.5 ],
         init_fov: 110,
-        shifted_eye: [ 0, 300, 330 ],
+        shifted_eye: [ 0, 310, 340 ],
         shifted_fov: 10,
         lookAt :new THREE.Vector3( 0, 0, 0 )
     },
@@ -682,9 +683,9 @@ const views = [
         bottom: 0.01,
         width: 0.325,
         height: 0.325,
-        eye: [ 0, 300, 330+scene_dis ],
+        eye: [ 0, 310, 340+scene_dis ],
         fov: 10,
-        init_eye: [ 0, 300, 330+scene_dis ],
+        init_eye: [ 0, 310, 340+scene_dis ],
         init_fov: 10,
         shifted_eye: [ 0, 0, 4.5+scene_dis ],
         shifted_fov: 110,
@@ -769,8 +770,8 @@ console.log( window.innerWidth)
 
 
 
-    const near = 440;
-    const far = 490;
+    const near = 450;
+    const far = 510;
     // const near = 10;
     // const far = 60;
     scene.fog = new THREE.Fog(0x000000, near, far);
@@ -1280,7 +1281,7 @@ $('canvas').mousemove(function(e){
 
 
 })
-function hover(selected){
+function hover(){
     for (var i = layer_pivot_array.length - 1; i >= 0; i--) {
         layer_pivot_array[i]
         if(i>(layer_pivot_array.length-0)){
@@ -1320,12 +1321,30 @@ function hover(selected){
                 layer_pivot_array[i].children[k].children[0].material.color = new THREE.Color(0xFFFFFF)
             }
         }
+        if(i == selected+2){
+            console.log('------------')
+            for (var k = layer_pivot_array[i].children.length - 1; k >= 0; k--) {
+                layer_pivot_array[i].children[k].children[0].material.color = new THREE.Color(0xADB8B0)
+            }
+        }
+        if(i == selected+3){
+            console.log('------------')
+            for (var k = layer_pivot_array[i].children.length - 1; k >= 0; k--) {
+                layer_pivot_array[i].children[k].children[0].material.color = new THREE.Color(0x3D403E)
+            }
+        }
+        if(i == selected+4){
+            console.log('------------')
+            for (var k = layer_pivot_array[i].children.length - 1; k >= 0; k--) {
+                layer_pivot_array[i].children[k].children[0].material.color = new THREE.Color(0x3D403E)
+            }
+        }
     }
-    for (var k = raycaster_obj[selected].length - 1; k >= 0; k--) {
+    for (var k = raycaster_obj[hovered].length - 1; k >= 0; k--) {
         if(raycaster_obj_link[hovered]===''){
 
         }else{
-                raycaster_obj[selected][k].material.color = new THREE.Color(0x199b82)
+                raycaster_obj[hovered][k].material.color = new THREE.Color(0x199b82)
         }
     }
     render()
