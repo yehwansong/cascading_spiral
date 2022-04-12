@@ -343,7 +343,8 @@ for (var i = 0; i <3; i++) {
 
     var inittime_h = new Date().toString().split(' ')[4].split(':')[0]
     var initrotation = inittime_h/24
-    var initoffset = 2
+    console.log(initrotation)
+    var timeoffset = 0
 
 
     var scene = new THREE.Scene();
@@ -379,6 +380,10 @@ for (var i = 0; i <3; i++) {
     var scene_dis = 100000
     var scrolldirection_value = 0
     var scrolling_value = [[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]]
+    var light1_value = [0,4]
+    var light2_value = [0,0.15]
+    var whole_light_value = [1,0.5]
+
     var raycaster_obj = []
     var raycaster_obj_link = []
     for (var i = db.length - layer_amount; i < db.length; i++) {
@@ -410,7 +415,8 @@ for (var i = 0; i <3; i++) {
     var w = $("body").prop("clientWidth");
     var h = window.innerHeight
     $('.fake_scroll').css({'height':((2)*translatey*h)+'px'})
-    $('.fake_scroll_wrapper').scrollTop((translatey*h)*(initoffset + initrotation))
+
+    $('.fake_scroll_wrapper').scrollTop(2*translatey*h*initrotation)
     if(window.location.hash && window.location.hash.split('#')[1] === 'URSULA-BIEMANN') {
         $('.fake_scroll_wrapper').scrollTop((translatey*h)*(5))
     }
@@ -424,7 +430,7 @@ var scrollcounter = 0
         scrollcounter++
         if(scrollcounter>10){
                 $('.scrolldown').hide()}
-            scrollpos = $('.fake_scroll_wrapper').scrollTop()+1;
+            scrollpos = $('.fake_scroll_wrapper').scrollTop()+1+timeoffset;
         var k = Math.floor(scrollpos/(translatey*h)) 
         selected = k
 
@@ -438,11 +444,11 @@ var scrollcounter = 0
                 whole_pivot_cloned.rotation.y = degrees_to_radians(scrollpos%(translatey*h)/(translatey*h)*360)
                 whole_pivot.rotation.y = degrees_to_radians(scrollpos%(translatey*h)/(translatey*h)*360)
 
-                get_scrolling_value(scrollpos,k)
+                get_scrolling_value(scrollpos,k,false)
 
 
     });
-    function get_scrolling_value(scrollpos,k){
+    function get_scrolling_value(scrollpos,k,auto){
                 var transition_unit = 0
                 if(scrollpos%(translatey*h) < (staying*h)){
                     // console.log('1')
@@ -512,24 +518,25 @@ var scrollcounter = 0
                             scrolling_value[6][1] = map_range(transition_unit, 0, 10, 0, 0.15)
                             scrolling_value[6][2] = map_range(transition_unit, 0, 10, 0, 0.15)
                 }
-                scrolling(scrollpos,k)
+                scrolling(scrollpos,k,auto)
     }
 
-    function scrolling(scrollpos,k){
+    function scrolling(scrollpos,k,auto){
+        console.log('1')
         // console.log('---------------'+scrollpos+'---------------'+k+'---------------'+(selected))
                 if(!zoomed_out){
                     for (var i = layer_pivot_array_cloned.length - 1; i >= 0; i--) {
                         if(i>selected){
-                            layer_pivot_array_cloned[i].position.y = -1*translatey*0.4
+                            if(i>(layer_pivot_array_cloned.length-10)){
+                                layer_pivot_array_cloned[i].position.y = -1*translatey*0.4-1*translatey*0.0000175*((i-selected)*(i-selected)*(i-selected)*(i-selected))
+                            }
                         }else{
                             layer_pivot_array_cloned[i].position.y = translatey*0.4
                         }
-                        if(i>layer_pivot_array.length-3){
-                            layer_pivot_array_cloned[i].position.y = translatey*0.4-10
-                        }
                     }
                     for (var i = layer_pivot_array.length - 1; i >= 0; i--) {
-                        layer_pivot_array[i].visible = false
+                        if(!auto){layer_pivot_array[i].visible = false}
+                        layer_pivot_array_cloned[i].visible = true
                     }
                     if(layer_pivot_array[k-2]){
                         layer_pivot_array[k-2].visible = true
@@ -583,15 +590,27 @@ var scrollcounter = 0
                     for (var i = layer_pivot_array.length - 1; i >= 0; i--) {
                         if(i>selected){
                             layer_pivot_array[i].position.y = -1*translatey*0.4
+                            if(i>(layer_pivot_array.length-10)){
+                                layer_pivot_array[i].position.y = -1*translatey*0.4-1*translatey*0.0000175*((i-selected)*(i-selected)*(i-selected)*(i-selected))
+                            }
                         }else{
                             layer_pivot_array[i].position.y = translatey*0.4
+                            // layer_pivot_array[i].scale.x = 1.1 
+                            // layer_pivot_array[i].scale.z = 1.1 
                         }
-                        if(i>layer_pivot_array.length-3){
-                            layer_pivot_array[i].position.y = translatey*0.4-10
-                        }
+                        // if(i==layer_pivot_array.length-3){
+                        //     layer_pivot_array[i].position.y = -1*translatey*0.4-10
+                        // }
+                        // if(i==layer_pivot_array.length-2){
+                        //     layer_pivot_array_cloned[i].position.y = -1*translatey*0.4-10
+                        // }
+                        // if(i==layer_pivot_array.length-1){
+                        //     layer_pivot_array[i].position.y = -1*translatey*0.4-10
+                        // }
                     }
                     for (var i = layer_pivot_array_cloned.length - 1; i >= 0; i--) {
-                        layer_pivot_array_cloned[i].visible = false
+                        if(!auto){layer_pivot_array_cloned[i].visible = false}
+                        layer_pivot_array[i].visible = true
                     }
                     if(layer_pivot_array_cloned[k-2]){
                         layer_pivot_array_cloned[k-2].visible = true
@@ -654,7 +673,7 @@ const views = [
         fov: 110,
         init_eye: [ 0, 0, 4.5 ],
         init_fov: 110,
-        shifted_eye: [ 0, 280, 320 ],
+        shifted_eye: [ 0, 260, 320 ],
         shifted_fov: 10,
         lookAt :new THREE.Vector3( 0, 0, 0 )
     },
@@ -687,11 +706,10 @@ $(document).click(function(e){
             zoom_out()
             return false
         }
-    }else if(x>w - w * views[1].width - h * views[1].left && y< (h * views[1].bottom+h * views[1].height)   +  $('.source_btn').outerHeight()*1.25 && !credit_on){
+    }else if(x>w - w * views[1].width - h * views[1].left && y< (h * views[1].bottom+h * views[1].height)   +  $('.source_btn').outerHeight()*1.15 && !credit_on){
 
     }else if(!credit_on){
-        console.log(raycaster_obj_link[selected])
-        if(raycaster_obj_link[hovered]===''){
+        if(raycaster_obj_link[hovered]===''||zoomed_out){
 
         }else{
             window.open(raycaster_obj_link[hovered], '_blank').focus();
@@ -757,23 +775,22 @@ console.log( window.innerWidth)
     // const far = 60;
     scene.fog = new THREE.Fog(0x000000, near, far);
 
-
                 light1 = new THREE.SpotLight( 0x391fff );
                 light1.position.set( 100, 10, 0 );
                 light1.penumbra = 1;
                 light1.distance = 200;
-                light1.intensity = 0;
+                light1.intensity = light1_value[0];
                 light1.angle = Math.PI / 8;
                 scene.add( light1 );
 
                 light2 = new THREE.PointLight( 0xffffff );
                 light2.position.set( 0, -15, 0 );
-                light2.intensity =0;
+                light2.intensity = light2_value[0];
                 scene.add( light2 );
 
                 whole_light = new THREE.AmbientLight( 0xffffff );
                 whole_light.position.set( 0, 0, 0 );
-                whole_light.intensity = 1.05;
+                whole_light.intensity = whole_light_value[0];
                 scene.add( whole_light );
 
 
@@ -784,7 +801,6 @@ function create_board(){
         layer_pivot_array[i] = new THREE.Group()
         whole_pivot.add(layer_pivot_array[i])
         plate_pivot_array[i] = Array(layer_amount-i+2)
-        console.log(layer_amount-i)
         var texture
         if((layer_amount-i)==18){
             console.log('he')
@@ -906,9 +922,9 @@ function clone_board(){
                     for (var m = whole_pivot_cloned.children.length - 1; m >= 0; m--) {
 
                         layer_pivot_array_cloned[m] = whole_pivot_cloned.children[m]
-                        layer_pivot_array_cloned[m].scale.y = 1.2
-                            layer_pivot_array_cloned[m].scale.x = get_rad(translatey,plate_pivot_array[m].length)/translatez
-                            layer_pivot_array_cloned[m].scale.z = get_rad(translatey,plate_pivot_array[m].length)/translatez
+                        layer_pivot_array_cloned[m].scale.y = 1.1
+                        layer_pivot_array_cloned[m].scale.x = get_rad(translatey,plate_pivot_array[m].length)/translatez
+                        layer_pivot_array_cloned[m].scale.z = get_rad(translatey,plate_pivot_array[m].length)/translatez
                             // console.log(layer_pivot_array_cloned[m])
                             for (var i = layer_pivot_array_cloned[m].children.length - 1; i >= 0; i--) {
                                 // layer_pivot_array_cloned[m].children[i].children[0].material = layer_material_array_cloned[m][i]
@@ -980,7 +996,14 @@ function easeOutCubic(k) {
     return (1 - Math.pow(1 - x, 3))*speed;
 }
 function zooming(zoomed_out_counter){
-    console.log(selected)
+    $('.gradient').css({'opacity':map_range(easeInQuad(zoomed_out_counter),0,speed,1,0)})
+
+    whole_pivot.rotation.y = degrees_to_radians(scrollpos%(translatey*h)/(translatey*h)*360+map_range(easeInQuad(zoomed_out_counter),0,speed,0,360))
+    whole_pivot_cloned.rotation.y = degrees_to_radians(scrollpos%(translatey*h)/(translatey*h)*360+map_range(easeInQuad(zoomed_out_counter),0,speed,0,360))
+    light1.intensity = map_range(easeInQuad(zoomed_out_counter),0,speed,light1_value[0],light1_value[1]);
+    light2.intensity = map_range(easeInQuad(zoomed_out_counter),0,speed,light2_value[0],light2_value[1]);
+    whole_light.intensity = map_range(easeInQuad(zoomed_out_counter),0,speed,whole_light_value[0],whole_light_value[1]);
+
     for ( let ii = 0; ii < views.length;  ii++ ) {
         const view = views[ ii ];
         if(ii == 0){
@@ -998,225 +1021,162 @@ function zooming(zoomed_out_counter){
     for (var i = layer_pivot_array.length - 1; i >= 0; i--) {
         if(i>=selected-2 && i<= selected+4){
             layer_pivot_array[i].scale.x = map_range(zoomed_out_counter,0,speed,scrolling_value[i-(selected-2)][1],get_rad(translatey,plate_pivot_array[i].length)/translatez)
-            layer_pivot_array[i].scale.y = map_range(zoomed_out_counter,0,speed,1,1.2)
+            layer_pivot_array[i].scale.y = map_range(zoomed_out_counter,0,speed,1,1.1)
             layer_pivot_array[i].scale.z = map_range(zoomed_out_counter,0,speed,scrolling_value[i-(selected-2)][1],get_rad(translatey,plate_pivot_array[i].length)/translatez)
         }else if(i>selected+4){
             layer_pivot_array[i].scale.x = map_range(zoomed_out_counter,0,speed,0,get_rad(translatey,plate_pivot_array[i].length)/translatez)
-            layer_pivot_array[i].scale.y = map_range(zoomed_out_counter,0,speed,1,1.2)
+            layer_pivot_array[i].scale.y = map_range(zoomed_out_counter,0,speed,1,1.1)
             layer_pivot_array[i].scale.z = map_range(zoomed_out_counter,0,speed,0,get_rad(translatey,plate_pivot_array[i].length)/translatez)
         }else{
             layer_pivot_array[i].scale.x = map_range(zoomed_out_counter,0,speed,5+(i-(selected+4)*0.1),get_rad(translatey,plate_pivot_array[i].length)/translatez)
-            layer_pivot_array[i].scale.y = map_range(zoomed_out_counter,0,speed,1,1.2)
+            layer_pivot_array[i].scale.y = map_range(zoomed_out_counter,0,speed,1,1.1)
             layer_pivot_array[i].scale.z = map_range(zoomed_out_counter,0,speed,5+(i-(selected+4)*0.1),get_rad(translatey,plate_pivot_array[i].length)/translatez)
         }
-            if(zoomed_out){
-                if(i>selected){
-                    layer_pivot_array[i].position.y = -1*translatey*0.4
-                }else{
-                    layer_pivot_array[i].position.y = translatey*0.4
-                }
-            }else{
-                if(i>selected){
-                    layer_pivot_array_cloned[i].position.y = -1*translatey*0.4
-                }else{
-                    layer_pivot_array_cloned[i].position.y = translatey*0.4
-                }
-            }
+            // if(zoomed_out){
+            //     if(i>selected){
+            //         layer_pivot_array[i].position.y = -1*translatey*0.4
+            //     }else{
+            //         layer_pivot_array[i].position.y = translatey*0.4
+            //     }
+            // }else{
+            //     if(i>selected){
+            //         layer_pivot_array_cloned[i].position.y = -1*translatey*0.4
+            //     }else{
+            //         layer_pivot_array_cloned[i].position.y = translatey*0.4
+            //     }
+            // }
 
         if(i == selected-2){
-            if(zoomed_out){
-                layer_pivot_array_cloned[i].visible = true
-            }else{
-                layer_pivot_array[i].visible = true
-            }
                 layer_pivot_array_cloned[i].scale.x = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[selected-2].length)/translatez,scrolling_value[0][1])
-                layer_pivot_array_cloned[i].scale.y = map_range(zoomed_out_counter,0,speed,1.2, 1)
+                layer_pivot_array_cloned[i].scale.y = map_range(zoomed_out_counter,0,speed,1.1, 1)
                 layer_pivot_array_cloned[i].scale.z = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[selected-2].length)/translatez,scrolling_value[0][2])
-                if(zoomed_out){
                     if(i>selected){
                         layer_pivot_array_cloned[i].position.y = map_range(zoomed_out_counter,0,speed,-1*translatey*0.4,scrolling_value[0][0])
+                        layer_pivot_array[i].position.y = map_range(zoomed_out_counter,0,speed,scrolling_value[0][0],-1*translatey*0.4)
                     }else{
                         layer_pivot_array_cloned[i].position.y = map_range(zoomed_out_counter,0,speed,translatey*0.4,scrolling_value[0][0])
+                        layer_pivot_array[i].position.y = map_range(zoomed_out_counter,0,speed,scrolling_value[0][0],translatey*0.4)
                     }
-                }else{
-                    if(i>selected){
-                        layer_pivot_array[i].position.y = map_range(zoomed_out_counter,0,speed,-1*translatey*0.4,scrolling_value[0][0])
-                    }else{
-                        layer_pivot_array[i].position.y = map_range(zoomed_out_counter,0,speed,translatey*0.4,scrolling_value[0][0])
-                    }
-                }
             }
 
         else if(i == selected-1){
-            if(zoomed_out){
-                layer_pivot_array_cloned[selected-1].visible = true
-            }else{
-                layer_pivot_array[selected-1].visible = true
-            }
                 layer_pivot_array_cloned[selected-1].scale.x = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[selected-1].length)/translatez,scrolling_value[1][1])
-                layer_pivot_array_cloned[selected-1].scale.y = map_range(zoomed_out_counter,0,speed,1.2, 1)
+                layer_pivot_array_cloned[selected-1].scale.y = map_range(zoomed_out_counter,0,speed,1.1, 1)
                 layer_pivot_array_cloned[selected-1].scale.z = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[selected-1].length)/translatez,scrolling_value[1][2])
-                if(zoomed_out){
                     if(i>selected){
                         layer_pivot_array_cloned[selected-1].position.y = map_range(zoomed_out_counter,0,speed,-1*translatey*0.4,scrolling_value[1][0])
+                        layer_pivot_array[selected-1].position.y = map_range(zoomed_out_counter,0,speed,scrolling_value[1][0],-1*translatey*0.4)
                     }else{
                         layer_pivot_array_cloned[selected-1].position.y = map_range(zoomed_out_counter,0,speed,translatey*0.4,scrolling_value[1][0])
+                        layer_pivot_array[selected-1].position.y = map_range(zoomed_out_counter,0,speed,scrolling_value[1][0],translatey*0.4)
                     }
-                }else{
-                    if(i>selected){
-                        layer_pivot_array[selected-1].position.y = map_range(zoomed_out_counter,0,speed,-1*translatey*0.4,scrolling_value[1][0])
-                    }else{
-                        layer_pivot_array[selected-1].position.y = map_range(zoomed_out_counter,0,speed,translatey*0.4,scrolling_value[1][0])
-                    }
-
-                }
             }
 
         else if(i == selected-0){
-            if(zoomed_out){
-                layer_pivot_array_cloned[selected-0].visible = true
-            }else{
-                layer_pivot_array[selected-0].visible = true
-            }
                 layer_pivot_array_cloned[selected-0].scale.x = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[selected-0].length)/translatez,scrolling_value[2][1])
-                layer_pivot_array_cloned[selected-0].scale.y = map_range(zoomed_out_counter,0,speed,1.2, 1)
+                layer_pivot_array_cloned[selected-0].scale.y = map_range(zoomed_out_counter,0,speed,1.1, 1)
                 layer_pivot_array_cloned[selected-0].scale.z = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[selected-0].length)/translatez,scrolling_value[2][2])
-                if(zoomed_out){
                     if(i>selected){
                         layer_pivot_array_cloned[selected-0].position.y = map_range(zoomed_out_counter,0,speed,-1*translatey*0.4,scrolling_value[2][0])
+                        layer_pivot_array[selected-0].position.y = map_range(zoomed_out_counter,0,speed,scrolling_value[2][0],-1*translatey*0.4)
                     }else{
                         layer_pivot_array_cloned[selected-0].position.y = map_range(zoomed_out_counter,0,speed,translatey*0.4,scrolling_value[2][0])
+                        layer_pivot_array[selected-0].position.y = map_range(zoomed_out_counter,0,speed,scrolling_value[2][0],translatey*0.4)
                     }
-                }else{
-                    if(i>selected){
-                        layer_pivot_array[selected-0].position.y = map_range(zoomed_out_counter,0,speed,-1*translatey*0.4,scrolling_value[2][0])
-                    }else{
-                        layer_pivot_array[selected-0].position.y = map_range(zoomed_out_counter,0,speed,translatey*0.4,scrolling_value[2][0])
-                    }
-
-                }
             }
 
         else if(i == selected+1){
-            if(zoomed_out){
-                layer_pivot_array_cloned[selected+1].visible = true
-            }else{
-                layer_pivot_array[selected+1].visible = true
-            }
                 layer_pivot_array_cloned[selected+1].scale.x = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[selected+1].length)/translatez,scrolling_value[3][1])
-                layer_pivot_array_cloned[selected+1].scale.y = map_range(zoomed_out_counter,0,speed,1.2, 1)
+                layer_pivot_array_cloned[selected+1].scale.y = map_range(zoomed_out_counter,0,speed,1.1, 1)
                 layer_pivot_array_cloned[selected+1].scale.z = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[selected+1].length)/translatez,scrolling_value[3][2])
-                if(zoomed_out){
                     if(i>selected){
                         layer_pivot_array_cloned[selected+1].position.y = map_range(zoomed_out_counter,0,speed,-1*translatey*0.4,scrolling_value[3][0])
+                        layer_pivot_array[selected+1].position.y = map_range(zoomed_out_counter,0,speed,scrolling_value[3][0],-1*translatey*0.4)
                     }else{
                         layer_pivot_array_cloned[selected+1].position.y = map_range(zoomed_out_counter,0,speed,translatey*0.4,scrolling_value[3][0])
+                        layer_pivot_array[selected+1].position.y = map_range(zoomed_out_counter,0,speed,scrolling_value[3][0],translatey*0.4)
                     }
-                }else{
-                    if(i>selected){
-                        layer_pivot_array[selected+1].position.y = map_range(zoomed_out_counter,0,speed,-1*translatey*0.4,scrolling_value[3][0])
-                    }else{
-                        layer_pivot_array[selected+1].position.y = map_range(zoomed_out_counter,0,speed,translatey*0.4,scrolling_value[3][0])
-                    }
-
-                }
             }
 
         else if(i == selected+2){
-            if(zoomed_out){
-                layer_pivot_array_cloned[selected+2].visible = true
-            }else{
-                layer_pivot_array[selected+2].visible = true
-            }
                 layer_pivot_array_cloned[selected+2].scale.x = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[selected+2].length)/translatez,scrolling_value[4][1])
-                layer_pivot_array_cloned[selected+2].scale.y = map_range(zoomed_out_counter,0,speed,1.2, 1)
+                layer_pivot_array_cloned[selected+2].scale.y = map_range(zoomed_out_counter,0,speed,1.1, 1)
                 layer_pivot_array_cloned[selected+2].scale.z = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[selected+2].length)/translatez,scrolling_value[4][2])
-                if(zoomed_out){
                     if(i>selected){
                         layer_pivot_array_cloned[selected+2].position.y = map_range(zoomed_out_counter,0,speed,-1*translatey*0.4,scrolling_value[4][0])
+                        layer_pivot_array[selected+2].position.y = map_range(zoomed_out_counter,0,speed,scrolling_value[4][0],-1*translatey*0.4)
                     }else{
                         layer_pivot_array_cloned[selected+2].position.y = map_range(zoomed_out_counter,0,speed,translatey*0.4,scrolling_value[4][0])
+                        layer_pivot_array[selected+2].position.y = map_range(zoomed_out_counter,0,speed,scrolling_value[4][0],translatey*0.4)
                     }
-                }else{
-                    if(i>selected){
-                        layer_pivot_array[selected+2].position.y = map_range(zoomed_out_counter,0,speed,-1*translatey*0.4,scrolling_value[4][0])
-                    }else{
-                        layer_pivot_array[selected+2].position.y = map_range(zoomed_out_counter,0,speed,translatey*0.4,scrolling_value[4][0])
-                    }
-
-                }
             }
 
         else if(i == selected+3){
-            if(zoomed_out){
-                layer_pivot_array_cloned[selected+3].visible = true
-            }else{
-                layer_pivot_array[selected+3].visible = true
-            }
                 layer_pivot_array_cloned[selected+3].scale.x = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[selected+3].length)/translatez,scrolling_value[5][1])
-                layer_pivot_array_cloned[selected+3].scale.y = map_range(zoomed_out_counter,0,speed,1.2, 1)
+                layer_pivot_array_cloned[selected+3].scale.y = map_range(zoomed_out_counter,0,speed,1.1, 1)
                 layer_pivot_array_cloned[selected+3].scale.z = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[selected+3].length)/translatez,scrolling_value[5][2])
-                if(zoomed_out){
                     if(i>selected){
                         layer_pivot_array_cloned[selected+3].position.y = map_range(zoomed_out_counter,0,speed,-1*translatey*0.4,scrolling_value[5][0])
+                        layer_pivot_array[selected+3].position.y = map_range(zoomed_out_counter,0,speed,scrolling_value[5][0],-1*translatey*0.4)
                     }else{
                         layer_pivot_array_cloned[selected+3].position.y = map_range(zoomed_out_counter,0,speed,translatey*0.4,scrolling_value[5][0])
+                        layer_pivot_array[selected+3].position.y = map_range(zoomed_out_counter,0,speed,scrolling_value[5][0],translatey*0.4)
                     }
-                }else{
-                    if(i>selected){
-                        layer_pivot_array[selected+3].position.y = map_range(zoomed_out_counter,0,speed,-1*translatey*0.4,scrolling_value[5][0])
-                    }else{
-                        layer_pivot_array[selected+3].position.y = map_range(zoomed_out_counter,0,speed,translatey*0.4,scrolling_value[5][0])
-                    }
-
-                }
             }
 
         else if(i == selected+4){
-            if(zoomed_out){
-                layer_pivot_array_cloned[selected+4].visible = true
-            }else{
-                layer_pivot_array[selected+4].visible = true
-            }
                 layer_pivot_array_cloned[selected+4].scale.x = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[selected+4].length)/translatez,scrolling_value[6][1])
-                layer_pivot_array_cloned[selected+4].scale.y = map_range(zoomed_out_counter,0,speed,1.2, 1)
+                layer_pivot_array_cloned[selected+4].scale.y = map_range(zoomed_out_counter,0,speed,1.1, 1)
                 layer_pivot_array_cloned[selected+4].scale.z = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[selected+4].length)/translatez,scrolling_value[6][2])
-                if(zoomed_out){
                     if(i>selected){
                         layer_pivot_array_cloned[selected+4].position.y = map_range(zoomed_out_counter,0,speed,-1*translatey*0.4,scrolling_value[6][0])
+                        layer_pivot_array[selected+4].position.y = map_range(zoomed_out_counter,0,speed,scrolling_value[6][0],-1*translatey*0.4) 
                     }else{
                         layer_pivot_array_cloned[selected+4].position.y = map_range(zoomed_out_counter,0,speed,translatey*0.4,scrolling_value[6][0])
+                        layer_pivot_array[selected+4].position.y = map_range(zoomed_out_counter,0,speed,scrolling_value[6][0],translatey*0.4) 
                     }
-                }else{
+            }
+        else if(i>selected+4 && i<=(layer_pivot_array_cloned.length-10)){
+            layer_pivot_array_cloned[i].scale.x = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[i].length)/translatez,0)
+            layer_pivot_array_cloned[i].scale.y = map_range(zoomed_out_counter,0,speed,1.1,1)
+            layer_pivot_array_cloned[i].scale.z = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[i].length)/translatez,0)
                     if(i>selected){
-                        layer_pivot_array[selected+4].position.y = map_range(zoomed_out_counter,0,speed,-1*translatey*0.4,scrolling_value[6][0])
+                        layer_pivot_array_cloned[i].position.y = map_range(zoomed_out_counter,0,speed,-1*translatey*0.4,scrolling_value[6][0])
+                        layer_pivot_array[i].position.y = map_range(zoomed_out_counter,0,speed,scrolling_value[6][0],-1*translatey*0.4) 
                     }else{
-                        layer_pivot_array[selected+4].position.y = map_range(zoomed_out_counter,0,speed,translatey*0.4,scrolling_value[6][0])
+                        layer_pivot_array_cloned[i].position.y = map_range(zoomed_out_counter,0,speed,translatey*0.4,scrolling_value[6][0])
+                        layer_pivot_array[i].position.y = map_range(zoomed_out_counter,0,speed,scrolling_value[6][0],translatey*0.4) 
                     }
-
-                }
-            }
-            else if(i>selected+4){
-                layer_pivot_array_cloned[i].scale.x = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[i].length)/translatez,0)
-                layer_pivot_array_cloned[i].scale.y = map_range(zoomed_out_counter,0,speed,1.2,1)
-                layer_pivot_array_cloned[i].scale.z = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[i].length)/translatez,0)
-                if(zoomed_out){
-                    layer_pivot_array_cloned[i].position.y = -1*translatey*1}
-                    else{
-                        layer_pivot_array[i].position.y = -1*translatey*1
+        }
+        else if(i<selected-2){
+            layer_pivot_array_cloned[i].scale.x = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[i].length)/translatez,5+(i-(selected+4)*0.1))
+            layer_pivot_array_cloned[i].scale.y = map_range(zoomed_out_counter,0,speed,1.1,1)
+            layer_pivot_array_cloned[i].scale.z = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[i].length)/translatez,5+(i-(selected+4)*0.1))
+                    if(i>selected){
+                        layer_pivot_array_cloned[i].position.y = map_range(zoomed_out_counter,0,speed,-1*translatey*0.4,scrolling_value[0][0])
+                        layer_pivot_array[i].position.y = map_range(zoomed_out_counter,0,speed,scrolling_value[0][0],-1*translatey*0.4)
+                    }else{
+                        layer_pivot_array_cloned[i].position.y = map_range(zoomed_out_counter,0,speed,translatey*0.4,scrolling_value[0][0])
+                        layer_pivot_array[i].position.y = map_range(zoomed_out_counter,0,speed,scrolling_value[0][0],translatey*0.4)
                     }
-            }
-            else if(i<selected-2){
-                layer_pivot_array_cloned[i].scale.x = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[i].length)/translatez,5+(i-(selected+4)*0.1))
-                layer_pivot_array_cloned[i].scale.y = map_range(zoomed_out_counter,0,speed,1.2,1)
-                layer_pivot_array_cloned[i].scale.z = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[i].length)/translatez,5+(i-(selected+4)*0.1))
-                if(zoomed_out){
-                    layer_pivot_array_cloned[i].position.y = translatey*2}
-                    else{
-                        layer_pivot_array[i].position.y = translatey*2
-                    }
-            }
+        }
+        if(i>(layer_pivot_array_cloned.length-10)){
+            layer_pivot_array_cloned[i].scale.x = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[i].length)/translatez,0)
+            layer_pivot_array_cloned[i].scale.y = map_range(zoomed_out_counter,0,speed,1.1,1)
+            layer_pivot_array_cloned[i].scale.z = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[i].length)/translatez,0)
+                layer_pivot_array_cloned[i].position.y = map_range(easeInQuad(zoomed_out_counter),
+                                                                    0,
+                                                                    speed,
+                                                                    -1*translatey*0.4-1*translatey*0.0000175*((i-selected)*(i-selected)*(i-selected)*(i-selected)),
+                                                                    scrolling_value[6][0])
+                layer_pivot_array[i].position.y = map_range(easeInQuad(zoomed_out_counter),
+                                                            0,
+                                                            speed,
+                                                            scrolling_value[6][0],
+                                                            -1*translatey*0.4-1*translatey*0.0000175*((i-selected)*(i-selected)*(i-selected)*(i-selected)))
+        }
     }
+
 
 }
 function zoom_out(){
@@ -1224,11 +1184,7 @@ function zoom_out(){
     zoomed_out = true
     zoomed_out_counter ++ 
 
-
-    light1.intensity = 4;
-    whole_light.position.set( 10, 1, 0 );
-
-    ///mainview zoomout
+    // ///mainview zoomout
     if(zoomed_out_counter == 1){
         for (var i = layer_pivot_array.length - 1; i >= 0; i--) {
             layer_pivot_array[i].visible = true
@@ -1246,8 +1202,8 @@ function zoom_out(){
         },1)
         zooming(zoomed_out_counter)  
     }else{
-            scrollpos = $('.fake_scroll_wrapper').scrollTop();
-            get_scrolling_value(scrollpos,selected)
+            scrollpos = $('.fake_scroll_wrapper').scrollTop()+timeoffset;
+            get_scrolling_value(scrollpos,selected,false)
     }
     render()
 
@@ -1260,30 +1216,15 @@ function zoom_in(){
 
 
 
-                light1.intensity = 0;
-                whole_light.position.set( 0, 0, 0 );
-
-    ///mainview zoomout
-    if(zoomed_out_counter == 1){
-        for (var i = layer_pivot_array.length - 1; i >= 0; i--) {
-            layer_pivot_array[i].visible = false
-        }
-    }
-    ///sideview zoomin
-    if(zoomed_out_counter == speed){
-        for (var i = layer_pivot_array_cloned.length - 1; i >= 0; i--) {
-            layer_pivot_array_cloned[i].visible = true
-        }
-    }
     if(zoomed_out_counter>0){
         setTimeout(function(){
             zoom_in()
         },1)
         zooming(zoomed_out_counter)  
     }else{
-            scrollpos = $('.fake_scroll_wrapper').scrollTop();
+            scrollpos = $('.fake_scroll_wrapper').scrollTop()+timeoffset;
             // console.log(selected)
-                get_scrolling_value(scrollpos,selected)
+            get_scrolling_value(scrollpos,selected,false)
     }
     render()
 }
@@ -1330,19 +1271,54 @@ $('canvas').mousemove(function(e){
 
 })
 function hover(selected){
-    for (var i = 0; i <  raycaster_obj.length; i++) {
-            for (var k = raycaster_obj[i].length - 1; k >= 0; k--) {
-                raycaster_obj[i][k].material.color = new THREE.Color(0xFFFFFF)
+    for (var i = layer_pivot_array.length - 1; i >= 0; i--) {
+        layer_pivot_array[i]
+        if(i>(layer_pivot_array.length-0)){
+            for (var k = layer_pivot_array[i].children.length - 1; k >= 0; k--) {
+                layer_pivot_array[i].children[k].children[0].material.color = new THREE.Color(0x000000)
             }
+        }else if(i>(layer_pivot_array.length-1)){
+            for (var k = layer_pivot_array[i].children.length - 1; k >= 0; k--) {
+                layer_pivot_array[i].children[k].children[0].material.color = new THREE.Color(0x1D1E1E)
+            }
+        }else if(i>(layer_pivot_array.length-2)){
+            for (var k = layer_pivot_array[i].children.length - 1; k >= 0; k--) {
+                layer_pivot_array[i].children[k].children[0].material.color = new THREE.Color(0x3D403E)
+            }
+        }else if(i>(layer_pivot_array.length-3)){
+            for (var k = layer_pivot_array[i].children.length - 1; k >= 0; k--) {
+                layer_pivot_array[i].children[k].children[0].material.color = new THREE.Color(0x656B67)
+            }
+        }else if(i>(layer_pivot_array.length-4)){
+            for (var k = layer_pivot_array[i].children.length - 1; k >= 0; k--) {
+                layer_pivot_array[i].children[k].children[0].material.color = new THREE.Color(0x656B67)
+            }
+        }else if(i>(layer_pivot_array.length-5)){
+            for (var k = layer_pivot_array[i].children.length - 1; k >= 0; k--) {
+                layer_pivot_array[i].children[k].children[0].material.color = new THREE.Color(0x838B85)
+            }
+        }else if(i>(layer_pivot_array.length-6)){
+            for (var k = layer_pivot_array[i].children.length - 1; k >= 0; k--) {
+                layer_pivot_array[i].children[k].children[0].material.color = new THREE.Color(0xADB8B0)
+            }
+        }else if(i>(layer_pivot_array.length-7)){
+            for (var k = layer_pivot_array[i].children.length - 1; k >= 0; k--) {
+                layer_pivot_array[i].children[k].children[0].material.color = new THREE.Color(0xDADFDB)
+            }
+        }else{
+            for (var k = layer_pivot_array[i].children.length - 1; k >= 0; k--) {
+                layer_pivot_array[i].children[k].children[0].material.color = new THREE.Color(0xFFFFFF)
+            }
+        }
     }
-            for (var k = raycaster_obj[selected].length - 1; k >= 0; k--) {
+    for (var k = raycaster_obj[selected].length - 1; k >= 0; k--) {
         if(raycaster_obj_link[hovered]===''){
 
         }else{
                 raycaster_obj[selected][k].material.color = new THREE.Color(0x199b82)
         }
-            }
-            render()
+    }
+    render()
 
 }
 
@@ -1364,6 +1340,23 @@ timeplay()
 function timeplay(){
     document.title = String(new Date()).substring(4).split(' GMT')[0]
     setTimeout(function(){timeplay()},1000)
+    timeoffset = timeoffset +10
+    if(Math.floor(timeoffset/30) == timeoffset/30){
+            scrollcounter++
+            scrollpos = $('.fake_scroll_wrapper').scrollTop()+1+timeoffset;
+            console.log()
+            var k = Math.floor(scrollpos/(translatey*h)) 
+            selected = k
+            if(scrollpos > scrolldirection_value){
+                scrolldirection = 'down'
+            }else{
+                scrolldirection = 'up'
+            }
+            scrolldirection_value = scrollpos
+            whole_pivot_cloned.rotation.y = degrees_to_radians(scrollpos%(translatey*h)/(translatey*h)*360)
+            whole_pivot.rotation.y = degrees_to_radians(scrollpos%(translatey*h)/(translatey*h)*360)
+            get_scrolling_value(scrollpos,k,true)
+        }
 }
 function parseDate(str) {
     var mdy = str.split('/');
