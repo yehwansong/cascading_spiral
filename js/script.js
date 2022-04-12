@@ -380,7 +380,7 @@ for (var i = 0; i <3; i++) {
     var scene_dis = 100000
     var scrolldirection_value = 0
     var scrolling_value = [[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]]
-    var light1_value = [0,4]
+    var light1_value = [0,4.5]
     var light2_value = [0,0.15]
     var whole_light_value = [1,0.5]
 
@@ -673,7 +673,7 @@ const views = [
         fov: 110,
         init_eye: [ 0, 0, 4.5 ],
         init_fov: 110,
-        shifted_eye: [ 0, 260, 320 ],
+        shifted_eye: [ 0, 300, 330 ],
         shifted_fov: 10,
         lookAt :new THREE.Vector3( 0, 0, 0 )
     },
@@ -682,9 +682,9 @@ const views = [
         bottom: 0.01,
         width: 0.325,
         height: 0.325,
-        eye: [ 0, 280, 320+scene_dis ],
+        eye: [ 0, 300, 330+scene_dis ],
         fov: 10,
-        init_eye: [ 0, 280, 320+scene_dis ],
+        init_eye: [ 0, 300, 330+scene_dis ],
         init_fov: 10,
         shifted_eye: [ 0, 0, 4.5+scene_dis ],
         shifted_fov: 110,
@@ -1214,6 +1214,16 @@ function zoom_in(){
     zoomed_out = false
     zoomed_out_counter --
 
+    if(zoomed_out_counter == 1){
+        for (var i = layer_pivot_array.length - 1; i >= 0; i--) {
+            layer_pivot_array[i].visible = true
+        }
+    }
+    ///sideview zoomin
+    if(zoomed_out_counter == speed){
+        for (var i = layer_pivot_array_cloned.length - 1; i >= 0; i--) {
+        }
+    }
 
 
     if(zoomed_out_counter>0){
