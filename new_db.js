@@ -1019,7 +1019,7 @@ new_text_content_org=[
         "sep_vid-1"
     ],
     [
-        "sep_img-2",
+        "sep_300",
         "sep_vid-2",
         "sep_200-2"
     ],
@@ -1099,313 +1099,368 @@ new_text_content_org=[
         "sep_vid-1"
     ]
 ]
-new_text_content  = [
+new_text_content  = 
 
     ////////////////////////////////////////////////////////////////////////*****
+    [
     [
         [
             "<span>The</span><span>Silent</span><span>Universityis a</span><span>solidarity based</span><span>knowledge exchange</span><span> platform by displaced people</span><span>and forced migrants.</span><span>It is led by a group of</span><span>lecturers, consultants and research fellows.</span><span>It is an education platform outside of the</span><span>restrictions of migration laws,</span><span>language limitations and the other</span><span>bureaucratic obstacles.<span class=\"quote\">AHMET ÖĞÜT, SILENT UNIVERSITY </span>",
             "         https://www.youtube.com/watch?v=L5v-8Q4xGH4 (3:20-3:38)",
-            "         Interview with Netali Zaff, 3/11/2020https://www.bupipedream.com/ac/113521/mutant-space-utilizes-interactive-technology-to-highlight-nuclear-radiation/"
+            "         Interview with Netali Zaff, 3/11/2020https://www.bupipedream.com/ac/113521/mutant-space-utilizes-interactive-technology-to-highlight-nuclear-radiation/",
+            "sep_400-2"
         ],
         [
             "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-8.jpg)\"></div><span class=\"quote\">artistname-------</span>",
             null,
-            "Atıf Akın, Mutant Space / Metsamor, 2015 "
+            "Atıf Akın, Mutant Space / Metsamor, 2015 ",
+            "sep_img-1"
         ],
         [
             "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y15.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
             "https://youtube.com/watch?v=M6yoT-CXey4",
-            "from -------------"
+            "from -------------",
+            "sep_vid-1"
         ]
     ],
     [
         [
             "The Silent University aims to address and reactivate the knowledge of the participants and make the exchange process mutually beneficial by inventing alternative currencies, in place of money or free voluntary service. The Silent University’s aim is to challenge the idea of silence as a passive state, and explore its powerful potential through performance, writing, and group reflection. These explorations attempt to make apparent the systemic failure and the loss of skills and knowledge experienced through the silencing process of people seeking asylum.<span class=\"quote\"> AHMET ÖĞÜT, SILENT UNIVERSITY </span>",
             "         https://blog.saltonline.org/post/95367715734/the-bold-and-poignant-palette-of-gulsun-karamustafa ",
-            "         From her interview in Idea Magazine, 2009 https://blog.saltonline.org/post/95367715734/the-bold-and-poignant-palette-of-gulsun-karamustafa "
+            "         From her interview in Idea Magazine, 2009 https://blog.saltonline.org/post/95367715734/the-bold-and-poignant-palette-of-gulsun-karamustafa ",
+            "sep_700-1"
         ],
         [
             "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-52.png)\"></div><span class=\"quote\">artistname-------</span>",
             null,
-            "Screenshots from Bernadette Corporation, Get rid of Yourself, 2003 [from Disobedience Archive] "
+            "Screenshots from Bernadette Corporation, Get rid of Yourself, 2003 [from Disobedience Archive] ",
+            "sep_img-3"
         ],
         [
             "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y17.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
             "https://youtube.com/watch?v=GDTsZiznhB8",
-            "from -------------"
+            "from -------------",
+            "sep_vid-1"
         ]
     ],
     [
         [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-25.jpg)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Fernando Garcia Dory, Monologue "
+            "<br>insan ısırır<br>akıldan koparır kendini<span class=\"quote\">POETRY CHANNEL</span>",
+            "",
+            "Part of a poem by Gonca Özmen titled Auto-Destruction",
+            "sep_300"
         ],
         [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/v4.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://vimeo.com/359396369",
-            "from -------------"
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-64.jpeg)\"></div><span class=\"quote\">MARIAH LOOKMAN</span>",
+            "https://www.youtube.com/watch?v=F_7f14NkOyU&ab_channel=Relax24",
+            "11 hours of Garden Sounds by Relax24",
+            "sep_vid-2"
         ],
         [
             "Even though you set detailed and obvious criteria, the sorted data can be very generative and unexpected. It’s why I love playing with it, because even though I focus on the content, the results are always fluid and surprising. Data is more like a living creature, what it reveals and manifests itself as is very generative and unpredictable<span class=\"quote\">YEHWAN SONG</span>",
             "         https://www.adobomagazine.com/the-magazine/martha-atienzas-equation-of-state-using-video-art-and-island-technology-to-illuminate-the-effects-of-climate-change-in-bantayan-islands-coastal-communities-and-the-importan/ (1:00-1:22) ",
-            "         From her interview with Adobo Magazine https://www.adobomagazine.com/the-magazine/martha-atienzas-equation-of-state-using-video-art-and-island-technology-to-illuminate-the-effects-of-climate-change-in-bantayan-islands-coastal-communities-and-the-importan/ (1:29-1:42) "
+            "From her interview with Adobo Magazine https://www.adobomagazine.com/the-magazine/martha-atienzas-equation-of-state-using-video-art-and-island-technology-to-illuminate-the-effects-of-climate-change-in-bantayan-islands-coastal-communities-and-the-importan/ (1:29-1:42) ",
+            "sep_200-2"
         ]
     ],
     [
         [
-            " “I think contemporary art is the only venue that can really host freedom of speech and critical thinking,”<span class=\"quote\">         ATIF AKIN, MUTANT TIME</span>",
-            "         https://www.youtube.com/watch?v=L5v-8Q4xGH4 (3:20-3:38)",
-            "         Interview with Netali Zaff, 3/11/2020https://www.bupipedream.com/ac/113521/mutant-space-utilizes-interactive-technology-to-highlight-nuclear-radiation/"
+            " Peki diyelim ve herkes kendi genişliğine sığsın<span class=\"quote\">POETRY CHANNEL</span>",
+            "",
+            "Part of a poem by Gonca Özmen titled Auto-Destruction",
+            "sep_100"
         ],
         [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-55.jpg)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Lieko Shiga, My Husband, 2006"
-        ],
-        [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y19.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://youtube.com/watch?v=FpFBY1Ee1D0",
-            "from -------------"
-        ]
-    ],
-    [
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-19.png)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Cooking Sections, Salmon: A Red Herring, 2020. Tate Britain, Art Now. Installation view. Photo: Tate."
-        ],
-        [
-            "“The “Serial of the Universe”, the never ending history of our wars, the terrifying hum of the earthquake, our warming air and water, our globalisation, our greeds, our angers, our rights, our economies and our crises, our road maps showing the way to European civilisation, our terror maps reaching into the depths of black holes, our genome maps, our diseases, our miraculous remedies, as well as the birds and the bees, the one-for-the-roads, the poor, the women, the children, the child abusers, the splendour and the misery of the media, the music of the spheres, and, last but not least: “All the beauty of human civilization – our art, our music, our literature – lies beyond these two fundamentalist, ideological poles.” (Roy) Our Open Site is a small flashlight, but one whose handle stretches to fit as many hands as want to hold it or hold on to it.”<span class=\"quote\">        AÇIK RADYO </span>",
-            "         https://acikradyo.com.tr/manifesto-acik-radyo ",
-            "         From Açık Radyo’s Manifesto, 2001https://acikradyo.com.tr/manifesto-acik-radyo "
-        ],
-        [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y21.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://youtube.com/watch?v=9_JSDnGJzpk",
-            "from -------------"
-        ]
-    ],
-    [
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-58.png)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Yehwan Song, Very responsive, 2020"
-        ],
-        [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y16.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-65.png)\"></div><span class=\"quote\">MARIAH LOOKMAN</span>",
             "https://youtube.com/watch?v=NA_1U8xYlJM",
-            "from -------------"
+            "From her project proposal for the 17th Istanbul Biennial",
+            "sep_img-3"
         ],
         [
-            "It is very important to me that the bridges built between communities–the personal ties and experiences gained–continue far beyond each project. Art is the vehicle, the pretext for a conversation and for an exchange of ideas that incorporate the material as well as the personal for its execution. <span class=\"quote\">         LAURA ANDERSON BARBATA </span>",
-            "         https://www.youtube.com/watch?v=zRzYfaUCCXI (2:06-2:19) ",
-            "          From her interview with Firstindigo&lifestyle, 26/7/2016 https://firstindigoandlifestyle.com/2016/07/26/artist-in-focus-laura-anderson-barbata/ "
+            "yanılmıyoruz bu benim takma ağzım<br>gerçeğinin içinde dilim tuhaf bir eşya gibi.<span class=\"quote\">POETRY CHANNEL</span>",
+            "",
+            "Part of a poem by Sevinç Çalhanoğlu titled niyet",
+            "sep_200-2"
         ]
     ],
     [
         [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-3.jpg)\"></div><span class=\"quote\">artistname-------</span>",
+            "“I imagine the garden to be a place of rest, rejuvenation, respite and affirmation in the basic principles of life that things grow, age and decay.”<span class=\"quote\">MARIAH LOOKMAN</span>",
+            "",
+            " From her project proposal for the 17th Istanbul Biennial ",
+            "sep_200-2"
+        ],
+        [
+            "<br><br>Defterlerin birinde buluyorum yıllar önce ayrıldığımız yeri<br>Yalnızca çizgileri kalmış o ânın<span class=\"quote\">POETRY CHANNEL</span>",
+            "",
+            "Part of a poem by Mehmet Erte titled Yeniden Yaşanmayacak",
+            "sep_300"
+        ],
+        [
+            "By working with the underlying logic of the Bostans of Istanbul-The Urban cultivation of medicinal plants can be explored as a way of preserving ancient knowledge of the healing properties of medicinal plants.<span class=\"quote\">MARIAH LOOKMAN</span>",
             null,
-            ""
-        ],
-        [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/v2.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://vimeo.com/39085094",
-            "from -------------"
-        ],
-        [
-            "“For me, a mobile cheese making unit is playing on those contradictions: making cheese entails changing the state of matter from liquid to solid; it is microbiological livestock management and an ancient pastoralist biotechnology. The wish to learn it fast, in one morning workshop, deals with our wish for instant gratification. The “authentic” foods we yearn for could also be accessible, self-made, and not elite gastronomic merchandise. It’s a way to reconnect with food makers and the problems they face. Food is therefore more than a political tool, it has become politics in itself.”<span class=\"quote\">         arthere website announcing the footsteps library when it is published          FERNANDO GARCÍA-DORY</span>",
-            "         https://www.fernandogarciadory.info/index.php?/texts/interview-artpapers-janfeb-2011/2/ ",
-            "         From his interview titled BENEATH THE BUREAUCRACY, THE BEACH by Chris Fite-Wassilak https://www.fernandogarciadory.info/index.php?/texts/interview-artpapers-janfeb-2011/2/ "
+            "From her project proposal for the 17th Istanbul Biennial",
+            "sep_200-2"
         ]
     ],
     [
         [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-35.png)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Charles Lim, SEA STATE 9: proclamation : DRAG PROP POUR, 2018, courtesy of Charles Lim "
+            "<span class=\"quote\"></span>",
+            "",
+            "",
+            "sep_vid-2"
         ],
         [
-            " These expressions have the capacity to cross boundaries, and they invite us to honour traditions. Through the process, we recognize ourselves in the work and build art-based social-practice projects that result in long-term exercises of reciprocity and collaboration.<span class=\"quote\">         LAURA ANDERSON BARBATA </span>",
-            "         https://www.youtube.com/watch?v=zRzYfaUCCXI (2:06-2:19) ",
-            "          From her interview with Madeline Murphy Turner for MoMAPost 20/01/2021https://post.moma.org/making-waves-a-conversation-with-laura-anderson-barbata/ "
+            "<span class=\"quote\"></span>",
+            "",
+            "",
+            "sep_vid-2"
         ],
         [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y25.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://youtube.com/watch?v=L5v-8Q4xGH4",
-            "from -------------"
+            "<span class=\"quote\"></span>",
+            "",
+            "",
+            "sep_300"
+        ]
+    ],
+    [
+        [
+            "<span class=\"quote\"></span>",
+            "",
+            "",
+            "sep_img-3"
+        ],
+        [
+            "<span class=\"quote\"></span>",
+            "",
+            "",
+            "sep_vid-3"
+        ],
+        [
+            "<span class=\"quote\"></span>",
+            "",
+            "",
+            "sep_700-2"
+        ]
+    ],
+    [
+        [
+            "<span class=\"quote\"></span>",
+            "",
+            "",
+            "sep_img-2"
+        ],
+        [
+            "<span class=\"quote\"></span>",
+            "",
+            "",
+            "sep_300"
+        ],
+        [
+            "<span class=\"quote\"></span>",
+            "",
+            "",
+            "sep_vid-3"
         ]
     ],
     [
         [
             "“The “Flag Project” is designed to study and develop collective creativity. I implement an “open art system,” in which art is defined as broadly as possible, to break through rigid discourses and established values, engaging in democratic dialogue, but also taking a critical approach when needed. During this process, outcomes—artworks or other forms—are produced collectively, collaboratively or individually. Another aim is to create and maintain a network that enables the exchange of ideas and experiences, or development in the form of collaborations.”<span class=\"quote\">         ARAHMAIANI FEISAL </span>",
             "         https://www.cobosocial.com/dossiers/arahmaiani-superheroine-of-indonesian-contemporary-art/ ",
-            "         In her statetement titled “My Second Life in Tibet”, August 2016 http://www.trfineart.com/wp-content/uploads/2016/08/AAP79_SecondLifeInTibet_Arahmaiani.pdf "
+            "         In her statetement titled “My Second Life in Tibet”, August 2016 http://www.trfineart.com/wp-content/uploads/2016/08/AAP79_SecondLifeInTibet_Arahmaiani.pdf ",
+            "sep_700-2"
         ],
         [
             "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-56.jpg)\"></div><span class=\"quote\">artistname-------</span>",
             null,
-            "Sim Chi Yin, from the series \"Interventions,\" 2020. Original archive image: Imperial War Museums collection, pigment print on foil, 59.4 x 42 cm, Ed. 3 + 2, AP"
+            "Sim Chi Yin, from the series \"Interventions,\" 2020. Original archive image: Imperial War Museums collection, pigment print on foil, 59.4 x 42 cm, Ed. 3 + 2, AP",
+            "sep_img-1"
         ],
         [
             "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y4.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
             "https://youtube.com/watch?v=OP4bl2mRxuE",
-            "from -------------"
+            "from -------------",
+            "sep_vid-2"
         ]
     ],
     [
         [
             " In the process of exchange, in sharing and learning from each other, we agree on what we will give and what we would like to receive, and in this way, all participants become stakeholders in the project.<span class=\"quote\">         LAURA ANDERSON BARBATA </span>",
             "         https://www.youtube.com/watch?v=zRzYfaUCCXI (2:06-2:19) ",
-            "          From her interview with Madeline Murphy Turner for MoMAPost 20/01/2021https://post.moma.org/making-waves-a-conversation-with-laura-anderson-barbata/ "
+            "          From her interview with Madeline Murphy Turner for MoMAPost 20/01/2021https://post.moma.org/making-waves-a-conversation-with-laura-anderson-barbata/ ",
+            "sep_300"
         ],
         [
             "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-54.jpg)\"></div><span class=\"quote\">artistname-------</span>",
             null,
-            "Lieko Shiga, Portrait of Cultivation from series Rasen Kaigen, 2010 "
+            "Lieko Shiga, Portrait of Cultivation from series Rasen Kaigen, 2010 ",
+            "sep_img-1"
         ],
         [
             "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/v10.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
             "https://vimeo.com/60612832",
-            "from -------------"
+            "from -------------",
+            "sep_vid-2"
         ]
     ],
     [
         [
             "“I wanted to turn the ruins into sculptures because they carry for me the memory of something lost, yet at the same time they are reminders of what is no longer there. A fragment. Yet complete in its own way because any attempt to fix it, will erase its uniqueness. It teaches nothing, except that what was once is gone and the only way to approach it is through art without direct reference to an event.”<span class=\"quote\">        LIDA ABDUL </span>",
             "         http://www.artvehicle.com/interview/1 ",
-            "         From interview on http://www.artvehicle.com/interview/1 "
+            "         From interview on http://www.artvehicle.com/interview/1 ",
+            "sep_500"
         ],
         [
             "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-49.jpg)\"></div><span class=\"quote\">artistname-------</span>",
             null,
-            "What I learned I no longer know; the little I still know I guessed, 2009"
+            "What I learned I no longer know; the little I still know I guessed, 2009",
+            "sep_img-3"
         ],
         [
             "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/v3.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
             "https://vimeo.com/43867573",
-            "from -------------"
+            "from -------------",
+            "sep_vid-2"
         ]
     ],
     [
         [
             "“I feel that I can easily cross cultural borders. I think that is what is wonderful about not having a fixed notion of identity or nationhood. There is really nothing I have a duty to do. It bothers people, this refusal to choose between us and them because I guess when you announce your identity publicly people know what to expect. If I were to identify with anything, it would be Afghanistan because it's a country that needs so much attention.”<span class=\"quote\">        LIDA ABDUL </span>",
             "         http://www.artvehicle.com/interview/1 ",
-            "         From interview on http://www.artvehicle.com/interview/1 "
+            "         From interview on http://www.artvehicle.com/interview/1 ",
+            "sep_500"
         ],
         [
             "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-21.jpg)\"></div><span class=\"quote\">artistname-------</span>",
             null,
-            "Eva Egermann, Hold off, but hold me (with texts by Ianina Ilitcheva) Installation view, Central Garden, 2020, courtesy the artist, photo: Kunsthalle Wien"
+            "Eva Egermann, Hold off, but hold me (with texts by Ianina Ilitcheva) Installation view, Central Garden, 2020, courtesy the artist, photo: Kunsthalle Wien",
+            "sep_img-2"
         ],
         [
             "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y8.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
             "https://youtube.com/watch?v=NKREFr_Wtc4",
-            "from -------------"
+            "from -------------",
+            "sep_vid-2"
         ]
     ],
     [
         [
             " “ We were really interested in how we could use it as a tool to think about emancipating or decolonizing contemporary food practices. The whole project tried to think of counterapproaches to buying and selling. If the neoliberal world has appropriated the language of sustainability, can we do it the other way around and appropriate neoliberal tools to challenge the logic of the franchise and think of it in terms of value beyond profit margins? We’re interested in the original French meaning of “franchise” as releasing oneself from servitude.<span class=\"quote\">                     COOKING SECTIONS, SURVEY PACK WALLOWLANDS</span>",
             "         https://www.frieze.com/article/eating-end-world ",
-            "         From their interview titled FOOD STUDIES: A CONVERSATION WITH COOKING SECTIONS on Art News with Elizabeth Fullerton, 14/06/2018https://www.artnews.com/art-in-america/interviews/food-studies-a-conversation-with-cooking-sections-56484/ "
+            "         From their interview titled FOOD STUDIES: A CONVERSATION WITH COOKING SECTIONS on Art News with Elizabeth Fullerton, 14/06/2018https://www.artnews.com/art-in-america/interviews/food-studies-a-conversation-with-cooking-sections-56484/ ",
+            "sep_700-1"
         ],
         [
             "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-36.png)\"></div><span class=\"quote\">artistname-------</span>",
             null,
-            "Pictures from Renato’s Posidonia Oceanica project proposal"
+            "Pictures from Renato’s Posidonia Oceanica project proposal",
+            "sep_img-1"
         ],
         [
             "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y14.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
             "https://youtube.com/watch?v=iIkl9-6qINk",
-            "from -------------"
+            "from -------------",
+            "sep_vid-2"
         ]
     ],
     [
         [
             "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-43.jpg)\"></div><span class=\"quote\">artistname-------</span>",
             null,
-            "Bruno Taut’s house in Ortaköy, Istanbul"
+            "Bruno Taut’s house in Ortaköy, Istanbul",
+            "sep_img-2"
         ],
         [
             " “A lot of the decisions on how elements are placed and in dialogue with each and with the space came from listening to the material one by one. So, listening to each stone, listening to the rails, and seeing how these elements are transmitting and emitting sound.” <span class=\"quote\">            TAREK ATOUI, I/E ISTANBUL </span>",
             "         https://www.ibraaz.org/interviews/130 ",
-            "         From his interview with FridericiANVM, 23/10/2020https://fridericianum.org/tarek-atoui-interview/ (3:14-3:32)"
+            "         From his interview with FridericiANVM, 23/10/2020https://fridericianum.org/tarek-atoui-interview/ (3:14-3:32)",
+            "sep_300"
         ],
         [
             "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y12.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
             "https://youtube.com/watch?v=M6yoT-CXey4",
-            "from -------------"
+            "from -------------",
+            "sep_vid-1"
         ]
     ],
     [
         [
             "“Art needs to update its own techniques as fast as the industry or politics in order to be able to respond to all of this, to produce something about these social codes or to say something about the historical field. <span class=\"quote\">        ATIF AKIN, MUTANT TIME</span>",
             "         https://www.youtube.com/watch?v=L5v-8Q4xGH4 (3:20-3:38)",
-            "         From his interview with Digilogue, 02/01/2020 https://www.youtube.com/watch?v=L5v-8Q4xGH4 (3:20-3:38)"
+            "         From his interview with Digilogue, 02/01/2020 https://www.youtube.com/watch?v=L5v-8Q4xGH4 (3:20-3:38)",
+            "sep_300"
         ],
         [
             "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-2.png)\"></div><span class=\"quote\">artistname-------</span>",
             null,
-            ""
+            "",
+            "sep_img-3"
         ],
         [
             "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y26.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
             "https://youtube.com/watch?v=ALl-byTmE-E",
-            "from -------------"
+            "from -------------",
+            "sep_vid-3"
         ]
     ],
     [
         [
             "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y18.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
             "https://youtube.com/watch?v=LfmUouW1ZuA",
-            "from -------------"
+            "from -------------",
+            "sep_vid-3"
         ],
         [
             "“It is by micro-political acting that we want to participate in making the city more ecological and more democratic, to make the space of proximity less dependent on top-down processes and more accessible to its users. The ‘self-managed architecture’ is an architecture of relationships, processes and agencies of persons, desires, skills and know-hows. Such an architecture does not correspond to a liberal practice but asks for new forms of association and collaboration, based on exchange and reciprocity and involving all those interested (individuals, organisations, institutions), whatever is their scale.”<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
             "         https://www.urbantactics.org/about/ ",
-            "         from their website https://www.urbantactics.org/about/ "
+            "         from their website https://www.urbantactics.org/about/ ",
+            "sep_700-1"
         ],
         [
             "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-61.jpg)\"></div><span class=\"quote\">artistname-------</span>",
             null,
-            "Screenshot from Sriwhana Spong’s a hook but no fish 2017, film still. Courtesy of the artist and Michael Lett"
+            "Screenshot from Sriwhana Spong’s a hook but no fish 2017, film still. Courtesy of the artist and Michael Lett",
+            "sep_img-3"
         ]
     ],
     [
         [
             "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-24.jpg)\"></div><span class=\"quote\">artistname-------</span>",
             null,
-            "Fernando Garcia Dory, Monologue "
+            "Fernando Garcia Dory, Monologue ",
+            "sep_img-1"
         ],
         [
             "“It's not about this mangrove moving perfectly, it's about all of us coming together and obsessing about this machine, for months. It's about a way of thinking. If we talk about all these issues; we need to come together — it's not one person that's gonna save the world. <span class=\"quote\">        MARTHA ATIENZA </span>",
             "         https://www.adobomagazine.com/the-magazine/martha-atienzas-equation-of-state-using-video-art-and-island-technology-to-illuminate-the-effects-of-climate-change-in-bantayan-islands-coastal-communities-and-the-importan/ (1:00-1:22) ",
-            "         From her interview with Adobo Magazine https://www.adobomagazine.com/the-magazine/martha-atienzas-equation-of-state-using-video-art-and-island-technology-to-illuminate-the-effects-of-climate-change-in-bantayan-islands-coastal-communities-and-the-importan/ (1:00-1:22) "
+            "         From her interview with Adobo Magazine https://www.adobomagazine.com/the-magazine/martha-atienzas-equation-of-state-using-video-art-and-island-technology-to-illuminate-the-effects-of-climate-change-in-bantayan-islands-coastal-communities-and-the-importan/ (1:00-1:22) ",
+            "sep_300"
         ],
         [
             "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y2.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
             "https://youtube.com/watch?v=kNaxM_L5GOg",
-            "from -------------"
+            "from -------------",
+            "sep_vid-2"
         ]
     ],
     [
         [
             "“Our architecture is at the same time political and poetic as it aims above all to ‘create relationships between worlds’.”<span class=\"quote\">         ATELIER D’ARCHITECTURE AUTOGEREE </span>",
             "         https://www.urbantactics.org/about/ ",
-            "         from their website https://www.urbantactics.org/about/ "
+            "         from their website https://www.urbantactics.org/about/ ",
+            "sep_100"
         ],
         [
             "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-59.png)\"></div><span class=\"quote\">artistname-------</span>",
             null,
-            "Yehwan Song, Very responsive, 2020"
+            "Yehwan Song, Very responsive, 2020",
+            "sep_img-3"
         ],
         [
             "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y27.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
             "https://youtube.com/watch?v=upwfIEYmFBw",
-            "from -------------"
+            "from -------------",
+            "sep_vid-1"
         ]
     ]
 ]

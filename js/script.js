@@ -39,274 +39,322 @@ var db = [
     ],
     [
         [
-            "Even though you set detailed and obvious criteria, the sorted data can be very generative and unexpected. It’s why I love playing with it, because even though I focus on the content, the results are always fluid and surprising. Data is more like a living creature, what it reveals and manifests itself as is very generative and unpredictable.<span class=\"quote\">YEHWAN SONG</span>",
+            "Even though you set detailed and obvious criteria, the sorted data can be very generative and unexpected. It’s why I love playing with it, because even though I focus on the content, the results are always fluid and surprising. Data is more like a living creature, what it reveals and manifests itself as is very generative and unpredictable<span class=\"quote\">YEHWAN SONG</span>",
             "https://www.itsnicethat.com/features/ones-to-watch-2020-yehwan-song-digital-240220",
-            "From interview titled “Yehwan Song wants to radically change how people think about the web” by Charlie Filmer-Court, 24/2/2020 'https://www.itsnicethat.com/features/ones-to-watch-2020-yehwan-song-digital-240220'"
+            "From interview titled “Yehwan Song wants to radically change how people think about the web” by Charlie Filmer-Court, 24/2/2020",
+            "sep_200-2"
         ],
         [
-            "<span class=\"quote\"></span>",
-            "",
-            ""
+            "insan ısırır<br>akıldan koparır kendini<span class=\"quote\">POETRY CHANNEL</span>",
+            null,
+            "Part of a poem by Gonca Özmen titled Auto-Destruction",
+            "sep_300"
         ],
         [
-            "<span class=\"quote\"></span>",
-            "",
-            ""
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-64.jpeg)\"></div><span class=\"quote\">MARIAH LOOKMAN</span>",
+            "https://www.youtube.com/watch?v=F_7f14NkOyU&ab_channel=Relax24",
+            "11 hours of Garden Sounds by Relax24",
+            "sep_vid-2"
         ]
     ],
     [
         [
-            " “I think contemporary art is the only venue that can really host freedom of speech and critical thinking,”<span class=\"quote\">         ATIF AKIN, MUTANT TIME</span>",
-            "         https://www.youtube.com/watch?v=L5v-8Q4xGH4 (3:20-3:38)",
-            "         Interview with Netali Zaff, 3/11/2020https://www.bupipedream.com/ac/113521/mutant-space-utilizes-interactive-technology-to-highlight-nuclear-radiation/"
-        ],
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-55.jpg)\"></div><span class=\"quote\">artistname-------</span>",
+            " Peki diyelim ve herkes kendi genişliğine sığsın<span class=\"quote\">POETRY CHANNEL</span>",
             null,
-            "Lieko Shiga, My Husband, 2006"
+            "Part of a poem by Gonca Özmen titled Auto-Destruction",
+            "sep_100"
         ],
         [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y19.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://youtube.com/watch?v=FpFBY1Ee1D0",
-            "from -------------"
-        ]
-    ],
-    [
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-19.png)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Cooking Sections, Salmon: A Red Herring, 2020. Tate Britain, Art Now. Installation view. Photo: Tate."
-        ],
-        [
-            "“The “Serial of the Universe”, the never ending history of our wars, the terrifying hum of the earthquake, our warming air and water, our globalisation, our greeds, our angers, our rights, our economies and our crises, our road maps showing the way to European civilisation, our terror maps reaching into the depths of black holes, our genome maps, our diseases, our miraculous remedies, as well as the birds and the bees, the one-for-the-roads, the poor, the women, the children, the child abusers, the splendour and the misery of the media, the music of the spheres, and, last but not least: “All the beauty of human civilization – our art, our music, our literature – lies beyond these two fundamentalist, ideological poles.” (Roy) Our Open Site is a small flashlight, but one whose handle stretches to fit as many hands as want to hold it or hold on to it.”<span class=\"quote\">        AÇIK RADYO </span>",
-            "         https://acikradyo.com.tr/manifesto-acik-radyo ",
-            "         From Açık Radyo’s Manifesto, 2001https://acikradyo.com.tr/manifesto-acik-radyo "
-        ],
-        [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y21.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://youtube.com/watch?v=9_JSDnGJzpk",
-            "from -------------"
-        ]
-    ],
-    [
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-58.png)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Yehwan Song, Very responsive, 2020"
-        ],
-        [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y16.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-65.png)\"></div><span class=\"quote\">MARIAH LOOKMAN</span>",
             "https://youtube.com/watch?v=NA_1U8xYlJM",
-            "from -------------"
+            "From her project proposal for the 17th Istanbul Biennial",
+            "sep_img-3"
         ],
         [
-            "It is very important to me that the bridges built between communities–the personal ties and experiences gained–continue far beyond each project. Art is the vehicle, the pretext for a conversation and for an exchange of ideas that incorporate the material as well as the personal for its execution. <span class=\"quote\">         LAURA ANDERSON BARBATA </span>",
-            "         https://www.youtube.com/watch?v=zRzYfaUCCXI (2:06-2:19) ",
-            "          From her interview with Firstindigo&lifestyle, 26/7/2016 https://firstindigoandlifestyle.com/2016/07/26/artist-in-focus-laura-anderson-barbata/ "
+            "yanılmıyoruz bu benim takma ağzım<br>gerçeğinin içinde dilim tuhaf bir eşya gibi.<span class=\"quote\">POETRY CHANNEL</span>",
+            null,
+            "Part of a poem by Sevinç Çalhanoğlu titled niyet",
+            "sep_200-2"
         ]
     ],
     [
         [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-3.jpg)\"></div><span class=\"quote\">artistname-------</span>",
+            "“I imagine the garden to be a place of rest, rejuvenation, respite and affirmation in the basic principles of life that things grow, age and decay.”<span class=\"quote\">MARIAH LOOKMAN</span>",
             null,
-            ""
+            " From her project proposal for the 17th Istanbul Biennial ",
+            "sep_200-2"
         ],
         [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/v2.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://vimeo.com/39085094",
-            "from -------------"
+            "<br><br>Defterlerin birinde buluyorum yıllar önce ayrıldığımız yeri<br>Yalnızca çizgileri kalmış o ânın<span class=\"quote\">POETRY CHANNEL</span>",
+            null,
+            "Part of a poem by Mehmet Erte titled Yeniden Yaşanmayacak",
+            "sep_300"
         ],
         [
-            "“For me, a mobile cheese making unit is playing on those contradictions: making cheese entails changing the state of matter from liquid to solid; it is microbiological livestock management and an ancient pastoralist biotechnology. The wish to learn it fast, in one morning workshop, deals with our wish for instant gratification. The “authentic” foods we yearn for could also be accessible, self-made, and not elite gastronomic merchandise. It’s a way to reconnect with food makers and the problems they face. Food is therefore more than a political tool, it has become politics in itself.”<span class=\"quote\">         arthere website announcing the footsteps library when it is published          FERNANDO GARCÍA-DORY</span>",
-            "         https://www.fernandogarciadory.info/index.php?/texts/interview-artpapers-janfeb-2011/2/ ",
-            "         From his interview titled BENEATH THE BUREAUCRACY, THE BEACH by Chris Fite-Wassilak https://www.fernandogarciadory.info/index.php?/texts/interview-artpapers-janfeb-2011/2/ "
+            "By working with the underlying logic of the Bostans of Istanbul-The Urban cultivation of medicinal plants can be explored as a way of preserving ancient knowledge of the healing properties of medicinal plants.<span class=\"quote\">MARIAH LOOKMAN</span>",
+            null,
+            "From her project proposal for the 17th Istanbul Biennial",
+            "sep_200-2"
         ]
     ],
     [
         [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-35.png)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Charles Lim, SEA STATE 9: proclamation : DRAG PROP POUR, 2018, courtesy of Charles Lim "
+            "<span class=\"quote\"></span>",
+            "",
+            "",
+            "sep_vid-2"
         ],
         [
-            " These expressions have the capacity to cross boundaries, and they invite us to honour traditions. Through the process, we recognize ourselves in the work and build art-based social-practice projects that result in long-term exercises of reciprocity and collaboration.<span class=\"quote\">         LAURA ANDERSON BARBATA </span>",
-            "         https://www.youtube.com/watch?v=zRzYfaUCCXI (2:06-2:19) ",
-            "          From her interview with Madeline Murphy Turner for MoMAPost 20/01/2021https://post.moma.org/making-waves-a-conversation-with-laura-anderson-barbata/ "
+            "<span class=\"quote\"></span>",
+            "",
+            "",
+            "sep_vid-2"
         ],
         [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y25.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://youtube.com/watch?v=L5v-8Q4xGH4",
-            "from -------------"
+            "<span class=\"quote\"></span>",
+            "",
+            "",
+            "sep_300"
         ]
     ],
     [
         [
-            "“The “Flag Project” is designed to study and develop collective creativity. I implement an “open art system,” in which art is defined as broadly as possible, to break through rigid discourses and established values, engaging in democratic dialogue, but also taking a critical approach when needed. During this process, outcomes—artworks or other forms—are produced collectively, collaboratively or individually. Another aim is to create and maintain a network that enables the exchange of ideas and experiences, or development in the form of collaborations.”<span class=\"quote\">         ARAHMAIANI FEISAL </span>",
-            "         https://www.cobosocial.com/dossiers/arahmaiani-superheroine-of-indonesian-contemporary-art/ ",
-            "         In her statetement titled “My Second Life in Tibet”, August 2016 http://www.trfineart.com/wp-content/uploads/2016/08/AAP79_SecondLifeInTibet_Arahmaiani.pdf "
+            "<span class=\"quote\"></span>",
+            "",
+            "",
+            "sep_vid-2"
         ],
         [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-56.jpg)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Sim Chi Yin, from the series \"Interventions,\" 2020. Original archive image: Imperial War Museums collection, pigment print on foil, 59.4 x 42 cm, Ed. 3 + 2, AP"
+            "<span class=\"quote\"></span>",
+            "",
+            "",
+            "sep_vid-2"
         ],
         [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y4.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://youtube.com/watch?v=OP4bl2mRxuE",
-            "from -------------"
+            "<span class=\"quote\"></span>",
+            "",
+            "",
+            "sep_300"
         ]
     ],
     [
         [
-            " In the process of exchange, in sharing and learning from each other, we agree on what we will give and what we would like to receive, and in this way, all participants become stakeholders in the project.<span class=\"quote\">         LAURA ANDERSON BARBATA </span>",
-            "         https://www.youtube.com/watch?v=zRzYfaUCCXI (2:06-2:19) ",
-            "          From her interview with Madeline Murphy Turner for MoMAPost 20/01/2021https://post.moma.org/making-waves-a-conversation-with-laura-anderson-barbata/ "
+            "<span class=\"quote\"></span>",
+            "",
+            "",
+            "sep_vid-2"
         ],
         [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-54.jpg)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Lieko Shiga, Portrait of Cultivation from series Rasen Kaigen, 2010 "
+            "<span class=\"quote\"></span>",
+            "",
+            "",
+            "sep_vid-2"
         ],
         [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/v10.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://vimeo.com/60612832",
-            "from -------------"
+            "<span class=\"quote\"></span>",
+            "",
+            "",
+            "sep_300"
         ]
     ],
     [
         [
-            "“I wanted to turn the ruins into sculptures because they carry for me the memory of something lost, yet at the same time they are reminders of what is no longer there. A fragment. Yet complete in its own way because any attempt to fix it, will erase its uniqueness. It teaches nothing, except that what was once is gone and the only way to approach it is through art without direct reference to an event.”<span class=\"quote\">        LIDA ABDUL </span>",
-            "         http://www.artvehicle.com/interview/1 ",
-            "         From interview on http://www.artvehicle.com/interview/1 "
+            "<span class=\"quote\"></span>",
+            "",
+            "",
+            "sep_vid-2"
         ],
         [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-49.jpg)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "What I learned I no longer know; the little I still know I guessed, 2009"
+            "<span class=\"quote\"></span>",
+            "",
+            "",
+            "sep_vid-2"
         ],
         [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/v3.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://vimeo.com/43867573",
-            "from -------------"
+            "<span class=\"quote\"></span>",
+            "",
+            "",
+            "sep_300"
         ]
     ],
     [
         [
-            "“I feel that I can easily cross cultural borders. I think that is what is wonderful about not having a fixed notion of identity or nationhood. There is really nothing I have a duty to do. It bothers people, this refusal to choose between us and them because I guess when you announce your identity publicly people know what to expect. If I were to identify with anything, it would be Afghanistan because it's a country that needs so much attention.”<span class=\"quote\">        LIDA ABDUL </span>",
-            "         http://www.artvehicle.com/interview/1 ",
-            "         From interview on http://www.artvehicle.com/interview/1 "
+            "<span class=\"quote\"></span>",
+            "",
+            "",
+            "sep_vid-2"
         ],
         [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-21.jpg)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Eva Egermann, Hold off, but hold me (with texts by Ianina Ilitcheva) Installation view, Central Garden, 2020, courtesy the artist, photo: Kunsthalle Wien"
+            "<span class=\"quote\"></span>",
+            "",
+            "",
+            "sep_vid-2"
         ],
         [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y8.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://youtube.com/watch?v=NKREFr_Wtc4",
-            "from -------------"
+            "<span class=\"quote\"></span>",
+            "",
+            "",
+            "sep_300"
         ]
     ],
     [
         [
-            " “ We were really interested in how we could use it as a tool to think about emancipating or decolonizing contemporary food practices. The whole project tried to think of counterapproaches to buying and selling. If the neoliberal world has appropriated the language of sustainability, can we do it the other way around and appropriate neoliberal tools to challenge the logic of the franchise and think of it in terms of value beyond profit margins? We’re interested in the original French meaning of “franchise” as releasing oneself from servitude.<span class=\"quote\">                     COOKING SECTIONS, SURVEY PACK WALLOWLANDS</span>",
-            "         https://www.frieze.com/article/eating-end-world ",
-            "         From their interview titled FOOD STUDIES: A CONVERSATION WITH COOKING SECTIONS on Art News with Elizabeth Fullerton, 14/06/2018https://www.artnews.com/art-in-america/interviews/food-studies-a-conversation-with-cooking-sections-56484/ "
+            "<span class=\"quote\"></span>",
+            "",
+            "",
+            "sep_vid-2"
         ],
         [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-36.png)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Pictures from Renato’s Posidonia Oceanica project proposal"
+            "<span class=\"quote\"></span>",
+            "",
+            "",
+            "sep_vid-2"
         ],
         [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y14.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://youtube.com/watch?v=iIkl9-6qINk",
-            "from -------------"
+            "<span class=\"quote\"></span>",
+            "",
+            "",
+            "sep_300"
         ]
     ],
     [
         [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-43.jpg)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Bruno Taut’s house in Ortaköy, Istanbul"
+            "<span class=\"quote\"></span>",
+            "",
+            "",
+            "sep_vid-2"
         ],
         [
-            " “A lot of the decisions on how elements are placed and in dialogue with each and with the space came from listening to the material one by one. So, listening to each stone, listening to the rails, and seeing how these elements are transmitting and emitting sound.” <span class=\"quote\">            TAREK ATOUI, I/E ISTANBUL </span>",
-            "         https://www.ibraaz.org/interviews/130 ",
-            "         From his interview with FridericiANVM, 23/10/2020https://fridericianum.org/tarek-atoui-interview/ (3:14-3:32)"
+            "<span class=\"quote\"></span>",
+            "",
+            "",
+            "sep_vid-2"
         ],
         [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y12.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://youtube.com/watch?v=M6yoT-CXey4",
-            "from -------------"
+            "<span class=\"quote\"></span>",
+            "",
+            "",
+            "sep_300"
         ]
     ],
     [
         [
-            "“Art needs to update its own techniques as fast as the industry or politics in order to be able to respond to all of this, to produce something about these social codes or to say something about the historical field. <span class=\"quote\">        ATIF AKIN, MUTANT TIME</span>",
-            "         https://www.youtube.com/watch?v=L5v-8Q4xGH4 (3:20-3:38)",
-            "         From his interview with Digilogue, 02/01/2020 https://www.youtube.com/watch?v=L5v-8Q4xGH4 (3:20-3:38)"
+            "<span class=\"quote\"></span>",
+            "",
+            "",
+            "sep_vid-2"
         ],
         [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-2.png)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            ""
+            "<span class=\"quote\"></span>",
+            "",
+            "",
+            "sep_vid-2"
         ],
         [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y26.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://youtube.com/watch?v=ALl-byTmE-E",
-            "from -------------"
+            "<span class=\"quote\"></span>",
+            "",
+            "",
+            "sep_300"
         ]
     ],
     [
         [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y18.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://youtube.com/watch?v=LfmUouW1ZuA",
-            "from -------------"
+            "<span class=\"quote\"></span>",
+            "",
+            "",
+            "sep_vid-2"
         ],
         [
-            "“It is by micro-political acting that we want to participate in making the city more ecological and more democratic, to make the space of proximity less dependent on top-down processes and more accessible to its users. The ‘self-managed architecture’ is an architecture of relationships, processes and agencies of persons, desires, skills and know-hows. Such an architecture does not correspond to a liberal practice but asks for new forms of association and collaboration, based on exchange and reciprocity and involving all those interested (individuals, organisations, institutions), whatever is their scale.”<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
-            "         https://www.urbantactics.org/about/ ",
-            "         from their website https://www.urbantactics.org/about/ "
+            "<span class=\"quote\"></span>",
+            "",
+            "",
+            "sep_vid-2"
         ],
         [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-61.jpg)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Screenshot from Sriwhana Spong’s a hook but no fish 2017, film still. Courtesy of the artist and Michael Lett"
+            "<span class=\"quote\"></span>",
+            "",
+            "",
+            "sep_300"
         ]
     ],
     [
         [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-24.jpg)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Fernando Garcia Dory, Monologue "
+            "<span class=\"quote\"></span>",
+            "",
+            "",
+            "sep_vid-2"
         ],
         [
-            "“It's not about this mangrove moving perfectly, it's about all of us coming together and obsessing about this machine, for months. It's about a way of thinking. If we talk about all these issues; we need to come together — it's not one person that's gonna save the world. <span class=\"quote\">        MARTHA ATIENZA </span>",
-            "         https://www.adobomagazine.com/the-magazine/martha-atienzas-equation-of-state-using-video-art-and-island-technology-to-illuminate-the-effects-of-climate-change-in-bantayan-islands-coastal-communities-and-the-importan/ (1:00-1:22) ",
-            "         From her interview with Adobo Magazine https://www.adobomagazine.com/the-magazine/martha-atienzas-equation-of-state-using-video-art-and-island-technology-to-illuminate-the-effects-of-climate-change-in-bantayan-islands-coastal-communities-and-the-importan/ (1:00-1:22) "
+            "<span class=\"quote\"></span>",
+            "",
+            "",
+            "sep_vid-2"
         ],
         [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y2.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://youtube.com/watch?v=kNaxM_L5GOg",
-            "from -------------"
+            "<span class=\"quote\"></span>",
+            "",
+            "",
+            "sep_300"
         ]
     ],
     [
         [
-            "“Our architecture is at the same time political and poetic as it aims above all to ‘create relationships between worlds’.”<span class=\"quote\">         ATELIER D’ARCHITECTURE AUTOGEREE </span>",
-            "         https://www.urbantactics.org/about/ ",
-            "         from their website https://www.urbantactics.org/about/ "
+            "<span class=\"quote\"></span>",
+            "",
+            "",
+            "sep_vid-2"
         ],
         [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-59.png)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Yehwan Song, Very responsive, 2020"
+            "<span class=\"quote\"></span>",
+            "",
+            "",
+            "sep_vid-2"
         ],
         [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y27.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://youtube.com/watch?v=upwfIEYmFBw",
-            "from -------------"
+            "<span class=\"quote\"></span>",
+            "",
+            "",
+            "sep_300"
+        ]
+    ],
+    [
+        [
+            "<span class=\"quote\"></span>",
+            "",
+            "",
+            "sep_vid-2"
+        ],
+        [
+            "<span class=\"quote\"></span>",
+            "",
+            "",
+            "sep_vid-2"
+        ],
+        [
+            "<span class=\"quote\"></span>",
+            "",
+            "",
+            "sep_300"
+        ]
+    ],
+    [
+        [
+            "<span class=\"quote\"></span>",
+            "",
+            "",
+            "sep_vid-2"
+        ],
+        [
+            "<span class=\"quote\"></span>",
+            "",
+            "",
+            "sep_vid-2"
+        ],
+        [
+            "<span class=\"quote\"></span>",
+            "",
+            "",
+            "sep_300"
         ]
     ]
 ]
@@ -320,11 +368,11 @@ for (var i = 0; i <3; i++) {
         if(db[i][j][0].split('url(').length>1){
             source = '<img src='+db[i][j][0].split('url(')[1].split(')')[0]+'>'
         }else{
-            source = '<div>'+db[i][j][0].split('<span class=\"quote\">')[0]+'</div>'
+            source = '<div class="content_credit">'+db[i][j][0].split('<span class=\"quote\">')[0]+'</div>'
         }
         artist = db[i][j][0].split('<span class=\"quote\">')[1].split('</span>')[0]
         if(db[i][j][2].split('http').length>1){
-                credit = db[i][j][2].split('http')[0]+'<br><a href="'+('http'+db[i][j][2].split('http')[1])+'">'+'http'+db[i][j][2].split('http')[1]+'</a>'
+                credit = db[i][j][2].split('http')[0]+'<a href="'+('http'+db[i][j][2].split('http')[1])+'">'+'http'+db[i][j][2].split('http')[1]+'</a>'
             }else{
                 credit = db[i][j][2]
             }
@@ -389,19 +437,16 @@ for (var i = 0; i <3; i++) {
     for (var i = db.length - layer_amount; i < db.length; i++) {
         if(db[i][0].length>1){
             if(typeof db[i][0][1]==='string'){raycaster_obj_link.push(db[i][0][1].split('(')[0])}else{raycaster_obj_link.push('')}
-            
         }else{
             raycaster_obj_link.push('')
         }
         if(db[i][1].length>1){
             if(typeof db[i][1][1]==='string'){raycaster_obj_link.push(db[i][1][1].split('(')[0])}else{raycaster_obj_link.push('')}
-            
         }else{
             raycaster_obj_link.push('')
         }
         if(db[i][2].length>1){
             if(typeof db[i][2][1]==='string'){raycaster_obj_link.push(db[i][2][1].split('(')[0])}else{raycaster_obj_link.push('')}
-            
         }else{
             raycaster_obj_link.push('')
         }
@@ -414,7 +459,7 @@ for (var i = 0; i <3; i++) {
         var scrollpos = 10
     var w = $("body").prop("clientWidth");
     var h = window.innerHeight
-    $('.fake_scroll').css({'height':((2)*translatey*h)+'px'})
+    $('.fake_scroll').css({'height':((4)*translatey*h)+'px'})
 
     $('.fake_scroll_wrapper').scrollTop(2*translatey*h*initrotation)
     if(window.location.hash && window.location.hash.split('#')[1] === 'URSULA-BIEMANN') {
@@ -522,7 +567,6 @@ var scrollcounter = 0
     }
 
     function scrolling(scrollpos,k,auto){
-        console.log('1')
         hover()
         // console.log('---------------'+scrollpos+'---------------'+k+'---------------'+(selected))
                 if(!zoomed_out){
@@ -674,18 +718,18 @@ const views = [
         fov: 110,
         init_eye: [ 0, 0, 4.5 ],
         init_fov: 110,
-        shifted_eye: [ 0, 310, 340 ],
+        shifted_eye: [ 0, 250, 250*1.097 ],
         shifted_fov: 10,
         lookAt :new THREE.Vector3( 0, 0, 0 )
     },
     {
         left: 0.01,
         bottom: 0.01,
-        width: 0.325,
+        width: 0.325*h/w*4/3,
         height: 0.325,
-        eye: [ 0, 310, 340+scene_dis ],
+        eye: [ 0, 310, (310*1.097)+scene_dis ],
         fov: 10,
-        init_eye: [ 0, 310, 340+scene_dis ],
+        init_eye: [ 0, 310, (310*1.097)+scene_dis ],
         init_fov: 10,
         shifted_eye: [ 0, 0, 4.5+scene_dis ],
         shifted_fov: 110,
@@ -696,7 +740,7 @@ if(w<h){
     views[0].fov=125
 }
 $(document).click(function(e){
-    console.log('hey')
+
     var x = e.clientX;
     var y = e.clientY;
     if(x>w - w * views[1].width - h * views[1].left && y< (h * views[1].bottom+h * views[1].height) && !credit_on){
@@ -758,8 +802,6 @@ $('.close').click(function(){
     renderer.shadowMap.type = THREE.PCFShadowMap;
 
 
-console.log( $('.fake_scroll').outerWidth())
-console.log( window.innerWidth)
 
     for ( let ii = 0; ii < views.length;  ii++ ) {
         const view = views[ ii ];
@@ -810,6 +852,10 @@ function create_board(){
             texture = loader.load( "img/bgn-02.png" );
         }else if((layer_amount-i)==16){
             texture = loader.load( "img/bgn-03.png" );
+        }else if((layer_amount-i)==15){
+            texture = loader.load( "img/bgn-04.png" );
+        }else if((layer_amount-i)==14){
+            texture = loader.load( "img/bgn-05.png" );
         }else{
             texture = loader.load( "img/bg-"+pad(layer_amount-i, 2)+".png" );
         }
@@ -830,26 +876,28 @@ function create_board(){
                 geometry.faceVertexUvs[0][1][2].x = (plate_pivot_array[i].length-k-1)/(plate_pivot_array[i].length)
                 geometry.faceVertexUvs[0][1][1].x = (plate_pivot_array[i].length-k-1)/(plate_pivot_array[i].length)
                 // console.log(plate_pivot_array[i].length-k+0)
-        if((layer_amount-i)==18){
-                layer_material_array[i][k] = new THREE.MeshPhongMaterial( {map: texture, side: THREE.DoubleSide, color:0xffffff} );
-                layer_material_array_cloned[i][k] = new THREE.MeshBasicMaterial( {map: texture, side: THREE.DoubleSide, color:0xffffff} );
-        }else if((layer_amount-i)==17){
+                if((layer_amount-i)==18){
+                        layer_material_array[i][k] = new THREE.MeshPhongMaterial( {map: texture, side: THREE.DoubleSide, color:0xffffff} );
+                        layer_material_array_cloned[i][k] = new THREE.MeshBasicMaterial( {map: texture, side: THREE.DoubleSide, color:0xffffff} );
+                }else if((layer_amount-i)==17){
 
-                layer_material_array[i][k] = new THREE.MeshPhongMaterial( {map: texture, side: THREE.DoubleSide, color:0xffffff} );
-                layer_material_array_cloned[i][k] = new THREE.MeshBasicMaterial( {map: texture, side: THREE.DoubleSide, color:0xffffff} );
-        }else if((layer_amount-i)==16){
+                        layer_material_array[i][k] = new THREE.MeshPhongMaterial( {map: texture, side: THREE.DoubleSide, color:0xffffff} );
+                        layer_material_array_cloned[i][k] = new THREE.MeshBasicMaterial( {map: texture, side: THREE.DoubleSide, color:0xffffff} );
+                }else if((layer_amount-i)==16){
 
-                layer_material_array[i][k] = new THREE.MeshPhongMaterial( {map: texture, side: THREE.DoubleSide, color:0xffffff} );
-                layer_material_array_cloned[i][k] = new THREE.MeshBasicMaterial( {map: texture, side: THREE.DoubleSide, color:0xffffff} );
-        }else{
+                        layer_material_array[i][k] = new THREE.MeshPhongMaterial( {map: texture, side: THREE.DoubleSide, color:0xffffff} );
+                        layer_material_array_cloned[i][k] = new THREE.MeshBasicMaterial( {map: texture, side: THREE.DoubleSide, color:0xffffff} );
+                }else{
 
-                layer_material_array[i][k] = new THREE.MeshPhongMaterial( {map: texture, side: THREE.DoubleSide, color:0xffffff} );
-                layer_material_array_cloned[i][k] = new THREE.MeshBasicMaterial( {map: texture, side: THREE.DoubleSide, color:0xffffff} );
-        }
+                        layer_material_array[i][k] = new THREE.MeshPhongMaterial( {map: texture, side: THREE.DoubleSide, color:0xffffff} );
+                        layer_material_array_cloned[i][k] = new THREE.MeshBasicMaterial( {map: texture, side: THREE.DoubleSide, color:0xffffff} );
+                }
                 // const material = new THREE.MeshBasicMaterial( {map: layer_material_array[i], side: THREE.DoubleSide, color:0xffffff} );
                 const plate = new THREE.Mesh( geometry, layer_material_array[i][k] );
                       plate.position.z = translatez
+                      //뒤에서부터..
                         if(i==0){
+                            console.log(raycaster_obj)
                             if(k<8){
                                 raycaster_obj[raycaster_obj.length-1].push(plate)
                             }else if(k<16){
@@ -860,46 +908,65 @@ function create_board(){
                         }else if(i==1){
                             if(k<11){
                                 raycaster_obj[raycaster_obj.length-1].push(plate)
-                            }else if(k<8){
+                            }else if(k<20){
                                 raycaster_obj[raycaster_obj.length-2].push(plate)
                             }else{
                                 raycaster_obj[raycaster_obj.length-3].push(plate)
                             }
                         }else if(i==2){
-                            if(k<10){
+                            if(k<5){
                                 raycaster_obj[raycaster_obj.length-1].push(plate)
                             }else if(k<10){
                                 raycaster_obj[raycaster_obj.length-2].push(plate)
                             }else{
                                 raycaster_obj[raycaster_obj.length-3].push(plate)
                             }
-                        }else if(plate_pivot_array[i].length%3==0){
-                                if(k<Math.floor(plate_pivot_array[i].length/3)){
-                                    raycaster_obj[raycaster_obj.length-1].push(plate)
-                                }else if(k<Math.floor(plate_pivot_array[i].length/3)*2){
-                                    raycaster_obj[raycaster_obj.length-2].push(plate)
-                                }else{
-                                    raycaster_obj[raycaster_obj.length-3].push(plate)
-                                }
-                              $(this).find('.text_inner_content').css({'width':33.333333 + '%'})
-                            }else if(plate_pivot_array[i].length%3==1){
-                                if(k<Math.floor(plate_pivot_array[i].length/3)){
-                                    raycaster_obj[raycaster_obj.length-1].push(plate)
-                                }else if(k<Math.floor(plate_pivot_array[i].length/3)*2+1){
-                                    raycaster_obj[raycaster_obj.length-2].push(plate)
-                                }else{
-                                    raycaster_obj[raycaster_obj.length-3].push(plate)
-                                }
+                        }else if(i==3){
+                            if(k<6){
+                                raycaster_obj[raycaster_obj.length-1].push(plate)
+                            }else if(k<12){
+                                raycaster_obj[raycaster_obj.length-2].push(plate)
                             }else{
-                                if(k<Math.floor(plate_pivot_array[i].length/3)+0){
-                                    raycaster_obj[raycaster_obj.length-1].push(plate)
-                                }else if(k<Math.floor(plate_pivot_array[i].length/3)*2+1){
-                                    raycaster_obj[raycaster_obj.length-2].push(plate)
-                                }else{
-                                    raycaster_obj[raycaster_obj.length-3].push(plate)
-                                }
+                                raycaster_obj[raycaster_obj.length-3].push(plate)
                             }
-                            console.log(raycaster_obj)
+                        }else if(i==4){
+                            if(k<5){
+                                raycaster_obj[raycaster_obj.length-1].push(plate)
+                            }else if(k<11){
+                                raycaster_obj[raycaster_obj.length-2].push(plate)
+                            }else{
+                                raycaster_obj[raycaster_obj.length-3].push(plate)
+                            }
+                        }else if(plate_pivot_array[i].length%3==0){
+                            if(k<Math.floor(plate_pivot_array[i].length/3)){
+                                raycaster_obj[raycaster_obj.length-1].push(plate)
+                            }else if(k<Math.floor(plate_pivot_array[i].length/3)*2){
+                                raycaster_obj[raycaster_obj.length-2].push(plate)
+                            }else{
+                                raycaster_obj[raycaster_obj.length-3].push(plate)
+                            }
+                                $(this).find('.text_inner_content').css({'width':33.333333 + '%'})
+                        }else if(plate_pivot_array[i].length%3==1){
+                            if(k<Math.floor(plate_pivot_array[i].length/3)){
+                                raycaster_obj[raycaster_obj.length-1].push(plate)
+                            }else if(k<Math.floor(plate_pivot_array[i].length/3)*2+1){
+                                raycaster_obj[raycaster_obj.length-2].push(plate)
+                            }else{
+                                raycaster_obj[raycaster_obj.length-3].push(plate)
+                            }
+                        }else{
+                            if(k<Math.floor(plate_pivot_array[i].length/3)+0){
+                                raycaster_obj[raycaster_obj.length-1].push(plate)
+                            }else if(k<Math.floor(plate_pivot_array[i].length/3)*2+1){
+                                raycaster_obj[raycaster_obj.length-2].push(plate)
+                            }else{
+                                raycaster_obj[raycaster_obj.length-3].push(plate)
+                            }
+                        }
+                        if(k==plate_pivot_array[i].length-1){
+                        raycaster_obj[raycaster_obj.length-1].reverse()
+
+                        }
                 const edges = new THREE.EdgesGeometry( geometry );
                 const plate_line = new THREE.LineSegments( edges, new THREE.LineBasicMaterial( { color: 0xffffff } ) );
                       plate_line.position.z = translatez
@@ -933,6 +1000,7 @@ function clone_board(){
                             
                     }
                     scene.add( whole_pivot_cloned)
+                    get_scrolling_value(scrollpos,selected,false)
                     render()
                     setTimeout(function(){
                             render()},1000)
@@ -1256,7 +1324,6 @@ var mouse = new THREE.Vector2();
 var selected = 0
 
 $('canvas').mousemove(function(e){
-                console.log('h')
                 mousepos_x = e.pageX
                 mousepos_y = e.pageY
                 $('.scrolldown').css({'left':e.pageX+'px','top':(e.pageY)+'px'})
@@ -1322,27 +1389,24 @@ function hover(){
             }
         }
         if(i == selected+2){
-            console.log('------------')
             for (var k = layer_pivot_array[i].children.length - 1; k >= 0; k--) {
                 layer_pivot_array[i].children[k].children[0].material.color = new THREE.Color(0xADB8B0)
             }
         }
         if(i == selected+3){
-            console.log('------------')
             for (var k = layer_pivot_array[i].children.length - 1; k >= 0; k--) {
                 layer_pivot_array[i].children[k].children[0].material.color = new THREE.Color(0x3D403E)
             }
         }
         if(i == selected+4){
-            console.log('------------')
             for (var k = layer_pivot_array[i].children.length - 1; k >= 0; k--) {
                 layer_pivot_array[i].children[k].children[0].material.color = new THREE.Color(0x3D403E)
             }
         }
     }
+            console.log(hovered)
     for (var k = raycaster_obj[hovered].length - 1; k >= 0; k--) {
         if(raycaster_obj_link[hovered]===''){
-
         }else{
                 raycaster_obj[hovered][k].material.color = new THREE.Color(0x199b82)
         }
@@ -1369,11 +1433,10 @@ timeplay()
 function timeplay(){
     document.title = String(new Date()).substring(4).split(' GMT')[0]
     setTimeout(function(){timeplay()},1000)
-    timeoffset = timeoffset +10
     if(Math.floor(timeoffset/30) == timeoffset/30){
             scrollcounter++
+            $('.fake_scroll_wrapper').scrollTop($('.fake_scroll_wrapper').scrollTop()+1+10)
             scrollpos = $('.fake_scroll_wrapper').scrollTop()+1+timeoffset;
-            console.log()
             var k = Math.floor(scrollpos/(translatey*h)) 
             selected = k
             if(scrollpos > scrolldirection_value){

@@ -27,7 +27,7 @@
 	}
 	html{
 		overflow-x: hidden;
-		overflow-y: scroll;
+		overflow-y: hidden;
 	}
 	.fake_scroll{
 		width: 100%;
@@ -51,23 +51,27 @@
     top: 2vh;
     width: calc(100% - 4vh);
     height: 96vh;
-    background-color: #ffa0c2;
+    color: #ffa0c2;
+    background-color: #ffffff;
     overflow-y: scroll;
     display: none;
 }
-.credit_wrapper>div{    min-height: 5vh;
-    display: flex;
+.credit_wrapper>div{    
+	min-height: 5vh;
+    /*display: flex;*/
     border-bottom: 1px solid white;
-    flex-direction: row;
+    /*flex-direction: row;*/
     align-content: center;
     justify-content: flex-start;
+        padding-bottom: 2vh;
 }
 .credit_wrapper>div>*{
-    float: left;
+    /*float: left;*/
+    /*display: block;*/
     border-right: 1px solid white;
-    padding: 0.25vh;
-    max-width: 50%;
-    min-width: 7.5%;
+    padding-left: 0.25vh;
+    /*max-width: 50%;*/
+    /*min-width: 7.5%;*/
     background-repeat: no-repeat;
 
 }
@@ -75,8 +79,13 @@
 	height: 5vh;
 }
 .artist_credit{
-	background-color: #75a7da
+	color: #75a7da
 }
+.content_credit{
+    font-family: ts;
+    color: black;
+    font-size: 1.6vh;
+display: block;}
 .title_source_credit{
     background-color: white;
     height: 1vh;
@@ -128,7 +137,7 @@ cursor: pointer;}
     width: 100%;
     height: 100%;
     pointer-events: none;
-    background: linear-gradient(180deg, transparent 28500px, #02071c);
+    /*background: linear-gradient(180deg, transparent 28500px, #02071c);*/
 }
 .fake_scroll_wrapper{
 	position: fixed;
@@ -156,11 +165,6 @@ bottom: 0;
 </div>
 </div>
 <div class="credit_wrapper">
-	<div class="title_source_credit source_credit">
-		<div class="title_credit" >Image/Quote</div>
-		<span class="title_credit artist_credit">Related Artsit</span>
-		<span class="title_credit credit_credit">Source</span>
-	</div>
 		<img class="close" src="img/close.png"></div>
 </div>
 </head>
