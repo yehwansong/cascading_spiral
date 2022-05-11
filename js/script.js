@@ -99,262 +99,262 @@ var db = [
     ],
     [
         [
-            "<span class=\"quote\"></span>",
-            "",
-            "",
-            "sep_vid-2"
+            "Art needs to update its own techniques as fast as the industry or politics in order to be able to respond to all of this, to produce something about these social codes or to say something about the historical field.<span class=\"quote\">ATIF AKIN, MUTANT TIME</span>",
+            "https://www.youtube.com/watch?v=L5v-8Q4xGH4",
+            "From his interview with Digilogue, 02/01/2020",
+            "sep_700-1 "
         ],
         [
-            "<span class=\"quote\"></span>",
-            "",
-            "",
-            "sep_vid-2"
+            "Of course art is something to enjoy, but the content is not always enjoyable. But we have to talk about these tragedies and traumas and catastrophes — they are important subjects of art.<span class=\"quote\">ATIF AKIN, MUTANT TIME</span>",
+            "https://www.bupipedream.com/ac/113521/mutant-space-utilizes-interactive-technology-to-highlight-nuclear-radiation/",
+            "Interview with Netali Zaff, 3/11/2020",
+            "sep_200-1"
         ],
         [
-            "<span class=\"quote\"></span>",
-            "",
-            "",
-            "sep_300"
+            "I think contemporary art is the only venue that can really host freedom of speech and critical thinking,<span class=\"quote\">ATIF AKIN, MUTANT TIME</span>",
+            "https://www.bupipedream.com/ac/113521/mutant-space-utilizes-interactive-technology-to-highlight-nuclear-radiation/",
+            "Interview with Netali Zaff, 3/11/2020",
+            "sep_100"
         ]
     ],
     [
         [
-            "<span class=\"quote\"></span>",
-            "",
-            "",
-            "sep_vid-2"
+            "It’s been more than 10 years, and I sometimes still get emotional about how this whole nuclear history is so prevalent in many places in the world and still not spoken about.<span class=\"quote\">ATIF AKIN, MUTANT TIME</span>",
+            "https://www.bupipedream.com/ac/113521/mutant-space-utilizes-interactive-technology-to-highlight-nuclear-radiation/",
+            "Interview with Netali Zaff, 3/11/2020",
+            "sep_200-2"
         ],
         [
-            "<span class=\"quote\"></span>",
-            "",
-            "",
-            "sep_vid-2"
+            "Art needs to dominate the means of production that industry dominates.<span class=\"quote\">ATIF AKIN, MUTANT TIME</span>",
+            "https://www.youtube.com/watch?v=L5v-8Q4xGH4",
+            "From his interview with Digilogue, 02/01/2020",
+            "sep_30-1"
         ],
         [
-            "<span class=\"quote\"></span>",
-            "",
-            "",
-            "sep_300"
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-66.jpg)\"></div><span class=\"quote\">ATIF AKIN, MUTANT TIME</span>",
+            "https://www.youtube.com/watch?v=L5v-8Q4xGH4",
+            "Atıf Akın interview Digilogue, 02/01/2020",
+            "sep_img-1"
         ]
     ],
     [
         [
-            "<span class=\"quote\"></span>",
-            "",
-            "",
-            "sep_vid-2"
+            "What can we learn from this kind of seeing of different landscapes? Are the traces we are pursuing to be found outside or inside this sensory system? Are they filled with cultural and cosmic points that activate our human memory when we go for a walk there? Is a magnetic and magic property of a landscape earthy, and are the sensations of our molecular, cell-like perception similar for all living beings within the same environment? How do we see landscape, which guides our way of seeing with its cosmological properties? What scaling, what dynamics of visual representation contain what knowledge? What contemporary history and what social organization of matri-linear society intersect today with the ecological knowledge of the land?<span class=\"quote\"> NGELA FERREIRA </span>",
+            "http://www.tdgn.at/matri-linear-b-april-2020/?lang=en",
+            "from the Dissident Godesses Network on Matri Linear B / April 2020",
+            "sep_900"
         ],
         [
-            "<span class=\"quote\"></span>",
-            "",
-            "",
-            "sep_vid-2"
-        ],
-        [
-            "<span class=\"quote\"></span>",
-            "",
-            "",
+            "Looking for embodied relations and connections in the making of visual cine(so)matic recordings of field and landscape. How do conditions of memory and knowledge scale view, form a process of storytelling, and how are potential matrilineal connections linking to Earth histories?<span class=\"quote\"> NGELA FERREIRA </span>",
+            "https://13thgwangjubiennale.org/participants",
+            "from the 13th Gwangju Biennale’s website on Matri Linear B ",
             "sep_300"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-67.jpeg)\"></div><span class=\"quote\"> NGELA FERREIRA </span>",
+            "https://vimeo.com/409744230",
+            "Angela Melitopoulos, Research Files Matri Linear B, 2020",
+            "sep_vid-3"
         ]
     ],
     [
         [
-            "<span class=\"quote\"></span>",
-            "",
-            "",
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-68.jpeg)\"></div><span class=\"quote\"> NGELA FERREIRA </span>",
+            "https://vimeo.com/112702701",
+            "Angela Melitopoulos, Art of Being Many 1. Gezi, 2014",
             "sep_vid-2"
         ],
         [
-            "<span class=\"quote\"></span>",
-            "",
-            "",
-            "sep_vid-2"
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-69.jpg)\"></div><span class=\"quote\">PELIN TAN, STATE OF DISPLACEMENT: ENTANGLED TOPOGRAPHIES </span>",
+            "https://www.cca.qc.ca/en/events/59715/pelin-tan-decolonizing-architecture-education",
+            "Pelin Tan: Decolonizing Architecture Education<br>Toolkit for Today: Activisms, CCA",
+            "sep_img-1"
         ],
         [
-            "<span class=\"quote\"></span>",
+            "<br>Care Labor / Bakım (Onarma) Emeği / Sereguhî Ked<br>Common Space / Müşterek Mekân / Hevbeş Der<br>Collective Field / Kolektif Saha / Herewez Zevî<br>Territory / Mekân, Arazi / Cih, War<br>Female Labor / Kadın Emeği / Ked e Jinê<br>Colonization/Decolonization / Sömürgeleştirme, Sömürgesizleştirme / Bêwar Kirin<br>Solidarity / Dayanışma / Hevkarî<br><span class=\"quote\"><br><br>PELIN TAN, STATE OF DISPLACEMENT: ENTANGLED TOPOGRAPHIES</span>",
             "",
-            "",
-            "sep_300"
+            "From the “State of Displacement: Entangled Topographies” project proposal",
+            "sep_500"
         ]
     ],
     [
         [
-            "<span class=\"quote\"></span>",
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-70.png)\"></div><span class=\"quote\">PELIN TAN, STATE OF DISPLACEMENT: ENTANGLED TOPOGRAPHIES </span>",
             "",
-            "",
-            "sep_vid-2"
+            "Pelin Tan, Tigris Phenomenologies, 2021",
+            "sep_img-1"
         ],
         [
-            "<span class=\"quote\"></span>",
-            "",
-            "",
-            "sep_vid-2"
+            "It is by micro-political acting that we want to participate in making the city more ecological and more democratic, to make the space of proximity less dependent on top-down processes and more accessible to its users. The ‘self-managed architecture’ is an architecture of relationships, processes and agencies of persons, desires, skills and know-hows. Such an architecture does not correspond to a liberal practice but asks for new forms of association and collaboration, based on exchange and reciprocity and involving all those interested (individuals, organisations, institutions), whatever is their scale.<span class=\"quote\">ATELIER D’ARCHITECTURE AUTOGEREE</span>",
+            "https://www.urbantactics.org/about/",
+            "from the website https://www.urbantactics.org/about/",
+            "sep_900"
         ],
         [
-            "<span class=\"quote\"></span>",
-            "",
-            "",
-            "sep_300"
+            "Our architecture is at the same time political and poetic as it aims above all to ‘create relationships between worlds<span class=\"quote\">ATELIER D’ARCHITECTURE AUTOGEREE</span>",
+            "https://www.urbantactics.org/about/",
+            "from the website https://www.urbantactics.org/about/",
+            "sep_200-1"
         ]
     ],
     [
         [
-            "<span class=\"quote\"></span>",
-            "",
-            "",
-            "sep_vid-2"
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-71.jpeg)\"></div><span class=\"quote\">ATELIER D’ARCHITECTURE AUTOGEREE</span>",
+            "https://vimeo.com/111579324",
+            "Interview of Atelier d'Architecture Autogérée by Curry Stone Design Prize, 2011",
+            "sep_vid-1"
         ],
         [
-            "<span class=\"quote\"></span>",
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-72.png)\"></div><span class=\"quote\">ATELIER D’ARCHITECTURE AUTOGEREE</span>",
             "",
-            "",
-            "sep_vid-2"
+            "Mock-up of La Folie Verte – Ecological Factory for a 21st Century Park",
+            "sep_img-1"
         ],
         [
-            "<span class=\"quote\"></span>",
+            "The Microbial Ethnography Lab will allow us to create a collective environment in which such microbial systems can be created by bringing together different points of view, different material systems and interpretations. We are interested in extending the concept of ethnography into the microbial domain by considering the role of the biological systems as they become part of the interpretation (of events) and participate in the preservation, transformation and the remediation of materials inside the vessels.<span class=\"quote\">ORKAN TELHAN</span>",
             "",
-            "",
-            "sep_300"
+            "From his project proposal for the 17th Istanbul Biennial",
+            "sep_900"
         ]
     ],
     [
         [
-            "<span class=\"quote\"></span>",
+            "Materials and artefacts gain different political agencies during different historical moments in Istanbul.<span class=\"quote\">ORKAN TELHAN</span>",
             "",
-            "",
-            "sep_vid-2"
+            "From his project proposal for the 17th Istanbul Biennial",
+            "sep_200-1"
         ],
         [
-            "<span class=\"quote\"></span>",
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-73.png)\"></div><span class=\"quote\">ORKAN TELHAN</span>",
             "",
-            "",
-            "sep_vid-2"
+            "Scan from the “Designs for Different Futures” catalogue, 2019",
+            "sep_img-2"
         ],
         [
-            "<span class=\"quote\"></span>",
+            "Motherhood as an “annex” to women-<br><br>How do women respond in different ways to their own motherhood experience and how do they stand against motherhood as an identity and as a role? How do their production and reproduction affect each other?<span class=\"quote\">ODA PROJESI, ANNE(X)</span>",
             "",
-            "",
+            "From their project proposal for the 17th Istanbul Biennial",
             "sep_300"
+        ],
+    ],
+    [
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-74.png)\"></div><span class=\"quote\">ODA PROJESI, ANNE(X)</span>",
+            "",
+            "ANA project, (a project on art and motherhood, in progress), June 2013, Copenhagen, Denmark, A.N.A. AIR - Astrid Noack’s Atelier residency.",
+           "sep_img-3"
+        ],
+        [
+            "<span class=\"quote\"></span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\"></span>",
+            "",
+            "",
+            ""
         ]
     ],
     [
         [
-            "<span class=\"quote\"></span>",
+            "<span class=\"quote\">artistname-------</span>",
             "",
             "",
-            "sep_vid-2"
+            ""
         ],
         [
-            "<span class=\"quote\"></span>",
+            "<span class=\"quote\">artistname-------</span>",
             "",
             "",
-            "sep_vid-2"
+            ""
         ],
         [
-            "<span class=\"quote\"></span>",
+            "<span class=\"quote\">artistname-------</span>",
             "",
             "",
-            "sep_300"
+            ""
         ]
     ],
     [
         [
-            "<span class=\"quote\"></span>",
+            "<span class=\"quote\">artistname-------</span>",
             "",
             "",
-            "sep_vid-2"
+            ""
         ],
         [
-            "<span class=\"quote\"></span>",
+            "<span class=\"quote\">artistname-------</span>",
             "",
             "",
-            "sep_vid-2"
+            ""
         ],
         [
-            "<span class=\"quote\"></span>",
+            "<span class=\"quote\">artistname-------</span>",
             "",
             "",
-            "sep_300"
+            ""
         ]
     ],
     [
         [
-            "<span class=\"quote\"></span>",
-            "",
-            "",
-            "sep_vid-2"
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y18.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
+            "https://youtube.com/watch?v=LfmUouW1ZuA",
+            "from -------------",
+            "sep_vid-3"
         ],
         [
-            "<span class=\"quote\"></span>",
-            "",
-            "",
-            "sep_vid-2"
+            "“It is by micro-political acting that we want to participate in making the city more ecological and more democratic, to make the space of proximity less dependent on top-down processes and more accessible to its users. The ‘self-managed architecture’ is an architecture of relationships, processes and agencies of persons, desires, skills and know-hows. Such an architecture does not correspond to a liberal practice but asks for new forms of association and collaboration, based on exchange and reciprocity and involving all those interested (individuals, organisations, institutions), whatever is their scale.”<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "         https://www.urbantactics.org/about/ ",
+            "         from their website https://www.urbantactics.org/about/ ",
+            "sep_700-1"
         ],
         [
-            "<span class=\"quote\"></span>",
-            "",
-            "",
-            "sep_300"
+            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-61.jpg)\"></div><span class=\"quote\">artistname-------</span>",
+            null,
+            "Screenshot from Sriwhana Spong’s a hook but no fish 2017, film still. Courtesy of the artist and Michael Lett",
+            "sep_img-3"
         ]
     ],
     [
         [
-            "<span class=\"quote\"></span>",
-            "",
-            "",
-            "sep_vid-2"
+            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-24.jpg)\"></div><span class=\"quote\">artistname-------</span>",
+            null,
+            "Fernando Garcia Dory, Monologue ",
+            "sep_img-1"
         ],
         [
-            "<span class=\"quote\"></span>",
-            "",
-            "",
-            "sep_vid-2"
-        ],
-        [
-            "<span class=\"quote\"></span>",
-            "",
-            "",
+            "“It's not about this mangrove moving perfectly, it's about all of us coming together and obsessing about this machine, for months. It's about a way of thinking. If we talk about all these issues; we need to come together — it's not one person that's gonna save the world. <span class=\"quote\">        MARTHA ATIENZA </span>",
+            "         https://www.adobomagazine.com/the-magazine/martha-atienzas-equation-of-state-using-video-art-and-island-technology-to-illuminate-the-effects-of-climate-change-in-bantayan-islands-coastal-communities-and-the-importan/ (1:00-1:22) ",
+            "         From her interview with Adobo Magazine https://www.adobomagazine.com/the-magazine/martha-atienzas-equation-of-state-using-video-art-and-island-technology-to-illuminate-the-effects-of-climate-change-in-bantayan-islands-coastal-communities-and-the-importan/ (1:00-1:22) ",
             "sep_300"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y2.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
+            "https://youtube.com/watch?v=kNaxM_L5GOg",
+            "from -------------",
+            "sep_vid-2"
         ]
     ],
     [
         [
-            "<span class=\"quote\"></span>",
-            "",
-            "",
-            "sep_vid-2"
+            "“Our architecture is at the same time political and poetic as it aims above all to ‘create relationships between worlds’.”<span class=\"quote\">         ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "         https://www.urbantactics.org/about/ ",
+            "         from their website https://www.urbantactics.org/about/ ",
+            "sep_100"
         ],
         [
-            "<span class=\"quote\"></span>",
-            "",
-            "",
-            "sep_vid-2"
+            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-59.png)\"></div><span class=\"quote\">artistname-------</span>",
+            null,
+            "Yehwan Song, Very responsive, 2020",
+            "sep_img-3"
         ],
         [
-            "<span class=\"quote\"></span>",
-            "",
-            "",
-            "sep_300"
-        ]
-    ],
-    [
-        [
-            "<span class=\"quote\"></span>",
-            "",
-            "",
-            "sep_vid-2"
-        ],
-        [
-            "<span class=\"quote\"></span>",
-            "",
-            "",
-            "sep_vid-2"
-        ],
-        [
-            "<span class=\"quote\"></span>",
-            "",
-            "",
-            "sep_300"
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y27.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
+            "https://youtube.com/watch?v=upwfIEYmFBw",
+            "from -------------",
+            "sep_vid-1"
         ]
     ]
 ]
@@ -362,7 +362,7 @@ var db = [
 
 
 
-for (var i = 0; i <3; i++) {
+for (var i = 0; i <13; i++) {
     for (var j = 0; j < db[i].length ; j++) {
 
         if(db[i][j][0].split('url(').length>1){
@@ -459,7 +459,7 @@ for (var i = 0; i <3; i++) {
         var scrollpos = 10
     var w = $("body").prop("clientWidth");
     var h = window.innerHeight
-    $('.fake_scroll').css({'height':((4)*translatey*h)+'px'})
+    $('.fake_scroll').css({'height':((12)*translatey*h)+'px'})
 
     $('.fake_scroll_wrapper').scrollTop(2*translatey*h*initrotation)
     if(window.location.hash && window.location.hash.split('#')[1] === 'URSULA-BIEMANN') {
@@ -845,17 +845,9 @@ function create_board(){
         whole_pivot.add(layer_pivot_array[i])
         plate_pivot_array[i] = Array(layer_amount-i+2)
         var texture
-        if((layer_amount-i)==18){
+        if((layer_amount-i)>4){
             console.log('he')
-            texture = loader.load( "img/bgn-01.png" );
-        }else if((layer_amount-i)==17){
-            texture = loader.load( "img/bgn-02.png" );
-        }else if((layer_amount-i)==16){
-            texture = loader.load( "img/bgn-03.png" );
-        }else if((layer_amount-i)==15){
-            texture = loader.load( "img/bgn-04.png" );
-        }else if((layer_amount-i)==14){
-            texture = loader.load( "img/bgn-05.png" );
+            texture = loader.load( "img/bgn-"+pad(19-(layer_amount-i), 2)+".png" );
         }else{
             texture = loader.load( "img/bg-"+pad(layer_amount-i, 2)+".png" );
         }

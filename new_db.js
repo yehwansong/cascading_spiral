@@ -1205,202 +1205,202 @@ new_text_content  =
     ],
     [
         [
-            "<span class=\"quote\"></span>",
-            "",
-            "",
-            "sep_vid-2"
+            "Art needs to update its own techniques as fast as the industry or politics in order to be able to respond to all of this, to produce something about these social codes or to say something about the historical field.<span class=\"quote\">ATIF AKIN, MUTANT TIME</span>",
+            "https://www.youtube.com/watch?v=L5v-8Q4xGH4",
+            "From his interview with Digilogue, 02/01/2020",
+            "sep_700-1 "
         ],
         [
-            "<span class=\"quote\"></span>",
-            "",
-            "",
-            "sep_vid-2"
+            "Of course art is something to enjoy, but the content is not always enjoyable. But we have to talk about these tragedies and traumas and catastrophes — they are important subjects of art.<span class=\"quote\">ATIF AKIN, MUTANT TIME</span>",
+            "https://www.bupipedream.com/ac/113521/mutant-space-utilizes-interactive-technology-to-highlight-nuclear-radiation/",
+            "Interview with Netali Zaff, 3/11/2020",
+            "sep_200-1"
         ],
         [
-            "<span class=\"quote\"></span>",
-            "",
-            "",
-            "sep_300"
+            "I think contemporary art is the only venue that can really host freedom of speech and critical thinking,<span class=\"quote\">ATIF AKIN, MUTANT TIME</span>",
+            "https://www.bupipedream.com/ac/113521/mutant-space-utilizes-interactive-technology-to-highlight-nuclear-radiation/",
+            "Interview with Netali Zaff, 3/11/2020",
+            "sep_100"
         ]
     ],
     [
         [
-            "<span class=\"quote\"></span>",
-            "",
-            "",
-            "sep_img-3"
+            "It’s been more than 10 years, and I sometimes still get emotional about how this whole nuclear history is so prevalent in many places in the world and still not spoken about.<span class=\"quote\">ATIF AKIN, MUTANT TIME</span>",
+            "https://www.bupipedream.com/ac/113521/mutant-space-utilizes-interactive-technology-to-highlight-nuclear-radiation/",
+            "Interview with Netali Zaff, 3/11/2020",
+            "sep_200-2"
         ],
         [
-            "<span class=\"quote\"></span>",
-            "",
-            "",
+            "Art needs to dominate the means of production that industry dominates.<span class=\"quote\">ATIF AKIN, MUTANT TIME</span>",
+            "https://www.youtube.com/watch?v=L5v-8Q4xGH4",
+            "From his interview with Digilogue, 02/01/2020",
+            "sep_30-1"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-66.jpg)\"></div><span class=\"quote\">ATIF AKIN, MUTANT TIME</span>",
+            "https://www.youtube.com/watch?v=L5v-8Q4xGH4",
+            "Atıf Akın interview Digilogue, 02/01/2020",
+            "sep_img-1"
+        ]
+    ],
+    [
+        [
+            "What can we learn from this kind of seeing of different landscapes? Are the traces we are pursuing to be found outside or inside this sensory system? Are they filled with cultural and cosmic points that activate our human memory when we go for a walk there? Is a magnetic and magic property of a landscape earthy, and are the sensations of our molecular, cell-like perception similar for all living beings within the same environment? How do we see landscape, which guides our way of seeing with its cosmological properties? What scaling, what dynamics of visual representation contain what knowledge? What contemporary history and what social organization of matri-linear society intersect today with the ecological knowledge of the land?<span class=\"quote\"> NGELA FERREIRA </span>",
+            "http://www.tdgn.at/matri-linear-b-april-2020/?lang=en",
+            "from the Dissident Godesses Network on Matri Linear B / April 2020",
+            "sep_900"
+        ],
+        [
+            "Looking for embodied relations and connections in the making of visual cine(so)matic recordings of field and landscape. How do conditions of memory and knowledge scale view, form a process of storytelling, and how are potential matrilineal connections linking to Earth histories?<span class=\"quote\"> NGELA FERREIRA </span>",
+            "https://13thgwangjubiennale.org/participants",
+            "from the 13th Gwangju Biennale’s website on Matri Linear B ",
+            "sep_300"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-67.jpeg)\"></div><span class=\"quote\"> NGELA FERREIRA </span>",
+            "https://vimeo.com/409744230",
+            "Angela Melitopoulos, Research Files Matri Linear B, 2020",
             "sep_vid-3"
-        ],
-        [
-            "<span class=\"quote\"></span>",
-            "",
-            "",
-            "sep_700-2"
         ]
     ],
     [
         [
-            "<span class=\"quote\"></span>",
-            "",
-            "",
-            "sep_img-2"
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-68.jpeg)\"></div><span class=\"quote\"> NGELA FERREIRA </span>",
+            "https://vimeo.com/112702701",
+            "Angela Melitopoulos, Art of Being Many 1. Gezi, 2014",
+            "sep_vid-2"
         ],
         [
-            "<span class=\"quote\"></span>",
-            "",
-            "",
-            "sep_300"
-        ],
-        [
-            "<span class=\"quote\"></span>",
-            "",
-            "",
-            "sep_vid-3"
-        ]
-    ],
-    [
-        [
-            "“The “Flag Project” is designed to study and develop collective creativity. I implement an “open art system,” in which art is defined as broadly as possible, to break through rigid discourses and established values, engaging in democratic dialogue, but also taking a critical approach when needed. During this process, outcomes—artworks or other forms—are produced collectively, collaboratively or individually. Another aim is to create and maintain a network that enables the exchange of ideas and experiences, or development in the form of collaborations.”<span class=\"quote\">         ARAHMAIANI FEISAL </span>",
-            "         https://www.cobosocial.com/dossiers/arahmaiani-superheroine-of-indonesian-contemporary-art/ ",
-            "         In her statetement titled “My Second Life in Tibet”, August 2016 http://www.trfineart.com/wp-content/uploads/2016/08/AAP79_SecondLifeInTibet_Arahmaiani.pdf ",
-            "sep_700-2"
-        ],
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-56.jpg)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Sim Chi Yin, from the series \"Interventions,\" 2020. Original archive image: Imperial War Museums collection, pigment print on foil, 59.4 x 42 cm, Ed. 3 + 2, AP",
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-69.jpg)\"></div><span class=\"quote\">PELIN TAN, STATE OF DISPLACEMENT: ENTANGLED TOPOGRAPHIES </span>",
+            "https://www.cca.qc.ca/en/events/59715/pelin-tan-decolonizing-architecture-education",
+            "Pelin Tan: Decolonizing Architecture Education<br>Toolkit for Today: Activisms, CCA",
             "sep_img-1"
         ],
         [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y4.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://youtube.com/watch?v=OP4bl2mRxuE",
-            "from -------------",
-            "sep_vid-2"
-        ]
-    ],
-    [
-        [
-            " In the process of exchange, in sharing and learning from each other, we agree on what we will give and what we would like to receive, and in this way, all participants become stakeholders in the project.<span class=\"quote\">         LAURA ANDERSON BARBATA </span>",
-            "         https://www.youtube.com/watch?v=zRzYfaUCCXI (2:06-2:19) ",
-            "          From her interview with Madeline Murphy Turner for MoMAPost 20/01/2021https://post.moma.org/making-waves-a-conversation-with-laura-anderson-barbata/ ",
-            "sep_300"
-        ],
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-54.jpg)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Lieko Shiga, Portrait of Cultivation from series Rasen Kaigen, 2010 ",
-            "sep_img-1"
-        ],
-        [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/v10.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://vimeo.com/60612832",
-            "from -------------",
-            "sep_vid-2"
-        ]
-    ],
-    [
-        [
-            "“I wanted to turn the ruins into sculptures because they carry for me the memory of something lost, yet at the same time they are reminders of what is no longer there. A fragment. Yet complete in its own way because any attempt to fix it, will erase its uniqueness. It teaches nothing, except that what was once is gone and the only way to approach it is through art without direct reference to an event.”<span class=\"quote\">        LIDA ABDUL </span>",
-            "         http://www.artvehicle.com/interview/1 ",
-            "         From interview on http://www.artvehicle.com/interview/1 ",
+            "<br>Care Labor / Bakım (Onarma) Emeği / Sereguhî Ked<br>Common Space / Müşterek Mekân / Hevbeş Der<br>Collective Field / Kolektif Saha / Herewez Zevî<br>Territory / Mekân, Arazi / Cih, War<br>Female Labor / Kadın Emeği / Ked e Jinê<br>Colonization/Decolonization / Sömürgeleştirme, Sömürgesizleştirme / Bêwar Kirin<br>Solidarity / Dayanışma / Hevkarî<br><span class=\"quote\"><br><br>PELIN TAN, STATE OF DISPLACEMENT: ENTANGLED TOPOGRAPHIES</span>",
+            "",
+            "From the “State of Displacement: Entangled Topographies” project proposal",
             "sep_500"
-        ],
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-49.jpg)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "What I learned I no longer know; the little I still know I guessed, 2009",
-            "sep_img-3"
-        ],
-        [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/v3.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://vimeo.com/43867573",
-            "from -------------",
-            "sep_vid-2"
         ]
     ],
     [
         [
-            "“I feel that I can easily cross cultural borders. I think that is what is wonderful about not having a fixed notion of identity or nationhood. There is really nothing I have a duty to do. It bothers people, this refusal to choose between us and them because I guess when you announce your identity publicly people know what to expect. If I were to identify with anything, it would be Afghanistan because it's a country that needs so much attention.”<span class=\"quote\">        LIDA ABDUL </span>",
-            "         http://www.artvehicle.com/interview/1 ",
-            "         From interview on http://www.artvehicle.com/interview/1 ",
-            "sep_500"
-        ],
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-21.jpg)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Eva Egermann, Hold off, but hold me (with texts by Ianina Ilitcheva) Installation view, Central Garden, 2020, courtesy the artist, photo: Kunsthalle Wien",
-            "sep_img-2"
-        ],
-        [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y8.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://youtube.com/watch?v=NKREFr_Wtc4",
-            "from -------------",
-            "sep_vid-2"
-        ]
-    ],
-    [
-        [
-            " “ We were really interested in how we could use it as a tool to think about emancipating or decolonizing contemporary food practices. The whole project tried to think of counterapproaches to buying and selling. If the neoliberal world has appropriated the language of sustainability, can we do it the other way around and appropriate neoliberal tools to challenge the logic of the franchise and think of it in terms of value beyond profit margins? We’re interested in the original French meaning of “franchise” as releasing oneself from servitude.<span class=\"quote\">                     COOKING SECTIONS, SURVEY PACK WALLOWLANDS</span>",
-            "         https://www.frieze.com/article/eating-end-world ",
-            "         From their interview titled FOOD STUDIES: A CONVERSATION WITH COOKING SECTIONS on Art News with Elizabeth Fullerton, 14/06/2018https://www.artnews.com/art-in-america/interviews/food-studies-a-conversation-with-cooking-sections-56484/ ",
-            "sep_700-1"
-        ],
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-36.png)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Pictures from Renato’s Posidonia Oceanica project proposal",
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-70.png)\"></div><span class=\"quote\">PELIN TAN, STATE OF DISPLACEMENT: ENTANGLED TOPOGRAPHIES </span>",
+            "",
+            "Pelin Tan, Tigris Phenomenologies, 2021",
             "sep_img-1"
         ],
         [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y14.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://youtube.com/watch?v=iIkl9-6qINk",
-            "from -------------",
-            "sep_vid-2"
+            "It is by micro-political acting that we want to participate in making the city more ecological and more democratic, to make the space of proximity less dependent on top-down processes and more accessible to its users. The ‘self-managed architecture’ is an architecture of relationships, processes and agencies of persons, desires, skills and know-hows. Such an architecture does not correspond to a liberal practice but asks for new forms of association and collaboration, based on exchange and reciprocity and involving all those interested (individuals, organisations, institutions), whatever is their scale.<span class=\"quote\">ATELIER D’ARCHITECTURE AUTOGEREE</span>",
+            "https://www.urbantactics.org/about/",
+            "from the website https://www.urbantactics.org/about/",
+            "sep_900"
+        ],
+        [
+            "Our architecture is at the same time political and poetic as it aims above all to ‘create relationships between worlds<span class=\"quote\">ATELIER D’ARCHITECTURE AUTOGEREE</span>",
+            "https://www.urbantactics.org/about/",
+            "from the website https://www.urbantactics.org/about/",
+            "sep_200-1"
         ]
     ],
     [
         [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-43.jpg)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Bruno Taut’s house in Ortaköy, Istanbul",
-            "sep_img-2"
-        ],
-        [
-            " “A lot of the decisions on how elements are placed and in dialogue with each and with the space came from listening to the material one by one. So, listening to each stone, listening to the rails, and seeing how these elements are transmitting and emitting sound.” <span class=\"quote\">            TAREK ATOUI, I/E ISTANBUL </span>",
-            "         https://www.ibraaz.org/interviews/130 ",
-            "         From his interview with FridericiANVM, 23/10/2020https://fridericianum.org/tarek-atoui-interview/ (3:14-3:32)",
-            "sep_300"
-        ],
-        [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y12.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://youtube.com/watch?v=M6yoT-CXey4",
-            "from -------------",
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-71.jpeg)\"></div><span class=\"quote\">ATELIER D’ARCHITECTURE AUTOGEREE</span>",
+            "https://vimeo.com/111579324",
+            "Interview of Atelier d'Architecture Autogérée by Curry Stone Design Prize, 2011",
             "sep_vid-1"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-72.png)\"></div><span class=\"quote\">ATELIER D’ARCHITECTURE AUTOGEREE</span>",
+            "",
+            "Mock-up of La Folie Verte – Ecological Factory for a 21st Century Park",
+            "sep_img-1"
+        ],
+        [
+            "The Microbial Ethnography Lab will allow us to create a collective environment in which such microbial systems can be created by bringing together different points of view, different material systems and interpretations. We are interested in extending the concept of ethnography into the microbial domain by considering the role of the biological systems as they become part of the interpretation (of events) and participate in the preservation, transformation and the remediation of materials inside the vessels.<span class=\"quote\">ORKAN TELHAN</span>",
+            "",
+            "From his project proposal for the 17th Istanbul Biennial",
+            "sep_900"
         ]
     ],
     [
         [
-            "“Art needs to update its own techniques as fast as the industry or politics in order to be able to respond to all of this, to produce something about these social codes or to say something about the historical field. <span class=\"quote\">        ATIF AKIN, MUTANT TIME</span>",
-            "         https://www.youtube.com/watch?v=L5v-8Q4xGH4 (3:20-3:38)",
-            "         From his interview with Digilogue, 02/01/2020 https://www.youtube.com/watch?v=L5v-8Q4xGH4 (3:20-3:38)",
+            "Materials and artefacts gain different political agencies during different historical moments in Istanbul.<span class=\"quote\">ORKAN TELHAN</span>",
+            "",
+            "From his project proposal for the 17th Istanbul Biennial",
+            "sep_200-1"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-73.png)\"></div><span class=\"quote\">ORKAN TELHAN</span>",
+            "",
+            "Scan from the “Designs for Different Futures” catalogue, 2019",
+            "sep_img-2"
+        ],
+        [
+            "Motherhood as an “annex” to women-<br><br>How do women respond in different ways to their own motherhood experience and how do they stand against motherhood as an identity and as a role? How do their production and reproduction affect each other?<span class=\"quote\">ODA PROJESI, ANNE(X)</span>",
+            "",
+            "From their project proposal for the 17th Istanbul Biennial",
             "sep_300"
         ],
+    ],
+    [
         [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-2.png)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-74.png)\"></div><span class=\"quote\">ODA PROJESI, ANNE(X)</span>",
             "",
-            "sep_img-3"
+            "ANA project, (a project on art and motherhood, in progress), June 2013, Copenhagen, Denmark, A.N.A. AIR - Astrid Noack’s Atelier residency.",
+           "sep_img-3"
         ],
         [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y26.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://youtube.com/watch?v=ALl-byTmE-E",
-            "from -------------",
-            "sep_vid-3"
+            "<span class=\"quote\">artistname-------</span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">artistname-------</span>",
+            "",
+            "",
+            ""
+        ]
+    ],
+    [
+        [
+            "<span class=\"quote\">artistname-------</span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">artistname-------</span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">artistname-------</span>",
+            "",
+            "",
+            ""
+        ]
+    ],
+    [
+        [
+            "<span class=\"quote\">artistname-------</span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">artistname-------</span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">artistname-------</span>",
+            "",
+            "",
+            ""
         ]
     ],
     [

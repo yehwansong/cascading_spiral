@@ -40,6 +40,10 @@
    font-family: fut;
    src: url('font/Futura-ExtraBold.woff')
 }
+@font-face {
+   font-family: hb_backup;
+   src: url('font/NHaasGroteskDSPro-95Blk.woff')
+}
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 html,body{
 	width: 100vw;
@@ -357,7 +361,7 @@ body{
 .sep_200-2,
 .sep_200-2 *{
     font-family: hh;
-    font-size: 10vh;
+    font-size: 7.6vh;
     line-height: 1;
     letter-spacing: -0.5vh;
 }
@@ -370,6 +374,12 @@ body{
     letter-spacing: -0.15vh;
 }
 
+.sep_200-1,
+.sep_200-1 *{
+    color: white;
+    background-color: black
+
+}
 .sep_200-2,
 .sep_200-2 *{
     font-size: 7.6vh
@@ -380,7 +390,7 @@ body{
 }
 .sep_900,
 .sep_900 *{
-    font-family: hb;
+    font-family: hb,hb_backup;
     font-size: 4.0vh;
     line-height: 1.2;
     letter-spacing: -0.025vh;
@@ -537,7 +547,7 @@ width: 0}
 
 .sep_700-1,
 .sep_700-1 *{
-    font-family: hb;
+    font-family: hb,hb_backup;
     font-size: 4.5vh;
     letter-spacing: -0.15vh;
     line-height: 1.12;
@@ -571,7 +581,7 @@ width: 0}
 }
 .answer,
 .answer *{
-    font-family: hb;
+    font-family: hb,hb_backup;
     letter-spacing: -0.1vh;
     line-height: 1.15;
     font-size: 6.65vh;
@@ -638,7 +648,7 @@ width: 0}
     font-size: 5.8vh;
     line-height: 1.12;
     letter-spacing: -0.2vh;
-    font-family: hb;
+    font-family: hb,hb_backup;
 }
 
 .sep_400-2{
@@ -679,19 +689,19 @@ width: 0}
     font-size: 4vh;
     line-height: 1.15;
     letter-spacing: -0.1vh;
-    font-family: hb;
+    font-family: hb, hb_backup;
 }
 .serif{font-family: tr;}
 .sep_900{
     text-align: left;
     padding: 3vh;
-    background: #f81a00;
+    background: #ff9fc2;
     height: 100vh;
     color: white;
 }
 .sep_900,
 .sep_900 *{
-    font-family: hb;
+    font-family: hb, hb_backup;
     font-size: 4vh;
     letter-spacing: -0.05vh;
     line-height: 1.055;
@@ -711,7 +721,7 @@ width: 0}
 .sep_30-2 *{
     font-family: hh;
     font-size: 10.5vh;
-    letter-spacing: -0.4vh;
+    letter-spacing: -0.7vh;
     line-height: 0.95;
 
 }
@@ -730,7 +740,7 @@ width: 0}
 
 .sep_500,
 .sep_500 *{
-    font-family: hb;
+    font-family: hb,hb_backup;
     font-size: 4.75vh;
     line-height: 1;
     letter-spacing: -0.1vh;
@@ -747,7 +757,8 @@ width: 0}
 }
 
 
-
+.board_8 .sep_500{
+    white-space: nowrap;}
 
 .week_whole_wrapper_wrapper.transition,
 .spiral_whole_wrapper_wrapper.transition,
@@ -977,7 +988,7 @@ width: 0}
 }
 .text_inner_wrapper_16 .sep_200-1,
 .text_inner_wrapper_35 .sep_200-1{
-    font-size: 8.75vh;
+    /*font-size: 8.75vh;*/
 }
 .text_inner_wrapper_6 .sep_700-2{
     background-color: white;
