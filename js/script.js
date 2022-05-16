@@ -384,12 +384,6 @@ for (var i = 0; i <13; i++) {
 
 
 
-var isMobile = false; //initiate as false
-// device detection
-if(window.innerWidth<window.innerHeight*0.9) { 
-    isMobile = true;
-}
-
 
 
 
@@ -460,7 +454,7 @@ if(window.innerWidth<window.innerHeight*0.9) {
     }
     var speed = 1000
     var scroll_speed = 1
-    if(isMobile){
+    if(window.innerWidth<window.innerHeight*0.9){
         scroll_speed = 10
         console.log('hey')
     }
