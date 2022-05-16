@@ -386,7 +386,7 @@ for (var i = 0; i <13; i++) {
 
 var isMobile = false; //initiate as false
 // device detection
-if(w<h*0.9) { 
+if(window.innerWidth<window.innerHeight*0.9) { 
     isMobile = true;
 }
 
