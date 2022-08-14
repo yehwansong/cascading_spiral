@@ -1680,7 +1680,7 @@ new_text_content  =
             "One of the core ideas of the university as a decolonial exercise is to foreground how important it is for education to encounter the Other as mind. What indigenous knowledge intends to teach, and the Inga, in particular, is that the Other is mind. The Other is person. That we co-emerge in the relationship with the Other.<span class=\"quote\">URSULA BIEMANN, DEVENIR UNIVERSITY</span>",
             "https://www.youtube.com/watch?v=GDv47X9q5q0",
             "From Ursula Biemann’s talk at the Master Fine Arts symposium, 20/10/2020",
-            "sep_500"
+            "sep_400-1"
         ]
     ],
     [
@@ -1688,7 +1688,7 @@ new_text_content  =
             "We can think of the university as a healing practice for the territory, that has been injured by colonial intervention, extractivist projects, and by epistemological occupation.<span class=\"quote\">URSULA BIEMANN, DEVENIR UNIVERSITY</span>",
             "https://www.youtube.com/watch?v=GDv47X9q5q0",
             "From Ursula Biemann’s talk at the Master Fine Arts symposium, 20/10/2020",
-            "sep_200-3"
+            "sep_200-2"
         ],
         [
             "The platform, Devenir Universidad, is a way of letting everyone in on the conversation. Include everyone, letting everyone know about the current state of affairs. In other words, it creates transparency of the process. It makes the process comprehensible within the community.<span class=\"quote\">URSULA BIEMANN, DEVENIR UNIVERSITY</span>",
@@ -1734,7 +1734,7 @@ new_text_content  =
             "These other ways of thinking about the community, or the society tended to bypass - or to go behind, in time - the dominant discourse. In a way, to me, it offered a certain kind of mobility - and mobility is of course, not freedom as such - but the mobility to move across time, and to look at other ways of thinking; the communal, or the common. [...] It has that dimension of - I don't want to use a difficult word, but - paleonymic [Derrida]; something old, like an old name, which then enables [us] to move ahead.<span class=\"quote\">CHRISTIAN NYAMPETA </span>",
             "https://soundcloud.com/e_flux/sohrab-mohebbi-and-christian",
             "From podcast titled “Sohrab Mohebbi and Christian Nyampeta discuss École du soir” for e-flux, 2020",
-            "sep_img-1"
+            "sep_300"
         ],
         [
             "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-99.jpeg)\"></div><span class=\"quote\">CHRISTIAN NYAMPETA</span>",
@@ -1768,13 +1768,13 @@ new_text_content  =
             "Two curatorial models have been significant for my work, and both converge in a deconstruction of the narratives of Western modernity. One is linked to Disobedience Archive (2005-2014), in which the exhibition was conceived following an archive format and as a criticism of policies that are incapable of integrating forms of life within them. (…) There is another, more recent model that I would call “the geopolitical sphere and Western modernity,”<span class=\"quote\">MARCO SCOTINI, THE DISOBEDIENCE ARCHIVE</span>",
             "https://www.moussemagazine.it/magazine/geopolitical-curating-marco-scotini-carol-yinghua-lu-2020/",
             "from his interview in Mousse Magazine / 01.06.2020",
-            "sep_300"
+            "sep_400-1"
         ],
         [
             "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-100.jpeg)\"></div><span class=\"quote\">MARCO SCOTINI, THE DISOBEDIENCE ARCHIVE</span>",
             "https://www.youtube.com/watch?v=CyMUt8cBRsg&ab_channel=RevolutionaryAudiobooks",
             "Bernadette Corporation, Get rid of Yourself, 2003 [from Disobedience Archive]",
-            "sep_img-4"
+            "sep_img-3"
         ],
         [
             "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-101.png)\"></div><span class=\"quote\">MARCO SCOTINI, THE DISOBEDIENCE ARCHIVE</span>",
@@ -1814,7 +1814,7 @@ new_text_content  =
             "Though photography is a visual art, I thought that maybe photos could actually portray a world we could not see with the naked eye. Perhaps the spirit or the history of Kitakama - something that we cannot see - the thing that brought this community together, the big picture.<span class=\"quote\">LIEKO SHIGA </span>",
             "https://www.sfmoma.org/watch/lieko-shiga-kitakama-village-and-2011-tsunami/",
             "From “Lieko Shiga on Kitakama village and the 2011 tsunami”",
-            "sep_300"
+            "sep_400-3"
         ],
         [
             "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-105.png)\"></div><span class=\"quote\">LIEKO SHIGA</span>",
@@ -1834,7 +1834,7 @@ new_text_content  =
             "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-104.jpeg)\"></div><span class=\"quote\">LIEKO SHIGA</span>",
             "https://www.sfmoma.org/artist/lieko_shiga/",
             "Lieko Shiga on Kitakama village and the 2011 tsunami",
-            "sep_img-1"
+            "sep_img-2"
         ],
         [
             "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-106.png)\"></div><span class=\"quote\">LIEKO SHIGA</span>",
@@ -1888,7 +1888,7 @@ new_text_content  =
             "Reworking images as counterpart to today’s landscape.<span class=\"quote\">CATARINA SIMAO</span>",
             "https://fotota.hypotheses.org/7618",
             "from her interview with Fotota / 11.05.2020 ",
-            "sep_30"
+            "sep_100"
         ],
         [
             "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-110.png)\"></div><span class=\"quote\">CATARINA SIMAO</span>",
@@ -1928,7 +1928,7 @@ new_text_content  =
             "My interest is in how the undisciplined body does the work of undisciplining the discipline; namely, how the excluded body—previously seen as unruly and in need of containment—can undiscipline writing and other mediums by breaking into these texts and discursive spaces.<span class=\"quote\">SRIWHANA SPONG</span>",
             "https://ocula.com/magazine/conversations/sriwhana-spong/",
             "from her interview with Tendai John Mutambu in Ocula / 6 July 2018",
-            "sep_100"
+            "sep_200-2"
         ],
         [
             "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-114.png)\"></div><span class=\"quote\">SRIWHANA SPONG</span>",

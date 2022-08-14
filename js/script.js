@@ -654,7 +654,6 @@ for (var i = 0; i <13; i++) {
 
     var inittime_h = new Date().toString().split(' ')[4].split(':')[0]
     var initrotation = inittime_h/24
-    console.log(initrotation)
     var timeoffset = 0
 
 
@@ -674,7 +673,6 @@ for (var i = 0; i <13; i++) {
     var plate_pivot_array_cloned = Array(layer_amount)
     var light1_cloned, light2_cloned
     whole_pivot_cloned.visible = false
-    console.log(scene)
 
     var translatey = 15
     var translatez = 10
@@ -727,7 +725,7 @@ for (var i = 0; i <13; i++) {
         var scrollpos = 10
     var w = $("body").prop("clientWidth");
     var h = window.innerHeight
-    $('.fake_scroll').css({'height':((12)*translatey*h)+'px'})
+    $('.fake_scroll').css({'height':((db.length-1)*translatey*h)+'px'})
 
     $('.fake_scroll_wrapper').scrollTop(2*translatey*h*initrotation)
     if(window.location.hash && window.location.hash.split('#')[1] === 'URSULA-BIEMANN') {
@@ -745,7 +743,6 @@ var scrollcounter = 0
             scrollpos = $('.fake_scroll_wrapper').scrollTop()+1+timeoffset;
         var k = Math.floor(scrollpos/(translatey*h)) 
         selected = k
-        console.log(selected)
 
                 if(scrollpos > scrolldirection_value){
                     scrolldirection = 'down'
@@ -836,21 +833,25 @@ var scrollcounter = 0
 
     function scrolling(scrollpos,k,auto){
         hover()
-        // console.log('---------------'+scrollpos+'---------------'+k+'---------------'+(selected))
+
                 if(!zoomed_out){
                     for (var i = layer_pivot_array_cloned.length - 1; i >= 0; i--) {
                         if(i>selected){
                             if(i>(layer_pivot_array_cloned.length-10)){
                                 var k = selected
-                                if(k<layer_pivot_array_cloned.length-19){
-                                    k = layer_pivot_array_cloned.length-19
+                                // if(k<layer_pivot_array_cloned.length-19){
+                                //     k = layer_pivot_array_cloned.length-19
+                                // }
+                                if((i-k)>10){
+                                    layer_pivot_array_cloned[i].position.y = -1*translatey*0.4-1*translatey*0.0000175*(10*10*10*10)
+                                }else{
+                                    layer_pivot_array_cloned[i].position.y = -1*translatey*0.4-1*translatey*0.0000175*((i-k)*(i-k)*(i-k)*(i-k))
                                 }
-                                layer_pivot_array_cloned[i].position.y = -1*translatey*0.4-1*translatey*0.0000175*((i-k)*(i-k)*(i-k)*(i-k))
                             }else{
-                                layer_pivot_array_cloned[i].position.y = 0
+                                layer_pivot_array_cloned[i].position.y = -1*translatey*0.4
                             }
                         }else{
-                            layer_pivot_array_cloned[i].position.y = translatey*0.4
+                            layer_pivot_array_cloned[i].position.y = translatey*0.6
                         }
                     }
                     for (var i = layer_pivot_array.length - 1; i >= 0; i--) {if(!auto){layer_pivot_array[i].visible = false}
@@ -909,18 +910,20 @@ var scrollcounter = 0
                             layer_pivot_array[i].position.y = -1*translatey*0.4
                             if(i>(layer_pivot_array.length-10)){
                                 var k = selected
-                                if(k<layer_pivot_array_cloned.length-19){
-                                    k = layer_pivot_array_cloned.length-19
+                                // if(k<layer_pivot_array_cloned.length-19){
+                                //     k = layer_pivot_array_cloned.length-19
+                                // }
+                                if((i-k)>10){
+                                    layer_pivot_array[i].position.y = -1*translatey*0.4-1*translatey*0.0000175*(10*10*10*10)
+                                }else{
+                                    layer_pivot_array[i].position.y = -1*translatey*0.4-1*translatey*0.0000175*((i-k)*(i-k)*(i-k)*(i-k))
                                 }
-                                layer_pivot_array[i].position.y = -1*translatey*0.4-1*translatey*0.0000175*((i-k)*(i-k)*(i-k)*(i-k))
                             }else{
-                                layer_pivot_array[i].position.y = 0
+                                layer_pivot_array[i].position.y = -1*translatey*0.4
 
                             }
                         }else{
-                            layer_pivot_array[i].position.y = translatey*0.4
-                            // layer_pivot_array[i].scale.x = 1.1 
-                            // layer_pivot_array[i].scale.z = 1.1 
+                            layer_pivot_array[i].position.y = translatey*0.6
                         }
                         // if(i==layer_pivot_array.length-3){
                         //     layer_pivot_array[i].position.y = -1*translatey*0.4-10
@@ -1133,7 +1136,7 @@ function create_board(){
         whole_pivot.add(layer_pivot_array[i])
         plate_pivot_array[i] = Array(layer_amount-m+2)
         var texture
-            texture = loader.load( "img/bg-"+pad(layer_amount-i, 2)+".png" );
+            texture = loader.load( "img/bgn-"+pad(layer_amount-i, 2)+".png" );
 
         layer_material_array[i] = Array(plate_pivot_array[i].length)
         layer_material_array_cloned[i] = Array(plate_pivot_array[i].length)
@@ -1680,6 +1683,17 @@ function hover(){
         if(i == selected+4){
             for (var k = layer_pivot_array[i].children.length - 1; k >= 0; k--) {
                 layer_pivot_array[i].children[k].children[0].material.color = new THREE.Color(0x3D403E)
+            }
+        }
+        if(i == selected){
+            for (var k = layer_pivot_array[i].children.length - 1; k >= 0; k--) {
+                layer_pivot_array[i].children[k].children[0].material.color = new THREE.Color(0xFFFFFF)
+            }
+        }
+        if(selected == layer_pivot_array.length - 2){
+            console.log('he')
+            for (var k = layer_pivot_array[selected+1].children.length - 1; k >= 0; k--) {
+                layer_pivot_array[selected+1].children[k].children[0].material.color = new THREE.Color(0xFFFFFF)
             }
         }
     }
