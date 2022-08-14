@@ -410,12 +410,18 @@ body{
     bottom: 1.5vh;
     color: #5a5a5a;
 }
-.sep_img-1{
+.sep_img-1,
+.sep_img-4,
+.sep_img-7,
+.sep_img-10{
     border-radius: 50%;
     border: 0.2vh solid white;
     width: 0
 }
-.sep_img-3{
+.sep_img-3,
+.sep_img-6,
+.sep_img-9,
+.sep_img-12{
     border: 2.5vh solid white;
     width: 0
     /*border-radius: 35vh*/
@@ -978,7 +984,7 @@ width: 0}
     font-size: 7.25vh;
 }
 .text_inner_wrapper_21 .text_inner_content_1{
-    font-size: 9vh;
+    /*font-size: 9vh;*/
 }
 .text_inner_wrapper_22 .text_inner_content_2{
     padding-top: 6vh;

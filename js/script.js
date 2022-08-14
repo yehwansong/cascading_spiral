@@ -2,51 +2,50 @@
 $(document).ready(function(){
 
 var db = [
-    ////////////////////////////////////////////////////////////////////////////////////////////////////////////
     [
         [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y5.jpeg)\"></div><span class=\"quote\">AHMET ÖĞÜT, SILENT UNIVERSITY </span>",
-            "https://bienal.iksv.org/en/news/kunstverein-in-hamburg-and-the-17th-istanbul-biennial-announces-the-silent-university-orientation-programme",
-            "Silent University announcement on the Istanbul Biennial website"
+            "<span>The</span><span>Silent</span><span>University is a</span><span>solidarity based</span><span>knowledge exchange</span><span> platform by displaced people</span><span>and forced migrants.</span><span>It is led by a group of</span><span>lecturers, consultants and research fellows.</span><span>It is an education platform outside of the</span><span>restrictions of migration laws,</span><span>language limitations and the other</span><span>bureaucratic obstacles.<span class=\"quote\">AHMET ÖĞÜT, SILENT UNIVERSITY </span>",
+            "https://www.youtube.com/watch?v=L5v-8Q4xGH4 (3:20-3:38)",
+            "Interview with Netali Zaff, 3/11/2020https://www.bupipedream.com/ac/113521/mutant-space-utilizes-interactive-technology-to-highlight-nuclear-radiation/",
+            "sep_400-2"
         ],
         [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-58.png)\"></div><span class=\"quote\">YEHWAN SONG</span>",
-            "https://yhsong.com/",
-            "Yehwan Song, Very responsive, 2020"
-        ],
-        [
-            "The Silent University is a solidarity based knowledge exchange platform by displaced people and forced migrants. It is led by a group of lecturers, consultants and research fellows. It is an education platform outside of the restrictions of migration laws, language limitations and the other bureaucratic obstacles.<span class=\"quote\">AHMET ÖĞÜT, SILENT UNIVERSITY </span>",
-            "http://thesilentuniversity.org/",
-            "From the Silent University website 'http://thesilentuniversity.org/'"
-        ]
-    ],
-    [
-        [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y5.jpeg)\"></div><span class=\"quote\">AHMET ÖĞÜT, SILENT UNIVERSITY </span>",
-            "https://www.youtube.com/watch?v=MuvFU6cwatk&ab_channel=Visible",
-            "         From her interview in Idea Magazine, 2009 https://blog.saltonline.org/post/95367715734/the-bold-and-poignant-palette-of-gulsun-karamustafa "
-        ],
-        [
-            "The Silent University aims to address and reactivate the knowledge of the participants and make the exchange process mutually beneficial by inventing alternative currencies, in place of money or free voluntary service. The Silent University’s aim is to challenge the idea of silence as a passive state, and explore its powerful potential through performance, writing, and group reflection. These explorations attempt to make apparent the systemic failure and the loss of skills and knowledge experienced through the silencing process of people seeking asylum.<span class=\"quote\">AHMET ÖĞÜT, SILENT UNIVERSITY</span>",
-            "http://thesilentuniversity.org/",
-            "From the Silent University website 'http://thesilentuniversity.org/'"
-        ],
-        [
-            "The Silent University aims to address and reactivate the knowledge of the participants and make the exchange process mutually beneficial by inventing alternative currencies, in place of money or free voluntary service. The Silent University’s aim is to challenge the idea of silence as a passive state, and explore its powerful potential through performance, writing, and group reflection. These explorations attempt to make apparent the systemic failure and the loss of skills and knowledge experienced through the silencing process of people seeking asylum.<span class=\"quote\">AHMET ÖĞÜT, SILENT UNIVERSITY</span>",
-            "http://thesilentuniversity.org/",
-            "From the Silent University website 'http://thesilentuniversity.org/'"
-        ]
-    ],
-    [
-        [
-            "Even though you set detailed and obvious criteria, the sorted data can be very generative and unexpected. It’s why I love playing with it, because even though I focus on the content, the results are always fluid and surprising. Data is more like a living creature, what it reveals and manifests itself as is very generative and unpredictable<span class=\"quote\">YEHWAN SONG</span>",
-            "https://www.itsnicethat.com/features/ones-to-watch-2020-yehwan-song-digital-240220",
-            "From interview titled “Yehwan Song wants to radically change how people think about the web” by Charlie Filmer-Court, 24/2/2020",
-            "sep_200-2"
-        ],
-        [
-            "insan ısırır<br>akıldan koparır kendini<span class=\"quote\">POETRY CHANNEL</span>",
+            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-8.jpg)\"></div><span class=\"quote\">artistname-------</span>",
             null,
+            "Atıf Akın, Mutant Space / Metsamor, 2015 ",
+            "sep_img-1"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y15.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
+            "https://youtube.com/watch?v=M6yoT-CXey4",
+            "from -------------",
+            "sep_vid-1"
+        ]
+    ],
+    [
+        [
+            "The Silent University aims to address and reactivate the knowledge of the participants and make the exchange process mutually beneficial by inventing alternative currencies, in place of money or free voluntary service. The Silent University’s aim is to challenge the idea of silence as a passive state, and explore its powerful potential through performance, writing, and group reflection. These explorations attempt to make apparent the systemic failure and the loss of skills and knowledge experienced through the silencing process of people seeking asylum.<span class=\"quote\"> AHMET ÖĞÜT, SILENT UNIVERSITY </span>",
+            "https://blog.saltonline.org/post/95367715734/the-bold-and-poignant-palette-of-gulsun-karamustafa ",
+            "From her interview in Idea Magazine, 2009 https://blog.saltonline.org/post/95367715734/the-bold-and-poignant-palette-of-gulsun-karamustafa ",
+            "sep_700-1"
+        ],
+        [
+            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-52.png)\"></div><span class=\"quote\">artistname-------</span>",
+            null,
+            "Screenshots from Bernadette Corporation, Get rid of Yourself, 2003 [from Disobedience Archive] ",
+            "sep_img-3"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y17.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
+            "https://youtube.com/watch?v=GDTsZiznhB8",
+            "from -------------",
+            "sep_vid-1"
+        ]
+    ],
+    [
+        [
+            "<br>insan ısırır<br>akıldan koparır kendini<span class=\"quote\">POETRY CHANNEL</span>",
+            "",
             "Part of a poem by Gonca Özmen titled Auto-Destruction",
             "sep_300"
         ],
@@ -55,12 +54,18 @@ var db = [
             "https://www.youtube.com/watch?v=F_7f14NkOyU&ab_channel=Relax24",
             "11 hours of Garden Sounds by Relax24",
             "sep_vid-2"
+        ],
+        [
+            "Even though you set detailed and obvious criteria, the sorted data can be very generative and unexpected. It’s why I love playing with it, because even though I focus on the content, the results are always fluid and surprising. Data is more like a living creature, what it reveals and manifests itself as is very generative and unpredictable<span class=\"quote\">YEHWAN SONG</span>",
+            "         https://www.adobomagazine.com/the-magazine/martha-atienzas-equation-of-state-using-video-art-and-island-technology-to-illuminate-the-effects-of-climate-change-in-bantayan-islands-coastal-communities-and-the-importan/ (1:00-1:22) ",
+            "From her interview with Adobo Magazine https://www.adobomagazine.com/the-magazine/martha-atienzas-equation-of-state-using-video-art-and-island-technology-to-illuminate-the-effects-of-climate-change-in-bantayan-islands-coastal-communities-and-the-importan/ (1:29-1:42) ",
+            "sep_200-2"
         ]
     ],
     [
         [
             " Peki diyelim ve herkes kendi genişliğine sığsın<span class=\"quote\">POETRY CHANNEL</span>",
-            null,
+            "",
             "Part of a poem by Gonca Özmen titled Auto-Destruction",
             "sep_100"
         ],
@@ -72,7 +77,7 @@ var db = [
         ],
         [
             "yanılmıyoruz bu benim takma ağzım<br>gerçeğinin içinde dilim tuhaf bir eşya gibi.<span class=\"quote\">POETRY CHANNEL</span>",
-            null,
+            "",
             "Part of a poem by Sevinç Çalhanoğlu titled niyet",
             "sep_200-2"
         ]
@@ -80,13 +85,13 @@ var db = [
     [
         [
             "“I imagine the garden to be a place of rest, rejuvenation, respite and affirmation in the basic principles of life that things grow, age and decay.”<span class=\"quote\">MARIAH LOOKMAN</span>",
-            null,
+            "",
             " From her project proposal for the 17th Istanbul Biennial ",
             "sep_200-2"
         ],
         [
             "<br><br>Defterlerin birinde buluyorum yıllar önce ayrıldığımız yeri<br>Yalnızca çizgileri kalmış o ânın<span class=\"quote\">POETRY CHANNEL</span>",
-            null,
+            "",
             "Part of a poem by Mehmet Erte titled Yeniden Yaşanmayacak",
             "sep_300"
         ],
@@ -245,116 +250,376 @@ var db = [
            "sep_img-3"
         ],
         [
-            "<span class=\"quote\"></span>",
+            "We make an annual walking ritual on the coast with a sense of worry about the heap of vulnerabilities accompanying the sinking of Jakarta. We walked through disputed land, frequent floods, contested coastline, contaminated mangrove forest, observing mutant fish due to the collapsing of ecological carrying capacity and the construction of a giant sea wall crammed with mythological fiction among the scandalous siege of artificial islands. To see what’s been happening right now makes us not so optimistic to project the future. But as artists, we believe beauty is always present anywhere even in a catastrophe.<span class=\"quote\">TITA SALINA & IRWAN AHMETT</span>",
             "",
-            "",
-            ""
+            "Tita Saline and Irwan Ahmett on Ziarah Uata / Pilgrimage to the North (2018-ongoing) in their project proposal for the 17th Istanbul Biennial",
+            "sep_900"
         ],
         [
-            "<span class=\"quote\"></span>",
+            "For us, Java is a geopolitical laboratory that depicts brightly the reality of political identity polarisation that is suspected to be happening massively on a global scale.<span class=\"quote\">TITA SALINA & IRWAN AHMETT</span>",
             "",
-            "",
-            ""
+            "Tita Saline and Irwan Ahmett on God Dam Wall in their project proposal for the 17th Istanbul Biennial",
+            "sep_500"
         ]
     ],
     [
         [
-            "<span class=\"quote\">artistname-------</span>",
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-75.png)\"></div><span class=\"quote\">TITA SALINA & IRWAN AHMETT</span>",
             "",
-            "",
-            ""
-        ],
-        [
-            "<span class=\"quote\">artistname-------</span>",
-            "",
-            "",
-            ""
-        ],
-        [
-            "<span class=\"quote\">artistname-------</span>",
-            "",
-            "",
-            ""
-        ]
-    ],
-    [
-        [
-            "<span class=\"quote\">artistname-------</span>",
-            "",
-            "",
-            ""
-        ],
-        [
-            "<span class=\"quote\">artistname-------</span>",
-            "",
-            "",
-            ""
-        ],
-        [
-            "<span class=\"quote\">artistname-------</span>",
-            "",
-            "",
-            ""
-        ]
-    ],
-    [
-        [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y18.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://youtube.com/watch?v=LfmUouW1ZuA",
-            "from -------------",
-            "sep_vid-3"
-        ],
-        [
-            "“It is by micro-political acting that we want to participate in making the city more ecological and more democratic, to make the space of proximity less dependent on top-down processes and more accessible to its users. The ‘self-managed architecture’ is an architecture of relationships, processes and agencies of persons, desires, skills and know-hows. Such an architecture does not correspond to a liberal practice but asks for new forms of association and collaboration, based on exchange and reciprocity and involving all those interested (individuals, organisations, institutions), whatever is their scale.”<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
-            "         https://www.urbantactics.org/about/ ",
-            "         from their website https://www.urbantactics.org/about/ ",
-            "sep_700-1"
-        ],
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-61.jpg)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Screenshot from Sriwhana Spong’s a hook but no fish 2017, film still. Courtesy of the artist and Michael Lett",
-            "sep_img-3"
-        ]
-    ],
-    [
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-24.jpg)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Fernando Garcia Dory, Monologue ",
+            "From Tita Saline and Irwan Ahmett’s project proposal for the 17th Istanbul Biennial",
             "sep_img-1"
         ],
         [
-            "“It's not about this mangrove moving perfectly, it's about all of us coming together and obsessing about this machine, for months. It's about a way of thinking. If we talk about all these issues; we need to come together — it's not one person that's gonna save the world. <span class=\"quote\">        MARTHA ATIENZA </span>",
-            "         https://www.adobomagazine.com/the-magazine/martha-atienzas-equation-of-state-using-video-art-and-island-technology-to-illuminate-the-effects-of-climate-change-in-bantayan-islands-coastal-communities-and-the-importan/ (1:00-1:22) ",
-            "         From her interview with Adobo Magazine https://www.adobomagazine.com/the-magazine/martha-atienzas-equation-of-state-using-video-art-and-island-technology-to-illuminate-the-effects-of-climate-change-in-bantayan-islands-coastal-communities-and-the-importan/ (1:00-1:22) ",
-            "sep_300"
+            "The “Flag Project” is designed to study and develop collective creativity. I implement an “open art system,” in which art is defined as broadly as possible, to break through rigid discourses and established values, engaging in democratic dialogue, but also taking a critical approach when needed. During this process, outcomes—artworks or other forms—are produced collectively, collaboratively or individually. Another aim is to create and maintain a network that enables the exchange of ideas and experiences, or development in the form of collaborations.<span class=\"quote\">ARAHMAIANI FEISAL</span>",
+            "http://www.trfineart.com/wp-content/uploads/2016/08/AAP79_SecondLifeInTibet_Arahmaiani.pdf",
+            "In her statetement titled “My Second Life in Tibet”, August 2016",
+            "sep_700-2"
         ],
         [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y2.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://youtube.com/watch?v=kNaxM_L5GOg",
-            "from -------------",
-            "sep_vid-2"
+            "But ultimately, who is it going to answer? Not the authority. In fact, that almost never happened. I realized the most realistic thing was to answer to the problem myself. You have to try to give an answer, rather than limiting yourself to questioning and criticizing. In a way, through the answer you also express a critique, but in a subtler way, through action. As an activist, you can of course be manipulated, so the trap is always there. But by going more directly into a solution, you get something more real which can’t be manipulated so easily by other people’s agendas. The important thing is that it never becomes us against them. When it becomes all about defeating your enemy, you lose sight of the change you want to see in the world. That’s what I’ve learned from my experience anyway.<span class=\"quote\">ARAHMAIANI FEISAL</span>",
+            "https://www.cobosocial.com/dossiers/arahmaiani-superheroine-of-indonesian-contemporary-art/",
+            "From her interview titled “Arahmaiani: The Superheroine of Indonesian Contemporary Art, from Criticism to Activism” with Naima Morelli, 5/9/2016",
+            "sep_1000"
         ]
     ],
     [
         [
-            "“Our architecture is at the same time political and poetic as it aims above all to ‘create relationships between worlds’.”<span class=\"quote\">         ATELIER D’ARCHITECTURE AUTOGEREE </span>",
-            "         https://www.urbantactics.org/about/ ",
-            "         from their website https://www.urbantactics.org/about/ ",
-            "sep_100"
+            "I see the essence of all religions being basically the same; it is for the good of people of this earth. But of course there are different cultural contexts and different ways of doing it. I don’t make a big deal about it, I’m more interested in the idea of pluralism, respecting the differences.<span class=\"quote\">ARAHMAIANI FEISAL</span>",
+            "https://www.cobosocial.com/dossiers/arahmaiani-superheroine-of-indonesian-contemporary-art/",
+            "From her interview titled “Arahmaiani: The Superheroine of Indonesian Contemporary Art, from Criticism to Activism” with Naima Morelli, 5/9/2016",
+            "sep_500"
         ],
         [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-59.png)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Yehwan Song, Very responsive, 2020",
+            "In my quest for answers, I am particularly interested in norms and values that we inherited from our ancestors. In my work, I try to reinterpret these philosophies in the context of contemporary conditions.<span class=\"quote\">ARAHMAIANI FEISAL</span>",
+            "http://www.seas.at/",
+            "From “I Don’t Want to Limit Myself to Binary Thinking”: An Inter- view With the Indonesian Artist Arahmaiani by Gunnar Stange Published 2017, conducted 2016",
+            "sep_300"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-87.jpg)\"></div><span class=\"quote\">ARAHMAIANI FEISAL</span>",
+            "https://www.youtube.com/watch?v=LfmUouW1ZuA",
+            "The Past Has Not Passed / Breaking Words, Peformance by Arahmaiani, MACAN, 2019",
+            "sep_vid-1"
+        ]
+    ],
+    [
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-88.jpg)\"></div><span class=\"quote\">ARAHMAIANI FEISAL</span>",
+            "https://www.youtube.com/watch?v=GDTsZiznhB8&ab_channel=QAGOMA",
+            "handle without care, Peformance by Arahmaiani, APT2, QAGOMA, 1996",
+            "sep_vid-2"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-89.jpg)\"></div><span class=\"quote\">ARAHMAIANI FEISAL</span>",
+            "https://www.youtube.com/watch?v=NA_1U8xYlJM&ab_channel=ArahmaianiFeisal",
+            "Arahmaiani: Ahimsa Karuna Nusantara, Flag Project, 2020",
+            "sep_vid-3"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-76.png)\"></div><span class=\"quote\">ARAHMAIANI FEISAL</span>",
+            "",
+            "Arhamaiani, Flag Project Sydney, 2007 ",
+            "sep_img-2"
+        ]
+    ],
+    [
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-77.png)\"></div><span class=\"quote\">ARAHMAIANI FEISAL</span>",
+            "",
+            "Arhamaiani, Flag Project Merapi, 2010",
             "sep_img-3"
         ],
         [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y27.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://youtube.com/watch?v=upwfIEYmFBw",
-            "from -------------",
+            "I don’t know. It might be a question that I cannot answer, whether there is only one studio or many mental spaces. Maybe for me, since my work is tied to landscape and architecture, somehow always connected to geography, having a studio probably refers more to a dynamic space, and not having it at the same time.<span class=\"quote\">RENATO LEOTTA</span>",
+            "http://www.in-studio.net/renato-leotta",
+            "From his instudio video",
+            "sep_500"
+        ],
+        [
+            "Every time I come into contact with a certain context, there’s the sea as a landmark, or the moon, the sun… I don’t want to make it into an excessively poetic concept, but it is as if they were the main tools, the ingredients. They are the basic kit that you hang on a nail in your studio. <span class=\"quote\">RENATO LEOTTA</span>",
+            "http://www.in-studio.net/renato-leotta",
+            "From his instudio video",
+            "sep_700-1"
+        ]
+    ],
+    [
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-95.png)\"></div><span class=\"quote\">RENATO LEOTTA</span>",
+            "http://www.in-studio.net/renato-leotta",
+            "instudio video",
+            ""
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-78.png)\"></div><span class=\"quote\">RENATO LEOTTA</span>",
+            "",
+            "Pictures from Renato’s Posidonia Oceanica project proposal",
+            "sep_img-4"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-79.png)\"></div><span class=\"quote\">RENATO LEOTTA</span>",
+            "",
+            "Pictures from Renato’s Posidonia Oceanica project proposal",
+            "sep_img-5"
+        ]
+    ],
+    [
+        [
+            "In that brief time it is as if we converged: the boat with its human load , the water, the damp air, the low clouds, the filtered light. Everything within the realm of the weather- event became indivisible. All boundaries opening into a single porous whole.<span class=\"quote\">CHARLES LIM & SIMRYN GILL</span>",
+            "",
+            "Charles Lim and Simryn Gill on how The Sea as a Field came to be",
+            "sep_400-1"
+        ],
+        [
+            "And then it was over. The waves settled, the wind took the falling sky elsewhere, and we each one of us re-entered our separateness; phones came out of pockets, babies started to cry, people laughed.<span class=\"quote\">CHARLES LIM & SIMRYN GILL</span>",
+            "",
+            "Charles Lim and Simryn Gill on how The Sea as a Field came to be",
+            "sep_300"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-96.png)\"></div><span class=\"quote\">CHARLES LIM & SIMRYN GILL</span>",
+            "https://www.artforum.com/video/charles-lim-sea-state-2015-51390",
+            "Charles Lim, SEA STATE, 2015",
+            ""
+        ]
+    ],
+    [
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-90.jpg)\"></div><span class=\"quote\">CHARLES LIM & SIMRYN GILL</span>",
+            "https://www.youtube.com/watch?v=0bFZ4gcsAPA&t=334s&ab_channel=BloombergQuicktake",
+            "“Art and the Life Aquatic: Charles Lim”, Ep. 49, Bloomberg Quicktake, 2017",
+            "sep_vid-4"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-80.png)\"></div><span class=\"quote\">CHARLES LIM & SIMRYN GILL</span>",
+            "",
+            "Charles Lim, SEA STATE 9: proclamation : DRAG PROP POUR, 2018, courtesy of Charles Lim",
+            "sep_img-6"
+        ],
+        [
+            "We have to act with dignity. We promise not to offer any solutions whatsoever. (All we can do is perhaps offer a couple of temporary remedies for the reigning “uncuriosity syndrome” around the globe.) We do not want to give you anything; we want to take as much as possible from you. For, we are in this project together –- A project which represents the values we all share.<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "https://acikradyo.com.tr/manifesto-acik-radyo",
+            "From Açık Radyo’s Manifesto, 1995",
+            "sep_500"
+        ]
+    ],
+    [
+        [
+            "The “Serial of the Universe”, the never ending history of our wars, the terrifying hum of the earthquake, our warming air and water, our globalisation, our greeds, our angers, our rights, our economies and our crises, our road maps showing the way to European civilisation, our terror maps reaching into the depths of black holes, our genome maps, our diseases, our miraculous remedies, as well as the birds and the bees, the one-for-the-roads, the poor, the women, the children, the child abusers, the splendour and the misery of the media, the music of the spheres, and, last but not least: “All the beauty of human civilization – our art, our music, our literature – lies beyond these two fundamentalist, ideological poles.” (Roy) Our Open Site is a small flashlight, but one whose handle stretches to fit as many hands as want to hold it or hold on to it.<span class=\"quote\">artistname-------</span>",
+            "https://acikradyo.com.tr/manifesto-acik-radyo",
+            "From Açık Radyo’s Manifesto, 2001",
+            "sep_900"
+        ],
+        [
+            "We are not oyster fishermen or citrus growers or lawyers but we bring people together with different expertise to have discussions across political and environmental horizons.<span class=\"quote\">COOKING SECTIONS, SURVEY PACK WALLOWLANDS</span>",
+            "https://www.frieze.com/article/eating-end-world",
+            "From Eating at the End of the World on Frieze by Jane Black in Profiles, 15/08/19",
+            "sep_200-1"
+        ],
+        [
+            "We use the art world as a platform to start a conversation. But it doesn’t stay there. The goal is to mobilize a series of actions in collaboration with residents and communities that bring change.<span class=\"quote\">COOKING SECTIONS, SURVEY PACK WALLOWLANDS</span>",
+            "https://www.frieze.com/article/eating-end-world",
+            "From Eating at the End of the World on Frieze by Jane Black in Profiles, 15/08/19",
+            "sep_300"
+        ]
+    ],
+    [
+        [
+            "We were really interested in how we could use it as a tool to think about emancipating or decolonizing contemporary food practices. The whole project tried to think of counterapproaches to buying and selling. If the neoliberal world has appropriated the language of sustainability, can we do it the other way around and appropriate neoliberal tools to challenge the logic of the franchise and think of it in terms of value beyond profit margins? We’re interested in the original French meaning of “franchise” as releasing oneself from servitude.<span class=\"quote\">COOKING SECTIONS, SURVEY PACK WALLOWLANDS</span>",
+            "https://www.artnews.com/art-in-america/interviews/food-studies-a-conversation-with-cooking-sections-56484/",
+            "From their interview titled FOOD STUDIES: A CONVERSATION WITH COOKING SECTIONS on Art News with Elizabeth Fullerton, 14/06/2018",
+            "sep_700-2"
+        ],
+        [
+            "We don’t think we provide solutions because we don’t have them. Our social and political interventions question and problematize certain situations. By drawing attention to various situations we are complicating them and making people take more responsibility.<span class=\"quote\">COOKING SECTIONS, SURVEY PACK WALLOWLANDS</span>",
+            "https://www.artnews.com/art-in-america/interviews/food-studies-a-conversation-with-cooking-sections-56484/ ",
+            "From their interview titled FOOD STUDIES: A CONVERSATION WITH COOKING SECTIONS on Art News with Elizabeth Fullerton, 14/06/2018",
+            "sep_500"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-97.png)\"></div><span class=\"quote\">COOKING SECTIONS, SURVEY PACK WALLOWLANDS</span>",
+            "https://newgeographies.uk/artist/cooking-sections/",
+            "Cooking Sections – Movable Estates on New Geographies UK",
             "sep_vid-1"
+        ]
+    ],
+    [
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-81.png)\"></div><span class=\"quote\">COOKING SECTIONS, SURVEY PACK WALLOWLANDS</span>",
+            "",
+            "Cooking Sections, Salmon: A Red Herring, 2020. Tate Britain, Art Now. Installation view. Photo: Tate",
+            "sep_img-7"
+        ],
+        [
+            "In all mediums, her practice perpetuates the desires for Indigenous Knowledge Systems to undermine the persistent colonial structures that aimed to annihilate them. She delves deeply into themes of representation, inheritance, habitats, and epistemologies of Oceania.<span class=\"quote\">TALOI HAVINI</span>",
+            "http://press.tba21.org/news-tba21academy-presents-the-soul-expanding-ocean-1-taloi-havini-and-extends-territorial-agency-oceans-in-transformation-at-ocean-space-venice?id=121880&menueid=9361&l=english",
+            "From TBA21–Academy’s Press Release titled “The Soul Expanding Ocean #1: Taloi Havini” and extends “Territorial Agency: Oceans in Transformation” at Ocean Space, Venice, 10/12/2020",
+            "sep_500"
+        ],
+        [
+            "The ways in which societies approach the ‘ocean’ is an expression of the value given to life itself. Through utilizing sound and other sensory mediums, Havini asks the audience to reconsider evolution. In deep-time listening, a continuum is created. The sound and the experience embodies Ocean Space through sequences created by the artist, but it remains within the visitors, evolving and as a physically embodied memory.<span class=\"quote\"> TALOI HAVINI</span>",
+            "http://press.tba21.org/news-tba21academy-presents-the-soul-expanding-ocean-1-taloi-havini-and-extends-territorial-agency-oceans-in-transformation-at-ocean-space-venice?id=121880&menueid=9361&l=english",
+            "From TBA21–Academy’s Press Release titled “The Soul Expanding Ocean #1: Taloi Havini” and extends “Territorial Agency: Oceans in Transformation” at Ocean Space, Venice, 10/12/2020",
+            "sep_700-1"
+        ]
+    ],
+    [
+        [
+            "I'm indigenous to the Pacific, which is the Coral Sea. Our idea of space and time isn't about looking at a surface, drawing it, and then having an artefact with lots of data sets and layers. Our idea of mapping is through storytelling and the observation of our world and the environment around us.<span class=\"quote\">TALOI HAVINI</span>",
+            "https://www.youtube.com/watch?v=M6yoT-CXey4",
+            "From her artist statement titled “Ice Age Geology of the Great Barrier Reef - Artist-at-Sea Taloi Havini - FK201122” 5/12/2020 ",
+            "sep_500"
+        ],
+        [
+            "I think research is collaborative, so it's all these intersecting ideas of what research is; how science and art come together. It's this whole community of experiences that will feed in, I think, to my work.<span class=\"quote\">TALOI HAVINI</span>",
+            "https://www.youtube.com/watch?v=M6yoT-CXey4",
+            "From her artist statement titled “Ice Age Geology of the Great Barrier Reef - Artist-at-Sea Taloi Havini - FK201122” 5/12/2020 ",
+            "sep_300"
+        ],
+        [
+            "..My relationship to the ocean is one of love and care. Even before being an artist, I'm an indigenous landowner, and with that comes an enormous respect and care - but also a concern for our oceans at the moment.<span class=\"quote\">TALOI HAVINI</span>",
+            "https://www.youtube.com/watch?v=M6yoT-CXey4",
+            "From her artist statement titled “Ice Age Geology of the Great Barrier Reef - Artist-at-Sea Taloi Havini - FK201122” 5/12/2020 ",
+            "sep_300-sm"
+        ]
+    ],
+    [
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-91.jpg)\"></div><span class=\"quote\">TALOI HAVINI</span>",
+            "https://www.youtube.com/watch?v=b8tE55WbzzU&ab_channel=QAGOMA",
+            "Taloi Havini talks about The Blood Generation, QAGOMA, 2016",
+            "sep_vid-1"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-92.jpg)\"></div><span class=\"quote\">TALOI HAVINI</span>",
+            "https://www.youtube.com/watch?v=M6yoT-CXey4",
+            "Ice Age Geology of the Great Barrier Reef - Artist-at-Sea Taloi Havini - FK201122” 5/12/2020",
+            "sep_vid-2"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-93.jpg)\"></div><span class=\"quote\">TALOI HAVINI</span>",
+            "https://www.youtube.com/watch?v=iIkl9-6qINk",
+            "Answering the call of the ocean: Artist Taloi Havini explores the sound of the sea”, France24 English, 2/4/2021",
+            "sep_vid-3"
+        ]
+    ],
+    [
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-82.png)\"></div><span class=\"quote\">TALOI HAVINI</span>",
+            "",
+            "The Blood Generation, collaboration between artist Taloi Havini and photographer Stuart Miller<br>Digital print, 2009 (series of 10)",
+            "sep_img-1"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-83.png)\"></div><span class=\"quote\">TALOI HAVINI</span>",
+            "",
+            "The Blood Generation, collaboration between artist Taloi Havini and photographer Stuart Miller<br>Digital print, 2009 (series of 10)",
+            "sep_img-2"
+        ],
+        [
+            "I/E is a collective instrument that responds to outdoor situations. On this project, I wanted to propose new ways of working with concrete sound and field recording. For me, working in, out and from exterior environments has become important. The environment is not just sound material or a sound source – its acoustics and social dynamics, for example, can inform composition and inspire new ways to perform and collaborate.<span class=\"quote\">TAREK ATOUI, I/E ISTANBUL </span>",
+            "https://www.ibraaz.org/interviews/130",
+            "From his interview with Stephanie Bailey, 8/5/2014",
+            "seq_300"
+        ]
+    ],
+    [
+        [
+            "My work as a composer is to let [dissonance, resonance, and harmony] be by giving them the parameters to co-exist. For me, my role as a composer starts with setting up the constraints of the encounters and the collaborations that my pieces generate. These constraints are the space, the relation to the audience, the relation between the performers – this was the case with I/E.<span class=\"quote\">TAREK ATOUI, I/E ISTANBUL </span>",
+            "https://www.ibraaz.org/interviews/130",
+            "From his interview with Stephanie Bailey, 8/5/2014",
+            "sep_500"
+        ],
+        [
+            "Working with deaf people totally changed my practice. [...] Maybe the most important thing is learning what listening is about, and breaking lots of clichés I had, and a lot of people around me had on what the act of listening is. For me now, the act of listening is multiple collaborations which became an act that involved all the senses - and that mirrors a bit what I was telling you about my interest in Marfa, coming here and feeling the wind, seeing the landscape and hearing the sounds. For me, the act of listening became this: mobilising all the senses towards understanding what is the sound we're trying to catch? And not closing the eyes and focusing on the sound while trying to channel it through the ears. For me now, this total act is tactile, is physical, is visual, is multi-sensorial in many ways.<span class=\"quote\">TAREK ATOUI, I/E ISTANBUL </span>",
+            "https://marfapublicradio.org/blog/west-texas-talk/artist-and-composer-tarek-atoui/",
+            "From his interview with Diana Nguyen for KRTS, 23/5/2018",
+            "sep_900"
+        ],
+        [
+            "A lot of the decisions on how elements are placed and in dialogue with each and with the space came from listening to the material one by one. So, listening to each stone, listening to the rails, and seeing how these elements are transmitting and emitting sound.<span class=\"quote\"> TAREK ATOUI, I/E ISTANBUL </span>",
+            "https://fridericianum.org/tarek-atoui-interview/",
+            "From his interview with FridericiANVM, 23/10/2020",
+            "sep_500"
+        ]
+    ],
+    [
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-94.jpg)\"></div><span class=\"quote\">TAREK ATOUI, I/E ISTANBUL </span>",
+            "https://youtu.be/EffXKpFk0C4 ",
+            "Tarek Atoui interview with FridericiANVM, 23/10/2020",
+            "sep_vid-4"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-84.png)\"></div><span class=\"quote\">TAREK ATOUI, I/E ISTANBUL </span>",
+            "",
+            "Tarek Atoui field photo",
+            "sep_img-3"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-85.png)\"></div><span class=\"quote\">TAREK ATOUI, I/E ISTANBUL </span>",
+            "",
+            "Tarek Atoui field photo",
+            "sep_img-4"
+        ]
+    ],
+    [
+        [
+            "The indigenous scientist is the ultimate radical figure which has the capacity of merging the contradictions; of being at once scientific and a political actor, cohabiting the natural world while seeking to understand it. Most importantly, this figure stands for a different kind of epistemology that reconnects us to other ways of knowing the human-nature symbiosis. In other words, this figure embodies some of the most fundamental problems in our mind-nature conception.<span class=\"quote\">URSULA BIEMANN, DEVENIR UNIVERSITY</span>",
+            "https://www.youtube.com/watch?v=GDv47X9q5q0",
+            "From Ursula Biemann’s talk at the Master Fine Arts symposium, 20/10/2020",
+            "sep_700-1"
+        ],
+        [
+            "It is not a project that happens 'over there'. It has very much to do with Western institutions of learning.<span class=\"quote\">URSULA BIEMANN, DEVENIR UNIVERSITY</span>",
+            "https://www.youtube.com/watch?v=GDv47X9q5q0",
+            "From Ursula Biemann’s talk at the Master Fine Arts symposium, 20/10/2020",
+            "sep_200-2"
+        ],
+        [
+            "One of the core ideas of the university as a decolonial exercise is to foreground how important it is for education to encounter the Other as mind. What indigenous knowledge intends to teach, and the Inga, in particular, is that the Other is mind. The Other is person. That we co-emerge in the relationship with the Other.<span class=\"quote\">URSULA BIEMANN, DEVENIR UNIVERSITY</span>",
+            "https://www.youtube.com/watch?v=GDv47X9q5q0",
+            "From Ursula Biemann’s talk at the Master Fine Arts symposium, 20/10/2020",
+            "sep_500"
+        ]
+    ],
+    [
+        [
+            "We can think of the university as a healing practice for the territory, that has been injured by colonial intervention, extractivist projects, and by epistemological occupation.<span class=\"quote\">URSULA BIEMANN, DEVENIR UNIVERSITY</span>",
+            "https://www.youtube.com/watch?v=GDv47X9q5q0",
+            "From Ursula Biemann’s talk at the Master Fine Arts symposium, 20/10/2020",
+            "sep_200-3"
+        ],
+        [
+            "The platform, Devenir Universidad, is a way of letting everyone in on the conversation. Include everyone, letting everyone know about the current state of affairs. In other words, it creates transparency of the process. It makes the process comprehensible within the community.<span class=\"quote\">URSULA BIEMANN, DEVENIR UNIVERSITY</span>",
+            "https://www.youtube.com/watch?v=GDv47X9q5q0",
+            "From Ursula Biemann’s talk at the Master Fine Arts symposium, 20/10/2020",
+            "sep_400-2"
+        ],
+        [
+            "There is no such boundary between life and art in my practice. All my projects are alive and actively doing something in the world.<span class=\"quote\">URSULA BIEMANN, DEVENIR UNIVERSITY</span>",
+            "https://www.on-curating.org/issue-25-reader/questions-on-community-with-ursula-biama.html#.YEwvTWQza3U",
+            "Her interview with Dina Yakerson",
+            "sep_300"
+        ]
+    ],
+    [
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-86.png)\"></div><span class=\"quote\">URSULA BIEMANN, DEVENIR UNIVERSITY</span>",
+            "https://www.youtube.com/watch?v=GDv47X9q5q0",
+            "Ursula Biemann’s talk at the Master Fine Arts symposium, 20/10/2020",
+            "sep_img-5"
+        ],
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
         ]
     ]
 ]
@@ -394,7 +659,7 @@ for (var i = 0; i <13; i++) {
 
 
     var scene = new THREE.Scene();
-    var layer_amount = 18
+    var layer_amount = 31
 
 
     var whole_pivot = new THREE.Group()
@@ -476,11 +741,11 @@ var scrollcounter = 0
 
     $('.fake_scroll_wrapper').scroll(function (event) {
         scrollcounter++
-        if(scrollcounter>10){
-                $('.scrolldown').hide()}
+        if(scrollcounter>10){$('.scrolldown').hide()}
             scrollpos = $('.fake_scroll_wrapper').scrollTop()+1+timeoffset;
         var k = Math.floor(scrollpos/(translatey*h)) 
         selected = k
+        console.log(selected)
 
                 if(scrollpos > scrolldirection_value){
                     scrolldirection = 'down'
@@ -576,15 +841,19 @@ var scrollcounter = 0
                     for (var i = layer_pivot_array_cloned.length - 1; i >= 0; i--) {
                         if(i>selected){
                             if(i>(layer_pivot_array_cloned.length-10)){
-                                layer_pivot_array_cloned[i].position.y = -1*translatey*0.4-1*translatey*0.0000175*((i-selected)*(i-selected)*(i-selected)*(i-selected))
+                                var k = selected
+                                if(k<layer_pivot_array_cloned.length-19){
+                                    k = layer_pivot_array_cloned.length-19
+                                }
+                                layer_pivot_array_cloned[i].position.y = -1*translatey*0.4-1*translatey*0.0000175*((i-k)*(i-k)*(i-k)*(i-k))
+                            }else{
+                                layer_pivot_array_cloned[i].position.y = 0
                             }
                         }else{
                             layer_pivot_array_cloned[i].position.y = translatey*0.4
                         }
                     }
-                    for (var i = layer_pivot_array.length - 1; i >= 0; i--) {
-                        if(!auto){layer_pivot_array[i].visible = false}
-                        layer_pivot_array_cloned[i].visible = true
+                    for (var i = layer_pivot_array.length - 1; i >= 0; i--) {if(!auto){layer_pivot_array[i].visible = false}
                     }
                     if(layer_pivot_array[k-2]){
                         layer_pivot_array[k-2].visible = true
@@ -639,7 +908,14 @@ var scrollcounter = 0
                         if(i>selected){
                             layer_pivot_array[i].position.y = -1*translatey*0.4
                             if(i>(layer_pivot_array.length-10)){
-                                layer_pivot_array[i].position.y = -1*translatey*0.4-1*translatey*0.0000175*((i-selected)*(i-selected)*(i-selected)*(i-selected))
+                                var k = selected
+                                if(k<layer_pivot_array_cloned.length-19){
+                                    k = layer_pivot_array_cloned.length-19
+                                }
+                                layer_pivot_array[i].position.y = -1*translatey*0.4-1*translatey*0.0000175*((i-k)*(i-k)*(i-k)*(i-k))
+                            }else{
+                                layer_pivot_array[i].position.y = 0
+
                             }
                         }else{
                             layer_pivot_array[i].position.y = translatey*0.4
@@ -659,6 +935,13 @@ var scrollcounter = 0
                     for (var i = layer_pivot_array_cloned.length - 1; i >= 0; i--) {
                         if(!auto){layer_pivot_array_cloned[i].visible = false}
                         layer_pivot_array[i].visible = true
+                        if(layer_pivot_array_cloned.length-i<18){
+                        layer_pivot_array[i].visible = true}else{
+                        // layer_pivot_array[i].visible = false
+                            layer_pivot_array[i].scale.x = get_rad(translatey,plate_pivot_array[i].length)/translatez+((layer_amount-i-(18))*2)/10
+                            layer_pivot_array[i].scale.z = get_rad(translatey,plate_pivot_array[i].length)/translatez+((layer_amount-i-(18))*2)/10
+
+                        }
                     }
                     if(layer_pivot_array_cloned[k-2]){
                         layer_pivot_array_cloned[k-2].visible = true
@@ -844,16 +1127,13 @@ $('.close').click(function(){
 }
 function create_board(){
     for (var i = 0; i < layer_amount; i++) {
+        var m = i
+        // if(layer_amount-m>18+1){m=layer_amount-18}
         layer_pivot_array[i] = new THREE.Group()
         whole_pivot.add(layer_pivot_array[i])
-        plate_pivot_array[i] = Array(layer_amount-i+2)
+        plate_pivot_array[i] = Array(layer_amount-m+2)
         var texture
-        if((layer_amount-i)>4){
-            console.log('he')
-            texture = loader.load( "img/bgn-"+pad(19-(layer_amount-i), 2)+".png" );
-        }else{
             texture = loader.load( "img/bg-"+pad(layer_amount-i, 2)+".png" );
-        }
 
         layer_material_array[i] = Array(plate_pivot_array[i].length)
         layer_material_array_cloned[i] = Array(plate_pivot_array[i].length)
@@ -871,68 +1151,57 @@ function create_board(){
                 geometry.faceVertexUvs[0][1][2].x = (plate_pivot_array[i].length-k-1)/(plate_pivot_array[i].length)
                 geometry.faceVertexUvs[0][1][1].x = (plate_pivot_array[i].length-k-1)/(plate_pivot_array[i].length)
                 // console.log(plate_pivot_array[i].length-k+0)
-                if((layer_amount-i)==18){
-                        layer_material_array[i][k] = new THREE.MeshPhongMaterial( {map: texture, side: THREE.DoubleSide, color:0xffffff} );
-                        layer_material_array_cloned[i][k] = new THREE.MeshBasicMaterial( {map: texture, side: THREE.DoubleSide, color:0xffffff} );
-                }else if((layer_amount-i)==17){
 
                         layer_material_array[i][k] = new THREE.MeshPhongMaterial( {map: texture, side: THREE.DoubleSide, color:0xffffff} );
                         layer_material_array_cloned[i][k] = new THREE.MeshBasicMaterial( {map: texture, side: THREE.DoubleSide, color:0xffffff} );
-                }else if((layer_amount-i)==16){
-
-                        layer_material_array[i][k] = new THREE.MeshPhongMaterial( {map: texture, side: THREE.DoubleSide, color:0xffffff} );
-                        layer_material_array_cloned[i][k] = new THREE.MeshBasicMaterial( {map: texture, side: THREE.DoubleSide, color:0xffffff} );
-                }else{
-
-                        layer_material_array[i][k] = new THREE.MeshPhongMaterial( {map: texture, side: THREE.DoubleSide, color:0xffffff} );
-                        layer_material_array_cloned[i][k] = new THREE.MeshBasicMaterial( {map: texture, side: THREE.DoubleSide, color:0xffffff} );
-                }
+               
                 // const material = new THREE.MeshBasicMaterial( {map: layer_material_array[i], side: THREE.DoubleSide, color:0xffffff} );
                 const plate = new THREE.Mesh( geometry, layer_material_array[i][k] );
                       plate.position.z = translatez
                       //뒤에서부터..
-                        if(i==0){
-                            console.log(raycaster_obj)
-                            if(k<8){
-                                raycaster_obj[raycaster_obj.length-1].push(plate)
-                            }else if(k<16){
-                                raycaster_obj[raycaster_obj.length-2].push(plate)
-                            }else{
-                                raycaster_obj[raycaster_obj.length-3].push(plate)
-                            }
-                        }else if(i==1){
-                            if(k<11){
-                                raycaster_obj[raycaster_obj.length-1].push(plate)
-                            }else if(k<20){
-                                raycaster_obj[raycaster_obj.length-2].push(plate)
-                            }else{
-                                raycaster_obj[raycaster_obj.length-3].push(plate)
-                            }
-                        }else if(i==2){
-                            if(k<5){
-                                raycaster_obj[raycaster_obj.length-1].push(plate)
-                            }else if(k<10){
-                                raycaster_obj[raycaster_obj.length-2].push(plate)
-                            }else{
-                                raycaster_obj[raycaster_obj.length-3].push(plate)
-                            }
-                        }else if(i==3){
-                            if(k<6){
-                                raycaster_obj[raycaster_obj.length-1].push(plate)
-                            }else if(k<12){
-                                raycaster_obj[raycaster_obj.length-2].push(plate)
-                            }else{
-                                raycaster_obj[raycaster_obj.length-3].push(plate)
-                            }
-                        }else if(i==4){
-                            if(k<5){
-                                raycaster_obj[raycaster_obj.length-1].push(plate)
-                            }else if(k<11){
-                                raycaster_obj[raycaster_obj.length-2].push(plate)
-                            }else{
-                                raycaster_obj[raycaster_obj.length-3].push(plate)
-                            }
-                        }else if(plate_pivot_array[i].length%3==0){
+                        // if(i==0){
+                        //     console.log(raycaster_obj)
+                        //     if(k<8){
+                        //         raycaster_obj[raycaster_obj.length-1].push(plate)
+                        //     }else if(k<16){
+                        //         raycaster_obj[raycaster_obj.length-2].push(plate)
+                        //     }else{
+                        //         raycaster_obj[raycaster_obj.length-3].push(plate)
+                        //     }
+                        // }else if(i==1){
+                        //     if(k<11){
+                        //         raycaster_obj[raycaster_obj.length-1].push(plate)
+                        //     }else if(k<20){
+                        //         raycaster_obj[raycaster_obj.length-2].push(plate)
+                        //     }else{
+                        //         raycaster_obj[raycaster_obj.length-3].push(plate)
+                        //     }
+                        // }else if(i==2){
+                        //     if(k<5){
+                        //         raycaster_obj[raycaster_obj.length-1].push(plate)
+                        //     }else if(k<10){
+                        //         raycaster_obj[raycaster_obj.length-2].push(plate)
+                        //     }else{
+                        //         raycaster_obj[raycaster_obj.length-3].push(plate)
+                        //     }
+                        // }else if(i==3){
+                        //     if(k<6){
+                        //         raycaster_obj[raycaster_obj.length-1].push(plate)
+                        //     }else if(k<12){
+                        //         raycaster_obj[raycaster_obj.length-2].push(plate)
+                        //     }else{
+                        //         raycaster_obj[raycaster_obj.length-3].push(plate)
+                        //     }
+                        // }else if(i==4){
+                        //     if(k<5){
+                        //         raycaster_obj[raycaster_obj.length-1].push(plate)
+                        //     }else if(k<11){
+                        //         raycaster_obj[raycaster_obj.length-2].push(plate)
+                        //     }else{
+                        //         raycaster_obj[raycaster_obj.length-3].push(plate)
+                        //     }
+                        // }else 
+                        if(plate_pivot_array[i].length%3==0){
                             if(k<Math.floor(plate_pivot_array[i].length/3)){
                                 raycaster_obj[raycaster_obj.length-1].push(plate)
                             }else if(k<Math.floor(plate_pivot_array[i].length/3)*2){
@@ -971,7 +1240,6 @@ function create_board(){
                 plate_pivot_array[i][k].add(plate)
                 plate_pivot_array[i][k].add(plate_line)
                 layer_pivot_array[i].add( plate_pivot_array[i][k] );
-
                 if(k == (plate_pivot_array[i].length-1)&& i == (layer_amount-1)){
                     clone_board()
                 }
@@ -988,16 +1256,20 @@ function clone_board(){
                         layer_pivot_array_cloned[m].scale.y = 1.1
                         layer_pivot_array_cloned[m].scale.x = get_rad(translatey,plate_pivot_array[m].length)/translatez
                         layer_pivot_array_cloned[m].scale.z = get_rad(translatey,plate_pivot_array[m].length)/translatez
-                            // console.log(layer_pivot_array_cloned[m])
-                            for (var i = layer_pivot_array_cloned[m].children.length - 1; i >= 0; i--) {
-                                // layer_pivot_array_cloned[m].children[i].children[0].material = layer_material_array_cloned[m][i]
-                            }
+
+                        if(layer_amount-m>18+1){
+                            console.log(layer_amount-m-(18+1))
+                            console.log(m)
+                            layer_pivot_array_cloned[m].scale.x = get_rad(translatey,plate_pivot_array[m].length)/translatez+((layer_amount-m-(18))*2)/10
+                            layer_pivot_array_cloned[m].scale.z = get_rad(translatey,plate_pivot_array[m].length)/translatez+((layer_amount-m-(18))*2)/10
+                        }
                             
                     }
                     scene.add( whole_pivot_cloned)
                     get_scrolling_value(scrollpos,selected,false)
                     render()
                     setTimeout(function(){
+                    console.log(layer_pivot_array_cloned)
                             render()},1000)
 
 }
@@ -1083,37 +1355,41 @@ function zooming(zoomed_out_counter){
             }
     }
     for (var i = layer_pivot_array.length - 1; i >= 0; i--) {
+            var k = 0 
+            if(layer_amount-i>18+1){
+                k = (i*2)/10
+            }else{
+                k = 0
+            }
         if(i>=selected-2 && i<= selected+4){
-            layer_pivot_array[i].scale.x = map_range(zoomed_out_counter,0,speed,scrolling_value[i-(selected-2)][1],get_rad(translatey,plate_pivot_array[i].length)/translatez)
+            layer_pivot_array[i].scale.x = map_range(zoomed_out_counter,0,speed,scrolling_value[i-(selected-2)][1]  ,get_rad(translatey,plate_pivot_array[i].length)/translatez+k)
             layer_pivot_array[i].scale.y = map_range(zoomed_out_counter,0,speed,1,1.1)
-            layer_pivot_array[i].scale.z = map_range(zoomed_out_counter,0,speed,scrolling_value[i-(selected-2)][1],get_rad(translatey,plate_pivot_array[i].length)/translatez)
+            layer_pivot_array[i].scale.z = map_range(zoomed_out_counter,0,speed,scrolling_value[i-(selected-2)][1]  ,get_rad(translatey,plate_pivot_array[i].length)/translatez+k)
         }else if(i>selected+4){
-            layer_pivot_array[i].scale.x = map_range(zoomed_out_counter,0,speed,0,get_rad(translatey,plate_pivot_array[i].length)/translatez)
+            layer_pivot_array[i].scale.x = map_range(zoomed_out_counter,0,speed,0                                   ,get_rad(translatey,plate_pivot_array[i].length)/translatez+k)
             layer_pivot_array[i].scale.y = map_range(zoomed_out_counter,0,speed,1,1.1)
-            layer_pivot_array[i].scale.z = map_range(zoomed_out_counter,0,speed,0,get_rad(translatey,plate_pivot_array[i].length)/translatez)
+            layer_pivot_array[i].scale.z = map_range(zoomed_out_counter,0,speed,0                                   ,get_rad(translatey,plate_pivot_array[i].length)/translatez+k)
         }else{
-            layer_pivot_array[i].scale.x = map_range(zoomed_out_counter,0,speed,5+(i-(selected+4)*0.1),get_rad(translatey,plate_pivot_array[i].length)/translatez)
+            layer_pivot_array[i].scale.x = map_range(zoomed_out_counter,0,speed,5+(i-(selected+4)*0.1)              ,get_rad(translatey,plate_pivot_array[i].length)/translatez+k)
             layer_pivot_array[i].scale.y = map_range(zoomed_out_counter,0,speed,1,1.1)
-            layer_pivot_array[i].scale.z = map_range(zoomed_out_counter,0,speed,5+(i-(selected+4)*0.1),get_rad(translatey,plate_pivot_array[i].length)/translatez)
-        }
-            // if(zoomed_out){
-            //     if(i>selected){
-            //         layer_pivot_array[i].position.y = -1*translatey*0.4
-            //     }else{
-            //         layer_pivot_array[i].position.y = translatey*0.4
-            //     }
-            // }else{
-            //     if(i>selected){
-            //         layer_pivot_array_cloned[i].position.y = -1*translatey*0.4
-            //     }else{
-            //         layer_pivot_array_cloned[i].position.y = translatey*0.4
-            //     }
-            // }
+            layer_pivot_array[i].scale.z = map_range(zoomed_out_counter,0,speed,5+(i-(selected+4)*0.1)              ,get_rad(translatey,plate_pivot_array[i].length)/translatez+k)
+        }   
+
+
+
+
+
+
+
+
+
+
 
         if(i == selected-2){
-                layer_pivot_array_cloned[i].scale.x = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[selected-2].length)/translatez,scrolling_value[0][1])
+            console.log(map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[selected-2].length)/translatez,scrolling_value[0][1]))
+                layer_pivot_array_cloned[i].scale.x = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[selected-2].length)/translatez,scrolling_value[0][1],1)
                 layer_pivot_array_cloned[i].scale.y = map_range(zoomed_out_counter,0,speed,1.1, 1)
-                layer_pivot_array_cloned[i].scale.z = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[selected-2].length)/translatez,scrolling_value[0][2])
+                layer_pivot_array_cloned[i].scale.z = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[selected-2].length)/translatez,scrolling_value[0][2],1)
                     if(i>selected){
                         layer_pivot_array_cloned[i].position.y = map_range(zoomed_out_counter,0,speed,-1*translatey*0.4,scrolling_value[0][0])
                         layer_pivot_array[i].position.y = map_range(zoomed_out_counter,0,speed,scrolling_value[0][0],-1*translatey*0.4)
@@ -1124,9 +1400,9 @@ function zooming(zoomed_out_counter){
             }
 
         else if(i == selected-1){
-                layer_pivot_array_cloned[selected-1].scale.x = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[selected-1].length)/translatez,scrolling_value[1][1])
+                layer_pivot_array_cloned[selected-1].scale.x = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[selected-1].length)/translatez,scrolling_value[1][1],1)
                 layer_pivot_array_cloned[selected-1].scale.y = map_range(zoomed_out_counter,0,speed,1.1, 1)
-                layer_pivot_array_cloned[selected-1].scale.z = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[selected-1].length)/translatez,scrolling_value[1][2])
+                layer_pivot_array_cloned[selected-1].scale.z = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[selected-1].length)/translatez,scrolling_value[1][2],1)
                     if(i>selected){
                         layer_pivot_array_cloned[selected-1].position.y = map_range(zoomed_out_counter,0,speed,-1*translatey*0.4,scrolling_value[1][0])
                         layer_pivot_array[selected-1].position.y = map_range(zoomed_out_counter,0,speed,scrolling_value[1][0],-1*translatey*0.4)
@@ -1137,9 +1413,9 @@ function zooming(zoomed_out_counter){
             }
 
         else if(i == selected-0){
-                layer_pivot_array_cloned[selected-0].scale.x = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[selected-0].length)/translatez,scrolling_value[2][1])
+                layer_pivot_array_cloned[selected-0].scale.x = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[selected-0].length)/translatez,scrolling_value[2][1],1)
                 layer_pivot_array_cloned[selected-0].scale.y = map_range(zoomed_out_counter,0,speed,1.1, 1)
-                layer_pivot_array_cloned[selected-0].scale.z = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[selected-0].length)/translatez,scrolling_value[2][2])
+                layer_pivot_array_cloned[selected-0].scale.z = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[selected-0].length)/translatez,scrolling_value[2][2],1)
                     if(i>selected){
                         layer_pivot_array_cloned[selected-0].position.y = map_range(zoomed_out_counter,0,speed,-1*translatey*0.4,scrolling_value[2][0])
                         layer_pivot_array[selected-0].position.y = map_range(zoomed_out_counter,0,speed,scrolling_value[2][0],-1*translatey*0.4)
@@ -1150,9 +1426,13 @@ function zooming(zoomed_out_counter){
             }
 
         else if(i == selected+1){
-                layer_pivot_array_cloned[selected+1].scale.x = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[selected+1].length)/translatez,scrolling_value[3][1])
+            console.log(map_range(  zoomed_out_counter,
+                                    0,
+                                    speed,
+                                    get_rad(translatey,plate_pivot_array[selected+1].length)/translatez,scrolling_value[3][1]))
+                layer_pivot_array_cloned[selected+1].scale.x = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[selected+1].length)/translatez,scrolling_value[3][1],1)
                 layer_pivot_array_cloned[selected+1].scale.y = map_range(zoomed_out_counter,0,speed,1.1, 1)
-                layer_pivot_array_cloned[selected+1].scale.z = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[selected+1].length)/translatez,scrolling_value[3][2])
+                layer_pivot_array_cloned[selected+1].scale.z = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[selected+1].length)/translatez,scrolling_value[3][2],1)
                     if(i>selected){
                         layer_pivot_array_cloned[selected+1].position.y = map_range(zoomed_out_counter,0,speed,-1*translatey*0.4,scrolling_value[3][0])
                         layer_pivot_array[selected+1].position.y = map_range(zoomed_out_counter,0,speed,scrolling_value[3][0],-1*translatey*0.4)
@@ -1163,9 +1443,9 @@ function zooming(zoomed_out_counter){
             }
 
         else if(i == selected+2){
-                layer_pivot_array_cloned[selected+2].scale.x = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[selected+2].length)/translatez,scrolling_value[4][1])
+                layer_pivot_array_cloned[selected+2].scale.x = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[selected+2].length)/translatez,scrolling_value[4][1],1)
                 layer_pivot_array_cloned[selected+2].scale.y = map_range(zoomed_out_counter,0,speed,1.1, 1)
-                layer_pivot_array_cloned[selected+2].scale.z = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[selected+2].length)/translatez,scrolling_value[4][2])
+                layer_pivot_array_cloned[selected+2].scale.z = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[selected+2].length)/translatez,scrolling_value[4][2],1)
                     if(i>selected){
                         layer_pivot_array_cloned[selected+2].position.y = map_range(zoomed_out_counter,0,speed,-1*translatey*0.4,scrolling_value[4][0])
                         layer_pivot_array[selected+2].position.y = map_range(zoomed_out_counter,0,speed,scrolling_value[4][0],-1*translatey*0.4)
@@ -1176,9 +1456,9 @@ function zooming(zoomed_out_counter){
             }
 
         else if(i == selected+3){
-                layer_pivot_array_cloned[selected+3].scale.x = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[selected+3].length)/translatez,scrolling_value[5][1])
+                layer_pivot_array_cloned[selected+3].scale.x = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[selected+3].length)/translatez,scrolling_value[5][1],1)
                 layer_pivot_array_cloned[selected+3].scale.y = map_range(zoomed_out_counter,0,speed,1.1, 1)
-                layer_pivot_array_cloned[selected+3].scale.z = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[selected+3].length)/translatez,scrolling_value[5][2])
+                layer_pivot_array_cloned[selected+3].scale.z = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[selected+3].length)/translatez,scrolling_value[5][2],1)
                     if(i>selected){
                         layer_pivot_array_cloned[selected+3].position.y = map_range(zoomed_out_counter,0,speed,-1*translatey*0.4,scrolling_value[5][0])
                         layer_pivot_array[selected+3].position.y = map_range(zoomed_out_counter,0,speed,scrolling_value[5][0],-1*translatey*0.4)
@@ -1189,9 +1469,9 @@ function zooming(zoomed_out_counter){
             }
 
         else if(i == selected+4){
-                layer_pivot_array_cloned[selected+4].scale.x = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[selected+4].length)/translatez,scrolling_value[6][1])
+                layer_pivot_array_cloned[selected+4].scale.x = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[selected+4].length)/translatez,scrolling_value[6][1],1)
                 layer_pivot_array_cloned[selected+4].scale.y = map_range(zoomed_out_counter,0,speed,1.1, 1)
-                layer_pivot_array_cloned[selected+4].scale.z = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[selected+4].length)/translatez,scrolling_value[6][2])
+                layer_pivot_array_cloned[selected+4].scale.z = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[selected+4].length)/translatez,scrolling_value[6][2],1)
                     if(i>selected){
                         layer_pivot_array_cloned[selected+4].position.y = map_range(zoomed_out_counter,0,speed,-1*translatey*0.4,scrolling_value[6][0])
                         layer_pivot_array[selected+4].position.y = map_range(zoomed_out_counter,0,speed,scrolling_value[6][0],-1*translatey*0.4) 
@@ -1213,9 +1493,9 @@ function zooming(zoomed_out_counter){
                     }
         }
         else if(i<selected-2){
-            layer_pivot_array_cloned[i].scale.x = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[i].length)/translatez,5+(i-(selected+4)*0.1))
+            layer_pivot_array_cloned[i].scale.x = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[i].length)/translatez,5+(i-(selected+4)*0.1),1)
             layer_pivot_array_cloned[i].scale.y = map_range(zoomed_out_counter,0,speed,1.1,1)
-            layer_pivot_array_cloned[i].scale.z = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[i].length)/translatez,5+(i-(selected+4)*0.1))
+            layer_pivot_array_cloned[i].scale.z = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[i].length)/translatez,5+(i-(selected+4)*0.1),1)
                     if(i>selected){
                         layer_pivot_array_cloned[i].position.y = map_range(zoomed_out_counter,0,speed,-1*translatey*0.4,scrolling_value[0][0])
                         layer_pivot_array[i].position.y = map_range(zoomed_out_counter,0,speed,scrolling_value[0][0],-1*translatey*0.4)
@@ -1228,16 +1508,20 @@ function zooming(zoomed_out_counter){
             layer_pivot_array_cloned[i].scale.x = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[i].length)/translatez,0)
             layer_pivot_array_cloned[i].scale.y = map_range(zoomed_out_counter,0,speed,1.1,1)
             layer_pivot_array_cloned[i].scale.z = map_range(zoomed_out_counter,0,speed,get_rad(translatey,plate_pivot_array[i].length)/translatez,0)
+                var k = selected
+                if(k<layer_pivot_array_cloned.length-19){
+                    k = layer_pivot_array_cloned.length-19
+                }
                 layer_pivot_array_cloned[i].position.y = map_range(easeInQuad(zoomed_out_counter),
                                                                     0,
                                                                     speed,
-                                                                    -1*translatey*0.4-1*translatey*0.0000175*((i-selected)*(i-selected)*(i-selected)*(i-selected)),
+                                                                    -1*translatey*0.4-1*translatey*0.0000175*((i-k)*(i-k)*(i-k)*(i-k)),
                                                                     scrolling_value[6][0])
                 layer_pivot_array[i].position.y = map_range(easeInQuad(zoomed_out_counter),
                                                             0,
                                                             speed,
                                                             scrolling_value[6][0],
-                                                            -1*translatey*0.4-1*translatey*0.0000175*((i-selected)*(i-selected)*(i-selected)*(i-selected)))
+                                                            -1*translatey*0.4-1*translatey*0.0000175*((i-k)*(i-k)*(i-k)*(i-k)))
         }
     }
 
@@ -1399,7 +1683,6 @@ function hover(){
             }
         }
     }
-            console.log(hovered)
     for (var k = raycaster_obj[hovered].length - 1; k >= 0; k--) {
         if(raycaster_obj_link[hovered]===''){
         }else{
@@ -1424,7 +1707,7 @@ function hover(){
 
 
 
-timeplay()
+// timeplay()
 function timeplay(){
     document.title = String(new Date()).substring(4).split(' GMT')[0]
     setTimeout(function(){timeplay()},1000)

@@ -1105,9 +1105,9 @@ new_text_content  =
     [
     [
         [
-            "<span>The</span><span>Silent</span><span>Universityis a</span><span>solidarity based</span><span>knowledge exchange</span><span> platform by displaced people</span><span>and forced migrants.</span><span>It is led by a group of</span><span>lecturers, consultants and research fellows.</span><span>It is an education platform outside of the</span><span>restrictions of migration laws,</span><span>language limitations and the other</span><span>bureaucratic obstacles.<span class=\"quote\">AHMET ÖĞÜT, SILENT UNIVERSITY </span>",
-            "         https://www.youtube.com/watch?v=L5v-8Q4xGH4 (3:20-3:38)",
-            "         Interview with Netali Zaff, 3/11/2020https://www.bupipedream.com/ac/113521/mutant-space-utilizes-interactive-technology-to-highlight-nuclear-radiation/",
+            "<span>The</span><span>Silent</span><span>University is a</span><span>solidarity based</span><span>knowledge exchange</span><span> platform by displaced people</span><span>and forced migrants.</span><span>It is led by a group of</span><span>lecturers, consultants and research fellows.</span><span>It is an education platform outside of the</span><span>restrictions of migration laws,</span><span>language limitations and the other</span><span>bureaucratic obstacles.<span class=\"quote\">AHMET ÖĞÜT, SILENT UNIVERSITY </span>",
+            "https://www.youtube.com/watch?v=L5v-8Q4xGH4 (3:20-3:38)",
+            "Interview with Netali Zaff, 3/11/2020https://www.bupipedream.com/ac/113521/mutant-space-utilizes-interactive-technology-to-highlight-nuclear-radiation/",
             "sep_400-2"
         ],
         [
@@ -1126,8 +1126,8 @@ new_text_content  =
     [
         [
             "The Silent University aims to address and reactivate the knowledge of the participants and make the exchange process mutually beneficial by inventing alternative currencies, in place of money or free voluntary service. The Silent University’s aim is to challenge the idea of silence as a passive state, and explore its powerful potential through performance, writing, and group reflection. These explorations attempt to make apparent the systemic failure and the loss of skills and knowledge experienced through the silencing process of people seeking asylum.<span class=\"quote\"> AHMET ÖĞÜT, SILENT UNIVERSITY </span>",
-            "         https://blog.saltonline.org/post/95367715734/the-bold-and-poignant-palette-of-gulsun-karamustafa ",
-            "         From her interview in Idea Magazine, 2009 https://blog.saltonline.org/post/95367715734/the-bold-and-poignant-palette-of-gulsun-karamustafa ",
+            "https://blog.saltonline.org/post/95367715734/the-bold-and-poignant-palette-of-gulsun-karamustafa ",
+            "From her interview in Idea Magazine, 2009 https://blog.saltonline.org/post/95367715734/the-bold-and-poignant-palette-of-gulsun-karamustafa ",
             "sep_700-1"
         ],
         [
@@ -1351,116 +1351,1196 @@ new_text_content  =
            "sep_img-3"
         ],
         [
-            "<span class=\"quote\">artistname-------</span>",
+            "We make an annual walking ritual on the coast with a sense of worry about the heap of vulnerabilities accompanying the sinking of Jakarta. We walked through disputed land, frequent floods, contested coastline, contaminated mangrove forest, observing mutant fish due to the collapsing of ecological carrying capacity and the construction of a giant sea wall crammed with mythological fiction among the scandalous siege of artificial islands. To see what’s been happening right now makes us not so optimistic to project the future. But as artists, we believe beauty is always present anywhere even in a catastrophe.<span class=\"quote\">TITA SALINA & IRWAN AHMETT</span>",
             "",
-            "",
-            ""
+            "Tita Saline and Irwan Ahmett on Ziarah Uata / Pilgrimage to the North (2018-ongoing) in their project proposal for the 17th Istanbul Biennial",
+            "sep_900"
         ],
         [
-            "<span class=\"quote\">artistname-------</span>",
+            "For us, Java is a geopolitical laboratory that depicts brightly the reality of political identity polarisation that is suspected to be happening massively on a global scale.<span class=\"quote\">TITA SALINA & IRWAN AHMETT</span>",
             "",
-            "",
-            ""
+            "Tita Saline and Irwan Ahmett on God Dam Wall in their project proposal for the 17th Istanbul Biennial",
+            "sep_300"
         ]
     ],
     [
         [
-            "<span class=\"quote\">artistname-------</span>",
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-75.png)\"></div><span class=\"quote\">TITA SALINA & IRWAN AHMETT</span>",
             "",
-            "",
-            ""
-        ],
-        [
-            "<span class=\"quote\">artistname-------</span>",
-            "",
-            "",
-            ""
-        ],
-        [
-            "<span class=\"quote\">artistname-------</span>",
-            "",
-            "",
-            ""
-        ]
-    ],
-    [
-        [
-            "<span class=\"quote\">artistname-------</span>",
-            "",
-            "",
-            ""
-        ],
-        [
-            "<span class=\"quote\">artistname-------</span>",
-            "",
-            "",
-            ""
-        ],
-        [
-            "<span class=\"quote\">artistname-------</span>",
-            "",
-            "",
-            ""
-        ]
-    ],
-    [
-        [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y18.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://youtube.com/watch?v=LfmUouW1ZuA",
-            "from -------------",
-            "sep_vid-3"
-        ],
-        [
-            "“It is by micro-political acting that we want to participate in making the city more ecological and more democratic, to make the space of proximity less dependent on top-down processes and more accessible to its users. The ‘self-managed architecture’ is an architecture of relationships, processes and agencies of persons, desires, skills and know-hows. Such an architecture does not correspond to a liberal practice but asks for new forms of association and collaboration, based on exchange and reciprocity and involving all those interested (individuals, organisations, institutions), whatever is their scale.”<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
-            "         https://www.urbantactics.org/about/ ",
-            "         from their website https://www.urbantactics.org/about/ ",
-            "sep_700-1"
-        ],
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-61.jpg)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Screenshot from Sriwhana Spong’s a hook but no fish 2017, film still. Courtesy of the artist and Michael Lett",
-            "sep_img-3"
-        ]
-    ],
-    [
-        [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-24.jpg)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Fernando Garcia Dory, Monologue ",
+            "From Tita Saline and Irwan Ahmett’s project proposal for the 17th Istanbul Biennial",
             "sep_img-1"
         ],
         [
-            "“It's not about this mangrove moving perfectly, it's about all of us coming together and obsessing about this machine, for months. It's about a way of thinking. If we talk about all these issues; we need to come together — it's not one person that's gonna save the world. <span class=\"quote\">        MARTHA ATIENZA </span>",
-            "         https://www.adobomagazine.com/the-magazine/martha-atienzas-equation-of-state-using-video-art-and-island-technology-to-illuminate-the-effects-of-climate-change-in-bantayan-islands-coastal-communities-and-the-importan/ (1:00-1:22) ",
-            "         From her interview with Adobo Magazine https://www.adobomagazine.com/the-magazine/martha-atienzas-equation-of-state-using-video-art-and-island-technology-to-illuminate-the-effects-of-climate-change-in-bantayan-islands-coastal-communities-and-the-importan/ (1:00-1:22) ",
-            "sep_300"
+            "The “Flag Project” is designed to study and develop collective creativity. I implement an “open art system,” in which art is defined as broadly as possible, to break through rigid discourses and established values, engaging in democratic dialogue, but also taking a critical approach when needed. During this process, outcomes—artworks or other forms—are produced collectively, collaboratively or individually. Another aim is to create and maintain a network that enables the exchange of ideas and experiences, or development in the form of collaborations.<span class=\"quote\">ARAHMAIANI FEISAL</span>",
+            "http://www.trfineart.com/wp-content/uploads/2016/08/AAP79_SecondLifeInTibet_Arahmaiani.pdf",
+            "In her statetement titled “My Second Life in Tibet”, August 2016",
+            "sep_700-2"
         ],
         [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y2.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://youtube.com/watch?v=kNaxM_L5GOg",
-            "from -------------",
-            "sep_vid-2"
+            "But ultimately, who is it going to answer? Not the authority. In fact, that almost never happened. I realized the most realistic thing was to answer to the problem myself. You have to try to give an answer, rather than limiting yourself to questioning and criticizing. In a way, through the answer you also express a critique, but in a subtler way, through action. As an activist, you can of course be manipulated, so the trap is always there. But by going more directly into a solution, you get something more real which can’t be manipulated so easily by other people’s agendas. The important thing is that it never becomes us against them. When it becomes all about defeating your enemy, you lose sight of the change you want to see in the world. That’s what I’ve learned from my experience anyway.<span class=\"quote\">ARAHMAIANI FEISAL</span>",
+            "https://www.cobosocial.com/dossiers/arahmaiani-superheroine-of-indonesian-contemporary-art/",
+            "From her interview titled “Arahmaiani: The Superheroine of Indonesian Contemporary Art, from Criticism to Activism” with Naima Morelli, 5/9/2016",
+            "sep_1000"
         ]
     ],
     [
         [
-            "“Our architecture is at the same time political and poetic as it aims above all to ‘create relationships between worlds’.”<span class=\"quote\">         ATELIER D’ARCHITECTURE AUTOGEREE </span>",
-            "         https://www.urbantactics.org/about/ ",
-            "         from their website https://www.urbantactics.org/about/ ",
-            "sep_100"
+            "I see the essence of all religions being basically the same; it is for the good of people of this earth. But of course there are different cultural contexts and different ways of doing it. I don’t make a big deal about it, I’m more interested in the idea of pluralism, respecting the differences.<span class=\"quote\">ARAHMAIANI FEISAL</span>",
+            "https://www.cobosocial.com/dossiers/arahmaiani-superheroine-of-indonesian-contemporary-art/",
+            "From her interview titled “Arahmaiani: The Superheroine of Indonesian Contemporary Art, from Criticism to Activism” with Naima Morelli, 5/9/2016",
+            "sep_500"
         ],
         [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-59.png)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Yehwan Song, Very responsive, 2020",
+            "In my quest for answers, I am particularly interested in norms and values that we inherited from our ancestors. In my work, I try to reinterpret these philosophies in the context of contemporary conditions.<span class=\"quote\">ARAHMAIANI FEISAL</span>",
+            "http://www.seas.at/",
+            "From “I Don’t Want to Limit Myself to Binary Thinking”: An Inter- view With the Indonesian Artist Arahmaiani by Gunnar Stange Published 2017, conducted 2016",
+            "sep_300"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-87.jpg)\"></div><span class=\"quote\">ARAHMAIANI FEISAL</span>",
+            "https://www.youtube.com/watch?v=LfmUouW1ZuA",
+            "The Past Has Not Passed / Breaking Words, Peformance by Arahmaiani, MACAN, 2019",
+            "sep_vid-1"
+        ]
+    ],
+    [
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-88.jpg)\"></div><span class=\"quote\">ARAHMAIANI FEISAL</span>",
+            "https://www.youtube.com/watch?v=GDTsZiznhB8&ab_channel=QAGOMA",
+            "handle without care, Peformance by Arahmaiani, APT2, QAGOMA, 1996",
+            "sep_vid-2"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-89.jpg)\"></div><span class=\"quote\">ARAHMAIANI FEISAL</span>",
+            "https://www.youtube.com/watch?v=NA_1U8xYlJM&ab_channel=ArahmaianiFeisal",
+            "Arahmaiani: Ahimsa Karuna Nusantara, Flag Project, 2020",
+            "sep_vid-3"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-76.png)\"></div><span class=\"quote\">ARAHMAIANI FEISAL</span>",
+            "",
+            "Arhamaiani, Flag Project Sydney, 2007 ",
+            "sep_img-2"
+        ]
+    ],
+    [
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-77.png)\"></div><span class=\"quote\">ARAHMAIANI FEISAL</span>",
+            "",
+            "Arhamaiani, Flag Project Merapi, 2010",
             "sep_img-3"
         ],
         [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y27.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://youtube.com/watch?v=upwfIEYmFBw",
-            "from -------------",
+            "I don’t know. It might be a question that I cannot answer, whether there is only one studio or many mental spaces. Maybe for me, since my work is tied to landscape and architecture, somehow always connected to geography, having a studio probably refers more to a dynamic space, and not having it at the same time.<span class=\"quote\">RENATO LEOTTA</span>",
+            "http://www.in-studio.net/renato-leotta",
+            "From his instudio video",
+            "sep_500"
+        ],
+        [
+            "Every time I come into contact with a certain context, there’s the sea as a landmark, or the moon, the sun… I don’t want to make it into an excessively poetic concept, but it is as if they were the main tools, the ingredients. They are the basic kit that you hang on a nail in your studio. <span class=\"quote\">RENATO LEOTTA</span>",
+            "http://www.in-studio.net/renato-leotta",
+            "From his instudio video",
+            "sep_700-1"
+        ]
+    ],
+    [
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-95.png)\"></div><span class=\"quote\">RENATO LEOTTA</span>",
+            "http://www.in-studio.net/renato-leotta",
+            "instudio video",
+            ""
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-78.png)\"></div><span class=\"quote\">RENATO LEOTTA</span>",
+            "",
+            "Pictures from Renato’s Posidonia Oceanica project proposal",
+            "sep_img-4"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-79.png)\"></div><span class=\"quote\">RENATO LEOTTA</span>",
+            "",
+            "Pictures from Renato’s Posidonia Oceanica project proposal",
+            "sep_img-5"
+        ]
+    ],
+    [
+        [
+            "In that brief time it is as if we converged: the boat with its human load , the water, the damp air, the low clouds, the filtered light. Everything within the realm of the weather- event became indivisible. All boundaries opening into a single porous whole.<span class=\"quote\">CHARLES LIM & SIMRYN GILL</span>",
+            "",
+            "Charles Lim and Simryn Gill on how The Sea as a Field came to be",
+            "sep_400-1"
+        ],
+        [
+            "And then it was over. The waves settled, the wind took the falling sky elsewhere, and we each one of us re-entered our separateness; phones came out of pockets, babies started to cry, people laughed.<span class=\"quote\">CHARLES LIM & SIMRYN GILL</span>",
+            "",
+            "Charles Lim and Simryn Gill on how The Sea as a Field came to be",
+            "sep_300"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-96.png)\"></div><span class=\"quote\">CHARLES LIM & SIMRYN GILL</span>",
+            "https://www.artforum.com/video/charles-lim-sea-state-2015-51390",
+            "Charles Lim, SEA STATE, 2015",
+            ""
+        ]
+    ],
+    [
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-90.jpg)\"></div><span class=\"quote\">CHARLES LIM & SIMRYN GILL</span>",
+            "https://www.youtube.com/watch?v=0bFZ4gcsAPA&t=334s&ab_channel=BloombergQuicktake",
+            "“Art and the Life Aquatic: Charles Lim”, Ep. 49, Bloomberg Quicktake, 2017",
+            "sep_vid-4"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-80.png)\"></div><span class=\"quote\">CHARLES LIM & SIMRYN GILL</span>",
+            "",
+            "Charles Lim, SEA STATE 9: proclamation : DRAG PROP POUR, 2018, courtesy of Charles Lim",
+            "sep_img-6"
+        ],
+        [
+            "We have to act with dignity. We promise not to offer any solutions whatsoever. (All we can do is perhaps offer a couple of temporary remedies for the reigning “uncuriosity syndrome” around the globe.) We do not want to give you anything; we want to take as much as possible from you. For, we are in this project together –- A project which represents the values we all share.<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "https://acikradyo.com.tr/manifesto-acik-radyo",
+            "From Açık Radyo’s Manifesto, 1995",
+            "sep_500"
+        ]
+    ],
+    [
+        [
+            "The “Serial of the Universe”, the never ending history of our wars, the terrifying hum of the earthquake, our warming air and water, our globalisation, our greeds, our angers, our rights, our economies and our crises, our road maps showing the way to European civilisation, our terror maps reaching into the depths of black holes, our genome maps, our diseases, our miraculous remedies, as well as the birds and the bees, the one-for-the-roads, the poor, the women, the children, the child abusers, the splendour and the misery of the media, the music of the spheres, and, last but not least: “All the beauty of human civilization – our art, our music, our literature – lies beyond these two fundamentalist, ideological poles.” (Roy) Our Open Site is a small flashlight, but one whose handle stretches to fit as many hands as want to hold it or hold on to it.<span class=\"quote\">artistname-------</span>",
+            "https://acikradyo.com.tr/manifesto-acik-radyo",
+            "From Açık Radyo’s Manifesto, 2001",
+            "sep_900"
+        ],
+        [
+            "We are not oyster fishermen or citrus growers or lawyers but we bring people together with different expertise to have discussions across political and environmental horizons.<span class=\"quote\">COOKING SECTIONS, SURVEY PACK WALLOWLANDS</span>",
+            "https://www.frieze.com/article/eating-end-world",
+            "From Eating at the End of the World on Frieze by Jane Black in Profiles, 15/08/19",
+            "sep_200-1"
+        ],
+        [
+            "We use the art world as a platform to start a conversation. But it doesn’t stay there. The goal is to mobilize a series of actions in collaboration with residents and communities that bring change.<span class=\"quote\">COOKING SECTIONS, SURVEY PACK WALLOWLANDS</span>",
+            "https://www.frieze.com/article/eating-end-world",
+            "From Eating at the End of the World on Frieze by Jane Black in Profiles, 15/08/19",
+            "sep_300"
+        ]
+    ],
+    [
+        [
+            "We were really interested in how we could use it as a tool to think about emancipating or decolonizing contemporary food practices. The whole project tried to think of counterapproaches to buying and selling. If the neoliberal world has appropriated the language of sustainability, can we do it the other way around and appropriate neoliberal tools to challenge the logic of the franchise and think of it in terms of value beyond profit margins? We’re interested in the original French meaning of “franchise” as releasing oneself from servitude.<span class=\"quote\">COOKING SECTIONS, SURVEY PACK WALLOWLANDS</span>",
+            "https://www.artnews.com/art-in-america/interviews/food-studies-a-conversation-with-cooking-sections-56484/",
+            "From their interview titled FOOD STUDIES: A CONVERSATION WITH COOKING SECTIONS on Art News with Elizabeth Fullerton, 14/06/2018",
+            "sep_700-2"
+        ],
+        [
+            "We don’t think we provide solutions because we don’t have them. Our social and political interventions question and problematize certain situations. By drawing attention to various situations we are complicating them and making people take more responsibility.<span class=\"quote\">COOKING SECTIONS, SURVEY PACK WALLOWLANDS</span>",
+            "https://www.artnews.com/art-in-america/interviews/food-studies-a-conversation-with-cooking-sections-56484/ ",
+            "From their interview titled FOOD STUDIES: A CONVERSATION WITH COOKING SECTIONS on Art News with Elizabeth Fullerton, 14/06/2018",
+            "sep_500"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-97.png)\"></div><span class=\"quote\">COOKING SECTIONS, SURVEY PACK WALLOWLANDS</span>",
+            "https://newgeographies.uk/artist/cooking-sections/",
+            "Cooking Sections – Movable Estates on New Geographies UK",
             "sep_vid-1"
+        ]
+    ],
+    [
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-81.png)\"></div><span class=\"quote\">COOKING SECTIONS, SURVEY PACK WALLOWLANDS</span>",
+            "",
+            "Cooking Sections, Salmon: A Red Herring, 2020. Tate Britain, Art Now. Installation view. Photo: Tate",
+            "sep_img-7"
+        ],
+        [
+            "In all mediums, her practice perpetuates the desires for Indigenous Knowledge Systems to undermine the persistent colonial structures that aimed to annihilate them. She delves deeply into themes of representation, inheritance, habitats, and epistemologies of Oceania.<span class=\"quote\">TALOI HAVINI</span>",
+            "http://press.tba21.org/news-tba21academy-presents-the-soul-expanding-ocean-1-taloi-havini-and-extends-territorial-agency-oceans-in-transformation-at-ocean-space-venice?id=121880&menueid=9361&l=english",
+            "From TBA21–Academy’s Press Release titled “The Soul Expanding Ocean #1: Taloi Havini” and extends “Territorial Agency: Oceans in Transformation” at Ocean Space, Venice, 10/12/2020",
+            "sep_500"
+        ],
+        [
+            "The ways in which societies approach the ‘ocean’ is an expression of the value given to life itself. Through utilizing sound and other sensory mediums, Havini asks the audience to reconsider evolution. In deep-time listening, a continuum is created. The sound and the experience embodies Ocean Space through sequences created by the artist, but it remains within the visitors, evolving and as a physically embodied memory.<span class=\"quote\"> TALOI HAVINI</span>",
+            "http://press.tba21.org/news-tba21academy-presents-the-soul-expanding-ocean-1-taloi-havini-and-extends-territorial-agency-oceans-in-transformation-at-ocean-space-venice?id=121880&menueid=9361&l=english",
+            "From TBA21–Academy’s Press Release titled “The Soul Expanding Ocean #1: Taloi Havini” and extends “Territorial Agency: Oceans in Transformation” at Ocean Space, Venice, 10/12/2020",
+            "sep_700-1"
+        ]
+    ],
+    [
+        [
+            "I'm indigenous to the Pacific, which is the Coral Sea. Our idea of space and time isn't about looking at a surface, drawing it, and then having an artefact with lots of data sets and layers. Our idea of mapping is through storytelling and the observation of our world and the environment around us.<span class=\"quote\">TALOI HAVINI</span>",
+            "https://www.youtube.com/watch?v=M6yoT-CXey4",
+            "From her artist statement titled “Ice Age Geology of the Great Barrier Reef - Artist-at-Sea Taloi Havini - FK201122” 5/12/2020 ",
+            "sep_500"
+        ],
+        [
+            "I think research is collaborative, so it's all these intersecting ideas of what research is; how science and art come together. It's this whole community of experiences that will feed in, I think, to my work.<span class=\"quote\">TALOI HAVINI</span>",
+            "https://www.youtube.com/watch?v=M6yoT-CXey4",
+            "From her artist statement titled “Ice Age Geology of the Great Barrier Reef - Artist-at-Sea Taloi Havini - FK201122” 5/12/2020 ",
+            "sep_300"
+        ],
+        [
+            "..My relationship to the ocean is one of love and care. Even before being an artist, I'm an indigenous landowner, and with that comes an enormous respect and care - but also a concern for our oceans at the moment.<span class=\"quote\">TALOI HAVINI</span>",
+            "https://www.youtube.com/watch?v=M6yoT-CXey4",
+            "From her artist statement titled “Ice Age Geology of the Great Barrier Reef - Artist-at-Sea Taloi Havini - FK201122” 5/12/2020 ",
+            "sep_300-sm"
+        ]
+    ],
+    [
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-91.jpg)\"></div><span class=\"quote\">TALOI HAVINI</span>",
+            "https://www.youtube.com/watch?v=b8tE55WbzzU&ab_channel=QAGOMA",
+            "Taloi Havini talks about The Blood Generation, QAGOMA, 2016",
+            "sep_vid-1"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-92.jpg)\"></div><span class=\"quote\">TALOI HAVINI</span>",
+            "https://www.youtube.com/watch?v=M6yoT-CXey4",
+            "Ice Age Geology of the Great Barrier Reef - Artist-at-Sea Taloi Havini - FK201122” 5/12/2020",
+            "sep_vid-2"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-93.jpg)\"></div><span class=\"quote\">TALOI HAVINI</span>",
+            "https://www.youtube.com/watch?v=iIkl9-6qINk",
+            "Answering the call of the ocean: Artist Taloi Havini explores the sound of the sea”, France24 English, 2/4/2021",
+            "sep_vid-3"
+        ]
+    ],
+    [
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-82.png)\"></div><span class=\"quote\">TALOI HAVINI</span>",
+            "",
+            "The Blood Generation, collaboration between artist Taloi Havini and photographer Stuart Miller<br>Digital print, 2009 (series of 10)",
+            "sep_img-1"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-83.png)\"></div><span class=\"quote\">TALOI HAVINI</span>",
+            "",
+            "The Blood Generation, collaboration between artist Taloi Havini and photographer Stuart Miller<br>Digital print, 2009 (series of 10)",
+            "sep_img-2"
+        ],
+        [
+            "I/E is a collective instrument that responds to outdoor situations. On this project, I wanted to propose new ways of working with concrete sound and field recording. For me, working in, out and from exterior environments has become important. The environment is not just sound material or a sound source – its acoustics and social dynamics, for example, can inform composition and inspire new ways to perform and collaborate.<span class=\"quote\">TAREK ATOUI, I/E ISTANBUL </span>",
+            "https://www.ibraaz.org/interviews/130",
+            "From his interview with Stephanie Bailey, 8/5/2014",
+            "seq_300"
+        ]
+    ],
+    [
+        [
+            "My work as a composer is to let [dissonance, resonance, and harmony] be by giving them the parameters to co-exist. For me, my role as a composer starts with setting up the constraints of the encounters and the collaborations that my pieces generate. These constraints are the space, the relation to the audience, the relation between the performers – this was the case with I/E.<span class=\"quote\">TAREK ATOUI, I/E ISTANBUL </span>",
+            "https://www.ibraaz.org/interviews/130",
+            "From his interview with Stephanie Bailey, 8/5/2014",
+            "sep_500"
+        ],
+        [
+            "Working with deaf people totally changed my practice. [...] Maybe the most important thing is learning what listening is about, and breaking lots of clichés I had, and a lot of people around me had on what the act of listening is. For me now, the act of listening is multiple collaborations which became an act that involved all the senses - and that mirrors a bit what I was telling you about my interest in Marfa, coming here and feeling the wind, seeing the landscape and hearing the sounds. For me, the act of listening became this: mobilising all the senses towards understanding what is the sound we're trying to catch? And not closing the eyes and focusing on the sound while trying to channel it through the ears. For me now, this total act is tactile, is physical, is visual, is multi-sensorial in many ways.<span class=\"quote\">TAREK ATOUI, I/E ISTANBUL </span>",
+            "https://marfapublicradio.org/blog/west-texas-talk/artist-and-composer-tarek-atoui/",
+            "From his interview with Diana Nguyen for KRTS, 23/5/2018",
+            "sep_900"
+        ],
+        [
+            "A lot of the decisions on how elements are placed and in dialogue with each and with the space came from listening to the material one by one. So, listening to each stone, listening to the rails, and seeing how these elements are transmitting and emitting sound.<span class=\"quote\"> TAREK ATOUI, I/E ISTANBUL </span>",
+            "https://fridericianum.org/tarek-atoui-interview/",
+            "From his interview with FridericiANVM, 23/10/2020",
+            "sep_500"
+        ]
+    ],
+    [
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-94.jpg)\"></div><span class=\"quote\">TAREK ATOUI, I/E ISTANBUL </span>",
+            "https://youtu.be/EffXKpFk0C4 ",
+            "Tarek Atoui interview with FridericiANVM, 23/10/2020",
+            "sep_vid-4"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-84.png)\"></div><span class=\"quote\">TAREK ATOUI, I/E ISTANBUL </span>",
+            "",
+            "Tarek Atoui field photo",
+            "sep_img-3"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-85.png)\"></div><span class=\"quote\">TAREK ATOUI, I/E ISTANBUL </span>",
+            "",
+            "Tarek Atoui field photo",
+            "sep_img-4"
+        ]
+    ],
+    [
+        [
+            "The indigenous scientist is the ultimate radical figure which has the capacity of merging the contradictions; of being at once scientific and a political actor, cohabiting the natural world while seeking to understand it. Most importantly, this figure stands for a different kind of epistemology that reconnects us to other ways of knowing the human-nature symbiosis. In other words, this figure embodies some of the most fundamental problems in our mind-nature conception.<span class=\"quote\">URSULA BIEMANN, DEVENIR UNIVERSITY</span>",
+            "https://www.youtube.com/watch?v=GDv47X9q5q0",
+            "From Ursula Biemann’s talk at the Master Fine Arts symposium, 20/10/2020",
+            "sep_700-1"
+        ],
+        [
+            "It is not a project that happens 'over there'. It has very much to do with Western institutions of learning.<span class=\"quote\">URSULA BIEMANN, DEVENIR UNIVERSITY</span>",
+            "https://www.youtube.com/watch?v=GDv47X9q5q0",
+            "From Ursula Biemann’s talk at the Master Fine Arts symposium, 20/10/2020",
+            "sep_200-2"
+        ],
+        [
+            "One of the core ideas of the university as a decolonial exercise is to foreground how important it is for education to encounter the Other as mind. What indigenous knowledge intends to teach, and the Inga, in particular, is that the Other is mind. The Other is person. That we co-emerge in the relationship with the Other.<span class=\"quote\">URSULA BIEMANN, DEVENIR UNIVERSITY</span>",
+            "https://www.youtube.com/watch?v=GDv47X9q5q0",
+            "From Ursula Biemann’s talk at the Master Fine Arts symposium, 20/10/2020",
+            "sep_500"
+        ]
+    ],
+    [
+        [
+            "We can think of the university as a healing practice for the territory, that has been injured by colonial intervention, extractivist projects, and by epistemological occupation.<span class=\"quote\">URSULA BIEMANN, DEVENIR UNIVERSITY</span>",
+            "https://www.youtube.com/watch?v=GDv47X9q5q0",
+            "From Ursula Biemann’s talk at the Master Fine Arts symposium, 20/10/2020",
+            "sep_200-3"
+        ],
+        [
+            "The platform, Devenir Universidad, is a way of letting everyone in on the conversation. Include everyone, letting everyone know about the current state of affairs. In other words, it creates transparency of the process. It makes the process comprehensible within the community.<span class=\"quote\">URSULA BIEMANN, DEVENIR UNIVERSITY</span>",
+            "https://www.youtube.com/watch?v=GDv47X9q5q0",
+            "From Ursula Biemann’s talk at the Master Fine Arts symposium, 20/10/2020",
+            "sep_400-1"
+        ],
+        [
+            "There is no such boundary between life and art in my practice. All my projects are alive and actively doing something in the world.<span class=\"quote\">URSULA BIEMANN, DEVENIR UNIVERSITY</span>",
+            "https://www.on-curating.org/issue-25-reader/questions-on-community-with-ursula-biama.html#.YEwvTWQza3U",
+            "Her interview with Dina Yakerson",
+            "sep_300"
+        ]
+    ],
+    [
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-86.png)\"></div><span class=\"quote\">URSULA BIEMANN, DEVENIR UNIVERSITY</span>",
+            "https://www.youtube.com/watch?v=GDv47X9q5q0",
+            "Ursula Biemann’s talk at the Master Fine Arts symposium, 20/10/2020",
+            "sep_img-5"
+        ],
+        [
+            "“We tend to form some kind of a community with those we share a rhythm. Such rhythm can be a construct, but once it is constructed, rhythm becomes a regulator, a substance that binds. At the same time, rhythm can be the substance that dissolves a community. Rhythm is very difficult to define. It is found everywhere, even where there isn’t in appearance. Some theorists suggest that there is rhythm wherever there is an expenditure of energy. In this way, rhythm can give us insight in how to be friendly and hospitable to those whom we don’t share a rhythm.”<span class=\"quote\">CHRISTIAN NYAMPETA</span>",
+            "https://medium.com/@camdenartscentre/in-conversation-christian-nyampeta-gina-buenfeld-d32fed700b",
+            "From interview titled “In Conversation: Christian Nyampeta & Gina Buenfeld” by Gina Buenfeld for Medium",
+            "sep_700-1"
+        ],
+        [
+            "This is actually a Rwandan proverb. [...] Proverbs are not maxims, aphorisms, axioms, or adages that could constitute some kind of Rwandan Holy Book of good observance. For the scholarship I learn from, they simply mark the limits of the knowable. And, to me, these limits can be diagrammed in terms of modes of existence marked by a rhythm of giving-receiving-giving.<span class=\"quote\">CHRISTIAN NYAMPETA</span>",
+            "https://contemporaryand.com/magazines/how-to-live-together/",
+            "From interview titled “How to Live Together: In Conversation with Christian Nyampeta” by Aïcha Diallo 21/5/2020",
+            "sep_400-1"
+        ]
+    ],
+    [
+        [
+            "[...] this radiophonic format is a time zone that fuses generations of changes endured across trans-familial lines spread over immeasurable geographic expanses into a new common world, while, at the same time, avoiding forceful amalgamation. [...] I myself remember lots of radio moments! One of them indeed occurred during the height of the misery in Rwanda, when I chose to listen to BBC World Service on short waves. It offered this super distant and otherworldly voice that somehow made life bearable by keeping me from being pulled into the depths of despair, lassitude and euphoria. Radio has this way of connecting isolations; it allows cultural works to travel and circulate.<span class=\"quote\">CHRISTIAN NYAMPETA</span>",
+            "https://www.wiels.org/en/blog/an-interview-with-christian-nyampeta",
+            "From “An interview with Christian Nyampeta” by Sofia Dati and Helena Kritis, 14/3/2021",
+            "sep_900"
+        ],
+        [
+            "These other ways of thinking about the community, or the society tended to bypass - or to go behind, in time - the dominant discourse. In a way, to me, it offered a certain kind of mobility - and mobility is of course, not freedom as such - but the mobility to move across time, and to look at other ways of thinking; the communal, or the common. [...] It has that dimension of - I don't want to use a difficult word, but - paleonymic [Derrida]; something old, like an old name, which then enables [us] to move ahead.<span class=\"quote\">CHRISTIAN NYAMPETA </span>",
+            "https://soundcloud.com/e_flux/sohrab-mohebbi-and-christian",
+            "From podcast titled “Sohrab Mohebbi and Christian Nyampeta discuss École du soir” for e-flux, 2020",
+            "sep_img-1"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-99.jpeg)\"></div><span class=\"quote\">CHRISTIAN NYAMPETA</span>",
+            "",
+            "See “Christian Nyampeta: Sometimes It Was Beautiful” at the Guggenheim",
+            "sep_img-2"
+        ]
+    ],
+    [
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-98.png)\"></div><span class=\"quote\">CHRISTIAN NYAMPETA</span>",
+            "https://www.guggenheim.org/video/see-christian-nyampeta-sometimes-it-was-beautiful-at-the-guggenheim",
+            "Sometimes It Was A Beautiful, 2018",
+            "sep_img-3"
+        ],
+        [
+            "The concepts of gender and sexual difference built on equality, according to the classical model of politics, are no longer useful for understanding contemporary social emancipation. Neither are they no longer sufficient to oppose power relations. What new subjectivities or post-socialist movements are pursuing is the destruction of gender identity, exiting the trap of both worlds (male/female) united into one (heterosexuality). To not assign or be assigned to an identity means to enable the construction and proliferation of possible worlds. Yet, processes of heterogeneous nomadic and evolving subjectivity are opening up on the horizon.<span class=\"quote\">MARCO SCOTINI, THE DISOBEDIENCE ARCHIVE</span>",
+            "http://www.disobediencearchive.org/",
+            "from his project’s website",
+            "sep_900"
+        ],
+        [
+            "The aim of the presentation of a series of counter-exhibitions is to bring back to light the collective memories of rebellious archives, of disobedient bodies, of repressed social roles, of banned books, of removed exhibitions. So one of its main functions can be identified in the rewriting of complex histories, locally interwoven and situated, but never taken on by the univocality of modernity. Or, in other words, such that can restore a reserve of potential that has not been exhausted in history, never definitively completed in it.<span class=\"quote\">MARCO SCOTINI, THE DISOBEDIENCE ARCHIVE</span>",
+            "https://www.moussemagazine.it/magazine/geopolitical-curating-marco-scotini-carol-yinghua-lu-2020/",
+            "from his interview in Mousse Magazine / 01.06.2020",
+            "sep_500"
+        ]
+    ],
+    [
+        [
+            "Two curatorial models have been significant for my work, and both converge in a deconstruction of the narratives of Western modernity. One is linked to Disobedience Archive (2005-2014), in which the exhibition was conceived following an archive format and as a criticism of policies that are incapable of integrating forms of life within them. (…) There is another, more recent model that I would call “the geopolitical sphere and Western modernity,”<span class=\"quote\">MARCO SCOTINI, THE DISOBEDIENCE ARCHIVE</span>",
+            "https://www.moussemagazine.it/magazine/geopolitical-curating-marco-scotini-carol-yinghua-lu-2020/",
+            "from his interview in Mousse Magazine / 01.06.2020",
+            "sep_300"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-100.jpeg)\"></div><span class=\"quote\">MARCO SCOTINI, THE DISOBEDIENCE ARCHIVE</span>",
+            "https://www.youtube.com/watch?v=CyMUt8cBRsg&ab_channel=RevolutionaryAudiobooks",
+            "Bernadette Corporation, Get rid of Yourself, 2003 [from Disobedience Archive]",
+            "sep_img-4"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-101.png)\"></div><span class=\"quote\">MARCO SCOTINI, THE DISOBEDIENCE ARCHIVE</span>",
+            "https://vimeo.com/43867573",
+            "Queerocracy – Carlos Motta, A New Discovery: Queer Immigration in Perspective, 2011 [from Disobedience Archive]",
+            "sep_img-5"
+        ]
+    ],
+    [
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-102.png)\"></div><span class=\"quote\">MARCO SCOTINI, THE DISOBEDIENCE ARCHIVE</span>",
+            "",
+            "Screenshots from Bernadette Corporation, Get rid of Yourself, 2003 [from Disobedience Archive]",
+            "sep_img-6"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-103.png)\"></div><span class=\"quote\">MARCO SCOTINI, THE DISOBEDIENCE ARCHIVE</span>",
+            "",
+            "Screenshots from Bernadette Corporation, Get rid of Yourself, 2003 [from Disobedience Archive]",
+            "sep_img-7"
+        ],
+        [
+            "I will go through a variety of processes that end up leading me to a location, and it’s the experiences I have along the way that matter. I think those experiences have a profound connection with the history and societies of those places.<span class=\"quote\">LIEKO SHIGA</span>",
+            "https://www.tokyoartbeat.com/tablog/entries.en/2008/10/ghosts-in-the-lens.html",
+            "From interview titled “Ghosts in the Lens” by Ashley Rawlings 28/10/2008",
+            "sep_200-1"
+        ]
+    ],
+    [
+        [
+            "I think ‘action’ in photography is something to do with that sense of freshness. My photographs render everything into reality: they are a way of bringing something back to life. You can talk about photographs in terms of ‘shooting’—to ‘shoot’ with a camera like you would shoot with a gun. However, for me, taking photos is not like shooting something: it’s like being shot. I am shot, and the entire timeline of my existence is resurrected in the photograph. So, I think photography is the revival of eternal time and eternal life; a photograph is not a representation of time that has been killed. In such conditions, that means that I myself am firmly embedded in the photograph.<span class=\"quote\">LIEKO SHIGA</span>",
+            "https://www.tokyoartbeat.com/tablog/entries.en/2008/10/ghosts-in-the-lens.html ",
+            "From interview titled “Ghosts in the Lens” by Ashley Rawlings 28/10/2008",
+            "sep_900"
+        ],
+        [
+            "Though photography is a visual art, I thought that maybe photos could actually portray a world we could not see with the naked eye. Perhaps the spirit or the history of Kitakama - something that we cannot see - the thing that brought this community together, the big picture.<span class=\"quote\">LIEKO SHIGA </span>",
+            "https://www.sfmoma.org/watch/lieko-shiga-kitakama-village-and-2011-tsunami/",
+            "From “Lieko Shiga on Kitakama village and the 2011 tsunami”",
+            "sep_300"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-105.png)\"></div><span class=\"quote\">LIEKO SHIGA</span>",
+            "",
+            "Lieko Shiga, Portrait of Cultivation from series Rasen Kaigen, 2010",
+            "sep_img-2"
+        ]
+    ],
+    [
+        [
+            "The name 'spiral shore' also refers to the spiral of our DNA. If we trace the spiral, we can encounter the lives of the people before and after our time. That's what I hoped to convey when I titled the series Spiral Shore (Rasen Kaigen).<span class=\"quote\">LIEKO SHIGA </span>",
+            "https://www.sfmoma.org/watch/lieko-shiga-kitakama-village-and-2011-tsunami/ ",
+            "From “Lieko Shiga on Kitakama village and the 2011 tsunami”",
+            "sep_300"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-104.jpeg)\"></div><span class=\"quote\">LIEKO SHIGA</span>",
+            "https://www.sfmoma.org/artist/lieko_shiga/",
+            "Lieko Shiga on Kitakama village and the 2011 tsunami",
+            "sep_img-1"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-106.png)\"></div><span class=\"quote\">LIEKO SHIGA</span>",
+            "",
+            "Lieko Shiga, My Husband, 2006",
+            "sep_img-3"
+        ]
+    ],
+    [
+        [
+            "Every picture trumpets that kind of power, and I think about the ways that memory begins to act against that narrative. The photographs don’t, or rather, will not counteract the narrative necessarily. Their story is not finished until someone else who knows better stands in front of them and begins to speak against what’s been done.<span class=\"quote\">SIM CHI YIN</span>",
+            "",
+            "From the catalogue of her solo exhibition “One Day We’ll Understand”",
+            "sep_500"
+        ],
+        [
+            "There was something in this land that humans did not want to remember, or humans don’t articulate anymore, but there’s something about how the non-human actually remembers.<span class=\"quote\">SIM CHI YIN</span>",
+            "",
+            "From the catalogue of her solo exhibition “One Day We’ll Understand”",
+            "sep_100"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-107.jpeg)\"></div><span class=\"quote\">SIM CHI YIN</span>",
+            "https://www.youtube.com/watch?v=kNaxM_L5GOg&ab_channel=HanartGallery",
+            `Sim Chi Yin: "One Day We'll Understand" in Conversation with Prof. Tejaswini Niranjana`,
+            "sep_img-4"
+        ]
+    ],
+    [
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-108.jpeg)\"></div><span class=\"quote\">SIM CHI YIN</span>",
+            "https://www.youtube.com/watch?v=840HX8B09rg&ab_channel=EM",
+            `Sim Chi Yin's "One Day We'll Understand" curated by Sam I-shan at Arles Photo Festival 2021`,
+            "sep_img-5"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-108.jpeg)\"></div><span class=\"quote\">SIM CHI YIN</span>",
+            "",
+            `Sim Chi Yin, from the series "Interventions," 2020. Original archive image: Imperial War Museums collection, pigment print on foil, 59.4 x 42 cm, Ed. 3 + 2 AP`,
+            "sep_img-6"
+        ],
+        [
+            "Photography and cinema had a role to play, especially in military mobilization, counterpropaganda and war diplomacy.<span class=\"quote\">CATARINA SIMAO</span>",
+            "https://fotota.hypotheses.org/7618",
+            "from her interview with Fotota / 11.05.2020",
+            "sep_100"
+        ]
+    ],
+    [
+        [
+            "Reworking images as counterpart to today’s landscape.<span class=\"quote\">CATARINA SIMAO</span>",
+            "https://fotota.hypotheses.org/7618",
+            "from her interview with Fotota / 11.05.2020 ",
+            "sep_30"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-110.png)\"></div><span class=\"quote\">CATARINA SIMAO</span>",
+            "http://ideiasnoescuro.com/pt/effects-of-wording-de-catarina-simao/",
+            "Catarina Simao, Effects of Wording / The Mozambique Archive Series, 2014",
+            "sep_img-1"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-111.jpeg)\"></div><span class=\"quote\">CATARINA SIMAO</span>",
+            "https://www.doclisboa.org/2019/en/filmes/sonhamos-um-pais/",
+            "Camilo de Sousa, Isabel Noronha, Sonhamos Um Pais, 2019 ",
+            "sep_img-2"
+        ]
+    ],
+    [
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-112.png)\"></div><span class=\"quote\">CATARINA SIMAO</span>",
+            "",
+            "Screenshot from Catarina Simao, Effects of Wording / The Mozambique Archive Series, 2014 ",
+            "sep_img-3"
+        ],
+        [
+            "I'm interested in the emphasis on experiential knowledge by mediaeval women mystic writers, which came out of their exclusion from official institutions of learning. This favouring of experiential knowledge causes the body and all its variances to emerge and erupt into their texts, aided by the linguistic techniques that philosopher Michel de Certeau articulates in The Mystic Fable (1982) as composing the mystic style.<span class=\"quote\">SRIWHANA SPONG</span>",
+            "https://ocula.com/magazine/conversations/sriwhana-spong/",
+            "from her interview with Tendai John Mutambu in Ocula / 6 July 2018",
+            "sep_300"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-113.png)\"></div><span class=\"quote\">SRIWHANA SPONG</span>",
+            "https://vimeo.com/39085094",
+            "Sriwhana Spong, Lethe-wards, 2010",
+            "sep_img-4"
+        ]
+    ],
+    [
+        [
+            "My interest is in how the undisciplined body does the work of undisciplining the discipline; namely, how the excluded body—previously seen as unruly and in need of containment—can undiscipline writing and other mediums by breaking into these texts and discursive spaces.<span class=\"quote\">SRIWHANA SPONG</span>",
+            "https://ocula.com/magazine/conversations/sriwhana-spong/",
+            "from her interview with Tendai John Mutambu in Ocula / 6 July 2018",
+            "sep_100"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-114.png)\"></div><span class=\"quote\">SRIWHANA SPONG</span>",
+            "https://vimeo.com/28337660",
+            "Sriwhana Spong, Costume for a Mourner, 2011",
+            "sep_img-5"
+        ],
+        [
+            "For me, a mobile cheese making unit is playing on those contradictions: making cheese entails changing the state of matter from liquid to solid; it is microbiological livestock management and an ancient pastoralist biotechnology. The wish to learn it fast, in one morning workshop, deals with our wish for instant gratification. The “authentic” foods we yearn for could also be accessible, self-made, and not elite gastronomic merchandise. It’s a way to reconnect with food makers and the problems they face. Food is therefore more than a political tool, it has become politics in itself.<span class=\"quote\">FERNANDO GARCÍA-DORY</span>",
+            "https://www.fernandogarciadory.info/index.php?/texts/interview-artpapers-janfeb-2011/2/",
+            "From his interview titled BENEATH THE BUREAUCRACY, THE BEACH by Chris Fite-Wassilak",
+            "sep_500"
+        ]
+    ],
+    [
+        [
+            "The artist has to cook, prepare the table, and do the dishes for a determined social subject to partake in the meal—a humble position that doesn’t conform to the idea of the unique, genius artist. By pushing the managerial dimension to the limit, I seek to define the limitation of that form of art. I confront myself with that exhausting task as the opposite of creative process.<span class=\"quote\">FERNANDO GARCÍA-DORY</span>",
+            "https://www.fernandogarciadory.info/index.php?/texts/interview-artpapers-janfeb-2011/2/",
+            "From his interview titled BENEATH THE BUREAUCRACY, THE BEACH by Chris Fite-Wassilak",
+            "sep_400-1"
+        ],
+        [
+            "In the art context, my practice is more about just diverting attention to certain questions and topics I find interesting, like food systems or rural environment. But with my projects, like what I’m doing with this village, it’s more about creating a space for other forms of life—a collective life with a land-based economy, a community of practice that’s beyond the discursive aspect of activism.<span class=\"quote\">FERNANDO GARCÍA-DORY</span>",
+            "https://c4aa.org/2019/01/fernando-garcia-dory",
+            "From his interview with Sarah J. Halford, Emily Bellor, 12/1/2019",
+            "sep_300"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-115.jpeg)\"></div><span class=\"quote\">FERNANDO GARCÍA-DORY</span>",
+            "",
+            "Beyond the Urban, webinar",
+            "sep_img-6"
+        ]
+    ],
+    [
+        [
+            "The growth and relocalisation involves also forms of food autonomy - and this is very important. The restoration of these life support systems, which we need to look at, involves also cultivation [...] a concept that is connected with care, and connected also with [..] a new humanist paradigm that we could say is also post-human as it no longer puts human beings at the centre of creation [...] but to consider ourselves as part of a cycle together with other living forms.<span class=\"quote\">FERNANDO GARCÍA-DORY</span>",
+            "https://cultureactioneurope.org/knowledge/beyond-the-urban-fernando-garcia-dory/",
+            "From the webinar titled Beyond the Urban ",
+            "sep_500"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-116.png)\"></div><span class=\"quote\">FERNANDO GARCÍA-DORY</span>",
+            "",
+            "Fernando Garcia Dory, Monologue",
+            "sep_img-7"
+        ],
+        [
+            "Puppet, mask, and performing object theatre has deep roots connecting a vast array of contemporary and ancient performance practices. The usefulness of writing about and analysing these practices, and the theories behind them, will increase our ability to link worldwide traditions with worldwide innovations.<span class=\"quote\">JOHN BELL</span>",
+            "https://www-jstor-org.libproxy1.nus.edu.sg/stable/pdf/1146765.pdf?refreqid=excelsior%3A2438f914a2be13b2feead94159ed7291",
+            "Introduction: Puppets, Masks and Performing Objects at the End of the Century, John Bell (TDR (1988-) , Autumn, 1999, Vol. 43, No. 3, Puppets, Masks, and Performing Objects (Autumn, 1999), pp. 15-27 ",
+            "sep_300"
+        ],
+    ],
+    [
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-117.png)\"></div><span class=\"quote\">FERNANDO GARCÍA-DORY</span>",
+            "",
+            "Fernando Garcia Dory, Monologue",
+            "sep_img-8"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-118.jpeg)\"></div><span class=\"quote\">JOHN BELL</span>",
+            "",
+            "Fun Toy Theatre Workshop with John Bell, Ballard Institute and Museum of Puppetry, 27/03/2020",
+            "sep_img-9"
+        ],
+        [
+            "I am the light hanging down in clusters at 300,000 kilometers an hour, opening dawn so that it can be called dawn, placing the sun over their heads so they can say that it is day, throwing it to the west. So you can say afternoon, the burning ball which sinks into the ocean, gilding the waves with silver needles, the beach looks as though it has been swept with a brush, the dark unfolds stretching endlessly, you wonder where I am.<span class=\"quote\">DANARTO DKK</span>",
+            "",
+            "Danarto, Adam the Wisdom of God, 1975, page 24",
+            "sep_500"
+        ]
+    ],
+    [
+        [
+            '“Who are you?” the crowd shouts <br> “Adam the wisdom of God.” the man replies <br> “What do you want?" they ask <br> “I want to speak.” he says<br> Danarto, Adam the Wisdom of God, 1975, page 32<span class=\"quote\">DANARTO DKK</span>',
+            "",
+            "Danarto, Adam the Wisdom of God, 1975, page 32",
+            "sep_100"
+        ],
+        [
+            "We need to increase the number of readers of Indonesian literature, and to make this possible the price of books must come down. For example, this slim volume of Indonesian fiction I’m holding costs Rp4,500. A kilogram of rice costs Rp500, so you could buy 9 kilos of rice for the price of this one book.<span class=\"quote\">DANARTO DKK</span>",
+            "",
+            "The Toyota Foundation Occasional Report No. 13, May 1991, page 9",
+            "sep_200-1"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-119.png)\"></div><span class=\"quote\">DANARTO DKK</span>",
+            "",
+            "Danarto, Allah Allah",
+            "sep_img-10"
+        ],
+    ],
+    [
+        [
+            "...But besides the shared physical resources, the most valuable commodity is the presence and time we have for each other. Green Papaya is sustained by a small community who like the kind of art that no one else thinks of as art—yet! It aspires to provide a space for critique and experimentation.<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "https://aaa.org.hk/en/ideas/ideas/green-papaya-art-projects-why-artist-run-spaces",
+            "From transcript titled “Green Papaya Art Projects: Why Artist-Run Spaces” by Võ Hồng Chương-Đài and Norberto Roldan",
+            "sep_200-2"
+        ],
+        [
+            "Green Papaya is [...] is a halfway house for ideas, a space to hang out and have real conversations again, a chance to cook and share meals. It is less about art than it is about being artists and being human again—and questioning what that means in our current context.<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "https://aaa.org.hk/en/ideas/ideas/green-papaya-art-projects-why-artist-run-spaces",
+            "From transcript titled “Green Papaya Art Projects: Why Artist-Run Spaces” by Võ Hồng Chương-Đài and Norberto Roldan",
+            "sep_200-3"
+        ],
+        [
+            "I am earth: a framework coffin prepared in advance, made of cables tied with wire, straightened and folded, lengthened and shortened: guided by principles of harmony and beauty, stretch me out handful by handful, often thrown down from a height, I leap and tug the cable, bite and scream, shape your hands, I become you, a clever creation made of earth, of earth, of earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, eart.h, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, eart.h, earth, earth, earth, earth, from earth destined to return to the earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth.<span class=\"quote\">DANARTO DKK</span>",
+            "",
+            "Danarto, Adam the Wisdom of God, 1975, page 28",
+            "sep_900"
+        ],
+    ],
+    [
+        [
+            "Green Papaya is as much interdependent as it is independent. Green Papaya is not sustainable. Green Papaya is destined to close. It will be ripe and ready for the plucking. Working towards its death [through the archival process], Green Papaya is investing in possible futures.<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "https://aaa.org.hk/en/ideas/ideas/green-papaya-art-projects-why-artist-run-spaces",
+            "From transcript titled “Green Papaya Art Projects: Why Artist-Run Spaces” by Võ Hồng Chương-Đài and Norberto Roldan",
+            "sep_300"
+        ],
+        [
+            "I think the role of artists and cultural workers has changed dramatically over the years. [...] Artists are no longer there to reflect history or what is happening in the country, but to be active participants in political actions.<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "https://artreview.com/norberto-peewee-roldan-how-artists-can-change-society/",
+            "From Norberto Roldan’s interview titled Norberto ‘Peewee’ Roldan: How Artists Can Change Society on ArtReview with Marv Recinto, 17/12/2020",
+            "sep_100"
+        ],
+        [
+            "In defining Green Papaya, Espina explained it carries the sense of not being yellow or ripe, and not to show something finished, and it encourages the state of potentiality, the state of being pure potential. It also gives encouragement to communities who are willing to experiment on different arts.<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "https://www.mmtimes.com/news/mervespina-and-green-papaya-art-projects.html",
+            "From the article Merv Espina and the Green Papaya Art Projects by San Lin Tun 18/9/2018",
+            "sep_200-1"
+        ]
+    ],
+    [
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-120.png)\"></div><span class=\"quote\">DANARTO DKK</span>",
+            "http://rpwt.greenpapaya.art/",
+            "Right People, Wrong Timing project on Green Papaya’s website",
+            "sep_img-1"
+        ],
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ]
+    ],
+    [
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ]
+    ],
+    [
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ]
+    ],
+    [
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ]
+    ],
+    [
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ]
+    ],
+    [
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ]
+    ],
+    [
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ]
+    ],
+    [
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ]
+    ],
+    [
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ]
+    ],
+    [
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ]
+    ],
+    [
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ]
+    ],
+    [
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ]
+    ],
+    [
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ]
+    ],
+    [
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ]
+    ],
+    [
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ]
+    ],
+    [
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ]
+    ],
+    [
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ]
+    ],
+    [
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ]
+    ],
+    [
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ]
+    ],
+    [
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ]
+    ],
+    [
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ]
+    ],
+    [
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ]
+    ],
+    [
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ]
+    ],
+    [
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
+        ],
+        [
+            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "",
+            "",
+            ""
         ]
     ]
 ]
