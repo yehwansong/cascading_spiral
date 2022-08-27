@@ -10,19 +10,25 @@ var db = [
             "sep_400-2"
         ],
         [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-8.jpg)\"></div><span class=\"quote\">artistname-------</span>",
+            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-59.png)\"></div><span class=\"quote\">Yehwan Song</span>",
             null,
-            "Atıf Akın, Mutant Space / Metsamor, 2015 ",
-            "sep_img-1"
+            "Very responsive, 2020",
+            "sep_vid-2"
         ],
         [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y15.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://youtube.com/watch?v=M6yoT-CXey4",
-            "from -------------",
-            "sep_vid-1"
-        ]
+            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-58.png)\"></div><span class=\"quote\">Yehwan Song</span>",
+            null,
+            "Very responsive, 2020",
+            "sep_vid-2"
+        ],
     ],
     [
+        [
+            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-142.png)\"></div><span class=\"quote\">AHMET ÖĞÜT, SILENT UNIVERSITY</span>",
+            'https://bienal.iksv.org/en/news/kunstverein-in-hamburg-and-the-17th-istanbul-biennial-announces-the-silent-university-orientation-programme',
+            "Silent University announcement on the Istanbul Biennial website",
+            "sep_img-3"
+        ],
         [
             "The Silent University aims to address and reactivate the knowledge of the participants and make the exchange process mutually beneficial by inventing alternative currencies, in place of money or free voluntary service. The Silent University’s aim is to challenge the idea of silence as a passive state, and explore its powerful potential through performance, writing, and group reflection. These explorations attempt to make apparent the systemic failure and the loss of skills and knowledge experienced through the silencing process of people seeking asylum.<span class=\"quote\"> AHMET ÖĞÜT, SILENT UNIVERSITY </span>",
             "https://blog.saltonline.org/post/95367715734/the-bold-and-poignant-palette-of-gulsun-karamustafa ",
@@ -30,15 +36,9 @@ var db = [
             "sep_700-1"
         ],
         [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-52.png)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Screenshots from Bernadette Corporation, Get rid of Yourself, 2003 [from Disobedience Archive] ",
-            "sep_img-3"
-        ],
-        [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y17.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-143.png)\"></div><span class=\"quote\">AHMET ÖĞÜT, SILENT UNIVERSITY</span>",
             "https://youtube.com/watch?v=GDTsZiznhB8",
-            "from -------------",
+            "Visible Storytelling S1EP6: Society Of the Many - Silent University by Ahmet Ögüt, 2021",
             "sep_vid-1"
         ]
     ],
@@ -259,7 +259,7 @@ var db = [
             "For us, Java is a geopolitical laboratory that depicts brightly the reality of political identity polarisation that is suspected to be happening massively on a global scale.<span class=\"quote\">TITA SALINA & IRWAN AHMETT</span>",
             "",
             "Tita Saline and Irwan Ahmett on God Dam Wall in their project proposal for the 17th Istanbul Biennial",
-            "sep_500"
+            "sep_300"
         ]
     ],
     [
@@ -404,7 +404,7 @@ var db = [
     ],
     [
         [
-            "The “Serial of the Universe”, the never ending history of our wars, the terrifying hum of the earthquake, our warming air and water, our globalisation, our greeds, our angers, our rights, our economies and our crises, our road maps showing the way to European civilisation, our terror maps reaching into the depths of black holes, our genome maps, our diseases, our miraculous remedies, as well as the birds and the bees, the one-for-the-roads, the poor, the women, the children, the child abusers, the splendour and the misery of the media, the music of the spheres, and, last but not least: “All the beauty of human civilization – our art, our music, our literature – lies beyond these two fundamentalist, ideological poles.” (Roy) Our Open Site is a small flashlight, but one whose handle stretches to fit as many hands as want to hold it or hold on to it.<span class=\"quote\">artistname-------</span>",
+            "The “Serial of the Universe”, the never ending history of our wars, the terrifying hum of the earthquake, our warming air and water, our globalisation, our greeds, our angers, our rights, our economies and our crises, our road maps showing the way to European civilisation, our terror maps reaching into the depths of black holes, our genome maps, our diseases, our miraculous remedies, as well as the birds and the bees, the one-for-the-roads, the poor, the women, the children, the child abusers, the splendour and the misery of the media, the music of the spheres, and, last but not least: “All the beauty of human civilization – our art, our music, our literature – lies beyond these two fundamentalist, ideological poles.” (Roy) Our Open Site is a small flashlight, but one whose handle stretches to fit as many hands as want to hold it or hold on to it.<span class=\"quote\">Açık Radyo</span>",
             "https://acikradyo.com.tr/manifesto-acik-radyo",
             "From Açık Radyo’s Manifesto, 2001",
             "sep_900"
@@ -579,7 +579,7 @@ var db = [
             "One of the core ideas of the university as a decolonial exercise is to foreground how important it is for education to encounter the Other as mind. What indigenous knowledge intends to teach, and the Inga, in particular, is that the Other is mind. The Other is person. That we co-emerge in the relationship with the Other.<span class=\"quote\">URSULA BIEMANN, DEVENIR UNIVERSITY</span>",
             "https://www.youtube.com/watch?v=GDv47X9q5q0",
             "From Ursula Biemann’s talk at the Master Fine Arts symposium, 20/10/2020",
-            "sep_500"
+            "sep_400-1"
         ]
     ],
     [
@@ -587,13 +587,13 @@ var db = [
             "We can think of the university as a healing practice for the territory, that has been injured by colonial intervention, extractivist projects, and by epistemological occupation.<span class=\"quote\">URSULA BIEMANN, DEVENIR UNIVERSITY</span>",
             "https://www.youtube.com/watch?v=GDv47X9q5q0",
             "From Ursula Biemann’s talk at the Master Fine Arts symposium, 20/10/2020",
-            "sep_200-3"
+            "sep_200-2"
         ],
         [
             "The platform, Devenir Universidad, is a way of letting everyone in on the conversation. Include everyone, letting everyone know about the current state of affairs. In other words, it creates transparency of the process. It makes the process comprehensible within the community.<span class=\"quote\">URSULA BIEMANN, DEVENIR UNIVERSITY</span>",
             "https://www.youtube.com/watch?v=GDv47X9q5q0",
             "From Ursula Biemann’s talk at the Master Fine Arts symposium, 20/10/2020",
-            "sep_400-2"
+            "sep_400-1"
         ],
         [
             "There is no such boundary between life and art in my practice. All my projects are alive and actively doing something in the world.<span class=\"quote\">URSULA BIEMANN, DEVENIR UNIVERSITY</span>",
@@ -610,20 +610,20 @@ var db = [
             "sep_img-5"
         ],
         [
-            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
-            "",
-            "",
-            ""
+            "“We tend to form some kind of a community with those we share a rhythm. Such rhythm can be a construct, but once it is constructed, rhythm becomes a regulator, a substance that binds. At the same time, rhythm can be the substance that dissolves a community. Rhythm is very difficult to define. It is found everywhere, even where there isn’t in appearance. Some theorists suggest that there is rhythm wherever there is an expenditure of energy. In this way, rhythm can give us insight in how to be friendly and hospitable to those whom we don’t share a rhythm.”<span class=\"quote\">CHRISTIAN NYAMPETA</span>",
+            "https://medium.com/@camdenartscentre/in-conversation-christian-nyampeta-gina-buenfeld-d32fed700b",
+            "From interview titled “In Conversation: Christian Nyampeta & Gina Buenfeld” by Gina Buenfeld for Medium",
+            "sep_700-1"
         ],
         [
-            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
-            "",
-            "",
-            ""
+            "This is actually a Rwandan proverb. [...] Proverbs are not maxims, aphorisms, axioms, or adages that could constitute some kind of Rwandan Holy Book of good observance. For the scholarship I learn from, they simply mark the limits of the knowable. And, to me, these limits can be diagrammed in terms of modes of existence marked by a rhythm of giving-receiving-giving.<span class=\"quote\">CHRISTIAN NYAMPETA</span>",
+            "https://contemporaryand.com/magazines/how-to-live-together/",
+            "From interview titled “How to Live Together: In Conversation with Christian Nyampeta” by Aïcha Diallo 21/5/2020",
+            "sep_400-1"
         ]
     ]
 ]
-
+ 
 
 
 
@@ -658,7 +658,7 @@ for (var i = 0; i <13; i++) {
 
 
     var scene = new THREE.Scene();
-    var layer_amount = 31
+    var layer_amount = db.length
 
 
     var whole_pivot = new THREE.Group()
@@ -695,23 +695,25 @@ for (var i = 0; i <13; i++) {
 
     var raycaster_obj = []
     var raycaster_obj_link = []
-    for (var i = db.length - layer_amount; i < db.length; i++) {
-        if(db[i][0].length>1){
-            if(typeof db[i][0][1]==='string'){raycaster_obj_link.push(db[i][0][1].split('(')[0])}else{raycaster_obj_link.push('')}
+    var inverted_db=db.reverse()
+    console.log(inverted_db)
+    for (var i = inverted_db.length - layer_amount; i < inverted_db.length; i++) {
+        if(inverted_db[i][0].length>1){
+            if(typeof inverted_db[i][0][1]==='string'){raycaster_obj_link.push(inverted_db[i][0][1].split('(')[0])}else{raycaster_obj_link.push('')}
         }else{
             raycaster_obj_link.push('')
         }
-        if(db[i][1].length>1){
-            if(typeof db[i][1][1]==='string'){raycaster_obj_link.push(db[i][1][1].split('(')[0])}else{raycaster_obj_link.push('')}
+        if(inverted_db[i][1].length>1){
+            if(typeof inverted_db[i][1][1]==='string'){raycaster_obj_link.push(inverted_db[i][1][1].split('(')[0])}else{raycaster_obj_link.push('')}
         }else{
             raycaster_obj_link.push('')
         }
-        if(db[i][2].length>1){
-            if(typeof db[i][2][1]==='string'){raycaster_obj_link.push(db[i][2][1].split('(')[0])}else{raycaster_obj_link.push('')}
+        if(inverted_db[i][2].length>1){
+            if(typeof inverted_db[i][2][1]==='string'){raycaster_obj_link.push(inverted_db[i][2][1].split('(')[0])}else{raycaster_obj_link.push('')}
         }else{
             raycaster_obj_link.push('')
         }
-        if(i == db.length-1){
+        if(i == inverted_db.length-1){
             console.log(raycaster_obj_link)
         }
     }
@@ -719,7 +721,6 @@ for (var i = 0; i <13; i++) {
     var scroll_speed = 1
     if(window.innerWidth<window.innerHeight*0.9){
         scroll_speed = 10
-        console.log('hey')
     }
 
         var scrollpos = 10
@@ -1029,7 +1030,7 @@ if(w<h){
     views[0].fov=125
 }
 $(document).click(function(e){
-
+console.log(hovered)
     var x = e.clientX;
     var y = e.clientY;
     if(x>w - w * views[1].width - h * views[1].left && y< (h * views[1].bottom+h * views[1].height) && !credit_on){
@@ -1135,8 +1136,11 @@ function create_board(){
         layer_pivot_array[i] = new THREE.Group()
         whole_pivot.add(layer_pivot_array[i])
         plate_pivot_array[i] = Array(layer_amount-m+2)
+        if(layer_amount-m+2>18){
+            plate_pivot_array[i] = Array(18)
+        }
         var texture
-            texture = loader.load( "img/bgn-"+pad(layer_amount-i, 2)+".png" );
+            texture = loader.load( "img/bgnn-"+pad(layer_amount-i, 2)+".png" );
 
         layer_material_array[i] = Array(plate_pivot_array[i].length)
         layer_material_array_cloned[i] = Array(plate_pivot_array[i].length)
@@ -1204,35 +1208,46 @@ function create_board(){
                         //         raycaster_obj[raycaster_obj.length-3].push(plate)
                         //     }
                         // }else 
-                        if(plate_pivot_array[i].length%3==0){
-                            if(k<Math.floor(plate_pivot_array[i].length/3)){
-                                raycaster_obj[raycaster_obj.length-1].push(plate)
-                            }else if(k<Math.floor(plate_pivot_array[i].length/3)*2){
-                                raycaster_obj[raycaster_obj.length-2].push(plate)
+                        if(plate_pivot_array[i].length<18){
+                            console.log('___'+plate_pivot_array[i].length)
+                            if(plate_pivot_array[i].length%3==0){
+                                if(k<Math.floor(plate_pivot_array[i].length/3-1)){
+                                    raycaster_obj[raycaster_obj.length-1].push(plate)
+                                }else if(k<Math.floor(plate_pivot_array[i].length/3)*2-1){
+                                    raycaster_obj[raycaster_obj.length-2].push(plate)
+                                }else{
+                                    raycaster_obj[raycaster_obj.length-3].push(plate)
+                                }
+                                    $(this).find('.text_inner_content').css({'width':33.333333 + '%'})
+                            }else if(plate_pivot_array[i].length%3==1){
+                                if(k<Math.floor(plate_pivot_array[i].length/3)){
+                                    raycaster_obj[raycaster_obj.length-1].push(plate)
+                                }else if(k<Math.floor(plate_pivot_array[i].length/3)*2+1){
+                                    raycaster_obj[raycaster_obj.length-2].push(plate)
+                                }else{
+                                    raycaster_obj[raycaster_obj.length-3].push(plate)
+                                }
                             }else{
-                                raycaster_obj[raycaster_obj.length-3].push(plate)
-                            }
-                                $(this).find('.text_inner_content').css({'width':33.333333 + '%'})
-                        }else if(plate_pivot_array[i].length%3==1){
-                            if(k<Math.floor(plate_pivot_array[i].length/3)){
-                                raycaster_obj[raycaster_obj.length-1].push(plate)
-                            }else if(k<Math.floor(plate_pivot_array[i].length/3)*2+1){
-                                raycaster_obj[raycaster_obj.length-2].push(plate)
-                            }else{
-                                raycaster_obj[raycaster_obj.length-3].push(plate)
+                                if(k<Math.floor(plate_pivot_array[i].length/3)+0){
+                                    raycaster_obj[raycaster_obj.length-1].push(plate)
+                                }else if(k<Math.floor(plate_pivot_array[i].length/3)*2+1){
+                                    raycaster_obj[raycaster_obj.length-2].push(plate)
+                                }else{
+                                    raycaster_obj[raycaster_obj.length-3].push(plate)
+                                }
                             }
                         }else{
-                            if(k<Math.floor(plate_pivot_array[i].length/3)+0){
-                                raycaster_obj[raycaster_obj.length-1].push(plate)
-                            }else if(k<Math.floor(plate_pivot_array[i].length/3)*2+1){
-                                raycaster_obj[raycaster_obj.length-2].push(plate)
-                            }else{
-                                raycaster_obj[raycaster_obj.length-3].push(plate)
-                            }
+                            console.log('+++++'+plate_pivot_array[i].length)
+                                if(k<Math.floor(plate_pivot_array[i].length/3+2)){
+                                    raycaster_obj[raycaster_obj.length-1].push(plate)
+                                }else if(k<Math.floor(plate_pivot_array[i].length/3)*2+1){
+                                    raycaster_obj[raycaster_obj.length-2].push(plate)
+                                }else{
+                                    raycaster_obj[raycaster_obj.length-3].push(plate)
+                                }
                         }
                         if(k==plate_pivot_array[i].length-1){
-                        raycaster_obj[raycaster_obj.length-1].reverse()
-
+                            raycaster_obj[raycaster_obj.length-1].reverse()
                         }
                 const edges = new THREE.EdgesGeometry( geometry );
                 const plate_line = new THREE.LineSegments( edges, new THREE.LineBasicMaterial( { color: 0xffffff } ) );
@@ -1261,8 +1276,6 @@ function clone_board(){
                         layer_pivot_array_cloned[m].scale.z = get_rad(translatey,plate_pivot_array[m].length)/translatez
 
                         if(layer_amount-m>18+1){
-                            console.log(layer_amount-m-(18+1))
-                            console.log(m)
                             layer_pivot_array_cloned[m].scale.x = get_rad(translatey,plate_pivot_array[m].length)/translatez+((layer_amount-m-(18))*2)/10
                             layer_pivot_array_cloned[m].scale.z = get_rad(translatey,plate_pivot_array[m].length)/translatez+((layer_amount-m-(18))*2)/10
                         }
@@ -1272,7 +1285,6 @@ function clone_board(){
                     get_scrolling_value(scrollpos,selected,false)
                     render()
                     setTimeout(function(){
-                    console.log(layer_pivot_array_cloned)
                             render()},1000)
 
 }
@@ -1631,6 +1643,7 @@ $('canvas').mousemove(function(e){
 
 })
 function hover(){
+    console.log(hovered)
     for (var i = layer_pivot_array.length - 1; i >= 0; i--) {
         layer_pivot_array[i]
         if(i>(layer_pivot_array.length-0)){
@@ -1691,7 +1704,6 @@ function hover(){
             }
         }
         if(selected == layer_pivot_array.length - 2){
-            console.log('he')
             for (var k = layer_pivot_array[selected+1].children.length - 1; k >= 0; k--) {
                 layer_pivot_array[selected+1].children[k].children[0].material.color = new THREE.Color(0xFFFFFF)
             }

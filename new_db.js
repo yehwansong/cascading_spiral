@@ -1111,19 +1111,25 @@ new_text_content  =
             "sep_400-2"
         ],
         [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-8.jpg)\"></div><span class=\"quote\">artistname-------</span>",
+            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-59.png)\"></div><span class=\"quote\">Yehwan Song</span>",
             null,
-            "Atıf Akın, Mutant Space / Metsamor, 2015 ",
-            "sep_img-1"
+            "Very responsive, 2020",
+            "sep_vid-2"
         ],
         [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y15.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
-            "https://youtube.com/watch?v=M6yoT-CXey4",
-            "from -------------",
-            "sep_vid-1"
-        ]
+            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-58.png)\"></div><span class=\"quote\">Yehwan Song</span>",
+            null,
+            "Very responsive, 2020",
+            "sep_vid-2"
+        ],
     ],
     [
+        [
+            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-142.png)\"></div><span class=\"quote\">AHMET ÖĞÜT, SILENT UNIVERSITY</span>",
+            'https://bienal.iksv.org/en/news/kunstverein-in-hamburg-and-the-17th-istanbul-biennial-announces-the-silent-university-orientation-programme',
+            "Silent University announcement on the Istanbul Biennial website",
+            "sep_img-3"
+        ],
         [
             "The Silent University aims to address and reactivate the knowledge of the participants and make the exchange process mutually beneficial by inventing alternative currencies, in place of money or free voluntary service. The Silent University’s aim is to challenge the idea of silence as a passive state, and explore its powerful potential through performance, writing, and group reflection. These explorations attempt to make apparent the systemic failure and the loss of skills and knowledge experienced through the silencing process of people seeking asylum.<span class=\"quote\"> AHMET ÖĞÜT, SILENT UNIVERSITY </span>",
             "https://blog.saltonline.org/post/95367715734/the-bold-and-poignant-palette-of-gulsun-karamustafa ",
@@ -1131,13 +1137,7 @@ new_text_content  =
             "sep_700-1"
         ],
         [
-            "<div class=\"sep_img_inner\" style = \"background-image:url( ../photos/image-52.png)\"></div><span class=\"quote\">artistname-------</span>",
-            null,
-            "Screenshots from Bernadette Corporation, Get rid of Yourself, 2003 [from Disobedience Archive] ",
-            "sep_img-3"
-        ],
-        [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../thumbnails/y17.jpeg)\"></div><span class=\"quote\">artistname-------</span>",
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-143.png)\"></div><span class=\"quote\">AHMET ÖĞÜT, SILENT UNIVERSITY</span>",
             "https://youtube.com/watch?v=GDTsZiznhB8",
             "from -------------",
             "sep_vid-1"
@@ -1505,7 +1505,7 @@ new_text_content  =
     ],
     [
         [
-            "The “Serial of the Universe”, the never ending history of our wars, the terrifying hum of the earthquake, our warming air and water, our globalisation, our greeds, our angers, our rights, our economies and our crises, our road maps showing the way to European civilisation, our terror maps reaching into the depths of black holes, our genome maps, our diseases, our miraculous remedies, as well as the birds and the bees, the one-for-the-roads, the poor, the women, the children, the child abusers, the splendour and the misery of the media, the music of the spheres, and, last but not least: “All the beauty of human civilization – our art, our music, our literature – lies beyond these two fundamentalist, ideological poles.” (Roy) Our Open Site is a small flashlight, but one whose handle stretches to fit as many hands as want to hold it or hold on to it.<span class=\"quote\">artistname-------</span>",
+            "The “Serial of the Universe”, the never ending history of our wars, the terrifying hum of the earthquake, our warming air and water, our globalisation, our greeds, our angers, our rights, our economies and our crises, our road maps showing the way to European civilisation, our terror maps reaching into the depths of black holes, our genome maps, our diseases, our miraculous remedies, as well as the birds and the bees, the one-for-the-roads, the poor, the women, the children, the child abusers, the splendour and the misery of the media, the music of the spheres, and, last but not least: “All the beauty of human civilization – our art, our music, our literature – lies beyond these two fundamentalist, ideological poles.” (Roy) Our Open Site is a small flashlight, but one whose handle stretches to fit as many hands as want to hold it or hold on to it.<span class=\"quote\">Açık Radyo</span>",
             "https://acikradyo.com.tr/manifesto-acik-radyo",
             "From Açık Radyo’s Manifesto, 2001",
             "sep_900"
@@ -1774,7 +1774,7 @@ new_text_content  =
             "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-100.jpeg)\"></div><span class=\"quote\">MARCO SCOTINI, THE DISOBEDIENCE ARCHIVE</span>",
             "https://www.youtube.com/watch?v=CyMUt8cBRsg&ab_channel=RevolutionaryAudiobooks",
             "Bernadette Corporation, Get rid of Yourself, 2003 [from Disobedience Archive]",
-            "sep_img-3"
+            "sep_img-2"
         ],
         [
             "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-101.png)\"></div><span class=\"quote\">MARCO SCOTINI, THE DISOBEDIENCE ARCHIVE</span>",
@@ -1814,7 +1814,7 @@ new_text_content  =
             "Though photography is a visual art, I thought that maybe photos could actually portray a world we could not see with the naked eye. Perhaps the spirit or the history of Kitakama - something that we cannot see - the thing that brought this community together, the big picture.<span class=\"quote\">LIEKO SHIGA </span>",
             "https://www.sfmoma.org/watch/lieko-shiga-kitakama-village-and-2011-tsunami/",
             "From “Lieko Shiga on Kitakama village and the 2011 tsunami”",
-            "sep_400-3"
+            "sep_400-1"
         ],
         [
             "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-105.png)\"></div><span class=\"quote\">LIEKO SHIGA</span>",
@@ -1854,7 +1854,7 @@ new_text_content  =
             "There was something in this land that humans did not want to remember, or humans don’t articulate anymore, but there’s something about how the non-human actually remembers.<span class=\"quote\">SIM CHI YIN</span>",
             "",
             "From the catalogue of her solo exhibition “One Day We’ll Understand”",
-            "sep_100"
+            "sep_200-2"
         ],
         [
             "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-107.jpeg)\"></div><span class=\"quote\">SIM CHI YIN</span>",
@@ -1954,7 +1954,7 @@ new_text_content  =
             "In the art context, my practice is more about just diverting attention to certain questions and topics I find interesting, like food systems or rural environment. But with my projects, like what I’m doing with this village, it’s more about creating a space for other forms of life—a collective life with a land-based economy, a community of practice that’s beyond the discursive aspect of activism.<span class=\"quote\">FERNANDO GARCÍA-DORY</span>",
             "https://c4aa.org/2019/01/fernando-garcia-dory",
             "From his interview with Sarah J. Halford, Emily Bellor, 12/1/2019",
-            "sep_300"
+            "sep_700-1"
         ],
         [
             "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-115.jpeg)\"></div><span class=\"quote\">FERNANDO GARCÍA-DORY</span>",
@@ -2034,7 +2034,7 @@ new_text_content  =
             "Green Papaya is [...] is a halfway house for ideas, a space to hang out and have real conversations again, a chance to cook and share meals. It is less about art than it is about being artists and being human again—and questioning what that means in our current context.<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
             "https://aaa.org.hk/en/ideas/ideas/green-papaya-art-projects-why-artist-run-spaces",
             "From transcript titled “Green Papaya Art Projects: Why Artist-Run Spaces” by Võ Hồng Chương-Đài and Norberto Roldan",
-            "sep_200-3"
+            "sep_200-1"
         ],
         [
             "I am earth: a framework coffin prepared in advance, made of cables tied with wire, straightened and folded, lengthened and shortened: guided by principles of harmony and beauty, stretch me out handful by handful, often thrown down from a height, I leap and tug the cable, bite and scream, shape your hands, I become you, a clever creation made of earth, of earth, of earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, eart.h, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, earth, eart.h, earth, earth, earth, earth, from earth destined to return to the earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth earth.<span class=\"quote\">DANARTO DKK</span>",
@@ -2045,19 +2045,19 @@ new_text_content  =
     ],
     [
         [
-            "Green Papaya is as much interdependent as it is independent. Green Papaya is not sustainable. Green Papaya is destined to close. It will be ripe and ready for the plucking. Working towards its death [through the archival process], Green Papaya is investing in possible futures.<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "Green Papaya is as much interdependent as it is independent. Green Papaya is not sustainable. Green Papaya is destined to close. It will be ripe and ready for the plucking. Working towards its death [through the archival process], Green Papaya is investing in possible futures.<span class=\"quote\">Green Papaya</span>",
             "https://aaa.org.hk/en/ideas/ideas/green-papaya-art-projects-why-artist-run-spaces",
             "From transcript titled “Green Papaya Art Projects: Why Artist-Run Spaces” by Võ Hồng Chương-Đài and Norberto Roldan",
             "sep_300"
         ],
         [
-            "I think the role of artists and cultural workers has changed dramatically over the years. [...] Artists are no longer there to reflect history or what is happening in the country, but to be active participants in political actions.<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "I think the role of artists and cultural workers has changed dramatically over the years. [...] Artists are no longer there to reflect history or what is happening in the country, but to be active participants in political actions.<span class=\"quote\">Green Papaya</span>",
             "https://artreview.com/norberto-peewee-roldan-how-artists-can-change-society/",
             "From Norberto Roldan’s interview titled Norberto ‘Peewee’ Roldan: How Artists Can Change Society on ArtReview with Marv Recinto, 17/12/2020",
             "sep_100"
         ],
         [
-            "In defining Green Papaya, Espina explained it carries the sense of not being yellow or ripe, and not to show something finished, and it encourages the state of potentiality, the state of being pure potential. It also gives encouragement to communities who are willing to experiment on different arts.<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "In defining Green Papaya, Espina explained it carries the sense of not being yellow or ripe, and not to show something finished, and it encourages the state of potentiality, the state of being pure potential. It also gives encouragement to communities who are willing to experiment on different arts.<span class=\"quote\">Green Papaya</span>",
             "https://www.mmtimes.com/news/mervespina-and-green-papaya-art-projects.html",
             "From the article Merv Espina and the Green Papaya Art Projects by San Lin Tun 18/9/2018",
             "sep_200-1"
@@ -2065,315 +2065,315 @@ new_text_content  =
     ],
     [
         [
-            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-120.png)\"></div><span class=\"quote\">DANARTO DKK</span>",
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-120.png)\"></div><span class=\"quote\">Green Papaya</span>",
             "http://rpwt.greenpapaya.art/",
             "Right People, Wrong Timing project on Green Papaya’s website",
             "sep_img-1"
         ],
         [
-            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
-            "",
-            "",
+            "My mode of artistic production is to continually refer back to areas of interest and it is possible to select and group works from different dates, even different decades, that can be put under one heading or another.<span class=\"quote\">GÜLSÜN KARAMUSTAFA</span>",
+            "https://blog.saltonline.org/post/95367715734/the-bold-and-poignant-palette-of-gulsun-karamustafa",
+            "From her interview in Idea Magazine, 2009",
             ""
         ],
         [
-            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
-            "",
-            "",
+            "My attitude towards my artistic production was always to involve references and connotations from my lived environment and my internal thoughts, and so comes from myself, my true organism and my life in Istanbul. As I was unable to leave Turkey for 16 years because I was not permitted a passport, I became intent on observing everything that was going on around me. The opportunity to travel opened up another horizon that allowed international discourse on post-colonialism and paradigm shifts, but the subjects and interests I worked with continued to be those that were within my daily reach.<span class=\"quote\">GÜLSÜN KARAMUSTAFA</span>",
+            "https://blog.saltonline.org/post/95367715734/the-bold-and-poignant-palette-of-gulsun-karamustafa",
+            "From her interview in Idea Magazine, 2009",
             ""
         ]
     ],
     [
         [
-            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-121.png)\"></div><span class=\"quote\">GÜLSÜN KARAMUSTAFA</span>",
+            "https://vimeo.com/92141858",
+            "Gülsün Karamustafa – Interview with the artist at the tanzimat Exhibition",
+            "sep_img-10"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-122.png)\"></div><span class=\"quote\">GÜLSÜN KARAMUSTAFA</span>",
             "",
+            "Screenshots from the video what a child remembers, father by Gülsün Karamustafa",
+            "sep_img-10"
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-123.png)\"></div><span class=\"quote\">GÜLSÜN KARAMUSTAFA</span>",
             "",
+            "Screenshots from the video what a child remembers, father by Gülsün Karamustafa",
+            "sep_img-10"
+        ]
+    ],
+    [
+        [
+            "I’m always [more] touched by words than by pictures. On how the words came about or phrased rather than sketching or drawing out ideas in the form of images. By using words to induce and rouse imaginations, using it as a post and sometimes the words start to knead with pictures and become indistinguishable.<span class=\"quote\">ARAYA RASDJARMREARNSOOK</span>",
+            "https://artradarjournal.com/between-writing-and-art-the-place-of-writing-in-araya-rasdjarmrearnsooks-art-interview",
+            "From her interview with Art Radar Journal, 2017",
             ""
         ],
         [
-            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
-            "",
-            "",
+            "I think art and religion are alike in terms of beliefs and faiths as well as benefits (especially the benefits that affect the artist, both internally and externally).<span class=\"quote\">ARAYA RASDJARMREARNSOOK</span>",
+            "https://artradarjournal.com/between-writing-and-art-the-place-of-writing-in-araya-rasdjarmrearnsooks-art-interview",
+            "From her interview with Art Radar Journal, 2017",
             ""
         ],
         [
-            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
-            "",
-            "",
+            "My videos come out of necessity. I sometimes take photographs but of course there is no sound and movement here. Have you seen my video titled Death Seminar? Here I conduct a class where I teach corpses about various topics. Between writing and art, that is how I develop ideas.<span class=\"quote\">ARAYA RASDJARMREARNSOOK</span>",
+            "http://www.trfineart.com/wp-content/uploads/2016/11/Art-Signal-2007-Confronting-Confrontation-An-Interview-with-Araya-Rasdjarmrearnsook-.pdf ",
+            "From her interview on Art Signal with Brian Curtin, 2007",
             ""
         ]
     ],
     [
         [
-            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
-            "",
-            "",
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-124.jpeg)\"></div><span class=\"quote\">ARAYA RASDJARMREARNSOOK</span>",
+            "https://www.youtube.com/watch?v=249dC5jzNyg&ab_channel=DasPlatforms",
+            " Araya Rasdjarmrearnsook: Storytellers of the Town from DasPlatforms, 2014",
             ""
         ],
         [
-            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-125.png)\"></div><span class=\"quote\">ARAYA RASDJARMREARNSOOK</span>",
             "",
-            "",
+            "Screenshot from her film insane",
             ""
         ],
         [
-            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
-            "",
-            "",
+            "His ‘European eyes’ saw in Japanese architecture the concrete materialisation of aesthetic values—minimalism, pure geometry, simplicity of forms—that were shared by many modern architects in the Old Continent and that were allegedly exemplified by artefacts such as the ancient complex of Katsura Imperial Villa in Kyoto. Taut’s Japanese admirers [...] found in his work a solid confirmation of their quest for modernisation, an aspect that made plain the anxieties generated by their country’s rapid social and economic transformation.<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "https://built-heritage.springeropen.com/track/pdf/10.1186/BF03545693.pdf",
+            "From research paper “West of Japan/East of Europe: Translating Architectural Legacies and the Case of Bruno Taut’s Hyuga Villa” by Paolo Scrivano and Marco Capitanio",
             ""
         ]
     ],
     [
         [
-            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
-            "",
-            "",
+            "Taut's culture/nature pair as a key concept to re-find the local roots of a community, the concept of continuity, his re-fashioned interest in regional architectural qualities, and above all the notion of a synthesis of tradition and modernity, all seem to echo the same dialectical opposition mediating inside a nationalistic ideology fostered by the Ministry of Education in those years, based on the historical interplay between a spontaneous support of modernist and progressive trends and a radical quest for cultural identity that distinguished the emerging nationalist politics in Turkey.<span class=\"quote\">YUTA NAKAMURA, A PROJECT ON BRUNO TAUT</span>",
+            "https://go-gale-com.libproxy1.nus.edu.sg/ps/retrieve.do?tabID=T002&resultListType=RESULT_LIST&searchResultsType=SingleTab&hitCount=1&searchType=AdvancedSearchForm&currentPosition=1&docId=GALE%7CA315919822&docType=Report&sort=RELEVANCE&contentSegment=ZONE-MOD1&prodId=AONE&pageNum=1&contentSet=GALE%7CA315919822&searchId=R1&userGroupName=nuslib&inPS=true",
+            "From research paper “Bruno Taut and the Program for the Protection of Monuments in Turkey (1937-38): Three Case Studies: Ankara, Edirne and Bursa” Giorgio Gasco, Bilkent University",
             ""
         ],
         [
-            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
-            "",
-            "",
+            'Taut in fact often stated that "national character" should not be pursued as a main goal in design, clear evidence that he himself was not in search for a national style (although others were). Nevertheless, his discourse lent itself to be easily assimilated into the stream of state rhetoric.<span class=\"quote\">YUTA NAKAMURA, A PROJECT ON BRUNO TAUT</span>',
+            "https://go-gale-com.libproxy1.nus.edu.sg/ps/retrieve.do?tabID=T002&resultListType=RESULT_LIST&searchResultsType=SingleTab&hitCount=1&searchType=AdvancedSearchForm&currentPosition=1&docId=GALE%7CA315919822&docType=Report&sort=RELEVANCE&contentSegment=ZONE-MOD1&prodId=AONE&pageNum=1&contentSet=GALE%7CA315919822&searchId=R1&userGroupName=nuslib&inPS=true",
+            "From research paper “Bruno Taut and the Program for the Protection of Monuments in Turkey (1937-38): Three Case Studies: Ankara, Edirne and Bursa” Giorgio Gasco, Bilkent University",
             ""
         ],
         [
-            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
-            "",
-            "",
+            "Giving responsibilities away is a platform to share “possibilities.” I compose these possibilities and apply them to contemporary art spaces. I’m interested in what lies between them. Whether post-colonial critique emerges from the exhibition or not, we’re still left with the reality that someone has delegated responsibility to someone else, which is like the empowerment game that society plays.<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-126.png)\"></div><span class=\"quote\">YUTA NAKAMURA, A PROJECT ON BRUNO TAUT</span>",
+            "https://adrastuscollection.org/pratchaya-phinthong-broken-hill/",
+            "From his interview with Nick Warner",
             ""
         ]
     ],
     [
         [
-            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
-            "",
-            "",
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-127.png)\"></div><span class=\"quote\">PRATCHAYA PHINTHONG</span>",
+            "https://www.delfinafoundation.com/platform/delfina-presents-pratchaya-phinthong/",
+            "DELFINA PRESENTS: PRATCHAYA PHINTHONG, On presenting counterfeit currency to visitors at Frieze",
             ""
         ],
         [
-            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-128.png)\"></div><span class=\"quote\">PRATCHAYA PHINTHONG</span>",
             "",
-            "",
+            "What I learned I no longer know; the little I still know I guessed, 2009",
             ""
         ],
         [
-            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
-            "",
-            "",
+            "Kini, kembali seluruh relawan diundang untuk jadi seniman. Yang mengundang kali ini adalah penyelenggara Istanbul Bienal, Turki. Karya relawan yang memikat bukan hanya akan dapat dinikmati oleh warga Indonesia, atau Turki saja, tapi oleh seluruh dunia.<br>“The Istanbul Biennial is an opportunity for our volunteers to become artists. The creations of our volunteers would therefore not only be enjoyed by the citizens of Indonesia, or Turkey, but by the whole world. “<span class=\"quote\">NIRWAN AHMAD ARSUKA, PUSTAKA BERGERAK</span>",
+            "https://www.facebook.com/pg/pustakabergerak.id/posts/",
+            "From his Facebook",
             ""
         ]
     ],
     [
         [
-            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
-            "",
-            "",
-            ""
-        ],
-        [
-            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
-            "",
+            "Kedua, waktu tahun 2014 saya berkuda dari Pamulang, Tangerang Selatan ke Parompong, Bandung, lewat jalan kampung. Saya banyak dibantu anak-anak untuk menunjukkan jalan. Bahkan mereka carikan rumput untuk makan kuda  dan dibawa ke lapangan. Saya jalan dengan dua ekor kuda milik sendiri, Merpu dan Arjuna Ireng. Kuda itu jenis sandalwood pony atau kuda pacu asli Indonesia setinggi 140 cm. Saya banyak mengobrol dengan anak-anak di jalan. Tapi begitu saya tanya soal asal usul nama kampung, mereka tidak tahu dan tidak bisa cerita. Orangtuanya juga pada tidak tahu. Saya prihatin, karena saya ingin menulis daerah-daerah yang saya lalui, tapi tidak ada yang bisa bantu karena tidak pada tahun. Kalau cerita kampung itu hilang, mereka tidak ada ikatan emosional dengan kampung itu. Sehingga akhirnya mereka bisa tidak peduli dengan kampung itu. Imbasnya bahaya, mulai dari kemiskinan sampai pengangguran karena proses urbanisasi. Sehingga begitu saya pulang, saya janji akan membawa buku ke kampung-kampung itu. Saya tidak membuat perpusatakaan. Tapi awal Pustaka Bergerak ada di Purbalingga.<br>“If the stories of these villages disappear, they won't have any emotional ties to that village. Even at its end, they'll be apathetic towards the village. This harmful impact began with poverty and unemployment due to the process of urbanisation. When I returned, I promised I would bring books to the village.” <span class=\"quote\">NIRWAN AHMAD ARSUKA, PUSTAKA BERGERAK</span>",
+            "https://www.suara.com/wawancara/2017/07/03/070000/nirwan-arsuka-pustaka-bergerak-buru-pembaca-ke-pelosok-negeri?page=all",
             "",
             ""
         ],
         [
-            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "Selain itu, sejak awal saya ingin memberikan karakter lokal dengan gerakan Pustaka Bergerak. Karena Pustaka Bergerak ini bukan hanya gerakan literasi, tapi kultural yang menonjolkan aspirasi para relawannya. Kami ingin masyarakat bangga dengan budaya lokalnya.<br>“This isn't just a literacy movement, but a cultural one that takes aspirations from its volunteers. We want the citizens to be proud of their local identity.”<span class=\"quote\">NIRWAN AHMAD ARSUKA, PUSTAKA BERGERAK</span>",
+            "https://www.suara.com/wawancara/2017/07/03/070000/nirwan-arsuka-pustaka-bergerak-buru-pembaca-ke-pelosok-negeri?page=all",
             "",
-            "",
+            ""
+        ],
+        [
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-129.png)\"></div><span class=\"quote\">NIRWAN AHMAD ARSUKA, PUSTAKA BERGERAK</span>",
+            "https://www.youtube.com/watch?v=ALl-byTmE-E&ab_channel=NirwanAhmadArsuka",
+            "Nirwan Ahmad Arsuke, Rombongan Pustaka Bergerak footage",
             ""
         ]
     ],
     [
         [
-            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-130.png)\"></div><span class=\"quote\">NIRWAN AHMAD ARSUKA, PUSTAKA BERGERAK</span>",
             "",
             "",
             ""
         ],
         [
-            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-131.png)\"></div><span class=\"quote\">NIRWAN AHMAD ARSUKA, PUSTAKA BERGERAK</span>",
             "",
             "",
             ""
         ],
         [
-            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
-            "",
-            "",
+            "I feel that I can easily cross cultural borders. I think that is what is wonderful about not having a fixed notion of identity or nationhood. There is really nothing I have a duty to do. It bothers people, this refusal to choose between us and them because I guess when you announce your identity publicly people know what to expect. If I were to identify with anything, it would be Afghanistan because it's a country that needs so much attention. <span class=\"quote\">Lida Abdul</span>",
+            "http://www.artvehicle.com/interview/1",
+            "From interview",
             ""
         ]
     ],
     [
         [
-            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
-            "",
-            "",
+            "I wanted to turn the ruins into sculptures because they carry for me the memory of something lost, yet at the same time they are reminders of what is no longer there. A fragment. Yet complete in its own way because any attempt to fix it, will erase its uniqueness. It teaches nothing, except that what was once is gone and the only way to approach it is through art without direct reference to an event.<span class=\"quote\">Lida Abdul</span>",
+            "http://www.artvehicle.com/interview/1",
+            "From interview",
             ""
         ],
         [
-            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
-            "",
-            "",
+            "Whatever transformation art has the potential to bring about cannot be immediately seen. It's an invisible process simultaneously cathartic and active. I feel that only if people engaged with one another through their art, culture and music and genuinely resist trying to reduce the 'other' to what is familiar to themselves, a lot of change can come about.<span class=\"quote\">Lida Abdul</span>",
+            "http://www.artvehicle.com/interview/1",
+            "From interview",
             ""
         ],
         [
-            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
-            "",
-            "",
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-132.jpeg)\"></div><span class=\"quote\">Lida Abdul</span>",
+            "Lida Abdul interview with In The Factory, 2012",
+            "https://www.youtube.com/watch?v=upwfIEYmFBw&ab_channel=BloombergQuicktake",
             ""
         ]
     ],
     [
         [
-            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
-            "",
-            "",
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-133.png)\"></div><span class=\"quote\">Lida Abdul</span>",
+            "https://vimeo.com/60612832",
+            "Lida Abdul, In Transit, 2008",
             ""
         ],
         [
-            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-134.png)\"></div><span class=\"quote\">Lida Abdul</span>",
             "",
-            "",
+            "Lida Abdul, Brick sellers of Kabul 4, 2007",
             ""
         ],
         [
-            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-135.png)\"></div><span class=\"quote\">Lida Abdul</span>",
             "",
-            "",
+            "Lida Abdul, White House 3, 2005",
             ""
         ]
     ],
     [
         [
-            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
-            "",
-            "",
+            "It's not about this mangrove moving perfectly, it's about all of us coming together and obsessing about this machine, for months. It's about a way of thinking. If we talk about all these issues; we need to come together — it's not one person that's gonna save the world.<span class=\"quote\">MARTHA ATIENZA </span>",
+            "https://www.adobomagazine.com/the-magazine/martha-atienzas-equation-of-state-using-video-art-and-island-technology-to-illuminate-the-effects-of-climate-change-in-bantayan-islands-coastal-communities-and-the-importan/ ",
+            "From her interview with Adobo Magazine",
             ""
         ],
         [
-            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
-            "",
-            "",
+            "It's not really about this machine and this thing, here, it's about all the conversations we've had. We've been dreaming about other stuff, and we talk about other things we could do together.<span class=\"quote\">MARTHA ATIENZA </span>",
+            "https://www.adobomagazine.com/the-magazine/martha-atienzas-equation-of-state-using-video-art-and-island-technology-to-illuminate-the-effects-of-climate-change-in-bantayan-islands-coastal-communities-and-the-importan",
+            "From her interview with Adobo Magazine",
             ""
         ],
         [
-            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
-            "",
-            "",
+            "Significant to Atienza’s aesthetic practice is her active social obligation to her community. Rather than passively documenting the people and ecology of Bantayan Island, her social practice helps to augment the full complexities of human subjectivity, society and the environment. As she says, ‘My work is always inspired by the question: can art trigger empowerment and tackle real issues in society?’<span class=\"quote\">MARTHA ATIENZA </span>",
+            "https://artreview.com/artist-martha-atienza-environmental-justice-philippines/",
+            "From her interview with Marv Recinto for ArtReview Asia, 17/09/2020 ",
             ""
         ]
     ],
     [
         [
-            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
-            "",
-            "",
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-136.jpeg)\"></div><span class=\"quote\">MARTHA ATIENZA </span>",
+            "https://www.adobomagazine.com/the-magazine/martha-atienzas-equation-of-state-using-video-art-and-island-technology-to-illuminate-the-effects-of-climate-change-in-bantayan-islands-coastal-communities-and-the-importan/",
+            "Martha Atienza interview with Adobo Magazine, 28/01/20",
             ""
         ],
         [
-            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-137.png)\"></div><span class=\"quote\">MARTHA ATIENZA </span>",
             "",
-            "",
+            "Martha Atienza, Anito 1, 2011-2015",
             ""
         ],
         [
-            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-138.png)\"></div><span class=\"quote\">MARTHA ATIENZA </span>",
             "",
-            "",
+            "Martha Atienza, Gilubong Ang Akong Pusod Sa Sagat (My Navel is Buried in the Sea), 2011",
             ""
         ]
     ],
     [
         [
-            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
-            "",
-            "",
+            "I am an artist. And I decided to ground my practice in the creation of works that find their purpose in the social realm through group participation.<span class=\"quote\">LAURA ANDERSON BARBATA</span>",
+            "https://www.youtube.com/watch?v=zRzYfaUCCXI",
+            "From her TEDxDF 8/12/2010",
             ""
         ],
         [
-            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
-            "",
-            "",
+            "I understood the message [of the forest] to be that respect and reciprocity are fundamental and universal values necessary to achieve a fulfilled and happy life.<span class=\"quote\">LAURA ANDERSON BARBATA</span>",
+            "https://www.youtube.com/watch?v=zRzYfaUCCXI",
+            "From her TEDxDF 8/12/2010",
             ""
         ],
         [
-            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
-            "",
-            "",
+            "...I invite you to look at your surroundings with new eyes. Listen and learn with the spirit of sharing. It's an exercise of reciprocal appreciation. Let's all learn together: me from you, and you from me. Just like seeds that sprout, this never ends.<span class=\"quote\">LAURA ANDERSON BARBATA</span>",
+            "https://www.youtube.com/watch?v=zRzYfaUCCXI",
+            "From her TEDxDF 8/12/2010",
             ""
         ]
     ],
     [
         [
-            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
-            "",
-            "",
+            "These restorative actions help to correct past injustices because we’re also paving the way for a future where this does not happen again — for all people, all of humanity, and that’s why we do these things.<span class=\"quote\">LAURA ANDERSON BARBATA</span>",
+            "https://hyperallergic.com/421575/artist-repatriation-of-julia-pastrana/ ",
+            "From her interview with Allison Meier for Hyperallergic, 19/1/2018",
             ""
         ],
         [
-            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
-            "",
-            "",
+            " In the process of exchange, in sharing and learning from each other, we agree on what we will give and what we would like to receive, and in this way, all participants become stakeholders in the project.<span class=\"quote\">LAURA ANDERSON BARBATA</span>",
+            "https://post.moma.org/making-waves-a-conversation-with-laura-anderson-barbata/",
+            "From her interview with Madeline Murphy Turner for MoMAPost 20/01/2021",
             ""
         ],
         [
-            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
-            "",
-            "",
+            "Through the act of intervention, we exercise our right to occupy public space, and in doing so, express our defiance as we symbolically appropriate what is ours and demand protection. We do this while wearing the colour that symbolizes care and service but also the repression of QTBIPOC communities.<span class=\"quote\">LAURA ANDERSON BARBATA</span>",
+            "From her interview with Madeline Murphy Turner for MoMAPost 20/01/2021",
+            "https://post.moma.org/making-waves-a-conversation-with-laura-anderson-barbata/",
             ""
         ]
     ],
     [
         [
-            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
-            "",
-            "",
+            "These expressions have the capacity to cross boundaries, and they invite us to honour traditions. Through the process, we recognize ourselves in the work and build art-based social-practice projects that result in long-term exercises of reciprocity and collaboration.<span class=\"quote\">LAURA ANDERSON BARBATA</span>",
+            "From her interview with Madeline Murphy Turner for MoMAPost 20/01/2021",
+            "https://post.moma.org/making-waves-a-conversation-with-laura-anderson-barbata/",
             ""
         ],
         [
-            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
-            "",
-            "",
+            "It is very important to me that the bridges built between communities–the personal ties and experiences gained–continue far beyond each project. Art is the vehicle, the pretext for a conversation and for an exchange of ideas that incorporate the material as well as the personal for its execution.<span class=\"quote\">LAURA ANDERSON BARBATA</span>",
+            "From her interview with Firstindigo&lifestyle, 26/7/2016",
+            "ttps://firstindigoandlifestyle.com/2016/07/26/artist-in-focus-laura-anderson-barbata/",
             ""
         ],
         [
-            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
-            "",
-            "",
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-139.png)\"><span class=\"quote\"></LAURA ANDERSON BARBATA</span>",
+            " https://vimeo.com/263249202?embedded=true&source=vimeo_logo&owner=12313576 ",
+            "Laura Anderson Barbata, Intervention: Wall Street, 2011",
             ""
         ]
     ],
     [
         [
-            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-140.png)\"></div><span class=\"quote\">LAURA ANDERSON BARBATA</span>",
             "",
-            "",
+            "Laura Anderson Barbata, Intervention: Wall Street, 2011",
             ""
         ],
         [
-            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
+            "<div class=\"sep_img_inner sep_img_inner_0 sep_img_inner_whole_0\" style = \"background-image:url( ../photos/image-141.png)\"></div><span class=\"quote\">LAURA ANDERSON BARBATA</span>",
             "",
-            "",
-            ""
-        ],
-        [
-            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
-            "",
-            "",
-            ""
-        ]
-    ],
-    [
-        [
-            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
-            "",
-            "",
-            ""
-        ],
-        [
-            "<span class=\"quote\">        ATELIER D’ARCHITECTURE AUTOGEREE </span>",
-            "",
-            "",
+            "Laura Anderson Barbata, Intervention: Wall Street, 2011",
             ""
         ],
         [
