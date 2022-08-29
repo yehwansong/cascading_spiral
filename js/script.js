@@ -655,7 +655,7 @@ for (var i = 0; i <13; i++) {
     var inittime_h = new Date().toString().split(' ')[4].split(':')[0]
     var initrotation = inittime_h/24
     var timeoffset = 0
-
+    var scrollinnerwidth = $(document).width() - window.innerWidth
 
     var scene = new THREE.Scene();
     var layer_amount = db.length
@@ -697,6 +697,7 @@ for (var i = 0; i <13; i++) {
     var raycaster_obj_link = []
     var inverted_db=db.reverse()
     console.log(inverted_db)
+    var scrollwidth = 0
     for (var i = inverted_db.length - layer_amount; i < inverted_db.length; i++) {
         if(inverted_db[i][0].length>1){
             if(typeof inverted_db[i][0][1]==='string'){raycaster_obj_link.push(inverted_db[i][0][1].split('(')[0])}else{raycaster_obj_link.push('')}
@@ -1321,6 +1322,30 @@ function render(){
 
                 }
 }
+$(window).resize( function() {
+    if(scrollwidth == 0){
+        console.log('___________')
+        console.log($("body").prop("clientWidth"))
+        console.log($("canvas").innerWidth())
+        scrollwidth = $("body").prop("clientWidth")-$("canvas").innerWidth()
+    }
+
+    if(w<h){
+        views[0].fov=125
+    }
+
+    var w = $("body").prop("clientWidth");
+    var h = window.innerHeight
+    $('#canvas').css({'width':(w-scrollwidth)+'px'})
+    $('#canvas').css({'height':h+'px'})
+    $('.view_hover').css({'left':Math.floor( w - w * views[1].width - h * views[1].left) +'px'})
+    $('.view_hover').css({'top':Math.floor( h * views[1].bottom) +'px'})
+    $('.view_hover').css({'width':Math.floor( w * views[1].width) +'px'})
+    $('.view_hover').css({'height': Math.floor( h * views[1].height) +'px'})
+    $('.source_btn').css({'top':(Math.floor( h * views[1].bottom)+Math.floor( h * views[1].height)) +'px'})
+    $('.source_btn').css({'left':Math.floor( w - w * views[1].width - h * views[1].left) +'px'})
+});
+
 function easeInQuart(k){
     x = k/speed
     return x * x * x * x * speed;
