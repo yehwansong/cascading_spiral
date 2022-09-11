@@ -2,9 +2,15 @@
 <html>
 <head>
     <meta charset="UTF-8">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-<title>March 31 2022 15:53:02</title>
+<title>Cascading Spiral</title>
+<meta property="og:url" content="https://cascadingspiral.com/" />
+<meta property="og:title" content="Cascading Spiral - Istanbul Biennale 2022" />
+<meta property="og:description" content="Designer and web developer Yehwan Song challenges conventional understandings of web design with her experimental sites and interactive graphic interfaces, resisting the dogma of usability and the relentless standardisation of networked environments. For the 17th Istanbul Biennial, she was invited to iterate her vision of an ‘internet of villages’, sub-networks based on affinity and shared interest rather than the prospect of universal dissemination. The resulting site reflects the biennial’s composting process as it happens, weaving together its six thematic threads to reveal unanticipated resonances and make new conversations possible.
+Song’s radial design, inspired by spiders’ webs and meteorological charts, mimics a living organism, regenerating, re-forming and growing constantly. It generates new cross-sections of the biennial from day to day, inviting viewers into a continuous conversation with contributors. The site’s spiral layers started to unfurl in April 2022 at https://cascadingspiral.com/, and are refreshed progressively like a weekly gazette throughout the biennial season, while interactive portals provide another layer of correspondence at multiple venues.
+ " />
+<meta property="og:image" content="og.png" />
   <link rel="stylesheet" href="main.css">
 <style type="text/css">
 	*{
@@ -12,6 +18,9 @@
 		margin: 0;
 		padding: 0
 	}
+    .mobile *{
+        font-size :4.2vw !important;
+    }
 	canvas { 
 		display: block;
 		position: fixed;
@@ -56,7 +65,11 @@
     background-color: #ffffff;
     overflow-y: scroll;
     display: none;
+    padding-right: 18vh;
 }
+.mobile .credit_wrapper{
+    padding-right: 0vh;
+    }
 .credit_wrapper>div{    
 	min-height: 5vh;
     /*display: flex;*/
@@ -82,8 +95,16 @@
     display: block;
 }
 .artist_credit{
-	color: #75a7da
+	color: #75a7da;
+    padding-left: 4.5vh !important
 }
+.credit_title{
+    padding-bottom: 5vh;
+    padding-top: 2vh;
+    font-size: 1.9vh;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: underline;}
 .content_credit{
     font-family: ts;
     color: black;
@@ -100,7 +121,7 @@ display: block;}
     font-size: 1.6vh !important;
     text-transform: uppercase;
 }
-.source_btn,.scrolldown{
+.source_btn,.scrolldown,.calendar_btn{
     position: fixed;
     z-index: 10000;
     text-transform: uppercase;
@@ -108,12 +129,14 @@ display: block;}
     padding: 0.25vh;
     border-radius: 0.25vh;
     margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
     text-decoration: underline;
 font-size: 1.75vh !important;
 padding-left: 0.5vh;
 padding-right: 0.5vh;
 cursor: pointer;}
-.source_btn:hover{
+.source_btn:hover,
+.calendar_btn:hover{
 	background-color: #d4ff00
 }
 .scrolldown{
@@ -154,6 +177,22 @@ overflow-x: hidden;
 pointer-events: all;
 bottom: 0;
 }
+.date{
+    width: 14.2857%;
+    position: relative;
+    float: left;
+    border-bottom: 0.1vh solid #1cffce
+}
+.date:hover{
+    background-color: #ffa0c2
+}
+.calendar{
+    position: fixed;
+    z-index: 10000;
+    width: 20vw;  
+    background-color: white;
+    display: none;
+}
 </style>
 
 <script src="js/three.js"></script>
@@ -168,6 +207,7 @@ bottom: 0;
 </div>
 </div>
 <div class="credit_wrapper">
+    <div class="credit_title">Source</div>
 		<img class="close" src="img/close.png"></div>
 </div>
 </head>
