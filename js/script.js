@@ -1627,6 +1627,9 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
     var inittime_h = new Date().toString().split(' ')[4].split(':')[0]
     var initrotation = inittime_h/24
     var timeoffset = 0
+    var ctroffset = 0
+    var ctrleft = false
+    var ctrright = false
     var scrollinnerwidth = $(document).width() - window.innerWidth
 
     var scene = new THREE.Scene();
@@ -1686,6 +1689,7 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
 
     var credit_on = false
     var cal_on = false
+    var ctr_on = true
 
     var scene_dis = 100000
     var scrolldirection_value = 0
@@ -1797,7 +1801,7 @@ var scrollcounter = 0
     $('.fake_scroll_wrapper').scroll(function (event) {
         scrollcounter++
         if(scrollcounter>10){$('.scrolldown').hide()}
-            scrollpos = $('.fake_scroll_wrapper').scrollTop()+1+timeoffset;
+            scrollpos = $('.fake_scroll_wrapper').scrollTop()+1+timeoffset+ctroffset;
         var k = Math.floor(scrollpos/(translatey*h)) 
         selected = k
 
@@ -2086,9 +2090,10 @@ if(w<h){
     views[0].fov=125
 }
 $(document).click(function(e){
-console.log(hovered)
     var x = e.clientX;
     var y = e.clientY;
+console.log($('.btn_wrap').outerHeight()+ $('.ctr_wrap').outerHeight())
+console.log(y)
     if(x>w - w * views[1].width - h * views[1].left && y< (h * views[1].bottom+h * views[1].height) 
         && !credit_on){
         if(zoomed_out){
@@ -2098,9 +2103,13 @@ console.log(hovered)
             zoom_out()
             return false
         }
-    }else if(!cal_on && x>w - w * views[1].width - h * views[1].left && y< (h * views[1].bottom+h * views[1].height)   +  $('.source_btn').outerHeight()*1.15 && !credit_on){
+    }else if(!cal_on && ((x>w - w * views[1].width - h * views[1].left && y< (h * views[1].bottom+h * views[1].height) && !credit_on) ||  y< $('.btn_wrap').outerHeight())){
 
-    }else if(cal_on && x>w - $('.calendar').outerWidtg() - h * views[1].left && y< (h * views[1].bottom+h * views[1].height)   +  $('.source_btn').outerHeight()*1.15 + $('.calendar').outerHeight()&& !credit_on){
+    }else if(cal_on && ((x>w - w * views[1].width - h * views[1].left && y< (h * views[1].bottom+h * views[1].height) && !credit_on) ||  y< $('.btn_wrap').outerHeight()+$('.calendar').outerHeight())){
+        console.log
+
+    }else if(ctr_on && y< ($('.btn_wrap').outerHeight()+ $('.ctr_wrap').outerHeight())){
+        console.log('ey')
 
     }else if(!credit_on){
         if(raycaster_obj_link[hovered]===''||zoomed_out){
@@ -2140,30 +2149,62 @@ function init(){
         }
     }
     $('.fake_scroll').append('<div class="view_hover"></div>')
-    $('.fake_scroll').append('<div class="source_btn">source</div>')
-    $('.fake_scroll').append('<div class="calendar_btn">calendar</div>')
-    $('.fake_scroll').append('<div class="calendar"></div>')
+    $('.fake_scroll').append('<div class="btn_wrap">\
+        <div class="source_btn">source  <input type="checkbox" id="box1"></div>\
+        <div class="calendar_btn">calendar  <input type="checkbox" id="box2"></div>\
+        <div class="ctr_btn">controller  <input type="checkbox" id="box3"></div>\
+        </div>')
+    $('.fake_scroll').append('<div class="calendar"><div>The site’s spiral layers started to unfurl in April 2022, and are refreshed progressively like a weekly gazette throughout the biennial season, while interactive portals provide another layer of correspondence at multiple venues. You can see the archive here.</div></div>')
+
+    $('.fake_scroll').append('<div class="ctr_wrap"><div class="ctr ctr_l"></div><div class="ctr ctr_r"></div></div>')
 
     $('.view_hover').css({'left':Math.floor( w - w * views[1].width - h * views[1].left) +'px'})
     $('.view_hover').css({'top':Math.floor( h * views[1].bottom) +'px'})
     $('.view_hover').css({'width':Math.floor( w * views[1].width) +'px'})
     $('.view_hover').css({'height': Math.floor( h * views[1].height) +'px'})
-    $('.source_btn').css({'top':(Math.floor( h * views[1].bottom)+Math.floor( h * views[1].height)) +'px'})
-    $('.source_btn').css({'left':Math.floor( w - w * views[1].width - h * views[1].left) +'px'})
+    // $('.source_btn').css({'top':(Math.floor( h * views[1].bottom)+Math.floor( h * views[1].height)) +'px'})
+    // $('.source_btn').css({'left':Math.floor( w - w * views[1].width - h * views[1].left) +'px'})
 
-    $('.calendar_btn').css({'top':(Math.floor( h * views[1].bottom)+Math.floor( h * views[1].height)) +'px'})
-    $('.calendar_btn').css({'left':Math.floor( w - w * views[1].width - h * views[1].left + $('.calendar_btn').outerWidth()-0.015*window.innerHeight) +'px'})
+    // $('.calendar_btn').css({'top':(Math.floor( h * views[1].bottom)+Math.floor( h * views[1].height)) +'px'})
+    // $('.calendar_btn').css({'left':Math.floor( w - w * views[1].width - h * views[1].left + $('.calendar_btn').outerWidth()-0.015*window.innerHeight) +'px'})
     $('.calendar').css({'width':Math.floor( w * views[1].width)*1.5 +'px'})
-    $('.calendar').css({'left':Math.floor( w - w * views[1].width - h * views[1].left - Math.floor( w * views[1].width)*0.5) +'px'})
-    $('.calendar').css({'top':(Math.floor( h * views[1].bottom)+Math.floor( h * views[1].height) + $('.calendar_btn').outerHeight(true)) +'px'})
+    $('.calendar').css({'top': $('.btn_wrap').outerHeight(true) +'px'})
+    $('.ctr_wrap').css({'top': $('.btn_wrap').outerHeight(true) +'px'})
+    $('.credit_wrapper').css({'top': $('.btn_wrap').outerHeight(true) +'px'})
+    $('.credit_wrapper').css({'height': window.innerHeight - $('.btn_wrap').outerHeight(true)*2 +'px'})
+        document.getElementById("box3").checked = true;
+    // $('.ctr_wrap').hide()
     add_cal()
 
     canvas = document.getElementById("canvas");
-
- 
+$('.ctr_r').bind( "touchstart", function(e){    ctrright = true;
+ctr_on = true  });
+$('.ctr_r').bind( "touchend", function(e){    ctrright = false  ;
+setTimeout(function(){ctr_on = false},100) });
+$('.ctr_r').mousedown(function() {    ctrright = true;
+ctr_on = true    });
+$('.ctr_r').mouseup(function() {    ctrright = false;
+setTimeout(function(){ctr_on = false},100) });
+$('.ctr_l').bind( "touchstart", function(e){    ctrleft = true;
+ctr_on = true  });
+$('.ctr_l').bind( "touchend", function(e){     ctrleft = false ;
+setTimeout(function(){ctr_on = false},100) });
+$('.ctr_l').mousedown(function() {      ctrleft = true;
+ctr_on = true  });
+$('.ctr_l').mouseup(function()   {      ctrleft = false;
+setTimeout(function(){ctr_on = false},100) });
 $('.source_btn').click(function(){
+    if(credit_on){
+        $('.credit_wrapper').hide()
+        document.getElementById("box1").checked = false;
+        credit_on = false
+
+    }else{
     $('.credit_wrapper').show()
+        document.getElementById("box1").checked = true;
     credit_on = true
+
+    }
 })
 $('.close').click(function(){
     $('.credit_wrapper').hide()
@@ -2173,11 +2214,26 @@ $('.close').click(function(){
     $('.calendar_btn').click(function(){
         if(cal_on){
         $('.calendar').hide()
+        document.getElementById("box2").checked = false;
         cal_on = false
 
         }else{
         $('.calendar').show()
+        document.getElementById("box2").checked = true;
         cal_on = true
+
+        }
+    })
+    $('.ctr_btn').click(function(){
+        if(ctr_on){
+        $('.ctr_wrap').hide()
+        document.getElementById("box3").checked = false;
+        ctr_on = false
+
+        }else{
+        $('.ctr_wrap').show()
+        document.getElementById("box3").checked = true;
+        ctr_on = true
 
         }
     })
@@ -2730,7 +2786,7 @@ function zoom_out(){
         },1)
         zooming(zoomed_out_counter)  
     }else{
-            scrollpos = $('.fake_scroll_wrapper').scrollTop()+timeoffset;
+            scrollpos = $('.fake_scroll_wrapper').scrollTop()+timeoffset+ctroffset;
             get_scrolling_value(scrollpos,selected,false)
     }
     render()
@@ -2760,7 +2816,7 @@ function zoom_in(){
         },1)
         zooming(zoomed_out_counter)  
     }else{
-            scrollpos = $('.fake_scroll_wrapper').scrollTop()+timeoffset;
+            scrollpos = $('.fake_scroll_wrapper').scrollTop()+timeoffset+ctroffset;
             // console.log(selected)
             get_scrolling_value(scrollpos,selected,false)
     }
@@ -2959,10 +3015,10 @@ timeplay()
 function timeplay(){
     setTimeout(function(){timeplay()},1000)
     document.title = String(new Date()).substring(4).split(' GMT')[0]
-    if(Math.floor(timeoffset/30) == timeoffset/30 && (zoomed_out_counter == 0 || zoomed_out_counter == speed)){
+    if(Math.floor(timeoffset/30) == timeoffset/30 && (zoomed_out_counter == 0 || zoomed_out_counter == speed) && !ctr_on){
             scrollcounter++
             $('.fake_scroll_wrapper').scrollTop($('.fake_scroll_wrapper').scrollTop()+1+10)
-            scrollpos = $('.fake_scroll_wrapper').scrollTop()+1+timeoffset;
+            scrollpos = $('.fake_scroll_wrapper').scrollTop()+1+timeoffset+ctroffset;
             var k = Math.floor(scrollpos/(translatey*h)) 
             selected = k
             if(scrollpos > scrolldirection_value){
@@ -2975,6 +3031,48 @@ function timeplay(){
             whole_pivot.rotation.y = degrees_to_radians(scrollpos%(translatey*h)/(translatey*h)*360)
             get_scrolling_value(scrollpos,k,true)
         }
+}
+ctrplay()
+ function ctrplay(){
+    if(ctrleft){
+        ctroffset= ctroffset+500
+            scrollpos = $('.fake_scroll_wrapper').scrollTop()+1+timeoffset+ctroffset;
+            var k = Math.floor(scrollpos/(translatey*h)) 
+            selected = k
+        console.log('hey')
+            if(scrollpos > scrolldirection_value){
+                scrolldirection = 'down'
+            }else{
+                scrolldirection = 'up'
+            }
+            scrolldirection_value = scrollpos
+            whole_pivot_cloned.rotation.y = degrees_to_radians(scrollpos%(translatey*h)/(translatey*h)*360)
+            whole_pivot.rotation.y = degrees_to_radians(scrollpos%(translatey*h)/(translatey*h)*360)
+            get_scrolling_value(scrollpos,k,true)
+    }else{
+
+    }
+    if(ctrright){
+        ctroffset= ctroffset-500
+            scrollpos = $('.fake_scroll_wrapper').scrollTop()+1+timeoffset+ctroffset;
+            var k = Math.floor(scrollpos/(translatey*h)) 
+            selected = k
+        console.log('hey')
+            if(scrollpos > scrolldirection_value){
+                scrolldirection = 'down'
+            }else{
+                scrolldirection = 'up'
+            }
+            scrolldirection_value = scrollpos
+            whole_pivot_cloned.rotation.y = degrees_to_radians(scrollpos%(translatey*h)/(translatey*h)*360)
+            whole_pivot.rotation.y = degrees_to_radians(scrollpos%(translatey*h)/(translatey*h)*360)
+            get_scrolling_value(scrollpos,k,true)
+    }else{
+        
+    }
+    setTimeout(function(){
+        ctrplay()
+    }, 10)
 }
 function parseDate(str) {
     var mdy = str.split('/');

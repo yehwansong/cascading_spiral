@@ -121,23 +121,65 @@ display: block;}
     font-size: 1.6vh !important;
     text-transform: uppercase;
 }
-.source_btn,.scrolldown,.calendar_btn{
-    position: fixed;
-    z-index: 10000;
+.source_btn,.scrolldown,.calendar_btn,.ctr_btn{
     text-transform: uppercase;
     background-color: white;
     padding: 0.25vh;
     border-radius: 0.25vh;
-    margin-top: 0.5vh;
-    margin-bottom: 0.5vh;
     text-decoration: underline;
 font-size: 1.75vh !important;
 padding-left: 0.5vh;
 padding-right: 0.5vh;
-cursor: pointer;}
+    margin-right: 0.5vh;
+cursor: pointer;
+white-space: nowrap;
+}
 .source_btn:hover,
-.calendar_btn:hover{
+.calendar_btn:hover,
+.ctr_btn:hover{
 	background-color: #d4ff00
+}
+.scrolldown{
+    position: fixed;
+}
+.source_btn,.calendar_btn,.ctr_btn{
+    position: relative;
+}
+.btn_wrap{
+    position: fixed;
+    z-index: 10000;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+.ctr_wrap{
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+.ctr{
+    width: 10vh;
+    height: 10vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    border-radius: 0.25vh;
+    background-color: white;
+    border: 1px solid black;
+
+}
+.ctr:hover{
+    filter: invert(1)
+}
+.ctr_r{
+    background-image: url('img/ctr_r.png')
+}
+.ctr_l{
+    background-image: url('img/ctr_l.png')
 }
 .scrolldown{
 	pointer-events: none;
@@ -192,7 +234,12 @@ bottom: 0;
     width: 20vw;  
     background-color: white;
     display: none;
+    left: 50%;
+    transform: translateX(-50%);
 }
+input{
+    width: 1.4vh;
+    height: 1.4vh;}
 </style>
 
 <script src="js/three.js"></script>
@@ -208,7 +255,7 @@ bottom: 0;
 </div>
 <div class="credit_wrapper">
     <div class="credit_title">Source</div>
-		<img class="close" src="img/close.png"></div>
+	<img class="close" src="img/close.png"></div>
 </div>
 </head>
 <body>
