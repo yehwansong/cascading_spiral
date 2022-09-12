@@ -1633,7 +1633,7 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
     var scrollinnerwidth = $(document).width() - window.innerWidth
 
     var scene = new THREE.Scene();
-    var layer_amount = 11
+    var layer_amount = 0
 
     var time_layer_amount= 
     [   [20220407,   40],
@@ -1659,9 +1659,9 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
         [20220825, 1460],
         [20220901, 1500],
         [20220908, 1540],
-        [20220915, 1580],
-        [20220922, 1620],
-        [20220929, 1660]]
+        [20220915, 1540],
+        [20220922, 1540],
+        [20220932, 1540]]
     
     var whole_pivot = new THREE.Group()
     var layer_pivot_array = Array(layer_amount)
@@ -1710,7 +1710,6 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
     var w = $("body").prop("clientWidth");
     var h = window.innerHeight
 
-    $('.fake_scroll').css({'height':((layer_amount-1)*translatey*h)+'px'})
 
     $('.fake_scroll_wrapper').scrollTop(2*translatey*h*initrotation)
     if(window.location.hash && window.location.hash.split('#')[1].split('-').length == 3) {
@@ -1724,52 +1723,66 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
         if( window.location.hash.split('#')[1].split('-')[0] === 'Jan' ) {
             date_range = parseInt(window.location.hash.split('#')[1].split('-')[2])+'01'+pad(parseInt(window.location.hash.split('#')[1].split('-')[1]),2)
             layer_amount = get_layer_amount()
+    $('.fake_scroll').css({'height':((layer_amount-1)*translatey*h)+'px'})
         }
         else if( window.location.hash.split('#')[1].split('-')[0] === 'Feb' ) {
             date_range = parseInt(window.location.hash.split('#')[1].split('-')[2])+'02'+pad(parseInt(window.location.hash.split('#')[1].split('-')[1]),2)
             layer_amount = get_layer_amount()
+    $('.fake_scroll').css({'height':((layer_amount-1)*translatey*h)+'px'})
         }
         else if( window.location.hash.split('#')[1].split('-')[0] === 'Mar' ) {
             date_range = parseInt(window.location.hash.split('#')[1].split('-')[2])+'03'+pad(parseInt(window.location.hash.split('#')[1].split('-')[1]),2)
             layer_amount = get_layer_amount()
+    $('.fake_scroll').css({'height':((layer_amount-1)*translatey*h)+'px'})
         }
         else if( window.location.hash.split('#')[1].split('-')[0] === 'Apr' ) {
             date_range = parseInt(window.location.hash.split('#')[1].split('-')[2])+'04'+pad(parseInt(window.location.hash.split('#')[1].split('-')[1]),2)
+            console.log(date_range)
             layer_amount = get_layer_amount()
+    $('.fake_scroll').css({'height':((layer_amount-1)*translatey*h)+'px'})
+            console.log(layer_amount)
         }
         else if( window.location.hash.split('#')[1].split('-')[0] === 'May' ) {
             date_range = parseInt(window.location.hash.split('#')[1].split('-')[2])+'05'+pad(parseInt(window.location.hash.split('#')[1].split('-')[1]),2)
             layer_amount = get_layer_amount()
+    $('.fake_scroll').css({'height':((layer_amount-1)*translatey*h)+'px'})
         }
         else if( window.location.hash.split('#')[1].split('-')[0] === 'Jun' ) {
             console.log('het')
             date_range = parseInt(window.location.hash.split('#')[1].split('-')[2])+'06'+pad(parseInt(window.location.hash.split('#')[1].split('-')[1]),2)
             layer_amount = get_layer_amount()
+    $('.fake_scroll').css({'height':((layer_amount-1)*translatey*h)+'px'})
         }
         else if( window.location.hash.split('#')[1].split('-')[0] === 'Jul' ) {
             date_range = parseInt(window.location.hash.split('#')[1].split('-')[2])+'07'+pad(parseInt(window.location.hash.split('#')[1].split('-')[1]),2)
             layer_amount = get_layer_amount()
+    $('.fake_scroll').css({'height':((layer_amount-1)*translatey*h)+'px'})
         }
         else if( window.location.hash.split('#')[1].split('-')[0] === 'Aug' ) {
             date_range = parseInt(window.location.hash.split('#')[1].split('-')[2])+'08'+pad(parseInt(window.location.hash.split('#')[1].split('-')[1]),2)
             layer_amount = get_layer_amount()
+    $('.fake_scroll').css({'height':((layer_amount-1)*translatey*h)+'px'})
         }
         else if( window.location.hash.split('#')[1].split('-')[0] === 'Sep' ) {
         console.log('2')
             date_range = parseInt(window.location.hash.split('#')[1].split('-')[2])+'09'+pad(parseInt(window.location.hash.split('#')[1].split('-')[1]),2)
             layer_amount = get_layer_amount()
+    $('.fake_scroll').css({'height':((layer_amount-1)*translatey*h)+'px'})
         }
         else if( window.location.hash.split('#')[1].split('-')[0] === 'Oct' ) {
             date_range = parseInt(window.location.hash.split('#')[1].split('-')[2])+'10'+pad(parseInt(window.location.hash.split('#')[1].split('-')[1]),2)
             layer_amount = get_layer_amount()
+    $('.fake_scroll').css({'height':((layer_amount-1)*translatey*h)+'px'})
         }
         else if( window.location.hash.split('#')[1].split('-')[0] === 'Nov' ) {
             date_range = parseInt(window.location.hash.split('#')[1].split('-')[2])+'11'+pad(parseInt(window.location.hash.split('#')[1].split('-')[1]),2)
             layer_amount = get_layer_amount()
+    $('.fake_scroll').css({'height':((layer_amount-1)*translatey*h)+'px'})
         }
         else if( window.location.hash.split('#')[1].split('-')[0] === 'Dec' ) {
             date_range = parseInt(window.location.hash.split('#')[1].split('-')[2])+'12'+pad(parseInt(window.location.hash.split('#')[1].split('-')[1]),2)
             layer_amount = get_layer_amount()
+    $('.fake_scroll').css({'height':((layer_amount-1)*translatey*h)+'px'})
         }
         console.log(layer_amount)
     }
@@ -2092,8 +2105,8 @@ if(w<h){
 $(document).click(function(e){
     var x = e.clientX;
     var y = e.clientY;
-console.log($('.btn_wrap').outerHeight()+ $('.ctr_wrap').outerHeight())
-console.log(y)
+console.log(ctr_on)
+console.log(y< ($('.btn_wrap').outerHeight()+ $('.ctr_wrap').outerHeight()))
     if(x>w - w * views[1].width - h * views[1].left && y< (h * views[1].bottom+h * views[1].height) 
         && !credit_on){
         if(zoomed_out){
@@ -2105,10 +2118,10 @@ console.log(y)
         }
     }else if(!cal_on && ((x>w - w * views[1].width - h * views[1].left && y< (h * views[1].bottom+h * views[1].height) && !credit_on) ||  y< $('.btn_wrap').outerHeight())){
 
-    }else if(cal_on && ((x>w - w * views[1].width - h * views[1].left && y< (h * views[1].bottom+h * views[1].height) && !credit_on) ||  y< $('.btn_wrap').outerHeight()+$('.calendar').outerHeight())){
+    }else if(cal_on && ((x>w - w * views[1].width - h * views[1].left && y< (h * views[1].bottom+h * views[1].height) && !credit_on) ||  y< $('.btn_wrap').outerHeight()+$('.calendar').outerHeight()*1.2)){
         console.log
 
-    }else if(ctr_on && y< ($('.btn_wrap').outerHeight()+ $('.ctr_wrap').outerHeight())){
+    }else if(ctr_on && y< ($('.btn_wrap').outerHeight()+ $('.ctr_wrap').outerHeight()*1.2)){
         console.log('ey')
 
     }else if(!credit_on){
@@ -2156,7 +2169,7 @@ function init(){
         </div>')
     $('.fake_scroll').append('<div class="calendar"><div>The site’s spiral layers started to unfurl in April 2022, and are refreshed progressively like a weekly gazette throughout the biennial season, while interactive portals provide another layer of correspondence at multiple venues. You can see the archive here.</div></div>')
 
-    $('.fake_scroll').append('<div class="ctr_wrap"><div class="ctr ctr_l"></div><div class="ctr ctr_r"></div></div>')
+    $('.fake_scroll').append('<div class="ctr_wrap"><div class="ctr ctr_l" ></div><div class="ctr ctr_r" ></div></div>')
 
     $('.view_hover').css({'left':Math.floor( w - w * views[1].width - h * views[1].left) +'px'})
     $('.view_hover').css({'top':Math.floor( h * views[1].bottom) +'px'})
@@ -2177,22 +2190,36 @@ function init(){
     add_cal()
 
     canvas = document.getElementById("canvas");
-$('.ctr_r').bind( "touchstart", function(e){    ctrright = true;
-ctr_on = true  });
-$('.ctr_r').bind( "touchend", function(e){    ctrright = false  ;
-setTimeout(function(){ctr_on = false},100) });
+$('.ctr_r').bind( "touchstart", function(e){
+    ctrright = true;
+    ctr_on = true  });
+$('.ctr_r').bind( "touchend", function(e){
+    ctrright = false  ;
+    setTimeout(function(){ctr_on = false},100) 
+    return false});
 $('.ctr_r').mousedown(function() {    ctrright = true;
 ctr_on = true    });
-$('.ctr_r').mouseup(function() {    ctrright = false;
-setTimeout(function(){ctr_on = false},100) });
-$('.ctr_l').bind( "touchstart", function(e){    ctrleft = true;
-ctr_on = true  });
-$('.ctr_l').bind( "touchend", function(e){     ctrleft = false ;
-setTimeout(function(){ctr_on = false},100) });
-$('.ctr_l').mousedown(function() {      ctrleft = true;
-ctr_on = true  });
-$('.ctr_l').mouseup(function()   {      ctrleft = false;
-setTimeout(function(){ctr_on = false},100) });
+$('.ctr_r').mouseup(function() {
+    ctrright = false;
+    setTimeout(function(){
+    ctr_on = false
+    },100) 
+    return false
+});
+$('.ctr_l').bind( "touchstart", function(e){
+    ctrleft = true;
+    ctr_on = true  });
+$('.ctr_l').bind( "touchend", function(e){
+     ctrleft = false ;
+    setTimeout(function(){ctr_on = false},100) 
+    return false});
+$('.ctr_l').mousedown(function() {
+      ctrleft = true;
+    ctr_on = true  });
+$('.ctr_l').mouseup(function()   {
+      ctrleft = false;
+    setTimeout(function(){ctr_on = false},100) 
+    return false});
 $('.source_btn').click(function(){
     if(credit_on){
         $('.credit_wrapper').hide()
@@ -2864,6 +2891,7 @@ $('canvas').mousemove(function(e){
 
 })
 function hover(){
+    console.log(layer_pivot_array.length)
     for (var i = layer_pivot_array.length - 1; i >= 0; i--) {
         layer_pivot_array[i]
         if(i>(layer_pivot_array.length-0)){
