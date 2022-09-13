@@ -1802,8 +1802,10 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
     // }
         scene.add(whole_pivot)
 var scrollcounter = 0
+var isscrolling = false
 
     $('.fake_scroll_wrapper').scroll(function (event) {
+        isscrolling = true
         scrollcounter++
         if(scrollcounter>10){$('.scrolldown').hide()}
             scrollpos = $('.fake_scroll_wrapper').scrollTop()+1+timeoffset+ctroffset;
@@ -2157,6 +2159,7 @@ function init(){
         <div class="calendar_btn">calendar  <input type="checkbox" id="box2"></div>\
         <div class="ctr_btn">controller  <input type="checkbox" id="box3"></div>\
         <div class="zoom_btn">zoom out</div>\
+        <div class="qr_btn">QR  <input type="checkbox" id="box4"></div>\
         </div>')
     $('.fake_scroll').append('<div class="calendar"><div>The site’s spiral layers started to unfurl in April 2022, and are refreshed progressively like a weekly gazette throughout the biennial season, while interactive portals provide another layer of correspondence at multiple venues. You can see the archive here.</div></div>')
 
@@ -3019,7 +3022,7 @@ timeplay()
 function timeplay(){
     setTimeout(function(){timeplay()},1000)
     document.title = String(new Date()).substring(4).split(' GMT')[0]
-    if(Math.floor(timeoffset/30) == timeoffset/30 && (zoomed_out_counter == 0 || zoomed_out_counter == speed) && !ctr_on){
+    if(!isscrolling&&Math.floor(timeoffset/30) == timeoffset/30 && (zoomed_out_counter == 0 || zoomed_out_counter == speed) && !ctr_on){
             scrollcounter++
             $('.fake_scroll_wrapper').scrollTop($('.fake_scroll_wrapper').scrollTop()+1+10)
             scrollpos = $('.fake_scroll_wrapper').scrollTop()+1+timeoffset+ctroffset;
@@ -3035,6 +3038,9 @@ function timeplay(){
             whole_pivot.rotation.y = degrees_to_radians(scrollpos%(translatey*h)/(translatey*h)*360)
             get_scrolling_value(scrollpos,k,true)
         }
+    if(isscrolling){
+        isscrolling = false
+    }
 }
 ctrplay()
  function ctrplay(){
