@@ -157,23 +157,26 @@ white-space: nowrap;
     transform: translateX(-50%);
     display: flex;
 }
-.ctr_wrap{
+.ctr_wrap, .qr{
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
 }
-.ctr{
+.ctr, .qr{
     width: 10vh;
     height: 10vh;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    position: relative;
     border-radius: 0.25vh;
     background-color: white;
     border: 1px solid black;
 
+}
+.ctr{
+    position: relative;
+    
 }
 .ctr:hover{
     filter: invert(1)
@@ -183,6 +186,9 @@ white-space: nowrap;
 }
 .ctr_l{
     background-image: url('img/ctr_l.png')
+}
+.qr{
+    background-image: url('img/qr.png')
 }
 .scrolldown{
 	pointer-events: none;

@@ -1691,6 +1691,7 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
     var credit_on = false
     var cal_on = false
     var ctr_on = false
+    var qr_on = false
 
     var scene_dis = 100000
     var scrolldirection_value = 0
@@ -2164,6 +2165,7 @@ function init(){
     $('.fake_scroll').append('<div class="calendar"><div>The site’s spiral layers started to unfurl in April 2022, and are refreshed progressively like a weekly gazette throughout the biennial season, while interactive portals provide another layer of correspondence at multiple venues. You can see the archive here.</div></div>')
 
     $('.fake_scroll').append('<div class="ctr_wrap"><div class="ctr ctr_l" ></div><div class="ctr ctr_r" ></div></div>')
+    $('.fake_scroll').append('<div class="qr" ></div>')
 
     $('.view_hover').css({'left':Math.floor( w - w * views[1].width - h * views[1].left) +'px'})
     $('.view_hover').css({'top':Math.floor( h * views[1].bottom) +'px'})
@@ -2177,9 +2179,11 @@ function init(){
     $('.calendar').css({'width':Math.floor( w * views[1].width)*1.5 +'px'})
     $('.calendar').css({'top': $('.btn_wrap').outerHeight(true) +'px'})
     $('.ctr_wrap').css({'top': $('.btn_wrap').outerHeight(true) +'px'})
+    $('.qr').css({'top': $('.btn_wrap').outerHeight(true) +'px'})
     $('.credit_wrapper').css({'top': $('.btn_wrap').outerHeight(true) +'px'})
     $('.credit_wrapper').css({'height': window.innerHeight - $('.btn_wrap').outerHeight(true)*2 +'px'})
     $('.ctr_wrap').hide()
+    $('.qr').hide()
     add_cal()
 
     canvas = document.getElementById("canvas");
@@ -2241,6 +2245,19 @@ $('.close').click(function(){
         $('.calendar').show()
         document.getElementById("box2").checked = true;
         cal_on = true
+
+        }
+    })
+    $('.qr_btn').click(function(){
+        if(qr_on){
+        $('.qr').hide()
+        document.getElementById("box4").checked = false;
+        qr_on = false
+
+        }else{
+        $('.qr').show()
+        document.getElementById("box4").checked = true;
+        qr_on = true
 
         }
     })
