@@ -1631,6 +1631,7 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
     var ctrleft = false
     var ctrright = false
     var scrollinnerwidth = $(document).width() - window.innerWidth
+    var need_refresh = false
 
     var scene = new THREE.Scene();
     var layer_amount = 0
@@ -1689,7 +1690,7 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
 
     var credit_on = false
     var cal_on = false
-    var ctr_on = true
+    var ctr_on = false
 
     var scene_dis = 100000
     var scrolldirection_value = 0
@@ -1721,70 +1722,61 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
         console.log(parseInt(window.location.hash.split('#')[1].split('-')[1]))
         console.log( window.location.hash.split('#')[1].split('-')[0])
         if( window.location.hash.split('#')[1].split('-')[0] === 'Jan' ) {
-            date_range = parseInt(window.location.hash.split('#')[1].split('-')[2])+'01'+pad(parseInt(window.location.hash.split('#')[1].split('-')[1]),2)
+            date_range = parseInt(window.location.hash.split('#')[1].split('-')[2].split('^')[0])+'01'+pad(parseInt(window.location.hash.split('#')[1].split('-')[1]),2)
             layer_amount = get_layer_amount()
-    $('.fake_scroll').css({'height':((layer_amount-1)*translatey*h)+'px'})
         }
         else if( window.location.hash.split('#')[1].split('-')[0] === 'Feb' ) {
-            date_range = parseInt(window.location.hash.split('#')[1].split('-')[2])+'02'+pad(parseInt(window.location.hash.split('#')[1].split('-')[1]),2)
+            date_range = parseInt(window.location.hash.split('#')[1].split('-')[2].split('^')[0])+'02'+pad(parseInt(window.location.hash.split('#')[1].split('-')[1]),2)
             layer_amount = get_layer_amount()
-    $('.fake_scroll').css({'height':((layer_amount-1)*translatey*h)+'px'})
         }
         else if( window.location.hash.split('#')[1].split('-')[0] === 'Mar' ) {
-            date_range = parseInt(window.location.hash.split('#')[1].split('-')[2])+'03'+pad(parseInt(window.location.hash.split('#')[1].split('-')[1]),2)
+            date_range = parseInt(window.location.hash.split('#')[1].split('-')[2].split('^')[0])+'03'+pad(parseInt(window.location.hash.split('#')[1].split('-')[1]),2)
             layer_amount = get_layer_amount()
-    $('.fake_scroll').css({'height':((layer_amount-1)*translatey*h)+'px'})
         }
         else if( window.location.hash.split('#')[1].split('-')[0] === 'Apr' ) {
-            date_range = parseInt(window.location.hash.split('#')[1].split('-')[2])+'04'+pad(parseInt(window.location.hash.split('#')[1].split('-')[1]),2)
+            date_range = parseInt(window.location.hash.split('#')[1].split('-')[2].split('^')[0])+'04'+pad(parseInt(window.location.hash.split('#')[1].split('-')[1]),2)
             console.log(date_range)
             layer_amount = get_layer_amount()
-    $('.fake_scroll').css({'height':((layer_amount-1)*translatey*h)+'px'})
-            console.log(layer_amount)
         }
         else if( window.location.hash.split('#')[1].split('-')[0] === 'May' ) {
-            date_range = parseInt(window.location.hash.split('#')[1].split('-')[2])+'05'+pad(parseInt(window.location.hash.split('#')[1].split('-')[1]),2)
+            date_range = parseInt(window.location.hash.split('#')[1].split('-')[2].split('^')[0])+'05'+pad(parseInt(window.location.hash.split('#')[1].split('-')[1]),2)
             layer_amount = get_layer_amount()
-    $('.fake_scroll').css({'height':((layer_amount-1)*translatey*h)+'px'})
         }
         else if( window.location.hash.split('#')[1].split('-')[0] === 'Jun' ) {
             console.log('het')
-            date_range = parseInt(window.location.hash.split('#')[1].split('-')[2])+'06'+pad(parseInt(window.location.hash.split('#')[1].split('-')[1]),2)
+            date_range = parseInt(window.location.hash.split('#')[1].split('-')[2].split('^')[0])+'06'+pad(parseInt(window.location.hash.split('#')[1].split('-')[1]),2)
             layer_amount = get_layer_amount()
-    $('.fake_scroll').css({'height':((layer_amount-1)*translatey*h)+'px'})
         }
         else if( window.location.hash.split('#')[1].split('-')[0] === 'Jul' ) {
-            date_range = parseInt(window.location.hash.split('#')[1].split('-')[2])+'07'+pad(parseInt(window.location.hash.split('#')[1].split('-')[1]),2)
+            date_range = parseInt(window.location.hash.split('#')[1].split('-')[2].split('^')[0])+'07'+pad(parseInt(window.location.hash.split('#')[1].split('-')[1]),2)
             layer_amount = get_layer_amount()
-    $('.fake_scroll').css({'height':((layer_amount-1)*translatey*h)+'px'})
         }
         else if( window.location.hash.split('#')[1].split('-')[0] === 'Aug' ) {
-            date_range = parseInt(window.location.hash.split('#')[1].split('-')[2])+'08'+pad(parseInt(window.location.hash.split('#')[1].split('-')[1]),2)
+            date_range = parseInt(window.location.hash.split('#')[1].split('-')[2].split('^')[0])+'08'+pad(parseInt(window.location.hash.split('#')[1].split('-')[1]),2)
             layer_amount = get_layer_amount()
-    $('.fake_scroll').css({'height':((layer_amount-1)*translatey*h)+'px'})
         }
         else if( window.location.hash.split('#')[1].split('-')[0] === 'Sep' ) {
         console.log('2')
-            date_range = parseInt(window.location.hash.split('#')[1].split('-')[2])+'09'+pad(parseInt(window.location.hash.split('#')[1].split('-')[1]),2)
+            date_range = parseInt(window.location.hash.split('#')[1].split('-')[2].split('^')[0])+'09'+pad(parseInt(window.location.hash.split('#')[1].split('-')[1]),2)
             layer_amount = get_layer_amount()
-    $('.fake_scroll').css({'height':((layer_amount-1)*translatey*h)+'px'})
         }
         else if( window.location.hash.split('#')[1].split('-')[0] === 'Oct' ) {
-            date_range = parseInt(window.location.hash.split('#')[1].split('-')[2])+'10'+pad(parseInt(window.location.hash.split('#')[1].split('-')[1]),2)
+            date_range = parseInt(window.location.hash.split('#')[1].split('-')[2].split('^')[0])+'10'+pad(parseInt(window.location.hash.split('#')[1].split('-')[1]),2)
             layer_amount = get_layer_amount()
-    $('.fake_scroll').css({'height':((layer_amount-1)*translatey*h)+'px'})
         }
         else if( window.location.hash.split('#')[1].split('-')[0] === 'Nov' ) {
-            date_range = parseInt(window.location.hash.split('#')[1].split('-')[2])+'11'+pad(parseInt(window.location.hash.split('#')[1].split('-')[1]),2)
+            date_range = parseInt(window.location.hash.split('#')[1].split('-')[2].split('^')[0])+'11'+pad(parseInt(window.location.hash.split('#')[1].split('-')[1]),2)
             layer_amount = get_layer_amount()
-    $('.fake_scroll').css({'height':((layer_amount-1)*translatey*h)+'px'})
         }
         else if( window.location.hash.split('#')[1].split('-')[0] === 'Dec' ) {
-            date_range = parseInt(window.location.hash.split('#')[1].split('-')[2])+'12'+pad(parseInt(window.location.hash.split('#')[1].split('-')[1]),2)
+            date_range = parseInt(window.location.hash.split('#')[1].split('-')[2].split('^')[0])+'12'+pad(parseInt(window.location.hash.split('#')[1].split('-')[1]),2)
             layer_amount = get_layer_amount()
-    $('.fake_scroll').css({'height':((layer_amount-1)*translatey*h)+'px'})
         }
-        console.log(layer_amount)
+        if(layer_amount>42){
+            $('.fake_scroll').css({'height':((42)*translatey*h)+'px'})
+        }else{
+                    $('.fake_scroll').css({'height':((layer_amount-1)*translatey*h)+'px'})
+        }
     }
     function get_layer_amount(){
         for (var i = time_layer_amount.length - 1; i >= 0; i--) {
@@ -1910,22 +1902,24 @@ var scrollcounter = 0
 
                 if(!zoomed_out){
                     for (var i = layer_pivot_array_cloned.length - 1; i >= 0; i--) {
-                        if(i>selected){
-                            if(i>(layer_pivot_array_cloned.length-10)){
-                                var k = selected
-                                // if(k<layer_pivot_array_cloned.length-19){
-                                //     k = layer_pivot_array_cloned.length-19
-                                // }
-                                if((i-k)>10){
-                                    layer_pivot_array_cloned[i].position.y = -1*translatey*0.4-1*translatey*0.0000175*(10*10*10*10)
+                        if(layer_pivot_array_cloned[i]){
+                            if(i>selected){
+                                if(i>(layer_pivot_array_cloned.length-10)){
+                                    var k = selected
+                                    // if(k<layer_pivot_array_cloned.length-19){
+                                    //     k = layer_pivot_array_cloned.length-19
+                                    // }
+                                    if((i-k)>10){
+                                        layer_pivot_array_cloned[i].position.y = -1*translatey*0.4-1*translatey*0.0000175*(10*10*10*10)
+                                    }else{
+                                        layer_pivot_array_cloned[i].position.y = -1*translatey*0.4-1*translatey*0.0000175*((i-k)*(i-k)*(i-k)*(i-k))
+                                    }
                                 }else{
-                                    layer_pivot_array_cloned[i].position.y = -1*translatey*0.4-1*translatey*0.0000175*((i-k)*(i-k)*(i-k)*(i-k))
+                                    layer_pivot_array_cloned[i].position.y = -1*translatey*0.4
                                 }
                             }else{
-                                layer_pivot_array_cloned[i].position.y = -1*translatey*0.4
+                                layer_pivot_array_cloned[i].position.y = translatey*0.6
                             }
-                        }else{
-                            layer_pivot_array_cloned[i].position.y = translatey*0.6
                         }
                     }
                     for (var i = layer_pivot_array.length - 1; i >= 0; i--) {if(!auto){layer_pivot_array[i].visible = false}
@@ -2105,8 +2099,6 @@ if(w<h){
 $(document).click(function(e){
     var x = e.clientX;
     var y = e.clientY;
-console.log(ctr_on)
-console.log(y< ($('.btn_wrap').outerHeight()+ $('.ctr_wrap').outerHeight()))
     if(x>w - w * views[1].width - h * views[1].left && y< (h * views[1].bottom+h * views[1].height) 
         && !credit_on){
         if(zoomed_out){
@@ -2122,7 +2114,6 @@ console.log(y< ($('.btn_wrap').outerHeight()+ $('.ctr_wrap').outerHeight()))
         console.log
 
     }else if(ctr_on && y< ($('.btn_wrap').outerHeight()+ $('.ctr_wrap').outerHeight()*1.2)){
-        console.log('ey')
 
     }else if(!credit_on){
         if(raycaster_obj_link[hovered]===''||zoomed_out){
@@ -2158,7 +2149,6 @@ function init(){
             raycaster_obj_link.push('')
         }
         if(i == inverted_db.length-1){
-            console.log(raycaster_obj_link)
         }
     }
     $('.fake_scroll').append('<div class="view_hover"></div>')
@@ -2166,6 +2156,7 @@ function init(){
         <div class="source_btn">source  <input type="checkbox" id="box1"></div>\
         <div class="calendar_btn">calendar  <input type="checkbox" id="box2"></div>\
         <div class="ctr_btn">controller  <input type="checkbox" id="box3"></div>\
+        <div class="zoom_btn">zoom out</div>\
         </div>')
     $('.fake_scroll').append('<div class="calendar"><div>The site’s spiral layers started to unfurl in April 2022, and are refreshed progressively like a weekly gazette throughout the biennial season, while interactive portals provide another layer of correspondence at multiple venues. You can see the archive here.</div></div>')
 
@@ -2185,8 +2176,7 @@ function init(){
     $('.ctr_wrap').css({'top': $('.btn_wrap').outerHeight(true) +'px'})
     $('.credit_wrapper').css({'top': $('.btn_wrap').outerHeight(true) +'px'})
     $('.credit_wrapper').css({'height': window.innerHeight - $('.btn_wrap').outerHeight(true)*2 +'px'})
-        document.getElementById("box3").checked = true;
-    // $('.ctr_wrap').hide()
+    $('.ctr_wrap').hide()
     add_cal()
 
     canvas = document.getElementById("canvas");
@@ -2264,6 +2254,13 @@ $('.close').click(function(){
 
         }
     })
+$('.zoom_btn').click(function(){
+    if(zoomed_out){
+        zoom_in()
+
+    }else{zoom_out()
+    }
+})
 
 
 
@@ -2356,49 +2353,6 @@ function create_board(){
                 // const material = new THREE.MeshBasicMaterial( {map: layer_material_array[i], side: THREE.DoubleSide, color:0xffffff} );
                 const plate = new THREE.Mesh( geometry, layer_material_array[i][k] );
                       plate.position.z = translatez
-                      //뒤에서부터..
-                        // if(i==0){
-                        //     console.log(raycaster_obj)
-                        //     if(k<8){
-                        //         raycaster_obj[raycaster_obj.length-1].push(plate)
-                        //     }else if(k<16){
-                        //         raycaster_obj[raycaster_obj.length-2].push(plate)
-                        //     }else{
-                        //         raycaster_obj[raycaster_obj.length-3].push(plate)
-                        //     }
-                        // }else if(i==1){
-                        //     if(k<11){
-                        //         raycaster_obj[raycaster_obj.length-1].push(plate)
-                        //     }else if(k<20){
-                        //         raycaster_obj[raycaster_obj.length-2].push(plate)
-                        //     }else{
-                        //         raycaster_obj[raycaster_obj.length-3].push(plate)
-                        //     }
-                        // }else if(i==2){
-                        //     if(k<5){
-                        //         raycaster_obj[raycaster_obj.length-1].push(plate)
-                        //     }else if(k<10){
-                        //         raycaster_obj[raycaster_obj.length-2].push(plate)
-                        //     }else{
-                        //         raycaster_obj[raycaster_obj.length-3].push(plate)
-                        //     }
-                        // }else if(i==3){
-                        //     if(k<6){
-                        //         raycaster_obj[raycaster_obj.length-1].push(plate)
-                        //     }else if(k<12){
-                        //         raycaster_obj[raycaster_obj.length-2].push(plate)
-                        //     }else{
-                        //         raycaster_obj[raycaster_obj.length-3].push(plate)
-                        //     }
-                        // }else if(i==4){
-                        //     if(k<5){
-                        //         raycaster_obj[raycaster_obj.length-1].push(plate)
-                        //     }else if(k<11){
-                        //         raycaster_obj[raycaster_obj.length-2].push(plate)
-                        //     }else{
-                        //         raycaster_obj[raycaster_obj.length-3].push(plate)
-                        //     }
-                        // }else 
                         if(plate_pivot_array[i].length<18){
                             if(plate_pivot_array[i].length%3==0){
                                 if(k<Math.floor(plate_pivot_array[i].length/3-1)){
@@ -2459,19 +2413,37 @@ function clone_board(){
                     whole_pivot_cloned.position.z = scene_dis
 
                     for (var m = whole_pivot_cloned.children.length - 1; m >= 0; m--) {
+                            layer_pivot_array_cloned[m] = whole_pivot_cloned.children[m]
 
-                        layer_pivot_array_cloned[m] = whole_pivot_cloned.children[m]
-                        layer_pivot_array_cloned[m].scale.y = 1.1
-                        layer_pivot_array_cloned[m].scale.x = get_rad(translatey,plate_pivot_array[m].length)/translatez
-                        layer_pivot_array_cloned[m].scale.z = get_rad(translatey,plate_pivot_array[m].length)/translatez
+                        if(Math.abs(whole_pivot_cloned.children.length - m)<43){
 
-                        if(layer_amount-m>18+1){
-                            layer_pivot_array_cloned[m].scale.x = get_rad(translatey,plate_pivot_array[m].length)/translatez+((layer_amount-m-(18))*2)/10
-                            layer_pivot_array_cloned[m].scale.z = get_rad(translatey,plate_pivot_array[m].length)/translatez+((layer_amount-m-(18))*2)/10
+                            layer_pivot_array_cloned[m].scale.y = 1.1
+                            layer_pivot_array_cloned[m].scale.x = get_rad(translatey,plate_pivot_array[m].length)/translatez
+                            layer_pivot_array_cloned[m].scale.z = get_rad(translatey,plate_pivot_array[m].length)/translatez
+                            if(layer_amount-m>18+1){
+                                layer_pivot_array_cloned[m].scale.x = get_rad(translatey,plate_pivot_array[m].length)/translatez+((layer_amount-m-(18))*2)/10
+                                layer_pivot_array_cloned[m].scale.z = get_rad(translatey,plate_pivot_array[m].length)/translatez+((layer_amount-m-(18))*2)/10
+                            }
+                        }else{
+                            need_refresh = true
+                            whole_pivot_cloned.remove(layer_pivot_array_cloned[m])
                         }
+                        if(m==0 && need_refresh){
+                            for (var k = layer_amount - 1; k >= 0; k--) {
+                                console.log(k)
+                                if(Math.abs(k)>43){
+                                    console.log('1')
+                                    whole_pivot.remove(layer_pivot_array[k])
+                                }else{
+                                    console.log('2')
+                                }
+
+                            }
+                        }
+
                             
                     }
-                    scene.add( whole_pivot_cloned)
+                    scene.add(whole_pivot_cloned)
                     get_scrolling_value(scrollpos,selected,false)
                     render()
                     setTimeout(function(){
@@ -2492,7 +2464,6 @@ for (var i = 0; i <layer_amount; i++) {
             }else{
                 credit = db[i][j][2]
             }
-            console.log(db[i][j][0])
         if(db[i][j][0] === '<span class="quote"></span>'){
 
         }else{
@@ -2506,6 +2477,7 @@ for (var i = 0; i <layer_amount; i++) {
 }
 }
 function render(){
+
                 for ( let ii = 0; ii < views.length; ii++ ) {
 
                     const view = views[ ii ];
@@ -2530,19 +2502,20 @@ function render(){
                     camera.position.fromArray( view.eye );
                     // console.log(scene.children[0].children[selected].position)
                     // console.log(view.lookAt)
-                    // console.log(whole_pivot_cloned.position)
+                    console.log(whole_pivot.children.length)
                     camera.updateProjectionMatrix();
 
                     renderer.render( scene, camera );
                     // console.log(scene)
 
                 }
+                if(window.location.hash === '#Jun-23-2022^zoom'){
+                    window.location.hash = 'Jun-23-2022'
+                    zoom_out()
+                }
 }
 $(window).resize( function() {
     if(scrollwidth == 0){
-        console.log('___________')
-        console.log($("body").prop("clientWidth"))
-        console.log($("canvas").innerWidth())
         scrollwidth = $("body").prop("clientWidth")-$("canvas").innerWidth()
     }
 
@@ -2558,12 +2531,6 @@ $(window).resize( function() {
     $('.view_hover').css({'top':Math.floor( h * views[1].bottom) +'px'})
     $('.view_hover').css({'width':Math.floor( w * views[1].width) +'px'})
     $('.view_hover').css({'height': Math.floor( h * views[1].height) +'px'})
-    $('.source_btn').css({'top':(Math.floor( h * views[1].bottom)+Math.floor( h * views[1].height)) +'px'})
-    $('.source_btn').css({'left':Math.floor( w - w * views[1].width - h * views[1].left) +'px'})
-
-
-    $('.calendar_btn').css({'top':(Math.floor( h * views[1].bottom)+Math.floor( h * views[1].height)) +'px'})
-    $('.calendar_btn').css({'left':Math.floor( w - w * views[1].width - h * views[1].left + $('.calendar_btn').outerWidth()-0.015*window.innerHeight) +'px'})
     $('.calendar').css({'width':Math.floor( w * views[1].width)*1.5 +'px'})
     $('.calendar').css({'left':Math.floor( w - w * views[1].width - h * views[1].left - Math.floor( w * views[1].width)*0.5) +'px'})
     $('.calendar').css({'top':(Math.floor( h * views[1].bottom)+Math.floor( h * views[1].height) + $('.calendar_btn').outerHeight(true)) +'px'})
@@ -2791,7 +2758,11 @@ function zooming(zoomed_out_counter){
 
 }
 function zoom_out(){
-
+$('.zoom_btn').html('zoom in')
+    if(need_refresh){
+        window.location.hash = 'Jun-23-2022^zoom'
+document.location.reload()
+    }else{
     zoomed_out = true
     zoomed_out_counter ++ 
 
@@ -2818,14 +2789,18 @@ function zoom_out(){
     }
     render()
 
+    }
+
+
 }
 
 function zoom_in(){
-
+$('.zoom_btn').html('zoom out')
     zoomed_out = false
     zoomed_out_counter --
 
     if(zoomed_out_counter == 1){
+            console.log('dg')
         for (var i = layer_pivot_array.length - 1; i >= 0; i--) {
             layer_pivot_array[i].visible = true
         }
@@ -2844,8 +2819,10 @@ function zoom_in(){
         zooming(zoomed_out_counter)  
     }else{
             scrollpos = $('.fake_scroll_wrapper').scrollTop()+timeoffset+ctroffset;
-            // console.log(selected)
             get_scrolling_value(scrollpos,selected,false)
+    }
+    if(zoomed_out_counter == 1){
+        window.location.reload();
     }
     render()
 }
@@ -2891,7 +2868,6 @@ $('canvas').mousemove(function(e){
 
 })
 function hover(){
-    console.log(layer_pivot_array.length)
     for (var i = layer_pivot_array.length - 1; i >= 0; i--) {
         layer_pivot_array[i]
         if(i>(layer_pivot_array.length-0)){
