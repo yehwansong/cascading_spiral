@@ -49,7 +49,7 @@ var db = [
             [
                 "<br>insan ısırır<br>akıldan koparır kendini<span class=\"quote\">POETRY CHANNEL</span>",
                 "",
-                "Part of a poem by Gonca Özmen titled Auto-Destruction",
+                "Part of a poem by Mustafa Erdem Özler, titled 'Sanctified Apple'",
                 "sep_300"
             ],
             [
@@ -1621,7 +1621,7 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
 
 
 
-
+console.log(db.length)
 
 
     var inittime_h = new Date().toString().split(' ')[4].split(':')[0]
@@ -2469,7 +2469,7 @@ function clone_board(){
                     setTimeout(function(){
                             render()},1000)
 
-for (var i = 0; i <layer_amount; i++) {
+for (var i = 0; i <db.length; i++) {
     for (var j = 0; j < db[i].length ; j++) {
 
         if(db[i][j][0].split('url(').length>1){
