@@ -47,9 +47,9 @@ var db = [
         ],
         [
             [
-                "<br>insan ısırır<br>akıldan koparır kendini<span class=\"quote\">POETRY CHANNEL</span>",
+                "<br>insan ısırır<br>akıldan koparır kendini<span class=\"quote\">Mustafa Erdem Özler</span>",
                 "",
-                "Part of a poem by Mustafa Erdem Özler, titled 'Sanctified Apple'",
+                "Mustafa Erdem Özler, part of his poem titled ‘Sanctified Apple’ under the Poetry Channel",
                 "sep_300"
             ],
             [
