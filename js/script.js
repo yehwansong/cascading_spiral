@@ -1790,6 +1790,10 @@ console.log(db.length)
             if(date_range<time_layer_amount[0][0]){
                     return time_layer_amount[0][1]/20
             }
+            if(date_range>time_layer_amount[time_layer_amount.length-1][0]){
+                console.log('hey')
+                    return time_layer_amount[time_layer_amount.length-1][1]/20
+            }
         }
 
     }
